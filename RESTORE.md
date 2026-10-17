@@ -8,7 +8,7 @@
 4. Copy its **`SmartSwitchBackup2`** folder to the root of a USB-C drive. Preserve every nested file and directory unchanged.
 5. The final path must be `USB-C drive/SmartSwitchBackup2/…`, not `USB-C drive/dualscan-os-main/SmartSwitchBackup2/…`.
 
-The supplied demonstration video is in the repository root. You can also play it on the [project page](https://dualscan-os-community.alleong.chatgpt.site/#restore).
+The supplied demonstration video is in the repository root. You can also play it on the [project page](https://sacs2cd-web.github.io/dualscan-os/#restore).
 
 ## Restore on a compatible Galaxy
 
