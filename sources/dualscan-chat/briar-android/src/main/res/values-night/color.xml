@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="briar_primary">#000000</color>
+	<color name="briar_accent">#FF00FE</color>
+
+	<color name="preference_category_background">@color/window_background</color>
+
+	<color name="color_primary">@android:color/white</color>
+
+	<color name="msg_in">#171017</color>
+	<color name="msg_out">#FF00FE</color>
+	<color name="notice_in">@color/briar_night_800</color>
+	<color name="notice_out">#7A007A</color>
+	<color name="msg_stroke">@color/msg_stroke_dark</color>
+
+	<color name="window_background">#000000</color>
+	<color name="card_background">#100011</color>
+	<color name="item_background_highlight">#260026</color>
+
+	<color name="briar_button_text_neutral">#D9B6D9</color>
+	<color name="briar_button_text_disabled">#23cccccc</color>
+
+	<color name="thread_indicator">#7A007A</color>
+	<color name="thread_item_highlight">#160016</color>
+
+	<color name="divider">#260026</color>
+
+	<color name="il_border">#64748B</color>
+	<color name="il_background">#334155</color>
+	<color name="il_lime">@color/briar_lime_400_new</color>
+	<color name="il_orange">@color/briar_orange_400</color>
+	<color name="il_red">@color/briar_red_500_new</color>
+
+	<color name="md_theme_tertiary">#FF00FE</color>
+	<color name="md_theme_onTertiary">#000000</color>
+	<color name="md_theme_tertiaryContainer">#260026</color>
+	<color name="md_theme_onTertiaryContainer">#FFB8FF</color>
+	<color name="md_theme_onBackground">#F8EFFF</color>
+	<color name="md_theme_onSurface">#F8EFFF</color>
+	<color name="md_theme_surfaceDim">#000000</color>
+	<color name="md_theme_error">@color/briar_red_400</color>
+</resources>

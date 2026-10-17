@@ -1,0 +1,307 @@
+{
+  "schemaVersion": 1,
+  "inventoryAsOf": "2026-10-16",
+  "format": "Samsung Smart Switch backup, not Android boot/system image",
+  "deviceModel": "SM-S928U",
+  "restoreFolderName": "SmartSwitchBackup2",
+  "structure": "SmartSwitchBackup2/<device-specific backup folder>/<timestamp>/",
+  "fileCount": 261,
+  "physicalBytes": 1986178575,
+  "smartSwitchReportedLogicalBytes": 2789625992,
+  "categories": {
+    "index_metadata": {
+      "files": 1,
+      "bytes": 81952
+    },
+    "SmartSwitchBackup.bk": {
+      "files": 1,
+      "bytes": 278608
+    },
+    "PathMap.json": {
+      "files": 1,
+      "bytes": 2755
+    },
+    "SmartSwitchBackupInf.bk": {
+      "files": 1,
+      "bytes": 119
+    },
+    "SmartSwitchBackupInf.bk_backup": {
+      "files": 1,
+      "bytes": 119
+    },
+    ".nomedia": {
+      "files": 1,
+      "bytes": 82
+    },
+    "SMART_SUGGESTIONS": {
+      "files": 2,
+      "bytes": 57698
+    },
+    "GALLERYSETTING": {
+      "files": 1,
+      "bytes": 625
+    },
+    "DIRECTDIALWIDGET": {
+      "files": 2,
+      "bytes": 28884
+    },
+    "SHORTCUT": {
+      "files": 2,
+      "bytes": 258547
+    },
+    "DYNAMIC_LOCK_SCREEN": {
+      "files": 2,
+      "bytes": 37798
+    },
+    "DISABLEDAPPS": {
+      "files": 1,
+      "bytes": 23766
+    },
+    "DUALCLOCKWIDGET": {
+      "files": 2,
+      "bytes": 27473
+    },
+    "COLORTHEME": {
+      "files": 2,
+      "bytes": 37031
+    },
+    "GALLERY_PET_SERVICE": {
+      "files": 1,
+      "bytes": 472
+    },
+    "GALLERYEVENT": {
+      "files": 1,
+      "bytes": 114889
+    },
+    "MEDIASEARCH": {
+      "files": 1,
+      "bytes": 59028
+    },
+    "GALLERYWIDGET": {
+      "files": 2,
+      "bytes": 44264
+    },
+    "STORY_SERVICE": {
+      "files": 1,
+      "bytes": 182
+    },
+    "SECMP": {
+      "files": 1,
+      "bytes": 754080
+    },
+    "HOMESCREEN": {
+      "files": 2,
+      "bytes": 38241
+    },
+    "LOCKSCREEN": {
+      "files": 2,
+      "bytes": 11470
+    },
+    "APKFILE": {
+      "files": 30,
+      "bytes": 1341345702
+    },
+    "WALLPAPER": {
+      "files": 2,
+      "bytes": 193784
+    },
+    "SMARTSWITCH_LOG": {
+      "files": 1,
+      "bytes": 399966
+    },
+    "WALLPAPER_SETTING": {
+      "files": 2,
+      "bytes": 706167
+    },
+    "WEATHERSERVICE": {
+      "files": 2,
+      "bytes": 26833
+    },
+    "PHOTO": {
+      "files": 193,
+      "bytes": 641648040
+    }
+  },
+  "encryptedMetadata": [
+    "SmartSwitchBackup.bk",
+    "APKFILE/AppList.bk",
+    "HOMESCREEN.zip:/homescreen.exml"
+  ],
+  "unverified": [
+    "Exact versions of encrypted base APKs",
+    "Exact original launcher cell/tray database positions",
+    "Full backup integrity and restorability",
+    "Third-party redistribution authorization",
+    "Sanitization of personal data"
+  ],
+  "inspectionBoundary": "No decryption attempted; no account, wallet, or recovery data inspected; no backup file modified.",
+  "softwarePayloads": [
+    {
+      "file": "com.amazon.mp3.enc",
+      "bytes": 227291248,
+      "sha256": "bd67ada112a10472af658c8e60f8ee8835038a95cdc9459b00bce00b11faac52",
+      "format": "encrypted-base-apk"
+    },
+    {
+      "file": "com.amazon.mp3_split_config.arm64_v8a.apk",
+      "bytes": 65769948,
+      "sha256": "f02632e70aa2999001298b7be82e01e21d8c724e7cb02ee7e9b99417baa5e509",
+      "format": "apk-split"
+    },
+    {
+      "file": "com.amazon.mp3_split_config.xxhdpi.apk",
+      "bytes": 3607663,
+      "sha256": "020cbb4775bb469735c1f2d787188df03b23aee815aa66f2ea3a47ec50d6e4a0",
+      "format": "apk-split"
+    },
+    {
+      "file": "com.apple.android.music.enc",
+      "bytes": 60495952,
+      "sha256": "418a8be254719afc17ce9791fcaa2edf76b7b4fda287a62c7123ba524fac845e",
+      "format": "encrypted-base-apk"
+    },
+    {
+      "file": "com.apple.android.music_split_config.arm64_v8a.apk",
+      "bytes": 39078075,
+      "sha256": "e7dbcd1aff5edefa3096d8d77f2aaaa6477e577ca8d683cac2a00f8da238e0ab",
+      "format": "apk-split"
+    },
+    {
+      "file": "com.apple.android.music_split_config.xxhdpi.apk",
+      "bytes": 534362,
+      "sha256": "99da8ffd0066398e275215cd726df3df8d324850e7c4e2ff89f8204bd34708c9",
+      "format": "apk-split"
+    },
+    {
+      "file": "com.bishiki.uspsmoney.local.enc",
+      "bytes": 28727120,
+      "sha256": "17b136c92eb037414c0b2b0f552e472cdcec38c3d0c7957725f5d6d1dd9c56b8",
+      "format": "encrypted-base-apk"
+    },
+    {
+      "file": "com.bishiki.visausd.local.enc",
+      "bytes": 30377280,
+      "sha256": "79986ae6f96e5a168c549460ce7d8859cf173a12b14b6a6b823fd732823e62ff",
+      "format": "encrypted-base-apk"
+    },
+    {
+      "file": "com.dualscan.concertparty.enc",
+      "bytes": 46821520,
+      "sha256": "d58c1cc65a48e039b4d1dd47191c6afa6024152ef5be9acee9251c37436a55f0",
+      "format": "encrypted-base-apk"
+    },
+    {
+      "file": "com.dualscan.ldacactivator.enc",
+      "bytes": 33856,
+      "sha256": "6df177df84c511fae6cdb41a95383a0095efbbfb69b0d5e4c731abafe57b9b8b",
+      "format": "encrypted-base-apk"
+    },
+    {
+      "file": "com.dualscan.mp.enc",
+      "bytes": 20321968,
+      "sha256": "00dc631e26f3be5f8061c5def7f7e78120367fe038ef2dc2c66f6fb49241bec5",
+      "format": "encrypted-base-apk"
+    },
+    {
+      "file": "com.dualscan.share.lite.enc",
+      "bytes": 19145552,
+      "sha256": "6551befa3be853e3bf9e91a8db2dfd190de01d34b9366a30b081c4104d8ea125",
+      "format": "encrypted-base-apk"
+    },
+    {
+      "file": "com.matteljv.uno.enc",
+      "bytes": 91957232,
+      "sha256": "92892e0ee17b0ec59dbd6419e0da5e1cf98231991e4528a078f3b2bfb24ac36e",
+      "format": "encrypted-base-apk"
+    },
+    {
+      "file": "com.matteljv.uno_split_assetbundles.apk",
+      "bytes": 332070297,
+      "sha256": "711b31a4723b2c9a40b767eb7873a2df7337b85ecd4963a7dff9019f9a095fcd",
+      "format": "apk-split"
+    },
+    {
+      "file": "com.matteljv.uno_split_config.arm64_v8a.apk",
+      "bytes": 136254869,
+      "sha256": "ef0488102e5ec92d9aef1d3f76598a9b3398fb6f7d92df23819b82477bbee625",
+      "format": "apk-split"
+    },
+    {
+      "file": "com.matteljv.uno_split_gpdeku.apk",
+      "bytes": 57808,
+      "sha256": "fd8a0b676e1b4ff9d501101f853dbaada9091f2ae993b86a5eaeb524d274dedd",
+      "format": "apk-split"
+    },
+    {
+      "file": "com.matteljv.uno_split_gpdeku.config.arm64_v8a.apk",
+      "bytes": 405925,
+      "sha256": "d6275096ecf3ef8b8a5fed0ec7e28262f644e408609ec7429e3feb2ff49ca2ee",
+      "format": "apk-split"
+    },
+    {
+      "file": "com.suno.android.enc",
+      "bytes": 53026480,
+      "sha256": "9a9620b2b1ba8fac45aa0f440a138c02d4ea169b06d0c3922e87b97dc50bee8e",
+      "format": "encrypted-base-apk"
+    },
+    {
+      "file": "com.suno.android_split_config.arm64_v8a.apk",
+      "bytes": 25892059,
+      "sha256": "ae2e1aa7506b1e12d5fe221d52daac8f8cb56ffa8cf18fb119f6465f116d90b5",
+      "format": "apk-split"
+    },
+    {
+      "file": "com.suno.android_split_config.xxhdpi.apk",
+      "bytes": 266084,
+      "sha256": "4d6563057b03cdd6a7b368c73cd0de994503f6ae1af21c94efef10268d9f61c7",
+      "format": "apk-split"
+    },
+    {
+      "file": "com.usps.myusps_mobile_app_android.enc",
+      "bytes": 9769488,
+      "sha256": "1b52a36264a55058512c5c2a8ac34a575b45c3d77bf458f6c8cc7360ab8cb5db",
+      "format": "encrypted-base-apk"
+    },
+    {
+      "file": "com.ustfd.typelockeroutlook.enc",
+      "bytes": 1565552,
+      "sha256": "be9683a2a4a0f2a42b140f027d29166571b6196e80aff9c7d32377eb6101725c",
+      "format": "encrypted-base-apk"
+    },
+    {
+      "file": "com.ustfdatv.typelockergmail.enc",
+      "bytes": 1693696,
+      "sha256": "63c23aac9283cbac5937315c9beae6df45e145766ab12d7b2f4fc59f346fee82",
+      "format": "encrypted-base-apk"
+    },
+    {
+      "file": "com.visausd.typelocker.wallet.enc",
+      "bytes": 12031920,
+      "sha256": "818582c059f1ed6c01579a7551e43b919607ebc4fc1e05244d112d473dd7fa34",
+      "format": "encrypted-base-apk"
+    },
+    {
+      "file": "io.horizontalsystems.bankwallet.enc",
+      "bytes": 102542608,
+      "sha256": "51fda0c52d870296303583fbbf353cc8386ba804a7ad346608b9d969cb7adb1d",
+      "format": "encrypted-base-apk"
+    }
+  ],
+  "privateDataCategoriesDetected": [
+    "App-associated .fuedata for Apple Music, Suno, USPS mobile, Typelocker Outlook",
+    "Gmail and messaging shortcut bitmap files",
+    "Gallery/search/suggestions databases",
+    "Samsung wallpaper profiles and history",
+    "Personalized photo/art library and launcher state",
+    "Smart Switch diagnostic logs and device identifiers"
+  ],
+  "associatedDataHashesOmitted": true,
+  "releaseReadiness": {
+    "publicationAuthorization": "Owner requested complete SmartSwitchBackup2 folder published as-is, without sanitization or category deletion.",
+    "packageStatus": "Intact owner-supplied restore package; upload and outer archive hashes handled by release process.",
+    "sanitizationPerformed": false,
+    "restoreTestPassed": false,
+    "deletionOnlyDerivativeValidated": false,
+    "verificationScope": "Read-only directory inventory, file counts and byte totals, software-payload SHA-256, selected launcher metadata, standalone APK manifest references. No decryption or restored APK version match claimed."
+  }
+}

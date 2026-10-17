@@ -1,0 +1,1842 @@
+{
+  "schemaVersion": 1,
+  "backupFolder": "SmartSwitchBackup2",
+  "backupFileCount": 261,
+  "backupBytes": 1986178575,
+  "hashAlgorithm": "SHA-256",
+  "note": "Exact intact owner-supplied Smart Switch folder; no category files removed or transformed. Hashes check content integrity, not device restore compatibility.",
+  "files": [
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/.nomedia",
+      "bytes": 82,
+      "sha256": "ad503e00f3bfa0f4da844b49822e445ef3c55fbc81a9fc611e371de935c74e52",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197928000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/APKFILE/AppList.bk",
+      "bytes": 2266384,
+      "sha256": "cd084bf8e671d44e67c31ff80f6ecf9f2a39c24a6078cfb8a8c6803a9654eaf0",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197990000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/APKFILE/com.amazon.mp3.enc",
+      "bytes": 227291248,
+      "sha256": "bd67ada112a10472af658c8e60f8ee8835038a95cdc9459b00bce00b11faac52",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197966000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/APKFILE/com.amazon.mp3_split_config.arm64_v8a.apk",
+      "bytes": 65769948,
+      "sha256": "f02632e70aa2999001298b7be82e01e21d8c724e7cb02ee7e9b99417baa5e509",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197970000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/APKFILE/com.amazon.mp3_split_config.xxhdpi.apk",
+      "bytes": 3607663,
+      "sha256": "020cbb4775bb469735c1f2d787188df03b23aee815aa66f2ea3a47ec50d6e4a0",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197970000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/APKFILE/com.apple.android.music.enc",
+      "bytes": 60495952,
+      "sha256": "418a8be254719afc17ce9791fcaa2edf76b7b4fda287a62c7123ba524fac845e",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197946000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/APKFILE/com.apple.android.music.fuedata",
+      "bytes": 22840853,
+      "sha256": "4f8173df79d164ef18db6249edd5a3f5c930cff142a6959855c7af88a770787d",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197950000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/APKFILE/com.apple.android.music_split_config.arm64_v8a.apk",
+      "bytes": 39078075,
+      "sha256": "e7dbcd1aff5edefa3096d8d77f2aaaa6477e577ca8d683cac2a00f8da238e0ab",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197948000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/APKFILE/com.apple.android.music_split_config.xxhdpi.apk",
+      "bytes": 534362,
+      "sha256": "99da8ffd0066398e275215cd726df3df8d324850e7c4e2ff89f8204bd34708c9",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197950000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/APKFILE/com.bishiki.uspsmoney.local.enc",
+      "bytes": 28727120,
+      "sha256": "17b136c92eb037414c0b2b0f552e472cdcec38c3d0c7957725f5d6d1dd9c56b8",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197944000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/APKFILE/com.bishiki.visausd.local.enc",
+      "bytes": 30377280,
+      "sha256": "79986ae6f96e5a168c549460ce7d8859cf173a12b14b6a6b823fd732823e62ff",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197934000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/APKFILE/com.dualscan.concertparty.enc",
+      "bytes": 46821520,
+      "sha256": "d58c1cc65a48e039b4d1dd47191c6afa6024152ef5be9acee9251c37436a55f0",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197954000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/APKFILE/com.dualscan.ldacactivator.enc",
+      "bytes": 33856,
+      "sha256": "6df177df84c511fae6cdb41a95383a0095efbbfb69b0d5e4c731abafe57b9b8b",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197990000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/APKFILE/com.dualscan.mp.enc",
+      "bytes": 20321968,
+      "sha256": "00dc631e26f3be5f8061c5def7f7e78120367fe038ef2dc2c66f6fb49241bec5",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197950000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/APKFILE/com.dualscan.share.lite.enc",
+      "bytes": 19145552,
+      "sha256": "6551befa3be853e3bf9e91a8db2dfd190de01d34b9366a30b081c4104d8ea125",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197950000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/APKFILE/com.matteljv.uno.enc",
+      "bytes": 91957232,
+      "sha256": "92892e0ee17b0ec59dbd6419e0da5e1cf98231991e4528a078f3b2bfb24ac36e",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197972000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/APKFILE/com.matteljv.uno_split_assetbundles.apk",
+      "bytes": 332070297,
+      "sha256": "711b31a4723b2c9a40b767eb7873a2df7337b85ecd4963a7dff9019f9a095fcd",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197984000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/APKFILE/com.matteljv.uno_split_config.arm64_v8a.apk",
+      "bytes": 136254869,
+      "sha256": "ef0488102e5ec92d9aef1d3f76598a9b3398fb6f7d92df23819b82477bbee625",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197988000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/APKFILE/com.matteljv.uno_split_gpdeku.apk",
+      "bytes": 57808,
+      "sha256": "fd8a0b676e1b4ff9d501101f853dbaada9091f2ae993b86a5eaeb524d274dedd",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197990000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/APKFILE/com.matteljv.uno_split_gpdeku.config.arm64_v8a.apk",
+      "bytes": 405925,
+      "sha256": "d6275096ecf3ef8b8a5fed0ec7e28262f644e408609ec7429e3feb2ff49ca2ee",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197990000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/APKFILE/com.suno.android.enc",
+      "bytes": 53026480,
+      "sha256": "9a9620b2b1ba8fac45aa0f440a138c02d4ea169b06d0c3922e87b97dc50bee8e",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197956000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/APKFILE/com.suno.android.fuedata",
+      "bytes": 1984533,
+      "sha256": "ef9166379d0ead01defc94ed7bf29cd1ba08a5f77dcea7cc0bca82cda8f8d65f",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197958000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/APKFILE/com.suno.android_split_config.arm64_v8a.apk",
+      "bytes": 25892059,
+      "sha256": "ae2e1aa7506b1e12d5fe221d52daac8f8cb56ffa8cf18fb119f6465f116d90b5",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197958000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/APKFILE/com.suno.android_split_config.xxhdpi.apk",
+      "bytes": 266084,
+      "sha256": "4d6563057b03cdd6a7b368c73cd0de994503f6ae1af21c94efef10268d9f61c7",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197958000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/APKFILE/com.usps.myusps_mobile_app_android.enc",
+      "bytes": 9769488,
+      "sha256": "1b52a36264a55058512c5c2a8ac34a575b45c3d77bf458f6c8cc7360ab8cb5db",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197958000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/APKFILE/com.usps.myusps_mobile_app_android.fuedata",
+      "bytes": 4381205,
+      "sha256": "a67735cb9e576a2ba10d64a9bb8c4447b4c409e1038913c95b1218d9fd6f3eab",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197958000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/APKFILE/com.ustfd.typelockeroutlook.enc",
+      "bytes": 1565552,
+      "sha256": "be9683a2a4a0f2a42b140f027d29166571b6196e80aff9c7d32377eb6101725c",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197934000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/APKFILE/com.ustfd.typelockeroutlook.fuedata",
+      "bytes": 134165,
+      "sha256": "124f32d16303ed24dd2e61a39117ff61a238e0bd21071af5a6ad4c992eeff042",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197934000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/APKFILE/com.ustfdatv.typelockergmail.enc",
+      "bytes": 1693696,
+      "sha256": "63c23aac9283cbac5937315c9beae6df45e145766ab12d7b2f4fc59f346fee82",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197990000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/APKFILE/com.visausd.typelocker.wallet.enc",
+      "bytes": 12031920,
+      "sha256": "818582c059f1ed6c01579a7551e43b919607ebc4fc1e05244d112d473dd7fa34",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197934000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/APKFILE/io.horizontalsystems.bankwallet.enc",
+      "bytes": 102542608,
+      "sha256": "51fda0c52d870296303583fbbf353cc8386ba804a7ad346608b9d969cb7adb1d",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197932000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/COLORTHEME/COLORTHEME.zip",
+      "bytes": 149,
+      "sha256": "09819235d3c1b870cfe2e18f6eb5a4edf4673154dfd59dc281525eed03f431d7",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198018000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/COLORTHEME/com.samsung.android.themecenter.png_",
+      "bytes": 36882,
+      "sha256": "eab1eb9b2b43098736ba633c68cd5f3756c887d847ed2f84e16774871c53554d",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198018000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/DIRECTDIALWIDGET/com.samsung.android.app.contacts.png_",
+      "bytes": 28463,
+      "sha256": "bdc706e8b9d54880442f8f0870ffb729caab8f341f961e45aa84851a7fde02a5",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198018000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/DIRECTDIALWIDGET/fail.bk",
+      "bytes": 421,
+      "sha256": "9d5e88cb8188cf0313a23831500eebb93ede6dbcc4ce8ba1ba7df747607556bd",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198018000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/DISABLEDAPPS/DISABLEDAPPS.json",
+      "bytes": 23766,
+      "sha256": "08df981dfb988caba2c27c6a1238bb868b04a5622a62b7d1bd591e43b307eeb6",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198018000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/DUALCLOCKWIDGET/com.sec.android.app.clockpackage.png_",
+      "bytes": 27019,
+      "sha256": "1755747be950b20cb07e041816dafb0b0b129f0eb701d37cdd58da898b951275",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198018000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/DUALCLOCKWIDGET/fail.bk",
+      "bytes": 454,
+      "sha256": "be087833f4e22dcae2d6083eec621902c57c06dade9c348db2c15c879464749b",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198018000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/DYNAMIC_LOCK_SCREEN/com.samsung.android.dynamiclock.png_",
+      "bytes": 37366,
+      "sha256": "5965731c814d45790f2bc3c350c2140a7de5143aaecdcae1690bf4a48d2f51ec",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198018000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/DYNAMIC_LOCK_SCREEN/fail.bk",
+      "bytes": 432,
+      "sha256": "dfc88c863e7a84d508eb36cd64d9434ae3e653424f86c034b46030332c97a321",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198018000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/GALLERYEVENT/GALLERYEVENT.zip",
+      "bytes": 114889,
+      "sha256": "1353eb1ac27f6ffb0d32cee4f651d5ad504df85dcb4301f36096e595200ea0dc",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198018000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/GALLERYSETTING/GALLERYSETTING.zip",
+      "bytes": 625,
+      "sha256": "0230ac0b525df697ab1923ed8450578998a6e35f3fd0c88fb77dd0db80d3d909",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198018000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/GALLERYWIDGET/GALLERYWIDGET.zip",
+      "bytes": 626,
+      "sha256": "efcdbe8bd8797e5f2c94824187affddf4de8b15d1dddc18aa8b2b83dc742a77d",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198018000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/GALLERYWIDGET/com.samsung.android.widget.pictureframe.png_",
+      "bytes": 43638,
+      "sha256": "ee24031b4c99ea6b8d38cce1f1fe8e8e21ad03b1076d4d42e9cb88323cc57c15",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198018000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/GALLERY_PET_SERVICE/fail.bk",
+      "bytes": 472,
+      "sha256": "0e163568679506870da07c1f7eab2ea7d137fa2df7c3f3bbe8a1fd3332a70cd2",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198018000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/HOMESCREEN/HOMESCREEN.zip",
+      "bytes": 12663,
+      "sha256": "a5ab5b088d3b7c292fb47c23857659470e755e791a833eacb2c20f779cbb9f8b",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198018000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/HOMESCREEN/com.sec.android.app.launcher.png_",
+      "bytes": 25578,
+      "sha256": "d269f05007a5389813eea307154e0c22d10b458e6dfdee42217ac9a35da73741",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198018000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/LOCKSCREEN/LOCKSCREEN.zip",
+      "bytes": 718,
+      "sha256": "119130c1c627d12a0eb68641ab6fb2edc959aca8c2f3e224510eb3fb205e6930",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198018000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/LOCKSCREEN/com.android.systemui.png_",
+      "bytes": 10752,
+      "sha256": "0baf239e51aeb2cf8f3a303e0268c06e143b591f4bd0b25d6c9c0babab458765",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198018000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/MEDIASEARCH/MEDIASEARCH.zip",
+      "bytes": 59028,
+      "sha256": "d596d31864b38fcce562b152e0e362388b18dfd9d648b33637df6541008ad9e3",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198018000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/01595d946ae8e7c220313490cc937261.png",
+      "bytes": 4093801,
+      "sha256": "dd5b122626965db5d50341606b7f768e36d2aa24c8e99195d4a52ce1a85f39c4",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198014000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/0173339c2d8fa9f6d9f51cfc9fb46d3a.png",
+      "bytes": 1414643,
+      "sha256": "3a5ae6e016420f9f7a3df4ea579215af4df0a8b8e91e6617292e3669fbe6bf74",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198016000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/02286c2d2492f937a359ac87748057d7.png",
+      "bytes": 2469727,
+      "sha256": "b70334e7ebf44694c1df26c6218a0aa27557520617bae0d4321b4f07c73cd3ab",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198006000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/04b9b4d3e8a0075e52e7f362bf9e2548.png",
+      "bytes": 2966824,
+      "sha256": "f909fda335b76fe16a64f7b262e570df710ae6409c66b4852596587ae43b07a7",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198000000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/08f1bed097e6d77117ee95083935b0bf.png",
+      "bytes": 1563693,
+      "sha256": "821a52413889e2f9cabce1587a581239b6dbc8ffb49c0e092e6eef173940fa39",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197990000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/097c90659512b148f17dfa9f2b7514ca.png",
+      "bytes": 2527873,
+      "sha256": "ee474830ce2f144e211c3f29875a10262889306b9ac10aafc64abc01fa4c67e7",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198008000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/0a0feae6bba162463411cbfb14a476c2.png",
+      "bytes": 2109470,
+      "sha256": "17e34c4389467ba7e7ea13c7cec7d096ec6af57e4398985dfb517736c5a6a41e",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197998000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/0aed100850c0004986e28ed842bdc6e0.png",
+      "bytes": 4074272,
+      "sha256": "ff60af159ba265c24ef7adbc5b353987b2271f3a871484ae3523176a9cd9aa0e",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197996000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/0b67f5e420108f8c3698de2bc51e6c28.png",
+      "bytes": 2986438,
+      "sha256": "425bac00537a70b945dd98fdc6a9eca92bec08fcd6eb8c801fb1bd4bd1e3573f",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198014000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/0bed4b98ee220cfc83fa65456b8d6020.png",
+      "bytes": 5276680,
+      "sha256": "fcd323c3fd0569848de8cb93a4511ad95d5c97e8647493320898ebd2e8bf97d1",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198012000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/0e218eda19e50d7fa676cedf01734d19.png",
+      "bytes": 3469079,
+      "sha256": "35bf1abfca21e1eaf197aee39b8426e12a127635263b3fc63b2aee0e4246f6c6",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197990000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/12368aeb9d68de44682330a9a0808421.png",
+      "bytes": 2650022,
+      "sha256": "ead35ab33626a164ffa78234d99bc01f4a2bc63c1822a809ff2be966c06e3657",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198000000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/1515286011f6b78071681c54cd174100.png",
+      "bytes": 3255908,
+      "sha256": "5ee8039a2ab48466a0b9aa7224d64e8946d219e2a843941492302cdb5d1d2101",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198014000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/15705469c1660212a44804d10eab5328.png",
+      "bytes": 3722605,
+      "sha256": "a1e1fdf7eac605fa40b337d3f61f7b8de651af945dfd1e72a45436b9b6e2e24f",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198002000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/15e0c43eb0edc37a5d4cdc1d4fd93cdc.png",
+      "bytes": 5353987,
+      "sha256": "ad13eb6dc018d181f42c6fcd53833f87f46b855042e33f4badc75b14a4df5974",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197990000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/18fd05960467e709075aa630cca35d2d.png",
+      "bytes": 3858967,
+      "sha256": "0bb3e623936a021773c4a5fe52b27b1d224cb9cc6e3d7a92f109125ccc26830b",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197998000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/19232eded6a5e7e948b3de545849158c.png",
+      "bytes": 2763809,
+      "sha256": "140ffb0f820cf28aa4524e37396917675336c8c80bd04f692d4b27fe39570f86",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198008000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/1a4b7bcd219068702bcf5fb1949bc200.png",
+      "bytes": 3192495,
+      "sha256": "37f908418a22a657fb20e113a34c854e1a7f231c6a0b20a6b75a8191fa68ace7",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198004000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/1bb001c6ceb7f64f13ef85c079ab9a71.png",
+      "bytes": 2792787,
+      "sha256": "3bfef7a8edd92d5956ae180b4cf0d02de0c6fbf7031178675363cea929955613",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198008000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/1d2e1533bd9f7506e4ae008038f236c6.png",
+      "bytes": 3026093,
+      "sha256": "802647e2caa73d62a11065a42f31b0c5c3245f3f084becaf4ca9c0f6e8773cb1",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198008000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/1eb26771e6e507dfe38aa2c8d3754512.png",
+      "bytes": 2765586,
+      "sha256": "c51a6fef245894c8554e02e240b09b426559e12a41eaeec2fb0ef0a650cfb134",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198004000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/200d3188af4b860bf03d3685c6204e85.png",
+      "bytes": 3553319,
+      "sha256": "a2e8988e979bd0f802be1d91bba28d633f48192bdd3a60473a1442ead74fc329",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198014000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/20c77a833d1125af405dc7da47b74716.png",
+      "bytes": 2538301,
+      "sha256": "70cdf05a70c5bfc90a82046247f49c8c94083218e644ed8aa0f0fdb22ab77727",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198010000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/2143d0e343c6e183eca8ea199ede0f81.png",
+      "bytes": 3906616,
+      "sha256": "50dc2ed6079ffd6575e1313b3c97599d2d36212dc8f533afe7fc298812cb4c87",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197996000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/25584b89ea1ccd8bb455ac8d82723c03.png",
+      "bytes": 382957,
+      "sha256": "b2a54cd273bc259d058abcb70076ebeff2d5a441c9fe53e58a77e447f51de0f5",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198000000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/25d49910473d8a29f4494941b73ff7a5.png",
+      "bytes": 3735671,
+      "sha256": "3855e0fa02da1fd4d5ef77dc2198441e4ed31d40762d0f3bf92f16fbbac9cf8b",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198014000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/2786307ce220bbb291a05b4adbdbdc6c.png",
+      "bytes": 1302691,
+      "sha256": "7503336cbccf017739be106199b1fa713c402720bee1f407db117c4918ecedb9",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198004000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/282542d682c25c9c503933223092c2c7.png",
+      "bytes": 5376051,
+      "sha256": "2858f643a22c3def564d8a26da11a16c777381c0ab435e49fb175ef13feb12b2",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198016000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/2a84eb5532e1d2c3ce7d54d03e54ee2c.png",
+      "bytes": 3721926,
+      "sha256": "81af318dc2d3670acbc879f3582296a5aa7016060940a58b4489c3af97bce67c",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197994000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/2aa9411bd22771f609ce3d7be7ba5fb9.png",
+      "bytes": 953861,
+      "sha256": "ad7860f3ce70ce1eec81f9b902c7f5e0c740b7ec3438f74ac57776c56d30610e",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198002000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/2aee973e363f18bb9f8820ae53aaa267.png",
+      "bytes": 1988080,
+      "sha256": "3caa4bd3167867a0165f43e3d07b26e57ca0625a3e33ab9ab4f9e6ee2df0a5cf",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198014000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/2b6a6c0e9e845b0862db9c264afdb8a0.png",
+      "bytes": 5149014,
+      "sha256": "9be8ac112332561c7fa9cd9b6f72c9502c8488ab572a7cd89424575ec53204e2",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197992000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/2fab3b34122d5ec743c069f68d936928.png",
+      "bytes": 4704415,
+      "sha256": "af76b715e79eea87d65dbd20b323d8bd13d1c172293efd5f237f6f55b48051d9",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198000000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/30509477fae650139e5645eecc187935.png",
+      "bytes": 4005311,
+      "sha256": "4f4bd67a599a1af287ee8f10357ebe5b65e7751ce30de09eeedfd1e2d49df726",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198008000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/3053586a4f13d66b2620b03f72c978c0.png",
+      "bytes": 3897981,
+      "sha256": "b9e1d3644a37ace964fdd3d401f1e170d5ed3fe6cb648bc175e161f9e5136f85",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197994000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/30884dbb2ad284164e2d85d290cd66eb.png",
+      "bytes": 3634563,
+      "sha256": "eb0d2ddb14b769f5a51c6e06aac14fe09dbd42d7214c45396cbb6fbf8cd34211",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198008000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/30f84764082009228422e7da3621a2fa.png",
+      "bytes": 1946579,
+      "sha256": "5d515d022ac69b1e3d3f0320bdaede18605546e79c001501abf0306d8dc26f64",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197998000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/31e336f3398b6afc50b15dcae4ab37ea.png",
+      "bytes": 1812162,
+      "sha256": "597cdf9d66c575d5986e7147945f3f01f035e3909805ba12aa2cf6efa00dcff4",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198016000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/337b4075fe8ab52fced739c5ec89319f.png",
+      "bytes": 4841636,
+      "sha256": "1bcc7cb1e1c0fc489ff87416d466f4337e0bd88f10fda0d2c740bb691599446a",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197992000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/347ddcfbc5085012c902f8ee1884b61f.png",
+      "bytes": 4104492,
+      "sha256": "f05f4ad33ca61b2991b74dbdb49b2e122a11506bfd7feb391cb39f77ba9d6c6a",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198014000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/34f272ce72a66b57af84e64603cd5cab.png",
+      "bytes": 4991591,
+      "sha256": "2dab2738cf6290d8d6a64878f564e17a25729ee41b93c8ef777b3687f4908b07",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198016000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/36873ff569e1f2a7e60935d2215c03d6.png",
+      "bytes": 3689899,
+      "sha256": "5cce5cff328e39238a772210cc0bcdb0206235dfe7be50962c3647b7c2427d57",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198010000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/373b6f6d8c9741ef983d647644154fe2.png",
+      "bytes": 1556737,
+      "sha256": "b3cc84a0263a20bb0a3a466b1704458e7ae861541aa2257be232c2d52f871c0d",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197998000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/37f7ad0f6fd2d49a5474fbbcd70ae554.png",
+      "bytes": 2832238,
+      "sha256": "145b3154b93e37ed272e4c50042cd34fdb0215705d167393eb01e1a89c565b16",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197990000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/3b7429d928f936911ba984622517d941.png",
+      "bytes": 3312894,
+      "sha256": "b8b749b8cf1fa7dfe67b1b6a14cfbe67f2fe82dc3e7d4369b70c41d30a0b0c4b",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198006000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/3b8a21ea65692dcd2b9e5c7f0c86a3bd.png",
+      "bytes": 3903283,
+      "sha256": "827c1481a65852e1d0e472b8466457103d591ca39ff1cb815f0a74c0eba0e7ab",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197994000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/424bb21c0d8644752d6269c6a171f3a2.png",
+      "bytes": 3095506,
+      "sha256": "8c44ce3ac9bd0138c38c73cf355761986b7ff650bdb84bd5b6b5084f4ec7a830",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198008000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/42be518a2076beab648dc3e2b419eb60.png",
+      "bytes": 3226221,
+      "sha256": "21fe207fc340e7f7749b346b5da955e199e19b777f76351d65da4f67d09f3ea3",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198004000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/446bcedd0472594879d413a977aa69f6.png",
+      "bytes": 3210439,
+      "sha256": "ef847d236211d9db0ad1a4a52360f924065629e49876fd0147719aea6daff700",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198010000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/46532f933ee285cd62813e10da1b1bbd.png",
+      "bytes": 3964656,
+      "sha256": "9332ca25b4be6ac63bcd80773dea0870d94c52fe7c3b214baaca366fd54267b3",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197992000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/4698b129af5a21b2b9c312e31ae36c8d.png",
+      "bytes": 4160298,
+      "sha256": "8a29615018d2c622eee919a63077b92f24597c5ba81d42accfdd32ef2717f8cb",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198016000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/4720c5cedbcc4d241bdf1c61ef72a60b.png",
+      "bytes": 1415320,
+      "sha256": "3ec51cec17228c23ed399f4044045e3118f331fe4d3898df9020204fedb22ede",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198002000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/475a19c77fa79a5d7eb5eaf883819236.png",
+      "bytes": 4979789,
+      "sha256": "b17d15cb56e74c67202f55225e99307fc1a4ba81f4312c9eb8ff4fe858ba7be7",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197998000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/4884acef22997b30778a82d39470078a.png",
+      "bytes": 3253264,
+      "sha256": "9c8b7e398ac0d90d4100cce5727a72bc9530b0fb9687629809d795296d42e486",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198004000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/4884acef22997b30778a82d39470078ag.png",
+      "bytes": 3253264,
+      "sha256": "9c8b7e398ac0d90d4100cce5727a72bc9530b0fb9687629809d795296d42e486",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198000000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/49ae56db5eae5694fd2aa27ec1aac80a.png",
+      "bytes": 2615849,
+      "sha256": "f804f5b0b835ef2f04d507adeb5d49342d21826e5454c866cdc15aee3c3a9303",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198012000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/4af8940a082bd69f53bd454c1c59335d.png",
+      "bytes": 4025610,
+      "sha256": "60daf31b9e4948a035c83fa9cbccb4b7f3a06c4372ca526b42d95a2e183283ad",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197996000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/4c13d4a22a5ecf459499762795157516.png",
+      "bytes": 1574452,
+      "sha256": "b7f82e40da771c1800fb4ee31e122a3e66326063a6e6a75f1811957ca4c891fb",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198004000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/4c81414104aebaab006dc960d5999e2c.png",
+      "bytes": 4017346,
+      "sha256": "d2cd0cc08c14eb4e895f5357f1ffee42b4553b71fb8387464ec82773fddbfe2d",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198002000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/4d01a191b6db06646bb3b1965c600af2.png",
+      "bytes": 648606,
+      "sha256": "d06b50cb09b8bf50cdcc12ee4b3da392f7db213d294604a2b2d0e0a49905d32e",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197992000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/4de7cc8588da1c3c918b7abce9bae668.png",
+      "bytes": 3150623,
+      "sha256": "e10c5109d3a024c2db993fa7fde9de303eef8a9f2d3326ec745a3fdf74b252d0",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198006000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/528c0961bd3fb076ea946c585e3832fc.png",
+      "bytes": 4242627,
+      "sha256": "5ee2420f1bb522a181ff1cae49eaefcafa80235b702d75462d7a59cbfa2c9a34",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198016000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/53600e0449d9c8e19cc1f109cc244ad1.png",
+      "bytes": 6723731,
+      "sha256": "c0a977490afe23efd44d48969c1e5f49676ac7c301056c5c827081b6d439e697",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198010000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/536179e9a25fa06543660cc86caafc22.png",
+      "bytes": 1463456,
+      "sha256": "38b593f87c2d3d5477fdb4b2dd0b8716a8d5a3eb2362c2748498ce7e90233e47",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198010000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/564bbf055cd8a5cc77d54364ea77d0e1.png",
+      "bytes": 5458141,
+      "sha256": "cee2955ad3f385ddc2631d4c0ef412088ae6cbcd1c41f871f3c53b81cc81c3f6",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198000000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/59260145346d7b15aad0a5e65a513761.png",
+      "bytes": 3835756,
+      "sha256": "9e7ffe8611a63c79466a0364c3344153b13a787845415b27f0bf6db2ea0640d4",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198008000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/59e95b63cdaf5f08aec144d5aec1df8f.png",
+      "bytes": 3666309,
+      "sha256": "ffa93e094d90fbc7dba0b145dc0c319fe4bcba3450d7019591f09577ae766d66",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198006000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/5cc242f54448f65fc740011741812cfb.png",
+      "bytes": 3787052,
+      "sha256": "270bf3b909d8af85115e741ff213766e2028b4c2faec6309031c46ba0fbb0eb6",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197990000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/5d02711113f7f8b493d6021c467c0bab.png",
+      "bytes": 3452676,
+      "sha256": "b72affc1cb29f7f26db1f29efe843787f078a1e043fc6ed558baba9f4219015c",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198012000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/5e5b94ceef4c3395efaf9febc17cc10c.png",
+      "bytes": 1383093,
+      "sha256": "0bb6c110a9eaae06e3d64417010b48619af4b00b9659a2fe5a3716bd131c2aff",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198010000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/5e64398a2c8d31ddfd5b2a0eba939f64.png",
+      "bytes": 6343480,
+      "sha256": "df092ec08b5ac39db21b6bcbab3baa6b4e74ad48598ae47575695d9743596588",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197996000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/610c9176f305127826cfd47efd76a6d5.png",
+      "bytes": 891158,
+      "sha256": "5ff8eb16c1b063b063a5140d54d7ebda7adcf4420eb0fd5db4875e81c1cf3322",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197994000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/612df85d24584ac78188126d7aed900a.png",
+      "bytes": 4238390,
+      "sha256": "fe733092b697c8d9b66f49344ee7cd4e0d541b94a05c6a769c2b2c03ced08626",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198012000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/61347b2963af67f56f8141243fb5a783.png",
+      "bytes": 5712883,
+      "sha256": "45167dbde235f7e7eed9fbe64afad2ab13ca40d166b3352bf2e01283e313dd10",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198014000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/61b91a24eeafff665d17d8449dd59795.png",
+      "bytes": 4351497,
+      "sha256": "f300ee2a00593844e0111ba8c2f6ea5c347a9352e1330f76f1ed481a43e6db8a",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198002000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/61df2de83af34c6a7cbe1cbfd9c32f28.png",
+      "bytes": 2363822,
+      "sha256": "dcf1e29568fa7eb8f18b6407811257f4a460c1f56e4f7b19c3fca181159352d8",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198000000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/62c06a93911ede7f09f82ccdfceafc72.png",
+      "bytes": 3762801,
+      "sha256": "b27c82655ed0802867413221a01ba78e32857cb80d4c1a1cb0252ce0ba2879b1",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198012000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/6540cf942b032a5f2346cf93e2549f92.png",
+      "bytes": 3315176,
+      "sha256": "15b92c43c6bcf5fb6b707c9eb728484314f792ca7d73f2761382ab62091457d8",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197992000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/69a1780e214d702ab681da3e2e699bd8.png",
+      "bytes": 2340819,
+      "sha256": "a34ba1935f3b95f15ca6aa18f8e7b47042451d394896096a54af38de6ae0d3a6",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197998000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/6ac34be7d2e471f1469426d87a168e51.png",
+      "bytes": 2824167,
+      "sha256": "bbebffe534df4f77246f35e068390ad0003db9fd813bd7b07008acf9c0b8afbf",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198010000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/6b64e42efcaf0be0ff6cb99771bae91e.png",
+      "bytes": 2346048,
+      "sha256": "fea1162e5b6cc9f22814b07451c34f9d409ee16e2eda53bd2aef63499e40b790",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198006000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/7099b9efa037e37fdd1c3a2b969a64e1.png",
+      "bytes": 5165995,
+      "sha256": "984ea90302772e24bbe4c049cde1a41d22b23a59d357b680ae657a20f1dc53b8",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198010000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/712c37001dd99195b3742db01aaa836b.png",
+      "bytes": 4301173,
+      "sha256": "20e2fccb166c61a09802a3145dddc9f5472dff6451b6cd7bcb3893ffadd3c3c4",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198000000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/715d78613797d7a116810978d9d6e0c8.png",
+      "bytes": 3724262,
+      "sha256": "62343437e806064477358caeb4ce24163065c639e99b9a04a410078f15c38e36",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198018000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/719024a0879b37dc8d666bdd4ab9e22b.png",
+      "bytes": 4178528,
+      "sha256": "81634e6221fea76d6c99936b38d6ce7d73947771255b7cae8708365b516c3466",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198000000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/71e222acebaa07f042d6253a80497fe1.png",
+      "bytes": 6395319,
+      "sha256": "cfb25d6e01a157701e0963d848e91432aaef1c1bacfd6ba3c5b2bcb4e068b43a",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197994000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/73aae7244bf038c8fce16015f088e4d6.png",
+      "bytes": 1584587,
+      "sha256": "e2464744453065b55ebff9b9abc5472c5c376d0c3951d66f2a401e9df8f43b65",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197990000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/743e392b30256e28cc1990a269456724.png",
+      "bytes": 2066856,
+      "sha256": "699fa6e28c2780d224c174eaaa58e166615f300b4cd1082eedd49837e796aadb",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197998000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/756f04baa0ea99fda39d8fbd210bd215.png",
+      "bytes": 3256098,
+      "sha256": "00973e5b131592dd445c170246fc15271a9be9885ee58a4e2b3d9370fc2148c1",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198016000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/7602bf547cb185bd7f613a91b48f162c.png",
+      "bytes": 3760337,
+      "sha256": "110caa3767afdd12031b9381d22aa620c48be65c3345ac3fd7364bc983af5f47",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198012000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/76f448d0ba55b149fe1089106cb99632.png",
+      "bytes": 4661123,
+      "sha256": "a750651ebc4fb009926b0534b31d462bbfd2684a0f7da34f9b1755cdbc1b4e1e",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198002000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/77b7edc761ba6a60610fd594ce18f654.png",
+      "bytes": 3800693,
+      "sha256": "95aabb29114c78ec95edfd6cec40eb3cd3fa37f9badf6192a4ac790c17a92e5c",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197994000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/77f7fb30204e07a5ee6644d878c9a8d8.png",
+      "bytes": 4913144,
+      "sha256": "bbcb210d8444f7201b052ca0553cb0e9d26cccf415ed096982ddc71471be55db",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197996000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/79acc059ccc224cee159e93c753d61d1.png",
+      "bytes": 2374632,
+      "sha256": "8bae86625fd0400c815e0e49c6dbb68e2ba01e6e2c5f84f6bc9c9f7b4074b894",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197994000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/79d796f78331f60ca4cd125e0891b028.png",
+      "bytes": 3750480,
+      "sha256": "4378945941bded69f0e0931926cde7b7f376771624d9e66d06df294020f9f629",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198014000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/79e959b3a7061313d000b00be8ab43dc.png",
+      "bytes": 1982610,
+      "sha256": "692388b1ba574fcdffd3b57664ad1c145840429f937a042795485e42f2914118",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198008000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/7ca06c8d7b2215263386fa1d077574ec.png",
+      "bytes": 3437380,
+      "sha256": "15369398a19bd096c6a40af3f045d795487d59eb38452501a672aefeb4434593",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197996000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/7e610e5e89dc3c0b658f6884675ad23c.png",
+      "bytes": 3717783,
+      "sha256": "892fde222d5c8175b891c6d4e5739dbdc011348d8466fef5826fc770bf9c418c",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197996000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/7fe46b2fd7113c755d9e2ebeea5f6ad7.png",
+      "bytes": 4669701,
+      "sha256": "ce6fd500d3232fb9ddb3d45894e0f99e90d4370b5fa6c346baf2d4ff880de81c",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198016000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/801c377ac346b2d31fa37dd157024c31.png",
+      "bytes": 3576665,
+      "sha256": "46530918fd537ebf3e481c27a05b9caf41af854875e62d723eb8f2a8a9b6eb75",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198006000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/833484b821c69cf3018e00d6510c9279.png",
+      "bytes": 3857374,
+      "sha256": "978a350825cf09bd77c40093997f9ec1dc03d2d894af98e8fcbadd3ca3fe1fcf",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198006000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/834963e8345f1a12dd38192d912339c0.png",
+      "bytes": 3376958,
+      "sha256": "a8be1a54b2f8aec3a9c25628361b1351c6b8241d8bd1d8caa19a3e864813bdfa",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198010000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/890bf8487f608092e713188596e502a6.png",
+      "bytes": 5696563,
+      "sha256": "d1fc4111e33a76f065fd586381a4df466ea1446d35f39791843855006354cc2c",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198002000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/893e1505858bca8294e00c51c2d355d7.png",
+      "bytes": 2457483,
+      "sha256": "2dc47bb6bcb11972088f4b73c1059f9d4970856fb9b1315f054c2b929cc5e2e9",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198018000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/89d6ce129204bb30ae8ca961c8f08093.png",
+      "bytes": 3811103,
+      "sha256": "eb8ddb3849dcba6ed29f5118d4d24c6957d5567917b6d8cd1e8475733008a604",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198006000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/8b67f3e407a824d1b1dbc81a19d81149.png",
+      "bytes": 3291200,
+      "sha256": "2becb001fecc123ce328eb1a121fa8eb6c6bce15a562fe8836d100b3927c9398",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197998000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/8f44353a341b08cf4870cd3982ad6010.png",
+      "bytes": 2350095,
+      "sha256": "48a624398f8e42bafbfe72d2e42bd2074efccf29d0fbd96556719a5420c0347a",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198004000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/8faefe4f46f5eea4a53d1f66c3c967af.png",
+      "bytes": 3577151,
+      "sha256": "84cb462e9a6c16f6b1ce406f874afb272e2b7214a130e08c79b4ae281a6a8ef6",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198006000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/931558da74c505c99bf97efd488e6142.png",
+      "bytes": 3062741,
+      "sha256": "47a6b40d44f9ad31e686b5aac6e4f2f2487348c7e1d7301e86136631857e6725",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198008000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/93d4857ad2f338a195f69e352a5637a0.png",
+      "bytes": 6023615,
+      "sha256": "2da90c4c26cb11420d03d8f09344ba3af44ad1d4c0fa53f53c1c3593cb5d0d8a",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198016000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/992a37c6bb112ef88c76de28e9a1fc3e.png",
+      "bytes": 5500879,
+      "sha256": "42430b5acce15a5de20567798ac5ca9bd34868e49c4cd4133f7304709326e243",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198000000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/99543518c5901ab0d46152ce70d6fc6f.png",
+      "bytes": 2599235,
+      "sha256": "39f7ab78193b373086d9a7293bf4180e1395b4f879fc4fd01fd888d5b0e5295b",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198008000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/9a0b50c2ad6f7d4301c8c9c44992571c.png",
+      "bytes": 4978853,
+      "sha256": "908563fda78ce401883276523591715238b27fece5595b7ab48bbcc37a88626a",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198000000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/9b4117e0d111d9265ff221f498be3cae.png",
+      "bytes": 3268873,
+      "sha256": "4186b9337dd6e7b4b6eb155b84fad7ead78e5b53bffb7e5a467d45d2cb76f034",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198016000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/9e20df60cb98be49dc765df395e70303.png",
+      "bytes": 4363085,
+      "sha256": "825ce6ff230de7dcddb09044bf33164cfbf2747b09c40a50b78ae2c82eae3a71",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198006000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/9f34ee621474f24f6656ec021db5a422.png",
+      "bytes": 1746463,
+      "sha256": "32defb554b5aac58f354f2909f65228a608d51417d76b57a42c6a58acf2f5f7a",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198012000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/a012f86a928444b33abb6ab8d3edca61.png",
+      "bytes": 1592854,
+      "sha256": "2cb90419d2f9c0afbbc26355755e6192ac2f6d235858d9f7d261ed62a3800600",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197996000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/a187ef3b9e00dce7b4c2b79b32de4e31.png",
+      "bytes": 3811479,
+      "sha256": "5113e8618bd6c4e1bcbfee5cf5830006728df0d9ec0163a5101871834510e49a",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198004000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/a189ba33a31a800c7a250e79f979e1ee.png",
+      "bytes": 429230,
+      "sha256": "f3d8748ac5af8ae4795a4f7626967e44774122ff4b5ab070dff2667083bb4fc5",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197998000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/a2f229ca29e43fa1d511857bb79aa241.png",
+      "bytes": 5048009,
+      "sha256": "4451577ffee0ad54d3c91f9d7fc85a9881c596857f896a419ef14c0c1867c504",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198006000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/a32c54a4f8c113c47977513a701dfff7.png",
+      "bytes": 3076921,
+      "sha256": "99839118d727145fc41da1c7ef8148789ad3ea62b51a4c8e0de6173528ddcbec",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198014000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/a4ead84da8a48dd88881ed666c52c415.png",
+      "bytes": 4523551,
+      "sha256": "d278a5eb4342bca669eb4d0aad1e74094f8cd202d5baa363fba48f2a3e45739a",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197990000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/a564de42b4b4a3e71be9e817574793f4.png",
+      "bytes": 2445465,
+      "sha256": "34479ffa90b6566066a9fcc74cd8ed3fb65a49f83721902f4c070c7376892aeb",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198008000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/a772b968e1d3311c3c0ec63f34b98994.png",
+      "bytes": 756743,
+      "sha256": "bf3ecd857350f94798059397e0f5537f38d268207b662ca493cb8ca7766a56a3",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197996000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/a900a03177be274c97a3d46de1e8da12.png",
+      "bytes": 263125,
+      "sha256": "c831f534bb14a85337b41048bfde45a81f866dd95ef348028ec33c922cfacdf9",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198006000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/a956e4ec04d93b5d2f487f1b17f656df.png",
+      "bytes": 4151925,
+      "sha256": "d942403e01163fbc66f6698c03580892646397aac8c7708d8542bc9efe619e0f",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198010000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/ab666ff41b4c8fc13f4f511e4ff03b2f.png",
+      "bytes": 5295622,
+      "sha256": "d50577a5de74e0bdb420759f823c69fdd8bbf2878fdee2fc1942e520f190dde1",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198010000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/ace0090a6b55b627130e833f929931e1.png",
+      "bytes": 3451657,
+      "sha256": "c52d5d2e559eee3f1f72665f2c9a96c736f9e2a8a8a86683738c7d11dc786d50",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198004000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/ad0849cd7d3dce35e830e1f3a9c9b747.png",
+      "bytes": 4230102,
+      "sha256": "1267305da596cb3bf017470bf3fe1fd22bc3c2e515a4e87c74e3829b93757add",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197996000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/ad389290e3415047ef4281b027b3155c.png",
+      "bytes": 2566427,
+      "sha256": "aa083793fd7a84a76b6db7f452fdf9797cbafc0d23e74ee768ceae2d1c267ac1",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198012000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/afea9c05dda12b0e7bd3331813b71fe4.png",
+      "bytes": 1913348,
+      "sha256": "219e2a5368fca563c90404488142ca9b22a59adb6c4c787c16f571b42147339c",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198006000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/b27d5f510b06116d300d5e9e334b494c.png",
+      "bytes": 3866536,
+      "sha256": "01af3acfc09edccb59990ee975e9edd82c5052cb328377ed0ad6fe01825581d2",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197998000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/b32b236c51da5e860ac3854ab2edf8dd.png",
+      "bytes": 4282705,
+      "sha256": "bf49ba6b05070202bfeee1b3b5ae432a82d105782aec96e9a39a347a4bcc2a2a",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198008000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/b43c0a04ed4611b7011ef884d89c7f00.png",
+      "bytes": 3598912,
+      "sha256": "7853c2192ac2f932d207d7b3abd1def4ec407f4a98cdd0f2a82c77a35f9c9923",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197994000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/b61177d59f2606e80c5534223765ef27.png",
+      "bytes": 3672707,
+      "sha256": "d8832eb891389ab1a1869383215f7587e1e8fc9b0f885c9ca3fa37a711417cab",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198006000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/b70712e2540bacf00be52f9c29134889.png",
+      "bytes": 2009394,
+      "sha256": "a87e6130a0ab0547e4dd3b916f921d216e1fb22fbb5e44a806ef02f55b602ecd",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198000000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/b71a58548594ec3c4e031d5af451e21f.png",
+      "bytes": 1317161,
+      "sha256": "61bac6fc94aaf9931df497d24fb477bf72f231c023c4dc7ab355663ffd909978",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198014000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/b8de96e1b11df8dcc6056cd9892c397f.png",
+      "bytes": 1359054,
+      "sha256": "cd85a6b380df991e6646283b576298e8b526ad1ced1bed01814c542b62762405",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198016000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/b9aac644b4784d91c675838bc1fc454b.png",
+      "bytes": 2703478,
+      "sha256": "fdabc0e30b17f9cbbf51ee8e004ede8f90ccfc2bdbe10b8deaae323194f50bf8",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197992000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/c05a53454f776650648065f5c9a4c76c.png",
+      "bytes": 2806921,
+      "sha256": "e78bc11c542035ec7ff82f41491790c458f6e4a74a1fc67bbfd276c8f0fd02e7",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198010000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/c08683981d7bf0b9c510dfd40cb6e23f.png",
+      "bytes": 3959629,
+      "sha256": "79d13d6eb75a50db5639a0851384beb03801bbe5396a04f302bfe957719a8efa",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197996000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/c0d29c97a3688c4645799823a7295bf8.png",
+      "bytes": 4136430,
+      "sha256": "ee638a0aa6369edee75a55a8847471db2e1fefbe8bdc96ae8e3a57735d6d2d2a",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197990000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/c1780d8382a2be1a17511ae358762f51.png",
+      "bytes": 3186388,
+      "sha256": "a2c5d0b65cb029daa4b38ec3d1bcfa448bf7c5b22a1eb3836ecc7e3badb80491",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197992000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/c26d65ad769fff6a96a58d81fcb4b0ea.png",
+      "bytes": 4353606,
+      "sha256": "a8130a0031ebdd2fbdec2e659377d6bcc7fbd3a7baff2d67a8ea474e1f7a388e",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198016000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/c5d6330e2b5a754bc20411fac3c83b01.png",
+      "bytes": 3837536,
+      "sha256": "a6a2d34d23f6760e1ac60dfa2d9e324fa028c81b27e59bf7e57016baf9c78c60",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198012000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/c61fc6ba11f88ec36422aa264c81e3fa.png",
+      "bytes": 1837635,
+      "sha256": "1cc79f5e4de1dd5d2c4a7b147a320f6f68ded36e33e52f357f8ebcdfe6cc6377",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198004000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/c7a8fb4436ceaeff08d64276b0f7871f.png",
+      "bytes": 3961806,
+      "sha256": "aa79bfe864029a9b89ca0298307dad2f3651c7f54c4542eb7c1bb168500dd745",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198010000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/c848bd291d11eaf7f887f3073fdfc9b2.png",
+      "bytes": 4137357,
+      "sha256": "272f2333b62774904cc73fee381fdef1111e0bd1010a574737c76d3a19960542",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198000000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/c86ba8e76e0c86f691bbbd97d4e3dae3.png",
+      "bytes": 2315120,
+      "sha256": "7b495da293d67b870be47545de85a6218505be4a32a601caba17db36c6beede5",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198000000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/c922be6062d005af18fccc157942d37c.png",
+      "bytes": 3676818,
+      "sha256": "f095b70585c7ffac70041cc19a9361cee829a66808f2bb35c8cf1bb6afbeda82",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197996000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/ca7d215e3d37f1f51d62828e9b20ed38.png",
+      "bytes": 1800250,
+      "sha256": "129f7dc0b260806407d5b0e1ef74fce592ddff4922fbd2189f42752812a9b74b",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198010000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/caf8c1b97c7f8936d8f3a5bc0b9c566e.png",
+      "bytes": 2171662,
+      "sha256": "9b455d2f2adfc2a7a40e77284a68b069129838be2b046185f6e466330a2cf022",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198012000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/cc86ed35cb3efd77d5aaab1e2685ff8e.png",
+      "bytes": 4162735,
+      "sha256": "90f9908e0b4984527634c6ec4c8de0d05863278ff9cf7dbd17db37d8a484997c",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197998000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/cdaff405dfc7ea20a079d90533b2a1c6.png",
+      "bytes": 1156032,
+      "sha256": "e4fb9a083823c2fe8848ef4a2b1f4a28ba417fee04331dad64ba8b447e573d6e",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198000000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/cf9b63b54583f8b8de6c21038ed5bd20.png",
+      "bytes": 4016461,
+      "sha256": "66551316286465df18b90dff111a1c33503617f9798df33c65583cbdee474aa2",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197994000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/d0177a019a8f4a3283ed446c18fee715.png",
+      "bytes": 250534,
+      "sha256": "15d5f5c71d045ce33bdb5ea1c71115296b0a9ca520dd139028074b1e4eabfc63",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198016000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/d02511a9ba580e50536844014adcb83f.png",
+      "bytes": 4569448,
+      "sha256": "d532f38a113bcd7d1753fc190eb16627531e72a28d678e040f243289b2204af8",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198008000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/d1c4a10682e90a89179b4b037a8c8494.png",
+      "bytes": 539296,
+      "sha256": "09c8e2800b76ef050ed2659f7e6c94de2fa342a99ec1bf7b0ae990fd98c793f6",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198010000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/d3383a280e1c2463adaa5e181bd48180.png",
+      "bytes": 2905519,
+      "sha256": "581fcc9266fda69f726ce8551c55d5991f10b19f3fa4bf38826fa801739b20a5",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197996000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/d35e2c80716c99660b9b25d804d28afb.png",
+      "bytes": 3815113,
+      "sha256": "95a13883cc9c3f57e3fed22dd0cfe981b50f07e8c1715ac4e28cdcfdcfd89049",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198004000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/d3e26997f56f5e2388711725c7d1570f.png",
+      "bytes": 4891262,
+      "sha256": "ffa086076a23defdff89420e6911d3a2f821632a8d43b903b08b903c4dd82dc5",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197998000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/d4df4d995a79740ad81a9581c7a1557e.png",
+      "bytes": 456027,
+      "sha256": "c298068a1011aaeb9be196ee2249c1b99f8ca4eb1092a89381bf1a72738961d2",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198010000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/db57e0d78a68acdfb89bd614fc7d554e.png",
+      "bytes": 2052230,
+      "sha256": "011da9b84331703f01586bfb9a2ff1109af6f9d3b7b0aa2f78ba331a9fa04c3d",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197996000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/dbac8008c2a2fbbb9ebce1ae682616bc.png",
+      "bytes": 793106,
+      "sha256": "8249d98c11829768331af3f4316c470c0830ad19ce75a0b6cf76e306e4c3f0cd",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198006000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/dbc8fca4a0156baf248968592f27912f.png",
+      "bytes": 3847414,
+      "sha256": "747af910c1d4a8264cd9d007fdd4fe7dacf440f31d1ec0ea8c38603b84dac7a9",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197992000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/de3f196209102cef79def50443fd780c.png",
+      "bytes": 7958042,
+      "sha256": "ba8de507c11ce4aab2a8eef9eb88bf7528216251a05b4e9dabc9051041fdca5b",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198002000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/e028baef4452ecfdc896c057c967a8a7.png",
+      "bytes": 4287191,
+      "sha256": "c9adbcbbbeddaac52d94bab9138cee5e55d4cfbdfb750fd359ecfcd6b22640c1",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197992000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/e075d84f457e2990d8de1fcc9666534d.png",
+      "bytes": 2931773,
+      "sha256": "3549f1ac524710bbce8da7d6c15b558962d5534f3982048c36de165d28d86084",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197992000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/e415f01abb3241fcfa324802bcd2d86e.png",
+      "bytes": 3715387,
+      "sha256": "937117bb768d6179b1410a9d3b87385e8d70c6885fc612c61eea3f1a175ae692",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198004000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/ea130b84b9ea910e9bc459ca4008c5ce.png",
+      "bytes": 4283933,
+      "sha256": "95a050ea2a2904e5778795be216a89d08473f44312b358b5a047d2b26c464dae",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198004000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/ea1f9d1ea14ff8cb429abc39492c1064.png",
+      "bytes": 1974168,
+      "sha256": "849be084445175bf3c74a20e2fcbbba07940b29b99cde5aa76553186f36f92ab",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198000000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/ecc93a2a7408b8e9e8f2e5fa5825d5b9.png",
+      "bytes": 839684,
+      "sha256": "fbe0c8d7c2c5d8cc32448805e48dfd7b2274e0edd3b41371b9d56b2537601bdb",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198012000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/f009eef376ffdc649de1f33b58f163fa.png",
+      "bytes": 5206643,
+      "sha256": "2834145d12bb627cca1936784b4cc68496e1081c87fea9589f011fe0ea0edabd",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198014000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/f09627febcb9edd936db5fc28b7dc339.png",
+      "bytes": 4004329,
+      "sha256": "21d1db36a694e51fe62e0fbc011beedab674bf044c7c9b9b0f238804081ec35b",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197994000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/f10c56f5d960b6c9db9e5735be43a018.png",
+      "bytes": 3489915,
+      "sha256": "10ce7c792396342801e6a4879970e7601c4369b5b97d5b9d925fc212461e1f01",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198014000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/f27695d5936bb52512bac0355dfa91f2.png",
+      "bytes": 5013144,
+      "sha256": "8131cb97366ac33a61eed567e5071b8613965073cef375ef5c8e1ae3e61de9ae",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198004000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/f3dc858c5ce1f2dae76ff76650be143c.png",
+      "bytes": 3904912,
+      "sha256": "bd3c2873fa89f0980069fc21b63c656e56a0ab012ed201b52bc7f40bfb8e2d38",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198006000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/f427f5a47f053541731a4335ed53919d.png",
+      "bytes": 3075861,
+      "sha256": "d357f7338c0adc1c9cef9757b73b120579ebe60e7bcace10f7cd05cfce5806be",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198014000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/f452e8b5fe8b4bb2e7818203f7a41ac7.png",
+      "bytes": 5615736,
+      "sha256": "4cc1681e3a80a5cb5bde016bfe19e64466fe17018c359271399c9d9a2141c370",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198002000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/f4a7209c21f8c5a6aa1dc1c21d0fdfbf.png",
+      "bytes": 3162011,
+      "sha256": "c2798892609cff14457f8c458452ca15aa0363d238ef5bbf8d23e78da4aa4ef1",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197996000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/f5fe5f0f39db0eab8bbbf2050a492aef.png",
+      "bytes": 3982524,
+      "sha256": "c5dd1598d134a3fab669e46915a550270706806e76bcc7d7223abf561a42cc73",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198008000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/f9214bc8e5cce7e2623af7ab594f95e4.png",
+      "bytes": 4169093,
+      "sha256": "bacbe4b03932e0cf42f1caa2d25e90a972232f60c9e4ee8286973055d8f03e64",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197994000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/f98cfd47a2d6b32393ed2e59bd5fd0e4.png",
+      "bytes": 276610,
+      "sha256": "57b280bee0528d3ae3110f8fdbe5e146653b2046c92da36352262bf555118fe3",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198014000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/fa3a2ad7b797219809957ece3e5804b4.png",
+      "bytes": 4272376,
+      "sha256": "d67a74a2618c09dc2e072a3f134008d065042dc8f338e055af8671b2006babb0",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197992000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/fa7a16c8303c063d83459ee75aadb016.png",
+      "bytes": 2752208,
+      "sha256": "e38336b8aea3b99a68857e4b3f1305f90e71ceb26a732c360818449762568fec",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197998000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/fb875f31ae54867cbe49a3609870e043.png",
+      "bytes": 3816175,
+      "sha256": "3813e0668c3441eeed35892d604c117261dba2fbd3ed520b647e84dae42e60b7",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197992000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/fbea519ae988d74f4b96a60803909723.png",
+      "bytes": 3907235,
+      "sha256": "2424a7aff6d6fe0513158b9609261db885a4414a2463be293f80ab426e82c35c",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197992000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/fd949dafc14a58fa67abe721f7820f53.png",
+      "bytes": 5813727,
+      "sha256": "daea7934db2e3e4fd14b36f183df2b0aa6cd54e5d95ab139bc14960ae1803e0a",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198016000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/fe8bcc993249b29edcfea6bad896445d.png",
+      "bytes": 5199071,
+      "sha256": "3b69adeceb16fa091567fe603ec0cea646a723743cfcd7e0c2273b391b826393",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198012000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/ff1752ddd4178294262b747f610fd95b.png",
+      "bytes": 2383203,
+      "sha256": "92fcc3d2af11716360cd82d46bebf544cc16bf1dcc5120084762056e6cedadb1",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198004000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/Dualscan Art Collection/ff1d250454568b18297a493af89c815c.png",
+      "bytes": 4939489,
+      "sha256": "d3df0c422992bebf79abb7a8a0f468396a0dad2a64529f0d46ac8ca1b93e27f0",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197998000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/Pictures/dd-default.png",
+      "bytes": 60003,
+      "sha256": "88d5e21b3829449b4c05fd56f53fdb99923039481a781934f757fd3a404885a9",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197990000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PHOTO/data/user/0/com.sec.android.easyMover/files/SmartSwitch/tmp/PHOTO/PHOTO_INFO.json",
+      "bytes": 60468,
+      "sha256": "65712b7c3188c44c764c2302dd8befba786bb242f3442b2b4404157d55a9ba9f",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198018000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/PathMap.json",
+      "bytes": 2755,
+      "sha256": "a5732825f5e1a9a84c963ca457341ac8487cb804e4f278a4b901fffe00ed7a9c",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198020000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/SECMP/SECMP.zip",
+      "bytes": 754080,
+      "sha256": "c4b97313d5a0a71b5df01d4ab1b837907f71cf07fa70c9c2afe934c2c2bb41ed",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792197930000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/SHORTCUT/SHORTCUT.zip",
+      "bytes": 241479,
+      "sha256": "e797be902e9136cac409ecd49b3b238bef0ca3d643269b66fc9466aa4f60f8ae",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198018000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/SHORTCUT/com.samsung.android.shortcutbackupservice.png_",
+      "bytes": 17068,
+      "sha256": "bba25bed1330437c263d6047e9c2eddfce262a6ef034f47a687c46064482754f",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198018000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/SMARTSWITCH_LOG/SmartSwitchLog_SM-S928U_20261016_203912_531.log.zip",
+      "bytes": 399966,
+      "sha256": "90d93d55039c435d7d10deb119ee77abe9c6aaaf764831ed5341b50480ffc725",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198018000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/SMART_SUGGESTIONS/SMART_SUGGESTIONS.zip",
+      "bytes": 25028,
+      "sha256": "37adb1de911ffad5933627108d2146757acf53d570cfe966c2c74aee3e605e5d",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198018000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/SMART_SUGGESTIONS/com.samsung.android.smartsuggestions.png_",
+      "bytes": 32670,
+      "sha256": "ba4511bac143f67bdb5e66f7692fc7d21e09033bc1a4816f7af944d1dd237a08",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198018000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/STORY_SERVICE/STORY_SERVICE.zip",
+      "bytes": 182,
+      "sha256": "5f1f12edb76ce884fa0a2f2c894b3f57a48c0dc303ea5d056e78c8885b195654",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198018000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/SmartSwitchBackup.bk",
+      "bytes": 278608,
+      "sha256": "57fcee28362b855d5b79df8d2b0147791e872611af113b1a497420d60a1e3d1c",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198018000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/SmartSwitchBackupInf.bk",
+      "bytes": 119,
+      "sha256": "9a59c8fffcb1bde09c477df23a5544cb6cfd87393a3c544a4a2096a1d8a7208c",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198018000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/SmartSwitchBackupInf.bk_backup",
+      "bytes": 119,
+      "sha256": "9a59c8fffcb1bde09c477df23a5544cb6cfd87393a3c544a4a2096a1d8a7208c",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198018000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/WALLPAPER/WALLPAPER.zip",
+      "bytes": 183032,
+      "sha256": "2dc39e2e93c0581a132d1b1479dd5e16177a8c97d7e807ff7b6d9575f4c77ff0",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198018000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/WALLPAPER/com.android.systemui.png_",
+      "bytes": 10752,
+      "sha256": "0baf239e51aeb2cf8f3a303e0268c06e143b591f4bd0b25d6c9c0babab458765",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198018000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/WALLPAPER_SETTING/WALLPAPER_SETTING.zip",
+      "bytes": 669762,
+      "sha256": "5897e48b795aca8af0e2be5a31201e4b7c0554239b1ed7d9450a0d7e3df2373a",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198018000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/WALLPAPER_SETTING/com.samsung.android.app.dressroom.png_",
+      "bytes": 36405,
+      "sha256": "e49e1122a1fbdf6db64519e71abc9990516347d4923134f53ecb5b78f4925df4",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198018000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/WEATHERSERVICE/WEATHERSERVICE.zip",
+      "bytes": 1885,
+      "sha256": "c50a7f2bafa9935e4f0bcdd611fbca78f6caa58c989ee27d12b81b83c7f9db26",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198018000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/WEATHERSERVICE/com.sec.android.daemonapp.png_",
+      "bytes": 24948,
+      "sha256": "29974035903f81ef156915fde32641989ab0fa33ffdc63f5fe220028ac7ba366",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198018000000000
+    },
+    {
+      "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/backup_media.db",
+      "bytes": 81952,
+      "sha256": "819ef591ca19ba9a988b9568d8393325f269200d5cf7342cac176ce67959d5ae",
+      "sourceMode": "0o700",
+      "sourceMtimeNs": 1792198018000000000
+    }
+  ],
+  "restoreDemoVideo": {
+    "path": "Save --SmartSwitchBackup2-- to a USB-C Drive Root Location - How To Restore Your Data From a Samsung Smart Switch Backup USB Drive.mp4",
+    "bytes": 19365643,
+    "sha256": "23d22c32f8f1d1c23d40e440a196685e72550c6811c91a9fbe86384e59018f28"
+  }
+}

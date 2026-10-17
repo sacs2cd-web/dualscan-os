@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="briar_lime_950">#283E0F</color>
+	<color name="briar_lime_600">#67a60f</color>
+	<color name="briar_lime_600_new">#65A30D</color>
+	<color name="briar_lime_500">#82C91E</color>
+	<color name="briar_lime_400">#82c91e</color>
+	<color name="briar_lime_400_new">#A3E635</color>
+
+	<color name="briar_blue_900">#184080</color>
+	<color name="briar_blue_800">#134a81</color>
+	<color name="briar_blue_800_new">#1649A0</color>
+	<color name="briar_blue_600">#1b69b6</color>
+	<color name="briar_blue_600_new">#196FDE</color>
+	<color name="briar_blue_400">#418cd8</color>
+	<color name="briar_blue_400_new">#52ADF9</color>
+	<color name="briar_blue_300">#8BCAFD</color>
+	<color name="briar_blue_100">#DDEDFE</color>
+
+	<color name="briar_orange_200">#fed69f</color>
+	<color name="briar_orange_400">#FBBF24</color>
+	<color name="briar_orange_500">#fc9403</color>
+	<color name="briar_orange_500_new">#F59E0B</color>
+
+	<color name="briar_red_400">#f87171</color>
+	<color name="briar_red_500">#db3b21</color>
+	<color name="briar_red_500_new">#EF4444</color>
+	<color name="briar_red_600">#DC2626</color>
+
+	<color name="briar_night_950">#0e171f</color>
+	<color name="briar_night_800">#212d3b</color>
+	<color name="briar_night_700">#2e3d4f</color>
+	<color name="briar_night_700_new">#334155</color>
+	<color name="briar_night_600">#475569</color>
+	<color name="briar_night_500">#435b77</color>
+	<color name="briar_night_100">#F1F5F9</color>
+	<color name="briar_night_50">#ebf3fa</color>
+
+	<color name="briar_gray_900">#2e2e2e</color>
+	<color name="briar_gray_700">#374151</color>
+	<color name="briar_gray_500">#a7a7a7</color>
+	<color name="briar_gray_300">#cccccc</color>
+	<color name="briar_gray_200">#dfdfdf</color>
+	<color name="briar_gray_200_new">#E5E7EB</color>
+	<color name="briar_gray_100">#f2f2f2</color>
+
+	<color name="briar_brand_blue">#FF00FE</color>
+	<color name="briar_brand_green">#FF00FE</color>
+
+	<color name="briar_primary">@color/briar_brand_blue</color>
+	<color name="briar_primary_dark">#000000</color>
+	<color name="briar_accent">@color/briar_brand_blue</color>
+
+	<color name="window_background">#000000</color>
+	<color name="card_background">#100011</color>
+	<color name="item_background_highlight">#260026</color>
+	<color name="briar_warning_background">@color/briar_red_500</color>
+	<color name="action_bar_text">@android:color/white</color>
+	<color name="private_message_date_inverse">@color/briar_gray_200</color>
+	<color name="forum_avatar_shadow">#99000000</color>
+
+	<color name="color_primary">@android:color/white</color>
+
+	<color name="msg_in">#171017</color>
+	<color name="msg_out">#FF00FE</color>
+	<color name="notice_in">#100011</color>
+	<color name="notice_out">#7A007A</color>
+	<color name="msg_stroke_light">#3A003A</color>
+	<color name="msg_stroke_dark">#3A003A</color>
+	<color name="msg_stroke">@color/msg_stroke_light</color>
+	<color name="msg_status_bubble_background">#66000000</color>
+	<color name="msg_status_bubble_foreground">@android:color/white</color>
+	<color name="msg_selected_background">#FF00FE</color>
+
+	<color name="il_border">#9CA3AF</color>
+	<color name="il_background">#E5E7EB</color>
+	<color name="il_lime">@color/briar_lime_600_new</color>
+	<color name="il_orange">@color/briar_orange_500_new</color>
+	<color name="il_red">@color/briar_red_600</color>
+
+	<!-- text colors -->
+	<color name="briar_text_link">#FF00FE</color>
+	<color name="briar_text_link_inverse">@android:color/white</color>
+	<color name="briar_text_primary">#F8EFFF</color>
+	<color name="briar_text_primary_inverse">@android:color/white</color>
+	<color name="briar_text_secondary_inverse">#b4ffffff</color>
+	<color name="briar_text_tertiary_inverse">#80ffffff</color>
+
+	<color name="preference_category_background">@color/window_background</color>
+
+	<color name="briar_button_text_positive">#FF00FE</color>
+	<color name="briar_button_text_neutral">#D9B6D9</color>
+	<color name="briar_button_text_negative">@color/briar_red_500</color>
+	<color name="briar_button_text_disabled">#55FFFFFF</color>
+
+	<color name="thread_indicator">#7A007A</color>
+	<color name="thread_item_background">@color/window_background</color>
+	<color name="thread_item_highlight">#160016</color>
+
+	<color name="divider">#260026</color>
+
+
+
+	<color name="md_theme_primary">#FF00FE</color>
+	<color name="md_theme_onPrimary">#000000</color>
+	<color name="md_theme_primaryContainer">#7A007A</color>
+	<color name="md_theme_onPrimaryContainer">@android:color/white</color>
+	<color name="md_theme_inversePrimary">#FF84FF</color>
+	<color name="md_theme_secondary">#FF00FE</color>
+	<color name="md_theme_onSecondary">@android:color/white</color>
+	<color name="md_theme_tertiaryContainer">#260026</color>
+	<color name="md_theme_onTertiaryContainer">#FFB8FF</color>
+	<color name="md_theme_tertiary">#FF00FE</color>
+	<color name="md_theme_onTertiary">@android:color/white</color>
+	<color name="md_theme_onBackground">#F8EFFF</color>
+	<color name="md_theme_onSurface">#F8EFFF</color>
+	<color name="md_theme_surfaceDim">#000000</color>
+	<color name="md_theme_error">@color/briar_red_600</color>
+</resources>

@@ -1,0 +1,5 @@
+SmartSwitchBackup2/** -filter -diff -merge -text
+"Save --SmartSwitchBackup2-- to a USB-C Drive Root Location - How To Restore Your Data From a Samsung Smart Switch Backup USB Drive.mp4" -filter -diff -merge -text
+SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/APKFILE/com.amazon.mp3.enc filter=lfs diff=lfs merge=lfs -text
+SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/APKFILE/com.matteljv.uno_split_assetbundles.apk filter=lfs diff=lfs merge=lfs -text
+SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/APKFILE/com.matteljv.uno_split_config.arm64_v8a.apk filter=lfs diff=lfs merge=lfs -text
