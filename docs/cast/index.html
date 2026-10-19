@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="Diamond Player TV connection screen.">
+  <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://www.gstatic.com; style-src 'self'; img-src 'self'; media-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none'">
+  <title>Diamond™ Player TV</title>
+  <link rel="icon" href="../assets/diamond.png">
+  <link rel="stylesheet" href="receiver.css">
+  <script defer src="https://www.gstatic.com/cast/sdk/libs/caf_receiver/v3/cast_receiver_framework.js"></script>
+  <script defer src="receiver.js"></script>
+</head>
+<body>
+  <main>
+    <img class="diamond" src="../assets/diamond.png" width="120" height="120" alt="Diamond logo">
+    <p class="brand">Diamond<sup>™</sup> Player TV</p>
+    <h1>Open Diamond Player TV</h1>
+    <p class="message">Use the Diamond Player TV app on your Android TV or Google TV to receive and play your Diamond media.</p>
+    <p id="connection-status" role="status" aria-live="polite">Diamond Player TV is required for encrypted media.</p>
+  </main>
+  <footer><a href="../">Dualscan.cloud</a><span>ETLA LLC</span><a href="../policy/privacy-policy.html">Privacy Policy</a></footer>
+  <!-- CAF requires a media element. This fallback never assigns it a source, and
+       rejects LOAD/PRELOAD before handling; media-src 'none' is a second guard. -->
+  <video class="castMediaElement" hidden preload="none" aria-hidden="true"></video>
+</body>
+</html>
