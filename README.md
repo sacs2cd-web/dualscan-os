@@ -23,7 +23,7 @@ The receiving-device path is Samsung Smart Switch on **compatible Galaxy devices
 
 See [RESTORE.md](RESTORE.md) and [Samsung’s external-storage instructions](https://www.samsung.com/sg/support/apps-services/how-to-use-the-smart-switch-app-to-transfer-data-between-galaxy-devices/).
 
-The original demonstration video is included alongside the restore folder in the repository. The [project page](https://sacs2cd-web.github.io/dualscan-os/) also has a video player and a guided screenshot tour. It is published with GitHub Pages from `main` → `/docs`; the page is static HTML, CSS and JavaScript.
+The original demonstration video is included alongside the restore folder in the repository. The [project page](https://dualscan.cloud/) also has a video player and a guided screenshot tour. It is published with GitHub Pages from `main` → `/docs`; the page is static HTML, CSS and JavaScript.
 
 ## Inside the OS
 
