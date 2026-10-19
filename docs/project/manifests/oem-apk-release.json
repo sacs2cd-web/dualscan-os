@@ -3,16 +3,16 @@
   "releaseDate": "2026-10-19",
   "folder": "USTFD USPS CRADA APPS Oct 2026",
   "fileCount": 17,
-  "bytes": 372485427,
+  "bytes": 372763955,
   "inspection": "Android aapt2 package metadata from supplied standalone APKs; no encrypted Smart Switch payload version match claimed.",
   "apks": [
     {
-      "path": "USTFD USPS CRADA APPS Oct 2026/Diamond-Player-1.4.0.apk",
+      "path": "USTFD USPS CRADA APPS Oct 2026/Diamond-Player-1.4.3.apk",
       "packageName": "com.dualscan.mp",
-      "versionName": "1.4.0",
-      "versionCode": "9",
-      "bytes": 47266920,
-      "sha256": "1bc83a5faf88178e93a2821f10973b74abb7ca346648a18220c794beca52743a",
+      "versionName": "1.4.3",
+      "versionCode": "12",
+      "bytes": 47545448,
+      "sha256": "1ad40238aceb6842a2be92d3db96ed35b8a6910f136816082bea458945afb218",
       "role": "current-standalone-oem-apk"
     },
     {

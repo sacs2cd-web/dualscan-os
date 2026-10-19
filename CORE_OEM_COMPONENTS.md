@@ -81,7 +81,7 @@ Apple Music, Suno, Amazon Music, UNO, ChatGPT, Gemini, Samsung Phone, Camera, Ga
 
 ## Intact restore package and verification scope
 
-The October 19 supplied Smart Switch backup contains 328 files totaling **3,903,798,579 bytes**; its own metadata reports a logical total of **4,743,673,299 bytes**. The complete companion release contains 537 files totaling **4,855,913,854 bytes**, including the separate OEM APK and art folders and restoration video. It includes encrypted app-associated data, gallery/search databases, shortcut bitmaps, photo/art files, diagnostic logs, and device-specific state. Those categories were identified from filenames and metadata only; personal/account contents were not opened.
+The October 19 supplied Smart Switch backup contains 328 files totaling **3,903,798,579 bytes**; its own metadata reports a logical total of **4,743,673,299 bytes**. The complete companion release contains 537 files totaling **4,856,192,382 bytes**, including the separate OEM APK and art folders and restoration video. It includes encrypted app-associated data, gallery/search databases, shortcut bitmaps, photo/art files, diagnostic logs, and device-specific state. Those categories were identified from filenames and metadata only; personal/account contents were not opened.
 
 The source backup remains unchanged. The owner has requested publication of the complete folder as-is, preserving its files and restore structure. [manifests/reference-backup-audit.json](manifests/reference-backup-audit.json) contains a metadata-only category audit and software-payload hashes; no personal/account payload contents are reproduced in these documentation files.
 

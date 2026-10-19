@@ -15,10 +15,10 @@ The supplied demonstration video is in the repository root. You can also play it
 | Material | Files | Exact bytes |
 | --- | ---: | ---: |
 | `SmartSwitchBackup2/` | 328 | 3,903,798,579 |
-| `USTFD USPS CRADA APPS Oct 2026/` | 17 | 372,485,427 |
+| `USTFD USPS CRADA APPS Oct 2026/` | 17 | 372,763,955 |
 | `Dualscan Art Collection/` | 191 | 560,264,205 |
 | Original restoration demo video | 1 | 19,365,643 |
-| **Complete release** | **537** | **4,855,913,854** |
+| **Complete release** | **537** | **4,856,192,382** |
 
 The Smart Switch backup timestamp is `1792421905190`. Its original folder contents remain unchanged. The separate OEM folder contains standalone APKs and supplied source backups; it is not part of the encrypted Smart Switch restore payload. Do not infer the versions inside that payload from companion APK filenames.
 

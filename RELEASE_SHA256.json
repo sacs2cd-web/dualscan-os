@@ -7,9 +7,9 @@
     "Dualscan Art Collection"
   ],
   "fileCount": 537,
-  "totalBytes": 4855913854,
+  "totalBytes": 4856192382,
   "hashAlgorithm": "SHA-256",
-  "note": "Owner-supplied full-stack release: intact Smart Switch restore tree, standalone OEM APK collection, art collection, and original restoration video. Repository ZIP must be extracted before copying only SmartSwitchBackup2 to the USB-C drive root.",
+  "note": "Owner-supplied full-stack release with the authorized standalone Diamond Player 1.4.3 update. The intact Smart Switch restore tree, art collection and original restoration video are unchanged. Repository ZIP must be extracted before copying only SmartSwitchBackup2 to the USB-C drive root.",
   "files": [
     {
       "path": "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792421905190/.nomedia",
@@ -2308,11 +2308,11 @@
       "sourceMtimeNs": 1792422098000000000
     },
     {
-      "path": "USTFD USPS CRADA APPS Oct 2026/Diamond-Player-1.4.0.apk",
-      "bytes": 47266920,
-      "sha256": "1bc83a5faf88178e93a2821f10973b74abb7ca346648a18220c794beca52743a",
-      "sourceMode": "0o700",
-      "sourceMtimeNs": 1792414902000000000
+      "path": "USTFD USPS CRADA APPS Oct 2026/Diamond-Player-1.4.3.apk",
+      "bytes": 47545448,
+      "sha256": "1ad40238aceb6842a2be92d3db96ed35b8a6910f136816082bea458945afb218",
+      "sourceMode": "0o644",
+      "sourceMtimeNs": 1792442507710637055
     },
     {
       "path": "USTFD USPS CRADA APPS Oct 2026/Dualscan Chat.apk",

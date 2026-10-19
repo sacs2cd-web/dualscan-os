@@ -46,6 +46,8 @@ Apple Music, Suno, Amazon Music, ChatGPT, Gemini, UNO, Samsung and other third-p
 
 ### Diamond Player and USB audio
 
+The standalone OEM folder now includes [Diamond Player 1.4.3](https://github.com/sacs2cd-web/dualscan-os/blob/main/USTFD%20USPS%20CRADA%20APPS%20Oct%202026/Diamond-Player-1.4.3.apk), with automatic Samsung DeX TV display mode and a manual display-mode control. This standalone APK update does not modify the supplied Smart Switch backup.
+
 The current standalone Diamond Player uses an independent native PCM engine. When a supported USB DAC is selected on Android 14+, it requests the exact PCM encoding, sample rate, channel mask and Android `BIT_PERFECT` mixer behavior. The app only shows the bit-perfect indicator while its route and format checks are active. Ordinary internal-device audio routes remain available.
 
 The standalone offline player is separate from the earlier Tidal WebView/Decent experiment. The app’s route checks do not constitute an independent physical DAC digital-output measurement. See [Android’s preferred mixer specification](https://source.android.com/docs/core/audio/preferred-mixer-attr).
@@ -80,15 +82,15 @@ Menu labels vary by Smart Switch version. Select the option before creating the 
 
 ## Distribution integrity
 
-The supplied stack is preserved **as is**. The restore folder, companion OEM folder, art collection and original video are separate release materials:
+The Smart Switch restore folder is preserved **as supplied**. The companion OEM folder includes the authorized Diamond Player 1.4.3 update. The restore folder, companion OEM folder, art collection and original video are separate release materials:
 
 | Release material | Files | Exact bytes | Use |
 | --- | ---: | ---: | --- |
 | `SmartSwitchBackup2/` | 328 | 3,903,798,579 | Copy intact to the USB-C drive root for Smart Switch restore. |
-| `USTFD USPS CRADA APPS Oct 2026/` | 17 | 372,485,427 | Separate standalone APKs and supplied source backups. |
+| `USTFD USPS CRADA APPS Oct 2026/` | 17 | 372,763,955 | Separate standalone APKs and supplied source backups. |
 | `Dualscan Art Collection/` | 191 | 560,264,205 | Companion artwork files. |
 | Original restoration demo video | 1 | 19,365,643 | Watch the supplied restoration instructions. |
-| **Complete release** | **537** | **4,855,913,854** | Approximately **4.86 GB**, before GitHub archive overhead. |
+| **Complete release** | **537** | **4,856,192,382** | Approximately **4.86 GB**, before GitHub archive overhead. |
 
 [RELEASE_SHA256.json](RELEASE_SHA256.json) records the exact byte count and SHA-256 of every supplied release file. [BACKUP_SHA256.json](BACKUP_SHA256.json) retains the restore-folder and video inventory. From the extracted repository, run:
 
