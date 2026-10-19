@@ -30,7 +30,15 @@ $('tourPrev').addEventListener('click',()=>{if(active>0)showStep(active-1);});
 $('tourNext').addEventListener('click',()=>{if(active<tour.length-1)showStep(active+1);});
 document.querySelectorAll('[data-tour-target]').forEach(button=>button.addEventListener('click',()=>{showStep(Number(button.dataset.tourTarget));$('tour').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});}));
 const dialog=$('screenDialog');
-$('expandScreen').addEventListener('click',()=>{const step=tour[active];$('dialogImage').src='assets/'+step.image;$('dialogImage').alt=step.description;$('dialogCaption').textContent=step.path.join(' / ')+' — '+step.title;dialog.showModal();});
+function openScreenshot(src,alt,caption){$('dialogImage').src=src;$('dialogImage').alt=alt;$('dialogCaption').textContent=caption;dialog.showModal();}
+$('expandScreen').addEventListener('click',()=>{const step=tour[active];openScreenshot('assets/'+step.image,step.description,step.path.join(' / ')+' — '+step.title);});
+document.querySelectorAll('[data-authoring-image]').forEach(button=>button.addEventListener('click',()=>openScreenshot(button.dataset.authoringImage,button.querySelector('img').alt,button.dataset.authoringCaption)));
 $('closeScreen').addEventListener('click',()=>dialog.close());
 dialog.addEventListener('click',event=>{if(event.target===dialog)dialog.close();});
+const menuToggle=$('menuToggle'),mainNavigation=$('mainNavigation');
+function closeNavigation(){menuToggle.setAttribute('aria-expanded','false');mainNavigation.classList.remove('is-open');}
+menuToggle.addEventListener('click',()=>{const open=menuToggle.getAttribute('aria-expanded')!=='true';menuToggle.setAttribute('aria-expanded',String(open));mainNavigation.classList.toggle('is-open',open);});
+mainNavigation.querySelectorAll('a').forEach(link=>link.addEventListener('click',()=>{closeNavigation();const target=document.querySelector(link.getAttribute('href'));if(target&&matchMedia('(max-width: 1000px)').matches){target.setAttribute('tabindex','-1');target.focus({preventScroll:true});}}));
+document.addEventListener('keydown',event=>{if(event.key==='Escape'&&menuToggle.getAttribute('aria-expanded')==='true'){closeNavigation();menuToggle.focus();}});
+document.addEventListener('click',event=>{if(!event.target.closest('.header'))closeNavigation();});
 showStep(0);
