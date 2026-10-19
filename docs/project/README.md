@@ -46,7 +46,7 @@ Apple Music, Suno, Amazon Music, ChatGPT, Gemini, UNO, Samsung and other third-p
 
 ### Diamond Player and USB audio
 
-The standalone OEM folder now includes [Diamond Player 1.4.3](https://github.com/sacs2cd-web/dualscan-os/blob/main/USTFD%20USPS%20CRADA%20APPS%20Oct%202026/Diamond-Player-1.4.3.apk), with automatic Samsung DeX TV display mode and a manual display-mode control. This standalone APK update does not modify the supplied Smart Switch backup.
+The standalone OEM folder now includes [Diamond Player 1.4.3](https://github.com/sacs2cd-web/dualscan-os/blob/main/USTFD%20USPS%20CRADA%20APPS%20Oct%202026/Diamond-Player-1.4.3.apk), with automatic Samsung DeX TV display mode and a manual display-mode control. The replacement Smart Switch backup omits Diamond Player’s encrypted base APK; install this standalone 1.4.3 APK separately after restoration.
 
 The current standalone Diamond Player uses an independent native PCM engine. When a supported USB DAC is selected on Android 14+, it requests the exact PCM encoding, sample rate, channel mask and Android `BIT_PERFECT` mixer behavior. The app only shows the bit-perfect indicator while its route and format checks are active. Ordinary internal-device audio routes remain available.
 
@@ -54,7 +54,7 @@ The standalone offline player is separate from the earlier Tidal WebView/Decent 
 
 ### Share Lite: private and commercial exchange
 
-This Smart Switch backup omits Share Lite. Its standalone `Dualscan-Share-Lite-1.1.1.apk` is provided separately in `USTFD USPS CRADA APPS Oct 2026/`; install it separately if needed. Companion APK filenames and standalone versions do not establish the versions inside the encrypted Smart Switch payload.
+This Smart Switch backup omits Share Lite. Install the standalone `USTFD USPS CRADA APPS Oct 2026/Dualscan-Share-Lite-1.1.1.apk` separately after restoration if needed. Companion APK filenames and standalone versions do not establish the versions inside the encrypted Smart Switch payload.
 
 Create encrypted `.diamond` files from accessible local music, video, photos and documents. Each original is preserved as a separate encrypted container, keeping the collection’s folder structure. Only encrypted files are copied to the destination; completed copies are read back and verified by size and SHA-256.
 
@@ -86,11 +86,11 @@ The Smart Switch restore folder is preserved **as supplied**. The companion OEM 
 
 | Release material | Files | Exact bytes | Use |
 | --- | ---: | ---: | --- |
-| `SmartSwitchBackup2/` | 328 | 3,903,798,579 | Copy intact to the USB-C drive root for Smart Switch restore. |
+| `SmartSwitchBackup2/` | 327 | 3,856,570,925 | Copy intact to the USB-C drive root for Smart Switch restore. |
 | `USTFD USPS CRADA APPS Oct 2026/` | 17 | 372,763,955 | Separate standalone APKs and supplied source backups. |
 | `Dualscan Art Collection/` | 191 | 560,264,205 | Companion artwork files. |
 | Original restoration demo video | 1 | 19,365,643 | Watch the supplied restoration instructions. |
-| **Complete release** | **537** | **4,856,192,382** | Approximately **4.86 GB**, before GitHub archive overhead. |
+| **Complete release** | **536** | **4,808,964,728** | Approximately **4.81 GB**, before GitHub archive overhead. |
 
 [RELEASE_SHA256.json](RELEASE_SHA256.json) records the exact byte count and SHA-256 of every supplied release file. [BACKUP_SHA256.json](BACKUP_SHA256.json) retains the restore-folder and video inventory. From the extracted repository, run:
 
@@ -108,7 +108,7 @@ The verifier uses `RELEASE_SHA256.json` when available, checking all three folde
 
 Large original files use Git LFS. This repository must include LFS objects in generated archives so **Code → Download ZIP** contains the actual files. For a Git checkout, install Git LFS and run `git lfs pull`. A download containing text LFS pointers fails the verifier with a file-specific recovery hint and is not a complete release.
 
-The supplied Smart Switch restore timestamp is `1792421905190`; original encrypted metadata and category files are retained without conversion. The byte counts above describe the distributed files, not Smart Switch’s reported logical restore size. Companion OEM APKs are separate from this payload, and their standalone versions are not evidence of versions inside encrypted backup files. A receiving-device restore and physical USB DAC qualification have not been performed as part of this publication. See [manifests/reference-backup-audit.json](manifests/reference-backup-audit.json).
+The supplied Smart Switch restore timestamp is `1792444680010`; original encrypted metadata and category files are retained without conversion. The byte counts above describe the distributed files, not Smart Switch’s reported logical restore size. Companion OEM APKs are separate from this payload, and their standalone versions are not evidence of versions inside encrypted backup files. A receiving-device restore and physical USB DAC qualification have not been performed as part of this publication. See [manifests/reference-backup-audit.json](manifests/reference-backup-audit.json).
 
 ## Project files
 

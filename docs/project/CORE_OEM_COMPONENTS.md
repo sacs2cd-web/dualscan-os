@@ -71,7 +71,7 @@ These are functional preservation requirements for a delivered derivative. They 
 - Preserve Share Lite's selected local file/folder workflow, optional-password handling, encrypted output, destination read-back verification, and unchanged originals. Share Lite does not capture applications, private app data, or a complete OS image.
 - Keep Android runtime permission consent, storage grants, biometric enrollment, app sandboxing, and Keystore protection intact. A distribution must not silently grant permissions, export credentials, or weaken these boundaries to make a restore appear complete.
 
-The readable `DISABLEDAPPS.json` records all 11 packages with `componentState: 0`. Ten packages list their main activity with `enabled: 0`; USPS® Wallet instead records `MainLauncherAlias` as `enabled: 1` and 16 alternate launcher aliases as `enabled: 2`. Value 0 means Android component **default**, not a boolean false or proof of a current runtime grant. The selected records are retained exactly in JSON. Unrelated application/system settings are not declared protected by this inventory.
+The replacement backup’s readable `DISABLEDAPPS.json` records 10 reference core packages with `componentState: 0`; Share Lite’s record is absent. Nine packages list their main activity with `enabled: 0`; USPS® Wallet instead records `MainLauncherAlias` as `enabled: 1` and 16 alternate launcher aliases as `enabled: 2`. Value 0 means Android component **default**, not a boolean false or proof of a current runtime grant. The selected records are retained exactly in JSON. Unrelated application/system settings are not declared protected by this inventory.
 
 No additional custom Android system daemon, privileged system partition, bootloader setting, or universal firmware image was verified in this backup. The encrypted home-screen database, wallpaper profiles, permission grants, battery policy, current audio route, and full restore behavior remain unverified.
 
@@ -81,7 +81,9 @@ Apple Music, Suno, Amazon Music, UNO, ChatGPT, Gemini, Samsung Phone, Camera, Ga
 
 ## Intact restore package and verification scope
 
-The October 19 supplied Smart Switch backup contains 328 files totaling **3,903,798,579 bytes**; its own metadata reports a logical total of **4,743,673,299 bytes**. The complete companion release contains 537 files totaling **4,856,192,382 bytes**, including the separate OEM APK and art folders and restoration video. It includes encrypted app-associated data, gallery/search databases, shortcut bitmaps, photo/art files, diagnostic logs, and device-specific state. Those categories were identified from filenames and metadata only; personal/account contents were not opened.
+The October 19 supplied Smart Switch backup contains 327 files totaling **3,856,570,925 bytes**; its own metadata reports a logical total of **4,744,811,987 bytes**. The complete companion release contains 536 files totaling **4,808,964,728 bytes**, including the separate OEM APK and art folders and restoration video. It includes encrypted app-associated data, gallery/search databases, shortcut bitmaps, photo/art files, diagnostic logs, and device-specific state. Those categories were identified from filenames and metadata only; personal/account contents were not opened.
+
+The replacement backup does not contain `APKFILE/com.dualscan.mp.enc`. Install the separate `Diamond-Player-1.4.3.apk` from the OEM APK folder after restoration to provide Diamond Player.
 
 The source backup remains unchanged. The owner has requested publication of the complete folder as-is, preserving its files and restore structure. [manifests/reference-backup-audit.json](manifests/reference-backup-audit.json) contains a metadata-only category audit and software-payload hashes; no personal/account payload contents are reproduced in these documentation files.
 
