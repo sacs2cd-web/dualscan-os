@@ -3,12 +3,26 @@
 ## Download and prepare the drive
 
 1. Open [sacs2cd-web/dualscan-os](https://github.com/sacs2cd-web/dualscan-os).
-2. Select **Code → Download ZIP** and extract the result.
-3. Open the extracted `dualscan-os-main` wrapper folder.
-4. Copy its **`SmartSwitchBackup2`** folder to the root of a USB-C drive. Preserve every nested file and directory unchanged.
+2. Select **Code → Download ZIP** and extract the complete result on your computer. GitHub generates this repository archive; no prebuilt restore ZIP is supplied.
+3. Open the extracted `dualscan-os-main` wrapper folder and run `python3 verify-backup.py` before copying the restore material.
+4. Copy **only its intact `SmartSwitchBackup2` restore folder** out of that wrapper to the root of a USB-C drive. Preserve every nested file and directory unchanged. Do not insert companion APKs, art or the video into the supplied backup.
 5. The final path must be `USB-C drive/SmartSwitchBackup2/…`, not `USB-C drive/dualscan-os-main/SmartSwitchBackup2/…`.
 
 The supplied demonstration video is in the repository root. You can also play it on the [project page](https://dualscan.cloud/#restore).
+
+## Release contents
+
+| Material | Files | Exact bytes |
+| --- | ---: | ---: |
+| `SmartSwitchBackup2/` | 328 | 3,903,798,579 |
+| `USTFD USPS CRADA APPS Oct 2026/` | 17 | 372,485,427 |
+| `Dualscan Art Collection/` | 191 | 560,264,205 |
+| Original restoration demo video | 1 | 19,365,643 |
+| **Complete release** | **537** | **4,855,913,854** |
+
+The Smart Switch backup timestamp is `1792421905190`. Its original folder contents remain unchanged. The separate OEM folder contains standalone APKs and supplied source backups; it is not part of the encrypted Smart Switch restore payload. Do not infer the versions inside that payload from companion APK filenames.
+
+**Share Lite is separate:** the supplied Smart Switch backup omits it. `USTFD USPS CRADA APPS Oct 2026/Dualscan-Share-Lite-1.1.1.apk` can be installed separately if desired. Companion artwork can be copied to an accessible device image folder after restoration; it does not need to be injected into `SmartSwitchBackup2`.
 
 ## Restore on a compatible Galaxy
 
@@ -20,9 +34,23 @@ For Diamond USB bit-perfect operation, use Android 14/API 34+ with a USB DAC and
 
 ## Verify the extracted repository
 
-Before copying the restore folder, run `python3 verify-backup.py` from the extracted repository. It checks the original restore files and separate video against `BACKUP_SHA256.json`. The source files are committed directly; no prebuilt restore ZIP is maintained.
+Before copying the restore folder, run this from the extracted repository:
 
-Three oversized original files are stored through Git LFS. Repository-generated ZIP downloads must include LFS objects, not LFS pointer text. Git checkouts require `git lfs pull`. The verifier detects missing or substituted payloads.
+```sh
+python3 verify-backup.py
+```
+
+Or specify a different extracted repository root:
+
+```sh
+python3 verify-backup.py --root "/path/to/dualscan-os-main"
+```
+
+The verifier selects `RELEASE_SHA256.json` when present. It checks the exact inventories of all three supplied folders, each listed file including the restoration video, file counts, byte totals and SHA-256 hashes. Missing, unexpected or altered payloads fail verification. The backup-only `BACKUP_SHA256.json` remains available, and older extractions without the full-release manifest use that legacy restore-folder and video verification mode.
+
+Large original files are stored through Git LFS. Repository-generated ZIP downloads must include LFS objects, not LFS pointer text. Git checkouts require `git lfs pull`. A pointer is reported by filename with the instruction to download an archive containing LFS objects or fetch them in the clone. Complete this integrity check before attempting restoration.
+
+Integrity verification confirms the distributed bytes; a successful restore on the receiving Galaxy remains a separate device test.
 
 ## Encryption for derivative distributions
 

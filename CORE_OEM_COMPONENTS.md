@@ -4,13 +4,13 @@ Manifest version 1.0 · October 2026
 
 This document identifies the Core OEM Components referenced by sections 3–5 of the [Dualscan OS Community & Commercial License](LICENSE). The machine-readable inventory is [manifests/core-oem-v1.json](manifests/core-oem-v1.json).
 
-The inventory combines the supplied October 16 home-screen screenshots, package-named Smart Switch payloads, readable selected launcher records, and independently inspected standalone APK manifests. The base APKs and primary application manifest inside the supplied Smart Switch backup are encrypted. Accordingly, standalone versions and hashes below are **reference artifacts, not cryptographically verified versions of the encrypted backup**. At the owner’s direction, the supplied Smart Switch folder is being published intact and as-is. Its exact payloads remain the restore source; the independent standalone references do not substitute for them.
+The protected dock and component definitions retain the supplied October 16 reference screenshots and independently inspected baseline APK manifests. The distribution payload was updated from the owner-supplied October 19 release. Current standalone OEM package versions and hashes are listed separately in [manifests/oem-apk-release.json](manifests/oem-apk-release.json). The base APKs and primary application manifest inside the supplied Smart Switch backup are encrypted. Accordingly, standalone versions and hashes below are **reference artifacts, not cryptographically verified versions of the encrypted backup**. At the owner’s direction, the supplied Smart Switch folder is being published intact and as-is. Its exact payloads remain the restore source; the independent standalone references do not substitute for them.
 
 ## Required home-screen tray
 
 Preserve these five visible, accessible positions from left to right. Positions are visual positions from the supplied home-screen screenshots, not decoded Samsung database cell IDs.
 
-| Position | Application | Android package | Standalone reference |
+| Position | Application | Android package | October 16 standalone reference |
 | --- | --- | --- | --- |
 | 1 · left | Typelocker Gmail | `com.ustfdatv.typelockergmail` | 1.0 / code 10000 |
 | 2 | USPS Money · Baby Bishiki icon | `com.bishiki.uspsmoney.local` | 1.0.5 / code 6 |
@@ -24,7 +24,7 @@ Alternative launchers may be added under the License, provided the mandatory tra
 
 ## Additional protected OEM applications
 
-These packages are present by name in the supplied backup and supported by its readable launcher records. They remain installed and accessible; no mandatory tray position is assigned to them by the supplied screenshots.
+These protected components are identified by the baseline package and launcher references. They remain part of the component policy; no mandatory tray position is assigned to them by the supplied screenshots. The October 19 restore payload and companion standalone OEM APKs are inventoried separately.
 
 | Application | Android package | Standalone reference and evidence status |
 | --- | --- | --- |
@@ -32,10 +32,10 @@ These packages are present by name in the supplied backup and supported by its r
 | Dualscan™ Chat | `com.dualscan.concertparty` | 1.5.17-dualscan.1 / code 10517 |
 | Dualscan LDAC Activator | `com.dualscan.ldacactivator` | 1.4 / code 5 |
 | Diamond™ Player · launcher label Diamond™ | `com.dualscan.mp` | 1.2.1 / code 6; inspected candidate is a development APK |
-| Dualscan Share Lite | `com.dualscan.share.lite` | 1.1.0 / code 3 and 1.1.1 / code 4 are same-size development references; encrypted backup version is unresolved |
+| Dualscan Share Lite | `com.dualscan.share.lite` | October 19: standalone 1.1.1 supplied in the OEM APK folder; no encrypted Share Lite base APK is present in this supplied restore tree |
 | VisaUSD Typelocker Wallet | `com.visausd.typelocker.wallet` | Encrypted payload and launcher record; version unverified |
 
-Each software payload's exact byte count and SHA-256, each inspected standalone APK's separate SHA-256, permissions, activities, services, receivers, and providers are recorded in [the JSON manifest](manifests/core-oem-v1.json). An encrypted Smart Switch payload hash identifies that encrypted file; it is not the hash of its restored APK. The encrypted backup was not decrypted to establish a match.
+Baseline software references, permissions, activities, services, receivers, and providers are recorded in [the core JSON manifest](manifests/core-oem-v1.json). Current restore-file hashes are in [BACKUP_SHA256.json](BACKUP_SHA256.json), and the October 19 standalone OEM APK identities and hashes are in [manifests/oem-apk-release.json](manifests/oem-apk-release.json). An encrypted Smart Switch payload hash identifies that encrypted file; it is not the hash of its restored APK. The encrypted backup was not decrypted to establish a match.
 
 ## Protected operational components
 
@@ -81,7 +81,7 @@ Apple Music, Suno, Amazon Music, UNO, ChatGPT, Gemini, Samsung Phone, Camera, Ga
 
 ## Intact restore package and verification scope
 
-The supplied Smart Switch backup contains 261 files totaling **1,986,178,575 bytes**; its own metadata reports a different logical total of **2,789,625,992 bytes**. It includes encrypted app-associated data, gallery/search databases, shortcut bitmaps, photo/art files, diagnostic logs, and device-specific state. Those categories were identified from filenames and metadata only; personal/account contents were not opened.
+The October 19 supplied Smart Switch backup contains 328 files totaling **3,903,798,579 bytes**; its own metadata reports a logical total of **4,743,673,299 bytes**. The complete companion release contains 537 files totaling **4,855,913,854 bytes**, including the separate OEM APK and art folders and restoration video. It includes encrypted app-associated data, gallery/search databases, shortcut bitmaps, photo/art files, diagnostic logs, and device-specific state. Those categories were identified from filenames and metadata only; personal/account contents were not opened.
 
 The source backup remains unchanged. The owner has requested publication of the complete folder as-is, preserving its files and restore structure. [manifests/reference-backup-audit.json](manifests/reference-backup-audit.json) contains a metadata-only category audit and software-payload hashes; no personal/account payload contents are reproduced in these documentation files.
 

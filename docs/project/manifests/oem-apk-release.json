@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "releaseDate": "2026-10-19",
+  "folder": "USTFD USPS CRADA APPS Oct 2026",
+  "fileCount": 17,
+  "bytes": 372485427,
+  "inspection": "Android aapt2 package metadata from supplied standalone APKs; no encrypted Smart Switch payload version match claimed.",
+  "apks": [
+    {
+      "path": "USTFD USPS CRADA APPS Oct 2026/Diamond-Player-1.4.0.apk",
+      "packageName": "com.dualscan.mp",
+      "versionName": "1.4.0",
+      "versionCode": "9",
+      "bytes": 47266920,
+      "sha256": "1bc83a5faf88178e93a2821f10973b74abb7ca346648a18220c794beca52743a",
+      "role": "current-standalone-oem-apk"
+    },
+    {
+      "path": "USTFD USPS CRADA APPS Oct 2026/Dualscan Chat.apk",
+      "packageName": "com.dualscan.concertparty",
+      "versionName": "1.5.17-dualscan.1",
+      "versionCode": "10517",
+      "bytes": 46821490,
+      "sha256": "b2689396f5a943282fd10a3bdddadbbff81ff3897889faa53bed5c01d308da6b",
+      "role": "current-standalone-oem-apk"
+    },
+    {
+      "path": "USTFD USPS CRADA APPS Oct 2026/Dualscan LDAC Activator.apk",
+      "packageName": "com.dualscan.ldacactivator",
+      "versionName": "1.4",
+      "versionCode": "5",
+      "bytes": 33834,
+      "sha256": "c06be364139d6ce78eac6b66992829d8efd309039f146e3024f943d7336528fb",
+      "role": "current-standalone-oem-apk"
+    },
+    {
+      "path": "USTFD USPS CRADA APPS Oct 2026/Dualscan-Share-Lite-1.1.1.apk",
+      "packageName": "com.dualscan.share.lite",
+      "versionName": "1.1.1",
+      "versionCode": "4",
+      "bytes": 19145526,
+      "sha256": "58bfbbedf13847aa3091452df2989dcd68f2cf064f95d072132ad51d4398546a",
+      "role": "current-standalone-oem-apk"
+    },
+    {
+      "path": "USTFD USPS CRADA APPS Oct 2026/Source Backup/Diamond-Player-0.4.0-native-pcm-release-signed.apk",
+      "packageName": "com.dualscan.diamondplayer.yoncen6",
+      "versionName": "0.4.0-native-pcm",
+      "versionCode": "25",
+      "bytes": 42053773,
+      "sha256": "bdb88841856240c85e38212eb40474ce1637911987e82eca981ec07f3ab4620e",
+      "role": "historical-source-backup-reference"
+    },
+    {
+      "path": "USTFD USPS CRADA APPS Oct 2026/Typelocker Gmail.apk",
+      "packageName": "com.ustfdatv.typelockergmail",
+      "versionName": "1.0",
+      "versionCode": "10000",
+      "bytes": 1693672,
+      "sha256": "63207f81cd140257817ee5715cf139324d433dbee63169d5f86fa9d5776bafee",
+      "role": "current-standalone-oem-apk"
+    },
+    {
+      "path": "USTFD USPS CRADA APPS Oct 2026/Typelocker Outlook.apk",
+      "packageName": "com.ustfd.typelockeroutlook",
+      "versionName": "1.0",
+      "versionCode": "10000",
+      "bytes": 1565531,
+      "sha256": "37eee5c7391c1f4d24cf669d58c930ec117f4d2db9efdc8e86ab54eee0b9d534",
+      "role": "current-standalone-oem-apk"
+    },
+    {
+      "path": "USTFD USPS CRADA APPS Oct 2026/USPS-Banking-USTFD-All_Rights_Reserved.apk",
+      "packageName": "com.usps.myusps_mobile_app_android",
+      "versionName": "2.4.5.6",
+      "versionCode": "2456",
+      "bytes": 9769468,
+      "sha256": "7f12f7126899bbc1d50c08a4856ce3f38567abc72117c6e7773061eadbfc1df5",
+      "role": "current-standalone-oem-apk"
+    },
+    {
+      "path": "USTFD USPS CRADA APPS Oct 2026/USPS-Money-1.0.8.apk",
+      "packageName": "com.bishiki.uspsmoney.local",
+      "versionName": "1.0.8",
+      "versionCode": "9",
+      "bytes": 28749190,
+      "sha256": "2936a0120cc71f487ce9dbe444049557ee8f9b8199d7a6c48ce8b95eddacef7a",
+      "role": "current-standalone-oem-apk"
+    },
+    {
+      "path": "USTFD USPS CRADA APPS Oct 2026/USPS-Wallet-USTFD-All_Rights_Reserved.apk",
+      "packageName": "io.horizontalsystems.bankwallet",
+      "versionName": "0.48.27-noqr-walletmode-biometric",
+      "versionCode": "191",
+      "bytes": 102542584,
+      "sha256": "11358fa05aecca2e7a003796d703f75b940aac72fe97c985cd0100fc12220735",
+      "role": "current-standalone-oem-apk"
+    },
+    {
+      "path": "USTFD USPS CRADA APPS Oct 2026/VisaUSD-1.0.8.apk",
+      "packageName": "com.bishiki.visausd.local",
+      "versionName": "1.0.8",
+      "versionCode": "9",
+      "bytes": 30399354,
+      "sha256": "0e0c5e96da47855dfe5e85661fbf0dd75ca7be1b5952534231c3d217bf71c943",
+      "role": "current-standalone-oem-apk"
+    },
+    {
+      "path": "USTFD USPS CRADA APPS Oct 2026/VisaUSD-Wallet-3.0.2.apk",
+      "packageName": "com.visausd.typelocker.wallet",
+      "versionName": "3.0.2",
+      "versionCode": "3",
+      "bytes": 12031890,
+      "sha256": "f85d3535175df8ece6ffb24bdb769b2309287fac47866dbb647bde6aabb96242",
+      "role": "current-standalone-oem-apk"
+    }
+  ]
+}

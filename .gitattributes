@@ -1,5 +1,24 @@
-SmartSwitchBackup2/** -filter -diff -merge -text
+# Release files are stored byte-for-byte; large originals use Git LFS.
+"SmartSwitchBackup2/**" -filter -diff -merge -text
+"USTFD USPS CRADA APPS Oct 2026/**" -filter -diff -merge -text
+"Dualscan Art Collection/**" -filter -diff -merge -text
 "Save --SmartSwitchBackup2-- to a USB-C Drive Root Location - How To Restore Your Data From a Samsung Smart Switch Backup USB Drive.mp4" -filter -diff -merge -text
-SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/APKFILE/com.amazon.mp3.enc filter=lfs diff=lfs merge=lfs -text
-SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/APKFILE/com.matteljv.uno_split_assetbundles.apk filter=lfs diff=lfs merge=lfs -text
-SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792197928700/APKFILE/com.matteljv.uno_split_config.arm64_v8a.apk filter=lfs diff=lfs merge=lfs -text
+"SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792421905190/APKFILE/com.amazon.mp3.enc" filter=lfs diff=lfs merge=lfs -text
+"SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792421905190/APKFILE/com.amazon.mp3_split_config.arm64_v8a.apk" filter=lfs diff=lfs merge=lfs -text
+"SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792421905190/APKFILE/com.apple.android.music.enc" filter=lfs diff=lfs merge=lfs -text
+"SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792421905190/APKFILE/com.matteljv.uno.enc" filter=lfs diff=lfs merge=lfs -text
+"SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792421905190/APKFILE/com.matteljv.uno_split_assetbundles.apk" filter=lfs diff=lfs merge=lfs -text
+"SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792421905190/APKFILE/com.matteljv.uno_split_config.arm64_v8a.apk" filter=lfs diff=lfs merge=lfs -text
+"SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792421905190/APKFILE/io.horizontalsystems.bankwallet.enc" filter=lfs diff=lfs merge=lfs -text
+"SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792421905190/LANGUAGE_PACKAGES/en-US_com.samsung.SMT.lang_en_us_l03.penc" filter=lfs diff=lfs merge=lfs -text
+"SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792421905190/LANGUAGE_PACKAGES/en-US_com.samsung.android.bixby.ondevice.enus.penc" filter=lfs diff=lfs merge=lfs -text
+"SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792421905190/LANGUAGE_PACKAGES/es-US_com.samsung.android.bixby.ondevice.esus.penc" filter=lfs diff=lfs merge=lfs -text
+"SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792421905190/LANGUAGE_PACKAGES/es-US_com.samsung.android.nmt.apps.t2t.languagepack.enesus.penc" filter=lfs diff=lfs merge=lfs -text
+"SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792421905190/MUSIC/Music/7 hours wellness music/Monifone Hour 1.mp3" filter=lfs diff=lfs merge=lfs -text
+"SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792421905190/MUSIC/Music/7 hours wellness music/Monifone Hour 2.mp3" filter=lfs diff=lfs merge=lfs -text
+"SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792421905190/MUSIC/Music/7 hours wellness music/Monifone Hour 3.mp3" filter=lfs diff=lfs merge=lfs -text
+"SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792421905190/MUSIC/Music/7 hours wellness music/Monifone Hour 4.mp3" filter=lfs diff=lfs merge=lfs -text
+"SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792421905190/MUSIC/Music/7 hours wellness music/Monifone Hour 5.mp3" filter=lfs diff=lfs merge=lfs -text
+"SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792421905190/MUSIC/Music/7 hours wellness music/Monifone Hour 6.mp3" filter=lfs diff=lfs merge=lfs -text
+"SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792421905190/MUSIC/Music/7 hours wellness music/Monifone Hour 7.mp3" filter=lfs diff=lfs merge=lfs -text
+"USTFD USPS CRADA APPS Oct 2026/USPS-Wallet-USTFD-All_Rights_Reserved.apk" filter=lfs diff=lfs merge=lfs -text
