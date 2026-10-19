@@ -38,7 +38,7 @@ dialog.addEventListener('click',event=>{if(event.target===dialog)dialog.close();
 const menuToggle=$('menuToggle'),mainNavigation=$('mainNavigation');
 function closeNavigation(){menuToggle.setAttribute('aria-expanded','false');mainNavigation.classList.remove('is-open');}
 menuToggle.addEventListener('click',()=>{const open=menuToggle.getAttribute('aria-expanded')!=='true';menuToggle.setAttribute('aria-expanded',String(open));mainNavigation.classList.toggle('is-open',open);});
-mainNavigation.querySelectorAll('a').forEach(link=>link.addEventListener('click',()=>{closeNavigation();const target=document.querySelector(link.getAttribute('href'));if(target&&matchMedia('(max-width: 1000px)').matches){target.setAttribute('tabindex','-1');target.focus({preventScroll:true});}}));
+mainNavigation.querySelectorAll('a').forEach(link=>link.addEventListener('click',()=>{closeNavigation();const href=link.getAttribute('href');const target=href&&href.startsWith('#')?document.querySelector(href):null;if(target&&matchMedia('(max-width: 1000px)').matches){target.setAttribute('tabindex','-1');target.focus({preventScroll:true});}}));
 document.addEventListener('keydown',event=>{if(event.key==='Escape'&&menuToggle.getAttribute('aria-expanded')==='true'){closeNavigation();menuToggle.focus();}});
 document.addEventListener('click',event=>{if(!event.target.closest('.header'))closeNavigation();});
 showStep(0);
