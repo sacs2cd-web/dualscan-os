@@ -4,7 +4,7 @@ Manifest version 1.0 · October 2026
 
 This document identifies the Core OEM Components referenced by sections 3–5 of the [Dualscan OS Community & Commercial License](LICENSE). The machine-readable inventory is [manifests/core-oem-v1.json](manifests/core-oem-v1.json).
 
-The protected dock and component definitions retain the supplied October 16 reference screenshots and independently inspected baseline APK manifests. The distribution payload was updated from the owner-supplied October 19 release. Current standalone OEM package versions and hashes are listed separately in [manifests/oem-apk-release.json](manifests/oem-apk-release.json). The base APKs and primary application manifest inside the supplied Smart Switch backup are encrypted. Accordingly, standalone versions and hashes below are **reference artifacts, not cryptographically verified versions of the encrypted backup**. At the owner’s direction, the supplied Smart Switch folder is being published intact and as-is. Its exact payloads remain the restore source; the independent standalone references do not substitute for them.
+The protected dock and component definitions retain the supplied October 16 reference screenshots and independently inspected baseline APK manifests. The distribution payload was updated from the owner-supplied October 20 release. Current standalone OEM package versions and hashes are listed separately in [manifests/oem-apk-release.json](manifests/oem-apk-release.json). The base APKs and primary application manifest inside the supplied Smart Switch backup are encrypted. Accordingly, standalone versions and hashes below are **reference artifacts, not cryptographically verified versions of the encrypted backup**. At the owner’s direction, the supplied Smart Switch folder is being published intact and as-is. Its exact payloads remain the restore source; the independent standalone references do not substitute for them.
 
 ## Required home-screen tray
 
@@ -24,7 +24,7 @@ Alternative launchers may be added under the License, provided the mandatory tra
 
 ## Additional protected OEM applications
 
-These protected components are identified by the baseline package and launcher references. They remain part of the component policy; no mandatory tray position is assigned to them by the supplied screenshots. The October 19 restore payload and companion standalone OEM APKs are inventoried separately.
+These protected components are identified by the baseline package and launcher references. They remain part of the component policy; no mandatory tray position is assigned to them by the supplied screenshots. The October 20 restore payload and companion standalone OEM APKs are inventoried separately.
 
 | Application | Android package | Standalone reference and evidence status |
 | --- | --- | --- |
@@ -32,10 +32,10 @@ These protected components are identified by the baseline package and launcher r
 | Dualscan™ Chat | `com.dualscan.concertparty` | 1.5.17-dualscan.1 / code 10517 |
 | Dualscan LDAC Activator | `com.dualscan.ldacactivator` | 1.4 / code 5 |
 | Diamond™ Player · launcher label Diamond™ | `com.dualscan.mp` | 1.2.1 / code 6; inspected candidate is a development APK |
-| Dualscan Share Lite | `com.dualscan.share.lite` | October 19: standalone 1.1.1 supplied in the OEM APK folder; no encrypted Share Lite base APK is present in this supplied restore tree |
+| Dualscan Share Lite | `com.dualscan.share.lite` | October 20: standalone 1.1.1 supplied in the OEM APK folder; no encrypted Share Lite base APK is present in this supplied restore tree |
 | VisaUSD Typelocker Wallet | `com.visausd.typelocker.wallet` | Encrypted payload and launcher record; version unverified |
 
-Baseline software references, permissions, activities, services, receivers, and providers are recorded in [the core JSON manifest](manifests/core-oem-v1.json). Current restore-file hashes are in [BACKUP_SHA256.json](BACKUP_SHA256.json), and the October 19 standalone OEM APK identities and hashes are in [manifests/oem-apk-release.json](manifests/oem-apk-release.json). An encrypted Smart Switch payload hash identifies that encrypted file; it is not the hash of its restored APK. The encrypted backup was not decrypted to establish a match.
+Baseline software references, permissions, activities, services, receivers, and providers are recorded in [the core JSON manifest](manifests/core-oem-v1.json). Current restore-file hashes are in [BACKUP_SHA256.json](BACKUP_SHA256.json), and the October 20 standalone OEM APK identities and hashes are in [manifests/oem-apk-release.json](manifests/oem-apk-release.json). An encrypted Smart Switch payload hash identifies that encrypted file; it is not the hash of its restored APK. The encrypted backup was not decrypted to establish a match.
 
 ## Protected operational components
 
@@ -81,9 +81,9 @@ Apple Music, Suno, Amazon Music, UNO, ChatGPT, Gemini, Samsung Phone, Camera, Ga
 
 ## Intact restore package and verification scope
 
-The October 19 supplied Smart Switch backup contains 327 files totaling **3,856,570,925 bytes**; its own metadata reports a logical total of **4,744,811,987 bytes**. The complete companion release contains 536 files totaling **4,808,964,728 bytes**, including the separate OEM APK and art folders and restoration video. It includes encrypted app-associated data, gallery/search databases, shortcut bitmaps, photo/art files, diagnostic logs, and device-specific state. Those categories were identified from filenames and metadata only; personal/account contents were not opened.
+The October 20 supplied Smart Switch backup contains 268 files totaling **3,023,487,498 bytes**; its own metadata reports a logical total of **3,607,791,280 bytes**. The complete companion release contains 477 files totaling **3,976,261,489 bytes**, including the separate OEM APK and art folders and restoration video. It includes encrypted app-associated data, photo/art files, music, and device-specific state. Those categories were identified from filenames and metadata only; personal/account contents were not opened.
 
-The replacement backup does not contain `APKFILE/com.dualscan.mp.enc`. Install the separate `Diamond-Player-1.4.3.apk` from the OEM APK folder after restoration to provide Diamond Player.
+The replacement backup contains `APKFILE/com.dualscan.mp.enc`. The standalone `Diamond-Player-1.4.3.apk` remains in the OEM folder, where `VisaUSD-1.0.12.apk` replaces VisaUSD 1.0.8. No encrypted base APK was decrypted to establish its restored version.
 
 The source backup remains unchanged. The owner has requested publication of the complete folder as-is, preserving its files and restore structure. [manifests/reference-backup-audit.json](manifests/reference-backup-audit.json) contains a metadata-only category audit and software-payload hashes; no personal/account payload contents are reproduced in these documentation files.
 
