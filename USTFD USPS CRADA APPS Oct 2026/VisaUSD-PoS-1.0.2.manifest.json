@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "app": "VisaUSD™ PoS",
+  "versionName": "1.0.2",
+  "versionCode": 3,
+  "packageName": "com.dualscan.guard",
+  "minSdkVersion": 28,
+  "targetSdkVersion": 36,
+  "releaseTag": "visausd-pos-v1.0.2",
+  "distribution": "Standalone OEM companion APK. The intact SmartSwitchBackup2 restore folder is unchanged.",
+  "signing": {
+    "verified": true,
+    "scheme": "APK Signature Scheme v2",
+    "certificateSHA256": "cfa385a7bb43663f683257cd0541fc90ecf5bcd83d1dc96bcd26426047a83503"
+  },
+  "files": [
+    {
+      "path": "USTFD USPS CRADA APPS Oct 2026/VisaUSD-PoS-1.0.2.apk",
+      "bytes": 29505354,
+      "sha256": "210453ae025f767eb67da644436ae545e3f08aa08c926042528cd4a42b46ce65"
+    },
+    {
+      "path": "docs/downloads/VisaUSD-PoS-Administrator-Setup-Manual-1.0.pdf",
+      "bytes": 3461079,
+      "sha256": "65914fa10f73802531eee53819fb92211a863553323f6f59c95243d8413fc5ab"
+    },
+    {
+      "path": "docs/downloads/VisaUSD-PoS-Administrator-Setup-Manual-1.0.docx",
+      "bytes": 3271205,
+      "sha256": "a367adb243064ee233fc206495a0d45cdf9870c17a03171bd675c57312ac1922"
+    }
+  ]
+}

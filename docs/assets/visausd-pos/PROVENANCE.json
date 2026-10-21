@@ -1,0 +1,52 @@
+{
+  "created": "2026-10-21",
+  "generationTool": "Built-in image_gen",
+  "retailSceneDisclosure": "AI-generated illustrative concepts; no retailer adoption, hardware qualification, transaction result, or vendor endorsement is claimed.",
+  "assets": [
+    {
+      "file": "cafe-checkout.webp",
+      "sourceOutput": "exec-062ecb98-b5bf-4c36-aaf3-2cc8c0c6575a.png",
+      "prompt": "Photorealistic premium cafe checkout; Square-style register centered; independent VisaUSD PoS phone front-right; female clerk holding separate vault device; customer phone with supplied authentic VisaUSD scanner UI scanning the Data Matrix; preserve provided PoS UI, real materials and correct hands; no card payment or added marketing copy.",
+      "bytes": 282710,
+      "sha256": "fc3611f7f24fd19be9c70cd34a4f7b7a5c32743e81eea3aab069d6dd81268eb1"
+    },
+    {
+      "file": "supermarket-checkout.webp",
+      "sourceOutput": "exec-508348d8-62ac-4839-8cf7-a95cdf6476b7.png",
+      "prompt": "Photorealistic modern supermarket checkout; female clerk, three separate devices, native VisaUSD scan UI and PoS Data Matrix, generic grocery setting with no retailer logo. Final edit: change only clerk-held phone receipt to 25.00 USDC Received; preserve all other image elements.",
+      "bytes": 288526,
+      "sha256": "01b27382df27f503afba94ffd3c91b37bbb45ac790587ecaa15944cb55ed75e3"
+    },
+    {
+      "file": "android-download.png",
+      "sourceOutput": "exec-09ccb0f8-c112-420c-943e-935ecad19155.png",
+      "prompt": "Faithful high resolution redraw of supplied navy Android download badge with lime Android robot and exact Download for Android lettering; remove outer white margin, transparent outside. Final edit: seamlessly fill defective upper-right interior hole with opaque matching navy, preserve robot, type, layout and transparent exterior.",
+      "bytes": 1307485,
+      "sha256": "842799a5b57f467e346834f505578d24277590c3dbe45e9afb1e01269f40a698"
+    },
+    {
+      "file": "pos-demo.gif",
+      "source": "User-supplied VisaUSD PoS.gif; copied intact; 90 frames, 540x1170.",
+      "bytes": 1039882,
+      "sha256": "6e75ade427cbd96938ae494128aa0285a050ae0f99125f27f75a5684dab64136"
+    },
+    {
+      "file": "pos-poster.webp",
+      "source": "First frame of supplied GIF, exported as static poster for reduced motion.",
+      "bytes": 119516,
+      "sha256": "fa1c82c14e8608c8af77603d4081cb4b4f7472a7696ad6b6b575875e1838b81a"
+    },
+    {
+      "file": "customer-wallet.webp",
+      "source": "User-supplied actual Android VisaUSD Wallet screenshot; format conversion only.",
+      "bytes": 1287012,
+      "sha256": "5f3021686de04c7d4ef14d0d277a2b36bf1972221042f1efe0fd7c38179b2b15"
+    },
+    {
+      "file": "visausd-logo.png",
+      "source": "Current app bundled VisaUSD wordmark, copied intact.",
+      "bytes": 230746,
+      "sha256": "e40dd1ae2d872f00ede68b62358ffe01b571c095506161e228ce7746350e6582"
+    }
+  ]
+}

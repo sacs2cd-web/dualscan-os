@@ -1,0 +1,134 @@
+{
+  "checked": "2026-10-21",
+  "note": "Official artwork copied unchanged. Brand ownership remains with the respective rights holders. Compatibility naming does not imply endorsement. Preserve artwork and clear space; see brandPage for guidelines.",
+  "assets": [
+    {
+      "file": "trust-wallet-logo-blue.svg",
+      "source": "https://trustwallet.com/download/logos.zip",
+      "brandPage": "https://trustwallet.com/press",
+      "archiveMember": "Trust - Logos/Trust Wallet Logos/Trust Wallet Core Logo/SVG/Trust Wallet Core Logo_Blue.svg",
+      "bytes": 2920,
+      "sha256": "95ac4202bd3ba996a2cfc6eb4285db2ad93d45d3c939a09a34f5aef3f55cd162"
+    },
+    {
+      "file": "trust-wallet-logo-green.svg",
+      "source": "https://trustwallet.com/download/logos.zip",
+      "brandPage": "https://trustwallet.com/press",
+      "archiveMember": "Trust - Logos/Trust Wallet Logos/Trust Wallet Core Logo/SVG/Trust Wallet Core Logo_Green.svg",
+      "bytes": 2995,
+      "sha256": "4414530f3ca5193d17bd6b843bd20616f6e05a54d8e285f24eb0716ef4283678"
+    },
+    {
+      "file": "metamask-icon.svg",
+      "source": "https://assets.ctfassets.net/clixtyxoaeas/7zr3ud0GYjqWBDAeS8tXJo/15bf821cf3b122dbdc9f83b509b065d5/MetaMask-Logo-Pack.zip",
+      "brandPage": "https://metamask.io/en-GB/assets",
+      "archiveMember": "MetaMask-Logo-Pack/MetaMask/MetaMask-icon-fox.svg",
+      "bytes": 2693,
+      "sha256": "1489898add91119438809430cb5e39293e6a9bd2b273f7f24563de1f2f33918b"
+    },
+    {
+      "file": "metamask-logo-white.svg",
+      "source": "https://assets.ctfassets.net/clixtyxoaeas/7zr3ud0GYjqWBDAeS8tXJo/15bf821cf3b122dbdc9f83b509b065d5/MetaMask-Logo-Pack.zip",
+      "brandPage": "https://metamask.io/en-GB/assets",
+      "archiveMember": "MetaMask-Logo-Pack/MetaMask/MetaMask-logo-white.svg",
+      "bytes": 3148,
+      "sha256": "a77bd50cc793b36c4ae001bb410f0e01f0fce69f1e397376f0bbaa5c0ffe6e68"
+    },
+    {
+      "file": "base-logo-white.svg",
+      "source": "https://brand.base.org/base-brand.zip",
+      "brandPage": "https://brand.base.org",
+      "archiveMember": "1_Base Brand Assets/Logotype/Base_lockup_white.svg",
+      "bytes": 1918,
+      "sha256": "9e8f22c610dbadad0741ca70354277efe9f24b39cc14376cd805da6f70b486f1"
+    },
+    {
+      "file": "base-square.svg",
+      "source": "https://brand.base.org/base-brand.zip",
+      "brandPage": "https://brand.base.org",
+      "archiveMember": "1_Base Brand Assets/The Square/Base_square_blue.svg",
+      "bytes": 672,
+      "sha256": "b4f2b487011713f98481cc53c4ce095629b4876acbdbc2f0f3ad69a9688ba82e"
+    },
+    {
+      "file": "usdc.svg",
+      "source": "https://6778953.fs1.hubspotusercontent-na1.net/hubfs/6778953/Pressroom/brandkit/logo-downloads/usdc.zip",
+      "brandPage": "https://www.circle.com/pressroom#brandkit",
+      "archiveMember": "Token Logo/USDC Token.svg",
+      "bytes": 1309,
+      "sha256": "fe4f9d5f34ef4ebeb5d80e1f5ff63dcaf5a0d5495f4adf206e4c3011d1f5c57d"
+    },
+    {
+      "file": "trust-wallet-icon.png",
+      "source": "https://trustwallet.com/apple-icon.png?afa632096410c4eb",
+      "brandPage": "https://trustwallet.com/press",
+      "archiveMember": null,
+      "bytes": 1595,
+      "sha256": "eb0df3421f3c21d171c1db0b2ab0e5ac48c92e636c0e4dd15f8eea3ab595fea3"
+    },
+    {
+      "file": "cash-app-logo-green.svg",
+      "source": "https://design.cash.app/logo-variant-selector/RGB_CashApp_Logo_Primary_Green_Light_Mode.svg",
+      "brandPage": "https://design.cash.app/logo-variant-selector/",
+      "archiveMember": null,
+      "bytes": 3866,
+      "sha256": "3e28e5d7ff4bab51fba8cf7b64f2bce296946c2cd62efcb603eb3c413186d6d5"
+    },
+    {
+      "file": "cash-app-logo-white.svg",
+      "source": "https://design.cash.app/logo-variant-selector/RGB_CashApp_Logo_Primary_White_Monochrome.svg",
+      "brandPage": "https://design.cash.app/logo-variant-selector/",
+      "archiveMember": null,
+      "bytes": 4656,
+      "sha256": "5462edb2a8bccfa4aa793471f7114df57882c819206c3e588123a911027bf05e"
+    },
+    {
+      "file": "cash-app-icon.ico",
+      "source": "https://cash.app/favicon.ico",
+      "brandPage": "https://cash.app/press",
+      "archiveMember": null,
+      "bytes": 1150,
+      "sha256": "2b6fe1428e7559d47fd3672891ced8b9c1fffd757461dfb13e134340077ddd06"
+    },
+    {
+      "file": "coinbase-icon.png",
+      "source": "https://www.coinbase.com/assets/sw-cache/a_CcvONSrV.png",
+      "brandPage": "https://www.coinbase.com/press",
+      "archiveMember": null,
+      "bytes": 3208,
+      "sha256": "7f777a0500c18064de9cbb976e098363ad6969fe43552dd7e297c68570c0f7bd"
+    },
+    {
+      "file": "coinbase-logo.svg",
+      "source": "https://static-assets.coinbase.com/ui-infra/illustration/v1/pictogram/svg/light/coinbaseLogoNavigation-4.svg",
+      "brandPage": "https://www.coinbase.com/press",
+      "archiveMember": null,
+      "bytes": 338,
+      "sha256": "7be694dd0481db697aefb5008b5ea5b43763962d40f3bcb544069ad0b9463c17"
+    },
+    {
+      "file": "solana.svg",
+      "source": "https://solana.com/src/img/branding/solanaLogoMark.svg",
+      "brandPage": "https://solana.com/branding",
+      "archiveMember": null,
+      "bytes": 2519,
+      "sha256": "3d3401109aa061dec40a8659f1847817a8e647f98de1e65e76e86a95bbe1f08a"
+    },
+    {
+      "file": "polygon.svg",
+      "source": "https://polygon.technology/favicon.svg",
+      "brandPage": "https://polygon.technology/brand-guidelines",
+      "archiveMember": null,
+      "bytes": 515,
+      "sha256": "7eda178dc46658f07c55fa47d0d4d51840547f1ff73eab4da28a22923f9baf5b"
+    },
+    {
+      "file": "trust-wallet-icon.svg",
+      "source": "https://trustwallet.com/icon.svg?d57da504207bc776",
+      "brandPage": "https://trustwallet.com/press",
+      "archiveMember": null,
+      "bytes": 854,
+      "sha256": "c3729a732e44aec8b096f4b888d211efe395566452e3eccc7c6743467158b148"
+    }
+  ]
+}

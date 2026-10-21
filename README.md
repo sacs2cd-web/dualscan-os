@@ -123,3 +123,16 @@ The supplied Smart Switch restore timestamp is `1792495176448`; original encrypt
 - `Dualscan Art Collection/` — separate companion artwork.
 
 Copyright © 2026 Dualscan LLC. All rights reserved, subject to the applicable component licenses.
+
+## VisaUSD™ PoS™ 1.0.2 checkout terminal
+
+The standalone VisaUSD PoS Android app is included in `USTFD USPS CRADA APPS Oct 2026/VisaUSD-PoS-1.0.2.apk`. It adds a customer-facing USDC payment Gate on Solana and Polygon with a separately configured merchant vault. The supplied Smart Switch restore tree is unchanged; install this companion APK separately.
+
+- [Solutions, payment fees and customer guardrails](https://dualscan.cloud/pos/)
+- [Public APK release, checksum and administrator manuals](https://github.com/sacs2cd-web/dualscan-os/releases/tag/visausd-pos-v1.0.2)
+- [Open the PDF administrator manual](https://dualscan.cloud/downloads/VisaUSD-PoS-Administrator-Setup-Manual-1.0.pdf)
+- [Download the editable Word manual](https://dualscan.cloud/downloads/VisaUSD-PoS-Administrator-Setup-Manual-1.0.docx)
+
+The PoS accepts supported native USDC only. At 3 USDC or more per intake, 0.50 USDC is deducted; below 3 USDC there is no USDC service fee. Network gas is separate. Eligible direct mistaken SOL/POL payments outside an explicit admin funding window are returned less 20% and outgoing network costs; exclusions and held states are explained in the manual. Enable forwarding for each offered network and keep the app foregrounded and unlocked. Funded merchant acceptance testing is required before live deployment.
+
+VisaUSD™ and VisaUSD PoS™ are trademarks of Dualscan LLC. Website retail/device scenes are illustrative concepts; third-party wallet marks identify documented network support, not partnership or funded interoperability testing.

@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "releaseDate": "2026-10-20",
+  "releaseDate": "2026-10-21",
   "releaseFolders": [
     "SmartSwitchBackup2",
     "USTFD USPS CRADA APPS Oct 2026",
     "Dualscan Art Collection"
   ],
-  "fileCount": 477,
-  "totalBytes": 3976261489,
+  "fileCount": 480,
+  "totalBytes": 4005768047,
   "hashAlgorithm": "SHA-256",
-  "note": "Owner-supplied replacement Smart Switch restore tree (timestamp 1792495176448) and standalone VisaUSD 1.0.12 update replacing VisaUSD 1.0.8. Diamond Player 1.4.3, other OEM companions, art and restoration video are unchanged. Extract the repository ZIP and copy only SmartSwitchBackup2 to the USB-C drive root.",
+  "note": "Owner-supplied replacement Smart Switch restore tree (timestamp 1792495176448) and standalone VisaUSD 1.0.12 update replacing VisaUSD 1.0.8. Diamond Player 1.4.3, other OEM companions, art and restoration video are unchanged. Extract the repository ZIP and copy only SmartSwitchBackup2 to the USB-C drive root. Added standalone VisaUSD PoS 1.0.2 APK, checksum and public release manifest; existing restore, app and art payloads remain intact.",
   "files": [
     {
       "path": "Dualscan Art Collection/01595d946ae8e7c220313490cc937261.png",
@@ -3342,6 +3342,21 @@
       "sha256": "6eabc9705787c5f6616dfc1f1bd4d2393803a01cd0476d3f926c63691e04ff50",
       "sourceMode": "0o700",
       "sourceMtimeNs": 1792472584000000000
+    },
+    {
+      "path": "USTFD USPS CRADA APPS Oct 2026/VisaUSD-PoS-1.0.2.apk",
+      "bytes": 29505354,
+      "sha256": "210453ae025f767eb67da644436ae545e3f08aa08c926042528cd4a42b46ce65"
+    },
+    {
+      "path": "USTFD USPS CRADA APPS Oct 2026/VisaUSD-PoS-1.0.2.apk.sha256",
+      "bytes": 88,
+      "sha256": "90fa3faee67246e1a80ddddb7dc4e563cadd6cab1f23c1cf57eca0971aab9bc4"
+    },
+    {
+      "path": "USTFD USPS CRADA APPS Oct 2026/VisaUSD-PoS-1.0.2.manifest.json",
+      "bytes": 1116,
+      "sha256": "2c22d04fb10d3d8748833798f7b0347d0ebbf302ad4418ab5552352ea7680352"
     },
     {
       "path": "USTFD USPS CRADA APPS Oct 2026/VisaUSD-Wallet-3.0.2.apk",
