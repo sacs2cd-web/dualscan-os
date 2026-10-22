@@ -14,13 +14,13 @@ The supplied demonstration video is in the repository root. You can also play it
 
 | Material | Files | Exact bytes |
 | --- | ---: | ---: |
-| `SmartSwitchBackup2/` | 268 | 3,023,487,498 |
+| `SmartSwitchBackup2/` | 259 | 1,859,108,769 |
 | `USTFD USPS CRADA APPS Oct 2026/` | 20 | 402,273,357 |
 | `Dualscan Art Collection/` | 191 | 560,264,205 |
 | Original restoration demo video | 1 | 19,365,643 |
-| **Complete release** | **480** | **4,005,390,703** |
+| **Complete release** | **471** | **2,841,011,974** |
 
-The Smart Switch backup timestamp is `1792495176448`. Its original folder contents remain unchanged. The separate OEM folder contains standalone APKs and supplied source backups; it is not part of the encrypted Smart Switch restore payload. Do not infer the versions inside that payload from companion APK filenames.
+The Smart Switch backup timestamp is `1792696375893`. This October 22 replacement is preserved exactly as supplied. The separate OEM app folder is unchanged by this restore-image update. The separate OEM folder contains standalone APKs and supplied source backups; it is not part of the encrypted Smart Switch restore payload. Do not infer the versions inside that payload from companion APK filenames.
 
 **Diamond Player is included:** this replacement backup contains `APKFILE/com.dualscan.mp.enc`. The separate OEM folder also retains `Diamond-Player-1.4.3.apk` and now supplies `VisaUSD-1.0.14.apk` in place of VisaUSD 1.0.13. The encrypted backup’s restored APK versions have not been independently verified.
 

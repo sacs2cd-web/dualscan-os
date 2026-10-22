@@ -82,15 +82,15 @@ Menu labels vary by Smart Switch version. Select the option before creating the 
 
 ## Distribution integrity
 
-The Smart Switch restore folder is preserved **as supplied**. The companion OEM folder includes Diamond Player 1.4.3 and the supplied VisaUSD 1.0.14 update, replacing the previous standalone VisaUSD 1.0.13 build. VisaUSD 1.0.14 adds a sender beep and receiver vibration after successful Gaming Credits NFC transfers. The restore folder, companion OEM folder, art collection and original video are separate release materials:
+The October 22 replacement Smart Switch restore folder is preserved **as supplied**. The separate OEM app folder is unchanged by this restore-image update. The companion OEM folder includes Diamond Player 1.4.3 and the supplied VisaUSD 1.0.14 update, replacing the previous standalone VisaUSD 1.0.13 build. VisaUSD 1.0.14 adds a sender beep and receiver vibration after successful Gaming Credits NFC transfers. The restore folder, companion OEM folder, art collection and original video are separate release materials:
 
 | Release material | Files | Exact bytes | Use |
 | --- | ---: | ---: | --- |
-| `SmartSwitchBackup2/` | 268 | 3,023,487,498 | Copy intact to the USB-C drive root for Smart Switch restore. |
+| `SmartSwitchBackup2/` | 259 | 1,859,108,769 | Copy intact to the USB-C drive root for Smart Switch restore. |
 | `USTFD USPS CRADA APPS Oct 2026/` | 20 | 402,273,357 | Separate standalone APKs and supplied source backups. |
 | `Dualscan Art Collection/` | 191 | 560,264,205 | Companion artwork files. |
 | Original restoration demo video | 1 | 19,365,643 | Watch the supplied restoration instructions. |
-| **Complete release** | **480** | **4,005,390,703** | Approximately **4.01 GB**, before GitHub archive overhead. |
+| **Complete release** | **471** | **2,841,011,974** | Approximately **2.84 GB**, before GitHub archive overhead. |
 
 [RELEASE_SHA256.json](RELEASE_SHA256.json) records the exact byte count and SHA-256 of every supplied release file. [BACKUP_SHA256.json](BACKUP_SHA256.json) retains the restore-folder and video inventory. From the extracted repository, run:
 
@@ -108,7 +108,7 @@ The verifier uses `RELEASE_SHA256.json` when available, checking all three folde
 
 Large original files use Git LFS. This repository must include LFS objects in generated archives so **Code → Download ZIP** contains the actual files. For a Git checkout, install Git LFS and run `git lfs pull`. A download containing text LFS pointers fails the verifier with a file-specific recovery hint and is not a complete release.
 
-The supplied Smart Switch restore timestamp is `1792495176448`; original encrypted metadata and category files are retained without conversion. The byte counts above describe the distributed files, not Smart Switch’s reported logical restore size. Companion OEM APKs are separate from this payload, and their standalone versions are not evidence of versions inside encrypted backup files. A receiving-device restore and physical USB DAC qualification have not been performed as part of this publication. See [manifests/reference-backup-audit.json](manifests/reference-backup-audit.json).
+The supplied Smart Switch restore timestamp is `1792696375893`; original encrypted metadata and category files are retained without conversion. The byte counts above describe the distributed files, not Smart Switch’s reported logical restore size. Companion OEM APKs are separate from this payload, and their standalone versions are not evidence of versions inside encrypted backup files. A receiving-device restore and physical USB DAC qualification have not been performed as part of this publication. See [manifests/reference-backup-audit.json](manifests/reference-backup-audit.json).
 
 ## Project files
 
@@ -126,7 +126,7 @@ Copyright © 2026 Dualscan LLC. All rights reserved, subject to the applicable c
 
 ## VisaUSD™ PoS™ 1.0.2 checkout terminal
 
-The standalone VisaUSD PoS Android app is included in `USTFD USPS CRADA APPS Oct 2026/VisaUSD-PoS-1.0.2.apk`. It adds a customer-facing USDC payment Gate on Solana and Polygon with a separately configured merchant vault. The supplied Smart Switch restore tree is unchanged; install this companion APK separately.
+The standalone VisaUSD PoS Android app is included in `USTFD USPS CRADA APPS Oct 2026/VisaUSD-PoS-1.0.2.apk`. It adds a customer-facing USDC payment Gate on Solana and Polygon with a separately configured merchant vault. The October 22 replacement Smart Switch tree also contains an encrypted VisaUSD PoS base APK; its restored version has not been verified. The standalone companion APK remains available separately.
 
 - [Solutions, payment fees and customer guardrails](https://dualscan.cloud/pos/)
 - [Public APK release, checksum and administrator manuals](https://github.com/sacs2cd-web/dualscan-os/releases/tag/visausd-pos-v1.0.2)
