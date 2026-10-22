@@ -10,6 +10,12 @@
 
 The supplied demonstration video is in the repository root. You can also play it on the [project page](https://dualscan.cloud/#restore).
 
+## VisaUSD update after restoring the current SSS image
+
+After restoring the current Smart Switch image, install [**VisaUSD 1.0.15 — build 17**](https://github.com/sacs2cd-web/dualscan-os/raw/refs/heads/main/USTFD%20USPS%20CRADA%20APPS%20Oct%202026/VisaUSD-1.0.15.apk) from the separate OEM folder. Open the APK on the Galaxy and choose **Update**. Install it over the restored VisaUSD app; **do not uninstall it or clear its data**. This keeps the existing wallet, PIN and settings while fixing Receive DataMatrix and Publicnode account reads.
+
+Build 17 is the working, device-confirmed replacement. The previous defective standalone VisaUSD APK has been removed from the current OEM folder. A new SSS image is being prepared; this APK provides the update for the currently published image.
+
 ## Release contents
 
 | Material | Files | Exact bytes |
