@@ -83,7 +83,7 @@ Apple Music, Suno, Amazon Music, UNO, ChatGPT, Gemini, Samsung Phone, Camera, Ga
 
 The October 20 supplied Smart Switch backup contains 268 files totaling **3,023,487,498 bytes**; its own metadata reports a logical total of **3,607,791,280 bytes**. The complete companion release contains 477 files totaling **3,976,261,489 bytes**, including the separate OEM APK and art folders and restoration video. It includes encrypted app-associated data, photo/art files, music, and device-specific state. Those categories were identified from filenames and metadata only; personal/account contents were not opened.
 
-The replacement backup contains `APKFILE/com.dualscan.mp.enc`. The standalone `Diamond-Player-1.4.3.apk` remains in the OEM folder, where `VisaUSD-1.0.12.apk` replaces VisaUSD 1.0.8. No encrypted base APK was decrypted to establish its restored version.
+The replacement backup contains `APKFILE/com.dualscan.mp.enc`. The standalone `Diamond-Player-1.4.3.apk` remains in the OEM folder, where `VisaUSD-1.0.13.apk` replaces VisaUSD 1.0.12. No encrypted base APK was decrypted to establish its restored version.
 
 The source backup remains unchanged. The owner has requested publication of the complete folder as-is, preserving its files and restore structure. [manifests/reference-backup-audit.json](manifests/reference-backup-audit.json) contains a metadata-only category audit and software-payload hashes; no personal/account payload contents are reproduced in these documentation files.
 

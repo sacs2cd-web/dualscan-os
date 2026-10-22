@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "releaseDate": "2026-10-20",
+  "releaseDate": "2026-10-22",
   "folder": "USTFD USPS CRADA APPS Oct 2026",
-  "fileCount": 17,
-  "bytes": 373144143,
+  "fileCount": 20,
+  "bytes": 402270001,
   "inspection": "Android aapt2 package metadata from supplied standalone APKs; no encrypted Smart Switch payload version match claimed.",
   "apks": [
     {
@@ -97,12 +97,21 @@
       "role": "current-standalone-oem-apk"
     },
     {
-      "path": "USTFD USPS CRADA APPS Oct 2026/VisaUSD-1.0.12.apk",
+      "path": "USTFD USPS CRADA APPS Oct 2026/VisaUSD-1.0.13.apk",
       "packageName": "com.bishiki.visausd.local",
-      "versionName": "1.0.12",
-      "versionCode": "13",
-      "bytes": 30779542,
-      "sha256": "6eabc9705787c5f6616dfc1f1bd4d2393803a01cd0476d3f926c63691e04ff50",
+      "versionName": "1.0.13",
+      "versionCode": "14",
+      "bytes": 30398842,
+      "sha256": "83b18baea6bd604716de1a71269683ad2424f45c10d01fd1c7139aae174206ea",
+      "role": "current-standalone-oem-apk"
+    },
+    {
+      "path": "USTFD USPS CRADA APPS Oct 2026/VisaUSD-PoS-1.0.2.apk",
+      "packageName": "com.dualscan.guard",
+      "versionName": "1.0.2",
+      "versionCode": "3",
+      "bytes": 29505354,
+      "sha256": "210453ae025f767eb67da644436ae545e3f08aa08c926042528cd4a42b46ce65",
       "role": "current-standalone-oem-apk"
     },
     {

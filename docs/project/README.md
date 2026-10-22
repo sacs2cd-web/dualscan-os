@@ -82,15 +82,15 @@ Menu labels vary by Smart Switch version. Select the option before creating the 
 
 ## Distribution integrity
 
-The Smart Switch restore folder is preserved **as supplied**. The companion OEM folder includes Diamond Player 1.4.3 and the supplied VisaUSD 1.0.12 update, replacing the previous standalone VisaUSD 1.0.8 build. The restore folder, companion OEM folder, art collection and original video are separate release materials:
+The Smart Switch restore folder is preserved **as supplied**. The companion OEM folder includes Diamond Player 1.4.3 and the supplied VisaUSD 1.0.13 update, replacing the previous standalone VisaUSD 1.0.12 build. The restore folder, companion OEM folder, art collection and original video are separate release materials:
 
 | Release material | Files | Exact bytes | Use |
 | --- | ---: | ---: | --- |
 | `SmartSwitchBackup2/` | 268 | 3,023,487,498 | Copy intact to the USB-C drive root for Smart Switch restore. |
-| `USTFD USPS CRADA APPS Oct 2026/` | 17 | 373,144,143 | Separate standalone APKs and supplied source backups. |
+| `USTFD USPS CRADA APPS Oct 2026/` | 20 | 402,270,001 | Separate standalone APKs and supplied source backups. |
 | `Dualscan Art Collection/` | 191 | 560,264,205 | Companion artwork files. |
 | Original restoration demo video | 1 | 19,365,643 | Watch the supplied restoration instructions. |
-| **Complete release** | **477** | **3,976,261,489** | Approximately **3.98 GB**, before GitHub archive overhead. |
+| **Complete release** | **480** | **4,005,387,347** | Approximately **4.01 GB**, before GitHub archive overhead. |
 
 [RELEASE_SHA256.json](RELEASE_SHA256.json) records the exact byte count and SHA-256 of every supplied release file. [BACKUP_SHA256.json](BACKUP_SHA256.json) retains the restore-folder and video inventory. From the extracted repository, run:
 

@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "releaseDate": "2026-10-21",
+  "releaseDate": "2026-10-22",
   "releaseFolders": [
     "SmartSwitchBackup2",
     "USTFD USPS CRADA APPS Oct 2026",
     "Dualscan Art Collection"
   ],
   "fileCount": 480,
-  "totalBytes": 4005768047,
+  "totalBytes": 4005387347,
   "hashAlgorithm": "SHA-256",
-  "note": "Owner-supplied replacement Smart Switch restore tree (timestamp 1792495176448) and standalone VisaUSD 1.0.12 update replacing VisaUSD 1.0.8. Diamond Player 1.4.3, other OEM companions, art and restoration video are unchanged. Extract the repository ZIP and copy only SmartSwitchBackup2 to the USB-C drive root. Added standalone VisaUSD PoS 1.0.2 APK, checksum and public release manifest; existing restore, app and art payloads remain intact.",
+  "note": "Owner-supplied replacement Smart Switch restore tree (timestamp 1792495176448) and standalone VisaUSD 1.0.12 update replacing VisaUSD 1.0.8. Diamond Player 1.4.3, other OEM companions, art and restoration video are unchanged. Extract the repository ZIP and copy only SmartSwitchBackup2 to the USB-C drive root. Added standalone VisaUSD PoS 1.0.2 APK, checksum and public release manifest; existing restore, app and art payloads remain intact. October 22 standalone OEM update: VisaUSD 1.0.13 replaces VisaUSD 1.0.12; SmartSwitchBackup2 is unchanged.",
   "files": [
     {
       "path": "Dualscan Art Collection/01595d946ae8e7c220313490cc937261.png",
@@ -3337,11 +3337,11 @@
       "sourceMtimeNs": 1783463568000000000
     },
     {
-      "path": "USTFD USPS CRADA APPS Oct 2026/VisaUSD-1.0.12.apk",
-      "bytes": 30779542,
-      "sha256": "6eabc9705787c5f6616dfc1f1bd4d2393803a01cd0476d3f926c63691e04ff50",
-      "sourceMode": "0o700",
-      "sourceMtimeNs": 1792472584000000000
+      "path": "USTFD USPS CRADA APPS Oct 2026/VisaUSD-1.0.13.apk",
+      "bytes": 30398842,
+      "sha256": "83b18baea6bd604716de1a71269683ad2424f45c10d01fd1c7139aae174206ea",
+      "sourceMode": "0o644",
+      "sourceMtimeNs": 1792688976915799501
     },
     {
       "path": "USTFD USPS CRADA APPS Oct 2026/VisaUSD-PoS-1.0.2.apk",
