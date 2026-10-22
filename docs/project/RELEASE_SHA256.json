@@ -7,9 +7,9 @@
     "Dualscan Art Collection"
   ],
   "fileCount": 471,
-  "totalBytes": 2841011974,
+  "totalBytes": 2841013518,
   "hashAlgorithm": "SHA-256",
-  "note": "Owner-supplied October 22 replacement Smart Switch restore tree (timestamp 1792696375893). Only SmartSwitchBackup2 is replaced; the standalone OEM app folder, companion artwork and restoration video are unchanged. Extract the repository ZIP and copy only SmartSwitchBackup2 to the USB-C drive root.",
+  "note": "Intact owner-supplied Smart Switch restore tree (timestamp 1792696375893), standalone OEM APKs including VisaUSD 1.0.15, companion artwork and restoration video. Standalone APK updates do not establish the versions inside the encrypted restore payload. Extract the repository ZIP and copy only SmartSwitchBackup2 to the USB-C drive root.",
   "files": [
     {
       "path": "Dualscan Art Collection/01595d946ae8e7c220313490cc937261.png",
@@ -3274,11 +3274,11 @@
       "sourceMtimeNs": 1783463568000000000
     },
     {
-      "path": "USTFD USPS CRADA APPS Oct 2026/VisaUSD-1.0.14.apk",
-      "bytes": 30402198,
-      "sha256": "1f2256dabfb230a55b0baf119f202551166bac1db0f2d2c9a47a7c7278ba6541",
+      "path": "USTFD USPS CRADA APPS Oct 2026/VisaUSD-1.0.15.apk",
+      "bytes": 30403742,
+      "sha256": "072cb893ea2deea7edd8b6e500a68e5b9c8ef364df2113f5ed0838d10650caca",
       "sourceMode": "0o644",
-      "sourceMtimeNs": 1792692880734019623
+      "sourceMtimeNs": 1792705000783811372
     },
     {
       "path": "USTFD USPS CRADA APPS Oct 2026/VisaUSD-PoS-1.0.2.apk",

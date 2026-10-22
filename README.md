@@ -82,15 +82,15 @@ Menu labels vary by Smart Switch version. Select the option before creating the 
 
 ## Distribution integrity
 
-The October 22 replacement Smart Switch restore folder is preserved **as supplied**. The separate OEM app folder is unchanged by this restore-image update. The companion OEM folder includes Diamond Player 1.4.3 and the supplied VisaUSD 1.0.14 update, replacing the previous standalone VisaUSD 1.0.13 build. VisaUSD 1.0.14 adds a sender beep and receiver vibration after successful Gaming Credits NFC transfers. The restore folder, companion OEM folder, art collection and original video are separate release materials:
+The October 22 replacement Smart Switch restore folder is preserved **as supplied**. The standalone VisaUSD 1.0.15 update replaces only the companion OEM APK; the supplied SmartSwitchBackup2 restore folder remains unchanged until a fresh Galaxy export is available. The companion OEM folder includes Diamond Player 1.4.3 and the supplied VisaUSD 1.0.15 update, replacing the previous standalone VisaUSD 1.0.14 build. VisaUSD 1.0.15 repairs Receive DataMatrix generation and retains the sender beep and receiver vibration after successful Gaming Credits NFC transfers. The restore folder, companion OEM folder, art collection and original video are separate release materials:
 
 | Release material | Files | Exact bytes | Use |
 | --- | ---: | ---: | --- |
 | `SmartSwitchBackup2/` | 259 | 1,859,108,769 | Copy intact to the USB-C drive root for Smart Switch restore. |
-| `USTFD USPS CRADA APPS Oct 2026/` | 20 | 402,273,357 | Separate standalone APKs and supplied source backups. |
+| `USTFD USPS CRADA APPS Oct 2026/` | 20 | 402,274,901 | Separate standalone APKs and supplied source backups. |
 | `Dualscan Art Collection/` | 191 | 560,264,205 | Companion artwork files. |
 | Original restoration demo video | 1 | 19,365,643 | Watch the supplied restoration instructions. |
-| **Complete release** | **471** | **2,841,011,974** | Approximately **2.84 GB**, before GitHub archive overhead. |
+| **Complete release** | **471** | **2,841,013,518** | Approximately **2.84 GB**, before GitHub archive overhead. |
 
 [RELEASE_SHA256.json](RELEASE_SHA256.json) records the exact byte count and SHA-256 of every supplied release file. [BACKUP_SHA256.json](BACKUP_SHA256.json) retains the restore-folder and video inventory. From the extracted repository, run:
 

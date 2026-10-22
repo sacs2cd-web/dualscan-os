@@ -18,7 +18,7 @@ Preserve these five visible, accessible positions from left to right. Positions 
 | 2 | Dualscan™ Chat | `com.dualscan.concertparty` | Standalone 1.5.17-dualscan.1 / code 10517 |
 | 3 · center | USPS Postal Cash™ Wallet | `com.dualscan.usps.postalcash` | Encrypted backup payload filename; restored version unverified |
 | 4 | VisaUSD™ PoS | `com.dualscan.guard` | Standalone 1.0.2 / code 3 |
-| 5 · right | VisaUSD™ Wallet | `com.bishiki.visausd.local` | Standalone 1.0.14 / code 15 |
+| 5 · right | VisaUSD™ Wallet | `com.bishiki.visausd.local` | Standalone 1.0.15 / code 17 |
 
 Evidence: the project owner’s corrected order and supplied `Screenshot_20261022_133757_One UI Home.jpg` and `Screenshot_20261022_154956_One UI Home.jpg`. The screenshots show the same five positions with different wallpapers. The Postal Cash package identity is supported by the supplied `APKFILE/com.dualscan.usps.postalcash.enc` filename; its restored Android manifest and version have not been independently inspected.
 
@@ -86,9 +86,9 @@ Apple Music, Suno, Amazon Music, UNO, ChatGPT, Gemini, Samsung Phone, Camera, Ga
 
 ## Intact restore package and verification scope
 
-The October 22 supplied Smart Switch backup, timestamp `1792696375893`, contains 259 files totaling **1,859,108,769 bytes**. The complete companion release contains 471 files totaling **2,841,011,974 bytes**, including the separate OEM APK and art folders and restoration video. The backup includes encrypted app-associated data, photo/art files and device-specific state. Categories were identified from filenames and metadata only; personal/account contents were not opened. A current Smart Switch logical restore total has not been verified.
+The October 22 supplied Smart Switch backup, timestamp `1792696375893`, contains 259 files totaling **1,859,108,769 bytes**. The complete companion release contains 471 files totaling **2,841,013,518 bytes**, including the separate OEM APK and art folders and restoration video. The backup includes encrypted app-associated data, photo/art files and device-specific state. Categories were identified from filenames and metadata only; personal/account contents were not opened. A current Smart Switch logical restore total has not been verified.
 
-The replacement backup contains `APKFILE/com.dualscan.mp.enc`. The standalone `Diamond-Player-1.4.3.apk` remains in the OEM folder, where `VisaUSD-1.0.14.apk` replaces VisaUSD 1.0.13. No encrypted base APK was decrypted to establish its restored version.
+The replacement backup contains `APKFILE/com.dualscan.mp.enc`. The standalone `Diamond-Player-1.4.3.apk` remains in the OEM folder, where `VisaUSD-1.0.15.apk` replaces VisaUSD 1.0.14. No encrypted base APK was decrypted to establish its restored version.
 
 The source backup remains unchanged. The owner has requested publication of the complete folder as-is, preserving its files and restore structure. [manifests/reference-backup-audit.json](manifests/reference-backup-audit.json) contains a metadata-only category audit and software-payload hashes; no personal/account payload contents are reproduced in these documentation files.
 
