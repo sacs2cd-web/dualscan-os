@@ -15,14 +15,14 @@ The supplied demonstration video is in the repository root. You can also play it
 | Material | Files | Exact bytes |
 | --- | ---: | ---: |
 | `SmartSwitchBackup2/` | 268 | 3,023,487,498 |
-| `USTFD USPS CRADA APPS Oct 2026/` | 17 | 373,144,143 |
+| `USTFD USPS CRADA APPS Oct 2026/` | 20 | 402,273,357 |
 | `Dualscan Art Collection/` | 191 | 560,264,205 |
 | Original restoration demo video | 1 | 19,365,643 |
-| **Complete release** | **477** | **3,976,261,489** |
+| **Complete release** | **480** | **4,005,390,703** |
 
 The Smart Switch backup timestamp is `1792495176448`. Its original folder contents remain unchanged. The separate OEM folder contains standalone APKs and supplied source backups; it is not part of the encrypted Smart Switch restore payload. Do not infer the versions inside that payload from companion APK filenames.
 
-**Diamond Player is included:** this replacement backup contains `APKFILE/com.dualscan.mp.enc`. The separate OEM folder also retains `Diamond-Player-1.4.3.apk` and now supplies `VisaUSD-1.0.13.apk` in place of VisaUSD 1.0.12. The encrypted backup’s restored APK versions have not been independently verified.
+**Diamond Player is included:** this replacement backup contains `APKFILE/com.dualscan.mp.enc`. The separate OEM folder also retains `Diamond-Player-1.4.3.apk` and now supplies `VisaUSD-1.0.14.apk` in place of VisaUSD 1.0.13. The encrypted backup’s restored APK versions have not been independently verified.
 
 **Share Lite is separate:** the supplied Smart Switch backup omits it. `USTFD USPS CRADA APPS Oct 2026/Dualscan-Share-Lite-1.1.1.apk` can be installed separately if desired. Companion artwork can be copied to an accessible device image folder after restoration; it does not need to be injected into `SmartSwitchBackup2`.
 
