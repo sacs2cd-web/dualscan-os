@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.get_login_creds"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.dualscan.usps.postalcash",
+      "sha256_cert_fingerprints": [
+        "5C:40:49:F3:1A:6D:07:07:7E:23:78:4A:AC:2E:63:03:A9:02:50:6D:AE:7F:90:04:E9:18:10:CC:7D:DD:28:0E"
+      ]
+    }
+  }
+]
