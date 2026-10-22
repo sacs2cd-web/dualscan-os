@@ -86,11 +86,13 @@ Apple Music, Suno, Amazon Music, UNO, ChatGPT, Gemini, Samsung Phone, Camera, Ga
 
 ## Intact restore package and verification scope
 
-The October 22 supplied Smart Switch backup, timestamp `1792696375893`, contains 259 files totaling **1,859,108,769 bytes**. The complete companion release contains 471 files totaling **2,841,013,518 bytes**, including the separate OEM APK and art folders and restoration video. The backup includes encrypted app-associated data, photo/art files and device-specific state. Categories were identified from filenames and metadata only; personal/account contents were not opened. A current Smart Switch logical restore total has not been verified.
+The October 22 supplied Smart Switch backup, timestamp `1792706471806`, contains 315 files totaling **2,683,488,878 bytes**. The complete companion release contains 527 files totaling **3,665,393,627 bytes**, including the separate OEM APK and art folders and restoration video. The backup includes encrypted app-associated data, photo/art files and device-specific state. Categories were identified from filenames and metadata only; personal/account contents were not opened. The byte counts describe physical distributed files, not Smart Switch’s logical restore size.
 
 The replacement backup contains `APKFILE/com.dualscan.mp.enc`. The standalone `Diamond-Player-1.4.3.apk` remains in the OEM folder, where `VisaUSD-1.0.15.apk` replaces VisaUSD 1.0.14. No encrypted base APK was decrypted to establish its restored version.
 
-The source backup remains unchanged. The owner has requested publication of the complete folder as-is, preserving its files and restore structure. [manifests/reference-backup-audit.json](manifests/reference-backup-audit.json) contains a metadata-only category audit and software-payload hashes; no personal/account payload contents are reproduced in these documentation files.
+The owner supplied this replacement after confirming VisaUSD 1.0.15 build 17's Receive function on the Galaxy. The source backup remains unchanged. The owner has requested publication of the complete folder as-is, preserving its files and restore structure. [manifests/reference-backup-audit.json](manifests/reference-backup-audit.json) contains a metadata-only category audit and software-payload hashes; no personal/account payload contents are reproduced in these documentation files.
+
+The supplied backup retains `ADAPTIVE_SETTINGS/DRIVING_DATA.fail`, an adaptive-settings failure marker. This is a metadata-only observation, not evidence that a core wallet APK is missing. The export’s encryption selection has not been independently verified; receiving-device restoration remains untested.
 
 Restore testing of the intact supplied backup has not been executed as part of this inventory. Independently verified restored versions, hashes, permissions, and tray placement are therefore not claimed. A normal Smart Switch backup is not an Android system/boot image, and Android 14 alone does not establish Samsung Smart Switch restore compatibility on every manufacturer's device.
 

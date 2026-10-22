@@ -23,11 +23,11 @@
       "currentBackupPayload": {
         "file": "com.ustfdatv.typelockergmail.enc",
         "bytes": 1693696,
-        "sha256": "a4a4e49d2728bddf2b82e03d57b3a2c951c4b3a7f083b812162d0457087e5fa8",
+        "sha256": "60e75722d7221f91e300d126cae826ae8aa562b73e38402835e746fb4b749054",
         "format": "encrypted-base-apk",
         "evidenceManifest": "manifests/reference-backup-audit.json",
         "inventoryAsOf": "2026-10-22",
-        "backupTimestamp": "1792696375893"
+        "backupTimestamp": "1792706471806"
       },
       "backupVersionVerified": false,
       "currentStandaloneReference": {
@@ -55,11 +55,11 @@
       "currentBackupPayload": {
         "file": "com.dualscan.concertparty.enc",
         "bytes": 46821520,
-        "sha256": "57ce5814ad4841cee0e88ddb50f616d26b8f3f68f7edbe90c8aef2068452e50c",
+        "sha256": "826bcbad75505b5e5efd099e8ed3baaba54277337ef05c8464d5bb8853e15b45",
         "format": "encrypted-base-apk",
         "evidenceManifest": "manifests/reference-backup-audit.json",
         "inventoryAsOf": "2026-10-22",
-        "backupTimestamp": "1792696375893"
+        "backupTimestamp": "1792706471806"
       },
       "backupVersionVerified": false,
       "currentStandaloneReference": {
@@ -87,11 +87,11 @@
       "currentBackupPayload": {
         "file": "com.dualscan.usps.postalcash.enc",
         "bytes": 100176816,
-        "sha256": "fd1eeee8904189aa5545206449979dac718c64a96b22a9fbe64061272ea288d4",
+        "sha256": "1e1bc3663aac880780c7eb50f8328a63bb6abd4b7a10622ed4b7c277a1dc3c1c",
         "format": "encrypted-base-apk",
         "evidenceManifest": "manifests/reference-backup-audit.json",
         "inventoryAsOf": "2026-10-22",
-        "backupTimestamp": "1792696375893"
+        "backupTimestamp": "1792706471806"
       },
       "backupVersionVerified": false,
       "currentStandaloneReference": null,
@@ -108,11 +108,11 @@
       "currentBackupPayload": {
         "file": "com.dualscan.guard.enc",
         "bytes": 29505376,
-        "sha256": "c9d6302d4ced92bc2fb753fc5d43df0ac918a41841d9e8fda8eeb31a5292cb93",
+        "sha256": "b931bd3c67a5344c98dfba9b5b0941e834ac773a3635d11c9045faa88f042cb2",
         "format": "encrypted-base-apk",
         "evidenceManifest": "manifests/reference-backup-audit.json",
         "inventoryAsOf": "2026-10-22",
-        "backupTimestamp": "1792696375893"
+        "backupTimestamp": "1792706471806"
       },
       "backupVersionVerified": false,
       "currentStandaloneReference": {
@@ -139,12 +139,12 @@
       "requirement": "required-current-dock",
       "currentBackupPayload": {
         "file": "com.bishiki.visausd.local.enc",
-        "bytes": 30402224,
-        "sha256": "8a8929feeb89ccf4d7bc6b26756819199c445219264bd4939ec10a8f1ca5878f",
+        "bytes": 30403760,
+        "sha256": "fd5118adf58930e7cefb81aaae6cbae23cb27cfae22b408f884f8314b38b35f7",
         "format": "encrypted-base-apk",
         "evidenceManifest": "manifests/reference-backup-audit.json",
         "inventoryAsOf": "2026-10-22",
-        "backupTimestamp": "1792696375893"
+        "backupTimestamp": "1792706471806"
       },
       "backupVersionVerified": false,
       "currentStandaloneReference": {

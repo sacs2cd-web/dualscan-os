@@ -25,11 +25,13 @@ See [RESTORE.md](RESTORE.md) and [Samsung’s external-storage instructions](htt
 
 The original demonstration video, standalone OEM apps and art collection are included alongside the restore folder in the repository. The [project page](https://dualscan.cloud/) also has a video player and a guided screenshot tour. It is published with GitHub Pages from `main` → `/docs`; the page is static HTML, CSS and JavaScript.
 
-## VisaUSD update after restoring the current SSS image
+## Current corrected SSS image and earlier-image APK update
 
-After restoring the current Smart Switch image, install [**VisaUSD 1.0.15 — build 17**](https://github.com/sacs2cd-web/dualscan-os/raw/refs/heads/main/USTFD%20USPS%20CRADA%20APPS%20Oct%202026/VisaUSD-1.0.15.apk) from the separate OEM folder. Open the APK on the Galaxy and choose **Update**. Install it over the restored VisaUSD app; **do not uninstall it or clear its data**. This keeps the existing wallet, PIN and settings while fixing Receive DataMatrix and Publicnode account reads.
+The current `SmartSwitchBackup2` is the owner's fresh Galaxy export supplied after VisaUSD 1.0.15 build 17 was confirmed working on the Galaxy. It replaces the previous restore folder; the new backup timestamp is `1792706471806`. The encrypted APK's restored version has not been independently decoded or restore-tested.
 
-Build 17 is the working, device-confirmed replacement. The previous defective standalone VisaUSD APK has been removed from the current OEM folder. A new SSS image is being prepared; this APK provides the update for the currently published image.
+**Already restored an earlier SSS image?** Install [**VisaUSD 1.0.15 — build 17**](https://github.com/sacs2cd-web/dualscan-os/raw/refs/heads/main/USTFD%20USPS%20CRADA%20APPS%20Oct%202026/VisaUSD-1.0.15.apk) from the separate OEM folder. Open the APK on the Galaxy and choose **Update**. Install it over the restored VisaUSD app; **do not uninstall it or clear its data**. This keeps the existing wallet, PIN and settings while fixing Receive DataMatrix and Publicnode account reads.
+
+Build 17 is the working, device-confirmed replacement. The defective predecessor has been removed from the current OEM folder. The same corrected standalone APK remains available alongside the new restore folder.
 
 ## Inside the OS
 
@@ -88,15 +90,15 @@ Menu labels vary by Smart Switch version. Select the option before creating the 
 
 ## Distribution integrity
 
-The October 22 replacement Smart Switch restore folder is preserved **as supplied**. The standalone VisaUSD 1.0.15 update replaces only the companion OEM APK; the supplied SmartSwitchBackup2 restore folder remains unchanged until a fresh Galaxy export is available. The companion OEM folder includes Diamond Player 1.4.3 and the supplied VisaUSD 1.0.15 update, replacing the previous standalone VisaUSD 1.0.14 build. VisaUSD 1.0.15 repairs Receive DataMatrix generation and retains the sender beep and receiver vibration after successful Gaming Credits NFC transfers. The restore folder, companion OEM folder, art collection and original video are separate release materials:
+The October 22 corrected Smart Switch restore folder, timestamp `1792706471806`, replaces the previous export and is preserved **as supplied**. The owner supplied this fresh Galaxy backup after confirming VisaUSD 1.0.15 build 17's Receive function. Its encrypted APK versions have not been independently verified through restoration. The companion OEM folder includes Diamond Player 1.4.3 and the supplied VisaUSD 1.0.15 update, replacing the previous standalone VisaUSD 1.0.14 build. VisaUSD 1.0.15 repairs Receive DataMatrix generation and retains the sender beep and receiver vibration after successful Gaming Credits NFC transfers. The restore folder, companion OEM folder, art collection and original video are separate release materials:
 
 | Release material | Files | Exact bytes | Use |
 | --- | ---: | ---: | --- |
-| `SmartSwitchBackup2/` | 259 | 1,859,108,769 | Copy intact to the USB-C drive root for Smart Switch restore. |
+| `SmartSwitchBackup2/` | 315 | 2,683,488,878 | Copy intact to the USB-C drive root for Smart Switch restore. |
 | `USTFD USPS CRADA APPS Oct 2026/` | 20 | 402,274,901 | Separate standalone APKs and supplied source backups. |
 | `Dualscan Art Collection/` | 191 | 560,264,205 | Companion artwork files. |
 | Original restoration demo video | 1 | 19,365,643 | Watch the supplied restoration instructions. |
-| **Complete release** | **471** | **2,841,013,518** | Approximately **2.84 GB**, before GitHub archive overhead. |
+| **Complete release** | **527** | **3,665,393,627** | Approximately **3.67 GB**, before GitHub archive overhead. |
 
 [RELEASE_SHA256.json](RELEASE_SHA256.json) records the exact byte count and SHA-256 of every supplied release file. [BACKUP_SHA256.json](BACKUP_SHA256.json) retains the restore-folder and video inventory. From the extracted repository, run:
 
@@ -114,7 +116,9 @@ The verifier uses `RELEASE_SHA256.json` when available, checking all three folde
 
 Large original files use Git LFS. This repository must include LFS objects in generated archives so **Code → Download ZIP** contains the actual files. For a Git checkout, install Git LFS and run `git lfs pull`. A download containing text LFS pointers fails the verifier with a file-specific recovery hint and is not a complete release.
 
-The supplied Smart Switch restore timestamp is `1792696375893`; original encrypted metadata and category files are retained without conversion. The byte counts above describe the distributed files, not Smart Switch’s reported logical restore size. Companion OEM APKs are separate from this payload, and their standalone versions are not evidence of versions inside encrypted backup files. A receiving-device restore and physical USB DAC qualification have not been performed as part of this publication. See [manifests/reference-backup-audit.json](manifests/reference-backup-audit.json).
+The supplied Smart Switch restore timestamp is `1792706471806`; original encrypted metadata and category files are retained without conversion. The byte counts above describe the distributed files, not Smart Switch’s reported logical restore size. Companion OEM APKs are separate from this payload, and their standalone versions are not evidence of versions inside encrypted backup files. A receiving-device restore and physical USB DAC qualification have not been performed as part of this publication. See [manifests/reference-backup-audit.json](manifests/reference-backup-audit.json).
+
+The supplied backup retains `ADAPTIVE_SETTINGS/DRIVING_DATA.fail`, an adaptive-settings failure marker. This is a metadata-only observation, not evidence that a core wallet APK is missing. The export’s encryption selection has not been independently verified; receiving-device restoration remains untested.
 
 ## Project files
 
