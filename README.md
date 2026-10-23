@@ -25,13 +25,17 @@ See [RESTORE.md](RESTORE.md) and [Samsung’s external-storage instructions](htt
 
 The original demonstration video, standalone OEM apps and art collection are included alongside the restore folder in the repository. The [project page](https://dualscan.cloud/) also has a video player and a guided screenshot tour. It is published with GitHub Pages from `main` → `/docs`; the page is static HTML, CSS and JavaScript.
 
-## Current corrected SSS image and earlier-image APK update
+## Current Smart Switch image and standalone app updates
 
-The current `SmartSwitchBackup2` is the owner's fresh Galaxy export supplied after VisaUSD 1.0.15 build 17 was confirmed working on the Galaxy. It replaces the previous restore folder; the new backup timestamp is `1792706471806`. The encrypted APK's restored version has not been independently decoded or restore-tested.
+The current `SmartSwitchBackup2` remains the owner's fresh Galaxy export supplied after VisaUSD 1.0.15 build 17 was confirmed working. Its timestamp is `1792706471806`; encrypted restored APK versions have not been independently decoded or restore-tested. This publication updates the separate standalone apps and player manual. A replacement Smart Switch export has not been inserted.
 
-**Already restored an earlier SSS image?** Install [**VisaUSD 1.0.15 — build 17**](https://github.com/sacs2cd-web/dualscan-os/raw/refs/heads/main/USTFD%20USPS%20CRADA%20APPS%20Oct%202026/VisaUSD-1.0.15.apk) from the separate OEM folder. Open the APK on the Galaxy and choose **Update**. Install it over the restored VisaUSD app; **do not uninstall it or clear its data**. This keeps the existing wallet, PIN and settings while fixing Receive DataMatrix and Publicnode account reads.
+**Already restored an earlier image?** Install [**VisaUSD 1.0.17 — build 19**](https://github.com/sacs2cd-web/dualscan-os/raw/refs/heads/main/USTFD%20USPS%20CRADA%20APPS%20Oct%202026/VisaUSD-1.0.17.apk) over the existing VisaUSD app and choose **Update**. **Do not uninstall or clear its data.** This preserves the wallet/PIN and adds caller-verified Gaming Credits approval, recoverable signed match receipts, and full From/To addresses in Gaming Credits activity. Production wallet features outside the scoped Gaming Credits addon are preserved from the 1.0.16 source baseline. The older standalone VisaUSD 1.0.15 APK was removed from the current OEM folder.
 
-Build 17 is the working, device-confirmed replacement. The defective predecessor has been removed from the current OEM folder. The same corrected standalone APK remains available alongside the new restore folder.
+Install [**Bishiki Draw! 0.4.0 — build 5**](https://github.com/sacs2cd-web/dualscan-os/raw/refs/heads/main/USTFD%20USPS%20CRADA%20APPS%20Oct%202026/Bishiki-Draw-0.4.0.apk) on each player phone. Four seats support private phone hands, named CPU opponents, optional public DeX/compatible Android 16 QPR3+ TV output, saved Draw Groups and Tor Play Dates. Competitive Mode uses only non-redeemable Gaming Credits with no cash value or VisaUSD conversion. Easy, Normal, Hard and Championship are CPU difficulties; Normal is the default. Equal entries begin at 7 each (28 total); All In uses the lowest freshly approved available table balance.
+
+The [**48-page Bishiki Draw Player Manual**](docs/downloads/Bishiki-Draw-Player-Manual.pdf) includes actual app screenshots, card rules, complete App/TV settings, Gaming Credits linking/approval/activity, CPU practice and Draw Groups. Settings → **OPEN PLAYER MANUAL** opens the PDF inside Draw with a native **Close** control, verified online source and offline bundled fallback.
+
+The signed apps have automated/native emulator verification, including a genuine co-installed wallet/CPU match. Physical Samsung/HDMI and multi-phone acceptance remain device checks. The owner will create the next Smart Switch backup after installing these standalone APKs.
 
 ## Inside the OS
 
@@ -41,6 +45,7 @@ The page tour follows **Desktop → App library → USPS® Wallet → Biometric 
 | --- | --- |
 | USPS Money | Local wallet UI, PIN and optional Android biometric unlock, Retail Code, Typelocker scanning and background customization. |
 | VisaUSD™ | Local wallet, fresh biometric confirmation before Pay → Send, Gaming Credits NFC tap transfer, and the built-in 59-page U.S. Gamer Community Manual. |
+| Bishiki Draw! — standalone APK | Four-seat private-phone card game, optional public TV, named CPU practice, Gaming Credits and saved Draw Groups. |
 | USPS® Wallet | The separate wallet application shown in the supplied screenshots, with its own wallet overview and scan/receive/send UI. |
 | USPS Banking | The separately identified banking launcher; its services and accounts retain their own requirements. |
 | Typelocker | Gmail/Outlook entries and ecosystem code handling. **Cypher** is the recovery format; **Sypher** is the ordinary in-app URL format. |
@@ -90,15 +95,15 @@ Menu labels vary by Smart Switch version. Select the option before creating the 
 
 ## Distribution integrity
 
-The October 22 corrected Smart Switch restore folder, timestamp `1792706471806`, replaces the previous export and is preserved **as supplied**. The owner supplied this fresh Galaxy backup after confirming VisaUSD 1.0.15 build 17's Receive function. Its encrypted APK versions have not been independently verified through restoration. The companion OEM folder includes Diamond Player 1.4.3 and the supplied VisaUSD 1.0.15 update, replacing the previous standalone VisaUSD 1.0.14 build. VisaUSD 1.0.15 repairs Receive DataMatrix generation and retains the sender beep and receiver vibration after successful Gaming Credits NFC transfers. The restore folder, companion OEM folder, art collection and original video are separate release materials:
+The October 22 Smart Switch restore folder, timestamp `1792706471806`, is preserved **as supplied**. The owner provided that Galaxy backup after confirming VisaUSD 1.0.15 build 17's Receive function; encrypted restored versions have not been independently verified. The current companion OEM folder contains the signed VisaUSD 1.0.17 and Bishiki Draw 0.4.0 standalone updates. The restore tree, all other APKs/source backups, artwork and original video are unchanged by this update. The player manual is a separate document under `docs/downloads/`, outside the release payload counts below:
 
 | Release material | Files | Exact bytes | Use |
 | --- | ---: | ---: | --- |
 | `SmartSwitchBackup2/` | 315 | 2,683,488,878 | Copy intact to the USB-C drive root for Smart Switch restore. |
-| `USTFD USPS CRADA APPS Oct 2026/` | 20 | 402,274,901 | Separate standalone APKs and supplied source backups. |
+| `USTFD USPS CRADA APPS Oct 2026/` | 21 | 439,681,222 | Separate standalone APKs and supplied source backups. |
 | `Dualscan Art Collection/` | 191 | 560,264,205 | Companion artwork files. |
 | Original restoration demo video | 1 | 19,365,643 | Watch the supplied restoration instructions. |
-| **Complete release** | **527** | **3,665,393,627** | Approximately **3.67 GB**, before GitHub archive overhead. |
+| **Complete release** | **528** | **3,702,799,948** | Approximately **3.70 GB**, before GitHub archive overhead. |
 
 [RELEASE_SHA256.json](RELEASE_SHA256.json) records the exact byte count and SHA-256 of every supplied release file. [BACKUP_SHA256.json](BACKUP_SHA256.json) retains the restore-folder and video inventory. From the extracted repository, run:
 
