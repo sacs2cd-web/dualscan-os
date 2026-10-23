@@ -4,10 +4,10 @@ const tour = [
  {label:'The app library',title:'Meet the ecosystem.',image:'tour-20261022/apps-20261022.jpg',path:['Desktop','App library'],description:'Open the app library to find wallets, Typelocker for Gmail, Dualscan Chat, and Diamond Player.',details:['Your apps remain individually accessible.','Pictured third-party services keep their own accounts and terms.']},
  {label:'USPS® Postal Cash™',title:'Postal Cash, in your pocket.',image:'tour-20261022/postal-cash-20261022.jpg',path:['Desktop','App library','USPS® Postal Cash™'],description:'The supplied USPS® Postal Cash™ interface, accessible from the app library.',details:['Open USPS® Postal Cash™ from its own app entry.','The screenshot shows the supplied Postal Cash presentation.']},
  {label:'Biometric unlock',title:'Open with a touch.',image:'tour-20261022/biometric-20261022.jpg',path:['Desktop','App library','VisaUSD™ Wallet','Unlock'],description:'Native Android biometrics open the VisaUSD™ Wallet. The original wallet PIN remains available as a fallback.',details:['Enrollment is optional for wallet unlock.','Pay → Send separately requires a fresh biometric confirmation.']},
- {label:'VisaUSD™ Wallet',title:'Your everyday wallet.',image:'tour-20261022/visausd-wallet-20261022-170807.jpg',path:['Desktop','App library','VisaUSD™ Wallet'],description:'The local VisaUSD™ Wallet interface brings Pay, Receive, supported assets and wallet personalization into one place.',details:['PIN and optional native biometric unlock.','Retail Code, Typelocker Cypher recovery and Sypher URL scanning.']},
+ {label:'VisaUSD™ Wallet',title:'Your everyday wallet.',image:'tour-20261023/visausd-wallet-175424.jpg',path:['Desktop','App library','VisaUSD™ Wallet'],description:'The local VisaUSD™ Wallet interface brings Pay, Receive, supported assets and wallet personalization into one place.',details:['PIN and optional native biometric unlock.','Retail Code, Typelocker Cypher recovery and Sypher URL scanning.']},
  {label:'Retail Code',title:'Your code, in the wallet.',image:'tour-20261022/retail-20261022.jpg',path:['Desktop','App library','VisaUSD™ Wallet','Retail Code'],description:'Open the wallet panel for Retail Code access, address controls, PIN settings and the biometric-unlock switch.',details:['The supplied screenshot shows a timed Retail Code.','Authentication and local wallet controls stay in the app.']},
  {label:'Scan & pay',title:'Bring a code into view.',image:'tour-20261022/scanner-20261022.jpg',path:['Desktop','App library','VisaUSD™ Wallet','Pay / Scan'],description:'Access the wallet’s code and payment tools through the VisaUSD™ Wallet interface.',details:['Typelocker™ Sypher™ is for ordinary in-app URL scans.','Typelocker™ Cypher remains exclusive to recovery scanning.']},
- {label:'Gaming Credits',title:'Tap into the community.',image:'gaming.jpg',path:['Desktop','App library','VisaUSD™','Gaming Credits'],description:'VisaUSD’s Gaming Credits panel supports whole-credit NFC transfers between compatible devices.',details:['20,580 credits each day, resetting at 9am New York.','Gaming Credits are separate from cryptocurrency payments.']},
+ {label:'Gaming Credits',title:'Tap into the community.',image:'tour-20261023/gaming-credits-175433.jpg',path:['Desktop','App library','VisaUSD™','Gaming Credits'],description:'VisaUSD’s Gaming Credits panel supports whole-credit NFC transfers between compatible devices.',details:['20,580 credits each day, resetting at 9am New York.','Gaming Credits are separate from cryptocurrency payments.']},
  {label:'Community manual',title:'The rulebook is built in.',image:'manual.jpg',path:['Desktop','App library','VisaUSD™','Gaming Credits','Manual'],description:'Select the U.S. Gamer icon to open the packaged Community Manual inside the app.',details:['59 pages with zoom and navigation.','Return with Android Back or the viewer’s back control.']},
  {label:'Wallpaper library',title:'191+ ways to make it yours.',image:'gallery.jpg',path:['Desktop','App library','Gallery','Wallpapers'],description:'Browse the Dualscan Wallpaper Library in Gallery and choose the artwork for your home or lock screen.',details:['191+ wallpapers in the Dualscan library, as supplied by Dualscan LLC.','Open an image, then choose Set as wallpaper from its menu.']},
 ];
@@ -24,7 +24,15 @@ function showStep(index){
  const ul=document.createElement('ul');step.details.forEach(text=>{const li=document.createElement('li');li.textContent=text;ul.append(li);});$('tourDetail').replaceChildren(ul);
  $('tourCount').textContent=String(index+1).padStart(2,'0')+' / '+tour.length;
  $('tourPrev').disabled=index===0;$('tourNext').disabled=index===tour.length-1;
- $('tourBreadcrumb').replaceChildren();step.path.forEach((text,i)=>{if(i){const sep=document.createElement('span');sep.textContent='/';sep.setAttribute('aria-hidden','true');$('tourBreadcrumb').append(sep);}if(i===0&&index>0){const b=document.createElement('button');b.textContent=text;b.addEventListener('click',()=>showStep(0));$('tourBreadcrumb').append(b);}else{const span=document.createElement('span');span.textContent=text;$('tourBreadcrumb').append(span);}});
+ const breadcrumb=$('tourBreadcrumb');
+ breadcrumb.replaceChildren();
+ step.path.forEach((text,i)=>{
+  const crumb=document.createElement('span');crumb.className='tour-crumb';
+  if(i){const sep=document.createElement('span');sep.textContent='/';sep.setAttribute('aria-hidden','true');crumb.append(sep);}
+  const label=document.createElement(i===0&&index>0?'button':'span');label.textContent=text;
+  if(label.tagName==='BUTTON'){label.type='button';label.addEventListener('click',()=>showStep(0));}
+  crumb.append(label);breadcrumb.append(crumb);
+ });
 }
 $('tourPrev').addEventListener('click',()=>{if(active>0)showStep(active-1);});
 $('tourNext').addEventListener('click',()=>{if(active<tour.length-1)showStep(active+1);});
