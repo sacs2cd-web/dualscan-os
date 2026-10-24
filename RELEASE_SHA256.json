@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "releaseDate": "2026-10-23",
+  "releaseDate": "2026-10-24",
   "releaseFolders": [
     "SmartSwitchBackup2",
     "USTFD USPS CRADA APPS Oct 2026",
     "Dualscan Art Collection"
   ],
   "fileCount": 528,
-  "totalBytes": 3702626000,
+  "totalBytes": 3702628784,
   "hashAlgorithm": "SHA-256",
-  "note": "Intact owner-exported Smart Switch restore tree (timestamp1792706471806), standalone OEM APKs including VisaUSD1.0.17 and Bishiki Draw 0.4.5, companion artwork and restoration video. Only standalone APKs were updated; SmartSwitchBackup2 is unchanged pending a fresh owner export. Copy only SmartSwitchBackup2 to the USB-C drive root. Standalone versions do not establish encrypted restore versions.",
+  "note": "Intact owner-exported Smart Switch restore tree (timestamp1792706471806), standalone OEM APKs including VisaUSD1.0.17 and Bishiki Draw 0.4.6, companion artwork and restoration video. Only standalone APKs were updated; SmartSwitchBackup2 is unchanged pending a fresh owner export. Copy only SmartSwitchBackup2 to the USB-C drive root. Standalone versions do not establish encrypted restore versions.",
   "files": [
     {
       "path": "Dualscan Art Collection/01595d946ae8e7c220313490cc937261.png",
@@ -3561,11 +3561,11 @@
       "sourceMtimeNs": 1792706590000000000
     },
     {
-      "path": "USTFD USPS CRADA APPS Oct 2026/Bishiki-Draw-0.4.5.apk",
-      "bytes": 37676004,
-      "sha256": "61ccd11bed2355887dbe4af0861c96cf58ab4853cfbf2a25a5339eb8a922ae50",
+      "path": "USTFD USPS CRADA APPS Oct 2026/Bishiki-Draw-0.4.6.apk",
+      "bytes": 37678788,
+      "sha256": "09c0c2843c1b331464e32f4128f3f20aa101651fef685aabdfe30e9a5b9e9c66",
       "sourceMode": "0o644",
-      "sourceMtimeNs": 1792810543571576298
+      "sourceMtimeNs": 1792844187226312460
     },
     {
       "path": "USTFD USPS CRADA APPS Oct 2026/Diamond-Player-1.4.3.apk",
