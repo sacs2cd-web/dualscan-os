@@ -1,11 +1,20 @@
 {
   "schemaVersion": 1,
-  "releaseDate": "2026-10-22",
+  "releaseDate": "2026-10-24",
   "folder": "USTFD USPS CRADA APPS Oct 2026",
-  "fileCount": 20,
-  "bytes": 402274901,
-  "inspection": "Android aapt2 package metadata from supplied standalone APKs; no encrypted Smart Switch payload version match claimed.",
+  "fileCount": 15,
+  "bytes": 372447514,
+  "inspection": "Android aapt2 package metadata and SHA-256 inspection of current standalone APKs. Current published Diamond Player 1.4.3 is retained in preference to the older 1.4.0 reference APK. No encrypted Smart Switch payload version match claimed.",
   "apks": [
+    {
+      "path": "USTFD USPS CRADA APPS Oct 2026/Bishiki-Draw-0.4.10.apk",
+      "packageName": "com.dualscan.bishiki.draw",
+      "versionName": "0.4.10",
+      "versionCode": "15",
+      "role": "current-standalone-oem-apk",
+      "bytes": 43082212,
+      "sha256": "b5456d31dbfafdfd0a4dedb800b1a96bcf7e8d245f5b89307e8426e967fad30b"
+    },
     {
       "path": "USTFD USPS CRADA APPS Oct 2026/Diamond-Player-1.4.3.apk",
       "packageName": "com.dualscan.mp",
@@ -41,15 +50,6 @@
       "bytes": 19145526,
       "sha256": "58bfbbedf13847aa3091452df2989dcd68f2cf064f95d072132ad51d4398546a",
       "role": "current-standalone-oem-apk"
-    },
-    {
-      "path": "USTFD USPS CRADA APPS Oct 2026/Source Backup/Diamond-Player-0.4.0-native-pcm-release-signed.apk",
-      "packageName": "com.dualscan.diamondplayer.yoncen6",
-      "versionName": "0.4.0-native-pcm",
-      "versionCode": "25",
-      "bytes": 42053773,
-      "sha256": "bdb88841856240c85e38212eb40474ce1637911987e82eca981ec07f3ab4620e",
-      "role": "historical-source-backup-reference"
     },
     {
       "path": "USTFD USPS CRADA APPS Oct 2026/Typelocker Gmail.apk",
@@ -97,12 +97,12 @@
       "role": "current-standalone-oem-apk"
     },
     {
-      "path": "USTFD USPS CRADA APPS Oct 2026/VisaUSD-1.0.15.apk",
+      "path": "USTFD USPS CRADA APPS Oct 2026/VisaUSD-1.0.17.apk",
       "packageName": "com.bishiki.visausd.local",
-      "versionName": "1.0.15",
-      "versionCode": "17",
-      "bytes": 30403742,
-      "sha256": "072cb893ea2deea7edd8b6e500a68e5b9c8ef364df2113f5ed0838d10650caca",
+      "versionName": "1.0.17",
+      "versionCode": "19",
+      "bytes": 29960111,
+      "sha256": "b060333c16db05f800b0ddbced7e7c44657d465295286d2aa007ebb07130b627",
       "role": "current-standalone-oem-apk"
     },
     {
@@ -123,5 +123,9 @@
       "sha256": "f85d3535175df8ece6ffb24bdb769b2309287fac47866dbb647bde6aabb96242",
       "role": "current-standalone-oem-apk"
     }
+  ],
+  "apkCount": 13,
+  "excludedDirectories": [
+    "Source Backup"
   ]
 }

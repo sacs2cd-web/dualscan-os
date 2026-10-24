@@ -10,31 +10,29 @@
 
 The supplied demonstration video is in the repository root. You can also play it on the [project page](https://dualscan.cloud/#restore).
 
-## Current corrected SSS image and earlier-image APK update
+## Current SSS image and earlier-image APK updates
 
-The current `SmartSwitchBackup2` is the owner's fresh Galaxy export supplied after VisaUSD 1.0.15 build 17 was confirmed working on the Galaxy. It replaces the previous restore folder; the new backup timestamp is `1792706471806`. The encrypted APK's restored version has not been independently decoded or restore-tested.
+The current `SmartSwitchBackup2` is the owner's October 24 Galaxy export with the Bishiki DRAW update. It replaces the previous restore folder; the backup timestamp is `1792858096703`. Readable metadata identifies Bishiki DRAW and VisaUSD packages. Encrypted restored APK versions have not been independently decoded or verified by a receiving-device restore.
 
-**Already restored an earlier SSS image?** Install [**VisaUSD 1.0.15 — build 17**](https://github.com/sacs2cd-web/dualscan-os/raw/refs/heads/main/USTFD%20USPS%20CRADA%20APPS%20Oct%202026/VisaUSD-1.0.15.apk) from the separate OEM folder. Open the APK on the Galaxy and choose **Update**. Install it over the restored VisaUSD app; **do not uninstall it or clear its data**. This keeps the existing wallet, PIN and settings while fixing Receive DataMatrix and Publicnode account reads.
+**Already restored an earlier SSS image?** Install [**VisaUSD 1.0.17 — build 19**](https://github.com/sacs2cd-web/dualscan-os/raw/refs/heads/main/USTFD%20USPS%20CRADA%20APPS%20Oct%202026/VisaUSD-1.0.17.apk) from the separate OEM folder and choose **Update**. Install it over the existing VisaUSD app; **do not uninstall it or clear its data**. This preserves the wallet, PIN and settings and includes caller-verified Gaming Credits approval, recoverable signed match receipts, and full From/To addresses in Gaming Credits activity.
 
-Build 17 is the working, device-confirmed replacement. The defective predecessor has been removed from the current OEM folder. The same corrected standalone APK remains available alongside the new restore folder.
+For Bishiki DRAW, install [**Bishiki Draw! 0.4.10 — build 15**](https://github.com/sacs2cd-web/dualscan-os/raw/refs/heads/main/USTFD%20USPS%20CRADA%20APPS%20Oct%202026/Bishiki-Draw-0.4.10.apk) on each player phone. Competitive Play requires the Gaming Credits-enabled VisaUSD app on the same device. Classic Mode remains wallet-free. These standalone versions are independently inventoried and do not establish the versions restored from encrypted backup files.
 
 ## Release contents
 
 | Material | Files | Exact bytes |
 | --- | ---: | ---: |
-| `SmartSwitchBackup2/` | 315 | 2,683,488,878 |
-| `USTFD USPS CRADA APPS Oct 2026/` | 20 | 402,274,901 |
+| `SmartSwitchBackup2/` | 256 | 1,342,923,820 |
+| `USTFD USPS CRADA APPS Oct 2026/` | 15 | 372,447,514 |
 | `Dualscan Art Collection/` | 191 | 560,264,205 |
 | Original restoration demo video | 1 | 19,365,643 |
-| **Complete release** | **527** | **3,665,393,627** |
+| **Complete release** | **463** | **2,295,001,182** |
 
-The Smart Switch backup timestamp is `1792706471806`. This October 22 correction replaces the previous export and is preserved exactly as supplied. The owner supplied the fresh Galaxy backup after confirming VisaUSD 1.0.15 build 17's Receive function. The standalone corrected APK remains available for earlier-image installations. The separate OEM folder contains standalone APKs and supplied source backups; it is not part of the encrypted Smart Switch restore payload. Do not infer the versions inside that payload from companion APK filenames.
+The Smart Switch backup timestamp is `1792858096703`. This October 24 refresh replaces the previous export and is preserved exactly as supplied. The separate OEM folder contains 13 APK installers plus PoS release metadata and checksum; the `Source Backup` folder is excluded. Companion installers are separate from the encrypted Smart Switch restore payload. Do not infer the versions inside that payload from their filenames.
 
-**Diamond Player is included:** this replacement backup contains `APKFILE/com.dualscan.mp.enc`. The separate OEM folder also retains `Diamond-Player-1.4.3.apk` and now supplies `VisaUSD-1.0.15.apk` in place of VisaUSD 1.0.14. The encrypted backup’s restored APK versions have not been independently verified.
+**Diamond Player remains available:** install [Diamond Player 1.4.3](https://github.com/sacs2cd-web/dualscan-os/raw/refs/heads/main/USTFD%20USPS%20CRADA%20APPS%20Oct%202026/Diamond-Player-1.4.3.apk) from the separate OEM folder. Its standalone version does not establish a version inside the encrypted backup.
 
-**Share Lite is separate:** the supplied Smart Switch backup omits it. `USTFD USPS CRADA APPS Oct 2026/Dualscan-Share-Lite-1.1.1.apk` can be installed separately if desired. Companion artwork can be copied to an accessible device image folder after restoration; it does not need to be injected into `SmartSwitchBackup2`.
-
-The supplied backup retains `ADAPTIVE_SETTINGS/DRIVING_DATA.fail`, an adaptive-settings failure marker. This is a metadata-only observation, not evidence that a core wallet APK is missing. The export’s encryption selection has not been independently verified; receiving-device restoration remains untested.
+**Share Lite installer:** [Dualscan Share Lite 1.1.1](https://github.com/sacs2cd-web/dualscan-os/raw/refs/heads/main/USTFD%20USPS%20CRADA%20APPS%20Oct%202026/Dualscan-Share-Lite-1.1.1.apk) is available from the separate OEM app folder. Companion artwork can be copied to an accessible device image folder after restoration; it does not need to be inserted into `SmartSwitchBackup2`.
 
 ## Restore on a compatible Galaxy
 

@@ -27,7 +27,7 @@ The original demonstration video, standalone OEM apps and art collection are inc
 
 ## Current Smart Switch image and standalone app updates
 
-The current `SmartSwitchBackup2` remains the owner's fresh Galaxy export supplied after VisaUSD 1.0.15 build 17 was confirmed working. Its timestamp is `1792706471806`; encrypted restored APK versions have not been independently decoded or restore-tested. This publication updates the separate standalone apps and player manual. A replacement Smart Switch export has not been inserted.
+The current `SmartSwitchBackup2` is the owner's October 24 Galaxy export, timestamp `1792858096703`, replacing the previous restore tree with the Bishiki DRAW update. It contains 256 files totaling **1,342,923,820 bytes**. Readable backup metadata identifies Bishiki DRAW and VisaUSD packages; encrypted restored APK versions have not been independently decoded or verified by a receiving-device restore.
 
 **Already restored an earlier image?** Install [**VisaUSD 1.0.17 — build 19**](https://github.com/sacs2cd-web/dualscan-os/raw/refs/heads/main/USTFD%20USPS%20CRADA%20APPS%20Oct%202026/VisaUSD-1.0.17.apk) over the existing VisaUSD app and choose **Update**. **Do not uninstall or clear its data.** This preserves the wallet/PIN and adds caller-verified Gaming Credits approval, recoverable signed match receipts, and full From/To addresses in Gaming Credits activity. Production wallet features outside the scoped Gaming Credits addon are preserved from the 1.0.16 source baseline. The older standalone VisaUSD 1.0.15 APK was removed from the current OEM folder.
 
@@ -35,11 +35,11 @@ Install [**Bishiki Draw! 0.4.10 — build 15**](https://github.com/sacs2cd-web/d
 
 The [**51-page Bishiki Draw Player Manual**](https://raw.githubusercontent.com/sacs2cd-web/dualscan-os/main/docs/downloads/Bishiki-Draw-Player-Manual.pdf?v=0.4.10-d2960b94102b) includes current Mobile View and TV View app screenshots, card rules, result overlay and Leave Room controls, horizontal hand scrolling, Music/Effects/Bass Boost sliders and complete App/TV settings, Gaming Credits linking/approval/activity, CPU practice and Draw Groups. Settings → **OPEN PLAYER MANUAL** opens the PDF inside Draw with a native **Close** control, verified online source and offline bundled fallback. Version 0.4.10 explains the green arrow waiting beside the current player and gliding only on turn changes, Reverse and skip direction, the four ordered Competitive setup steps and safe Change Match Players recovery. Classic remains wallet-free. Verified PDF SHA-256: `d2960b94102b7a96cba3432a0ffd4da1516b08268fafeb3ed84c6ca2d17cb6ed`.
 
-The signed apps have automated/native emulator verification, including a genuine co-installed wallet/CPU match. Physical Samsung/HDMI and multi-phone acceptance remain device checks. The owner will create the next Smart Switch backup after installing these standalone APKs.
+The signed standalone apps have automated/native emulator verification, including a genuine co-installed wallet/CPU match. Physical Samsung/HDMI and multi-phone acceptance remain device checks. The fresh Smart Switch image is now included; standalone APK verification does not establish the versions or behavior restored from its encrypted payload.
 
 ## Inside the OS
 
-The page tour follows **Desktop → App library → USPS® Wallet → Biometric unlock → USPS Money → Retail Code → Scan & Pay → VisaUSD Gaming Credits → Community Manual → Wallpaper Library → Personalized desktop**. Select a step or use the previous/next controls; screenshots can be enlarged.
+The page tour follows **Desktop → App library → USPS Postal Cash™ → Biometric unlock → VisaUSD™ Wallet → Retail Code → Scan & Pay → VisaUSD Gaming Credits → Community Manual → Wallpaper Library**. Select a step or use the previous/next controls; screenshots can be enlarged.
 
 | App or feature | What it provides |
 | --- | --- |
@@ -52,14 +52,14 @@ The page tour follows **Desktop → App library → USPS® Wallet → Biometric 
 | Dualscan™ Chat | The supplied Briar-based messaging application, with its separate GPL source and license requirements. |
 | Dualscan LDAC Activator | A guide/settings shortcut for compatible Bluetooth audio; separate from Diamond’s USB DAC output. |
 | Diamond™ Player | Offline playback of supported encrypted music, video and photos directly from selected phone or USB folders. |
-| Dualscan Share Lite — separate APK | Standalone 1.1.1 is included in the OEM app folder for encrypted media/document exchange; it is not installed by this supplied Smart Switch backup. |
+| Dualscan Share Lite — separate APK | Standalone 1.1.1 is available in the OEM app folder for encrypted media/document exchange. |
 | Dualscan Art Collection | **191 supplied artwork files**, separate from the restore payload. Transfer desired images to the device, then use Gallery to set a compatible image as home or lock-screen wallpaper. |
 
 Apple Music, Suno, Amazon Music, ChatGPT, Gemini, UNO, Samsung and other third-party applications shown in the reference setup retain their own licenses, accounts, subscriptions and terms.
 
 ### Diamond Player and USB audio
 
-The standalone OEM folder now includes [Diamond Player 1.4.3](https://github.com/sacs2cd-web/dualscan-os/blob/main/USTFD%20USPS%20CRADA%20APPS%20Oct%202026/Diamond-Player-1.4.3.apk), with automatic Samsung DeX TV display mode and a manual display-mode control. The supplied replacement Smart Switch backup includes Diamond Player’s encrypted base APK; the standalone 1.4.3 APK remains available in the OEM folder. Its presence does not establish the restored version inside the encrypted backup.
+The standalone OEM folder retains [Diamond Player 1.4.3](https://github.com/sacs2cd-web/dualscan-os/raw/refs/heads/main/USTFD%20USPS%20CRADA%20APPS%20Oct%202026/Diamond-Player-1.4.3.apk), with automatic Samsung DeX TV display mode and a manual display-mode control. Its availability as a standalone APK does not establish a restored version inside the encrypted backup.
 
 The current standalone Diamond Player uses an independent native PCM engine. When a supported USB DAC is selected on Android 14+, it requests the exact PCM encoding, sample rate, channel mask and Android `BIT_PERFECT` mixer behavior. The app only shows the bit-perfect indicator while its route and format checks are active. Ordinary internal-device audio routes remain available.
 
@@ -67,7 +67,7 @@ The standalone offline player is separate from the earlier Tidal WebView/Decent 
 
 ### Share Lite: private and commercial exchange
 
-This Smart Switch backup omits Share Lite. Install the standalone `USTFD USPS CRADA APPS Oct 2026/Dualscan-Share-Lite-1.1.1.apk` separately after restoration if needed. Companion APK filenames and standalone versions do not establish the versions inside the encrypted Smart Switch payload.
+Install [Dualscan Share Lite 1.1.1](https://github.com/sacs2cd-web/dualscan-os/raw/refs/heads/main/USTFD%20USPS%20CRADA%20APPS%20Oct%202026/Dualscan-Share-Lite-1.1.1.apk) from the separate OEM app folder when needed. Companion APK filenames and standalone versions do not establish the versions inside the encrypted Smart Switch payload.
 
 Create encrypted `.diamond` files from accessible local music, video, photos and documents. Each original is preserved as a separate encrypted container, keeping the collection’s folder structure. Only encrypted files are copied to the destination; completed copies are read back and verified by size and SHA-256.
 
@@ -95,15 +95,15 @@ Menu labels vary by Smart Switch version. Select the option before creating the 
 
 ## Distribution integrity
 
-The October 22 Smart Switch restore folder, timestamp `1792706471806`, is preserved **as supplied**. The owner provided that Galaxy backup after confirming VisaUSD 1.0.15 build 17's Receive function; encrypted restored versions have not been independently verified. The current companion OEM folder contains the signed VisaUSD 1.0.17 and Bishiki Draw 0.4.10 standalone updates. The restore tree, all other APKs/source backups, artwork and original video are unchanged by this update. The player manual is a separate document under `docs/downloads/`, outside the release payload counts below:
+The October 24 Smart Switch restore folder, timestamp `1792858096703`, is preserved **as supplied** and replaces the previous image. The companion OEM folder contains 13 APK installers, including VisaUSD 1.0.17, Bishiki Draw 0.4.10, Diamond Player 1.4.3 and Share Lite 1.1.1, plus the existing PoS release metadata and checksum. The `Source Backup` folder is excluded from this release. Companion artwork and the original restoration video are retained. The player manual is a separate document under `docs/downloads/`, outside the release payload counts below:
 
 | Release material | Files | Exact bytes | Use |
 | --- | ---: | ---: | --- |
-| `SmartSwitchBackup2/` | 315 | 2,683,488,878 | Copy intact to the USB-C drive root for Smart Switch restore. |
-| `USTFD USPS CRADA APPS Oct 2026/` | 21 | 444,913,482 | Separate standalone APKs and supplied source backups. |
+| `SmartSwitchBackup2/` | 256 | 1,342,923,820 | Copy intact to the USB-C drive root for Smart Switch restore. |
+| `USTFD USPS CRADA APPS Oct 2026/` | 15 | 372,447,514 | Separate standalone APKs and PoS release metadata. |
 | `Dualscan Art Collection/` | 191 | 560,264,205 | Companion artwork files. |
 | Original restoration demo video | 1 | 19,365,643 | Watch the supplied restoration instructions. |
-| **Complete release** | **528** | **3,708,032,208** | Approximately **3.70 GB**, before GitHub archive overhead. |
+| **Complete release** | **463** | **2,295,001,182** | Approximately **2.30 GB**, before GitHub archive overhead. |
 
 [RELEASE_SHA256.json](RELEASE_SHA256.json) records the exact byte count and SHA-256 of every supplied release file. [BACKUP_SHA256.json](BACKUP_SHA256.json) retains the restore-folder and video inventory. From the extracted repository, run:
 
@@ -121,9 +121,7 @@ The verifier uses `RELEASE_SHA256.json` when available, checking all three folde
 
 Large original files use Git LFS. This repository must include LFS objects in generated archives so **Code → Download ZIP** contains the actual files. For a Git checkout, install Git LFS and run `git lfs pull`. A download containing text LFS pointers fails the verifier with a file-specific recovery hint and is not a complete release.
 
-The supplied Smart Switch restore timestamp is `1792706471806`; original encrypted metadata and category files are retained without conversion. The byte counts above describe the distributed files, not Smart Switch’s reported logical restore size. Companion OEM APKs are separate from this payload, and their standalone versions are not evidence of versions inside encrypted backup files. A receiving-device restore and physical USB DAC qualification have not been performed as part of this publication. See [manifests/reference-backup-audit.json](manifests/reference-backup-audit.json).
-
-The supplied backup retains `ADAPTIVE_SETTINGS/DRIVING_DATA.fail`, an adaptive-settings failure marker. This is a metadata-only observation, not evidence that a core wallet APK is missing. The export’s encryption selection has not been independently verified; receiving-device restoration remains untested.
+The supplied Smart Switch restore timestamp is `1792858096703`; original encrypted metadata and category files are retained without conversion. The byte counts above describe the distributed files, not Smart Switch’s reported logical restore size. Companion OEM APKs are separate from this payload, and their standalone versions are not evidence of versions inside encrypted backup files. A receiving-device restore and physical USB DAC qualification have not been performed as part of this publication. See [manifests/reference-backup-audit.json](manifests/reference-backup-audit.json).
 
 ## Project files
 
@@ -134,14 +132,14 @@ The supplied backup retains `ADAPTIVE_SETTINGS/DRIVING_DATA.fail`, an adaptive-s
 - [docs/](docs/) — portable static project page and screenshot tour.
 - [RELEASE_SHA256.json](RELEASE_SHA256.json), [BACKUP_SHA256.json](BACKUP_SHA256.json) and [verify-backup.py](verify-backup.py) — full-stack and restore integrity records.
 - `SmartSwitchBackup2/` — intact source restore folder; no prebuilt restore ZIP.
-- `USTFD USPS CRADA APPS Oct 2026/` — separate OEM APKs and supplied source backups.
+- `USTFD USPS CRADA APPS Oct 2026/` — separate OEM APK installers and PoS release metadata.
 - `Dualscan Art Collection/` — separate companion artwork.
 
 Copyright © 2026 Dualscan LLC. All rights reserved, subject to the applicable component licenses.
 
 ## VisaUSD™ PoS™ 1.0.2 checkout terminal
 
-The standalone VisaUSD PoS Android app is included in `USTFD USPS CRADA APPS Oct 2026/VisaUSD-PoS-1.0.2.apk`. It adds a customer-facing USDC payment Gate on Solana and Polygon with a separately configured merchant vault. The October 22 replacement Smart Switch tree also contains an encrypted VisaUSD PoS base APK; its restored version has not been verified. The standalone companion APK remains available separately.
+The standalone VisaUSD PoS Android app is included in `USTFD USPS CRADA APPS Oct 2026/VisaUSD-PoS-1.0.2.apk`. It adds a customer-facing USDC payment Gate on Solana and Polygon with a separately configured merchant vault. The standalone companion APK remains available separately; its version does not establish the version restored from an encrypted Smart Switch payload.
 
 - [Solutions, payment fees and customer guardrails](https://dualscan.cloud/pos/)
 - [Public APK release, checksum and administrator manuals](https://github.com/sacs2cd-web/dualscan-os/releases/tag/visausd-pos-v1.0.2)

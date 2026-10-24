@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "manifestVersion": "1.1",
-  "asOf": "2026-10-22",
-  "scope": "Current required five-package delivery tray and conditional preservation of additional included components. Historical 1.0 component evidence is retained separately and does not assert the contents, versions, permissions or launcher states of the October 22 replacement backup.",
+  "manifestVersion": "1.2",
+  "asOf": "2026-10-24",
+  "scope": "Current required five-package delivery tray and conditional preservation of additional included components. Current backup inventory is the October 24 replacement, timestamp 1792858096703. Historical1.0 component evidence is retained separately and does not assert the contents, versions, permissions or launcher states of the current replacement backup.",
   "releaseStatus": "PUBLISHED",
   "dockCoordinateConvention": "1 through 5 left-to-right, not Samsung database cell IDs",
   "requiredDockPackages": [
@@ -23,11 +23,11 @@
       "currentBackupPayload": {
         "file": "com.ustfdatv.typelockergmail.enc",
         "bytes": 1693696,
-        "sha256": "60e75722d7221f91e300d126cae826ae8aa562b73e38402835e746fb4b749054",
+        "sha256": "ae7dfc9f9be75f1e4c6dcfe6122363bdab2858fb3d3a71628f5f4c6cef89d166",
         "format": "encrypted-base-apk",
         "evidenceManifest": "manifests/reference-backup-audit.json",
-        "inventoryAsOf": "2026-10-22",
-        "backupTimestamp": "1792706471806"
+        "inventoryAsOf": "2026-10-24",
+        "backupTimestamp": "1792858096703"
       },
       "backupVersionVerified": false,
       "currentStandaloneReference": {
@@ -40,7 +40,7 @@
         "role": "current-standalone-oem-apk",
         "evidenceManifest": "manifests/oem-apk-release.json",
         "matchesEncryptedBackup": false,
-        "evidenceManifestReleaseDate": "2026-10-22"
+        "evidenceManifestReleaseDate": "2026-10-24"
       },
       "evidenceStatus": "CURRENT_STANDALONE_APK_INSPECTED_ENCRYPTED_RESTORE_VERSION_UNVERIFIED",
       "historicalReferencePackage": "com.ustfdatv.typelockergmail"
@@ -55,11 +55,11 @@
       "currentBackupPayload": {
         "file": "com.dualscan.concertparty.enc",
         "bytes": 46821520,
-        "sha256": "826bcbad75505b5e5efd099e8ed3baaba54277337ef05c8464d5bb8853e15b45",
+        "sha256": "3ba68cbbbe8c57e8b57dc8629921166599a657cf65e8a06348680b2b8b69e888",
         "format": "encrypted-base-apk",
         "evidenceManifest": "manifests/reference-backup-audit.json",
-        "inventoryAsOf": "2026-10-22",
-        "backupTimestamp": "1792706471806"
+        "inventoryAsOf": "2026-10-24",
+        "backupTimestamp": "1792858096703"
       },
       "backupVersionVerified": false,
       "currentStandaloneReference": {
@@ -72,7 +72,7 @@
         "role": "current-standalone-oem-apk",
         "evidenceManifest": "manifests/oem-apk-release.json",
         "matchesEncryptedBackup": false,
-        "evidenceManifestReleaseDate": "2026-10-22"
+        "evidenceManifestReleaseDate": "2026-10-24"
       },
       "evidenceStatus": "CURRENT_STANDALONE_APK_INSPECTED_ENCRYPTED_RESTORE_VERSION_UNVERIFIED",
       "historicalReferencePackage": "com.dualscan.concertparty"
@@ -87,11 +87,11 @@
       "currentBackupPayload": {
         "file": "com.dualscan.usps.postalcash.enc",
         "bytes": 100176816,
-        "sha256": "1e1bc3663aac880780c7eb50f8328a63bb6abd4b7a10622ed4b7c277a1dc3c1c",
+        "sha256": "7f43606d44deff20691660d36048a462dfa131fb491414159e912f6e044f1df0",
         "format": "encrypted-base-apk",
         "evidenceManifest": "manifests/reference-backup-audit.json",
-        "inventoryAsOf": "2026-10-22",
-        "backupTimestamp": "1792706471806"
+        "inventoryAsOf": "2026-10-24",
+        "backupTimestamp": "1792858096703"
       },
       "backupVersionVerified": false,
       "currentStandaloneReference": null,
@@ -108,11 +108,11 @@
       "currentBackupPayload": {
         "file": "com.dualscan.guard.enc",
         "bytes": 29505376,
-        "sha256": "b931bd3c67a5344c98dfba9b5b0941e834ac773a3635d11c9045faa88f042cb2",
+        "sha256": "d92a5c65e82d03ea7273fc9f74a37f17214e418ac3fdcad841bb841defefb479",
         "format": "encrypted-base-apk",
         "evidenceManifest": "manifests/reference-backup-audit.json",
-        "inventoryAsOf": "2026-10-22",
-        "backupTimestamp": "1792706471806"
+        "inventoryAsOf": "2026-10-24",
+        "backupTimestamp": "1792858096703"
       },
       "backupVersionVerified": false,
       "currentStandaloneReference": {
@@ -125,7 +125,7 @@
         "role": "current-standalone-oem-apk",
         "evidenceManifest": "manifests/oem-apk-release.json",
         "matchesEncryptedBackup": false,
-        "evidenceManifestReleaseDate": "2026-10-22"
+        "evidenceManifestReleaseDate": "2026-10-24"
       },
       "evidenceStatus": "CURRENT_STANDALONE_APK_INSPECTED_ENCRYPTED_RESTORE_VERSION_UNVERIFIED",
       "historicalReferencePackage": null
@@ -139,25 +139,25 @@
       "requirement": "required-current-dock",
       "currentBackupPayload": {
         "file": "com.bishiki.visausd.local.enc",
-        "bytes": 30403760,
-        "sha256": "fd5118adf58930e7cefb81aaae6cbae23cb27cfae22b408f884f8314b38b35f7",
+        "bytes": 29960128,
+        "sha256": "969beddc187430fab3f510b831c7b4a894ba080616bedacc1d2e868237d6988b",
         "format": "encrypted-base-apk",
         "evidenceManifest": "manifests/reference-backup-audit.json",
-        "inventoryAsOf": "2026-10-22",
-        "backupTimestamp": "1792706471806"
+        "inventoryAsOf": "2026-10-24",
+        "backupTimestamp": "1792858096703"
       },
       "backupVersionVerified": false,
       "currentStandaloneReference": {
-        "path": "USTFD USPS CRADA APPS Oct 2026/VisaUSD-1.0.15.apk",
+        "path": "USTFD USPS CRADA APPS Oct 2026/VisaUSD-1.0.17.apk",
         "packageName": "com.bishiki.visausd.local",
-        "versionName": "1.0.15",
-        "versionCode": "17",
-        "bytes": 30403742,
-        "sha256": "072cb893ea2deea7edd8b6e500a68e5b9c8ef364df2113f5ed0838d10650caca",
+        "versionName": "1.0.17",
+        "versionCode": "19",
+        "bytes": 29960111,
+        "sha256": "b060333c16db05f800b0ddbced7e7c44657d465295286d2aa007ebb07130b627",
         "role": "current-standalone-oem-apk",
         "evidenceManifest": "manifests/oem-apk-release.json",
         "matchesEncryptedBackup": false,
-        "evidenceManifestReleaseDate": "2026-10-22"
+        "evidenceManifestReleaseDate": "2026-10-24"
       },
       "evidenceStatus": "CURRENT_STANDALONE_APK_INSPECTED_ENCRYPTED_RESTORE_VERSION_UNVERIFIED",
       "historicalReferencePackage": "com.bishiki.visausd.local"
@@ -169,7 +169,22 @@
       "dockEvidence": null,
       "requiredInCurrentDistribution": false,
       "requirement": "preserve-when-included",
-      "historicalReferencePackage": "com.bishiki.uspsmoney.local"
+      "historicalReferencePackage": "com.bishiki.uspsmoney.local",
+      "currentBackupPayload": null,
+      "currentStandaloneReference": {
+        "path": "USTFD USPS CRADA APPS Oct 2026/USPS-Money-1.0.8.apk",
+        "packageName": "com.bishiki.uspsmoney.local",
+        "versionName": "1.0.8",
+        "versionCode": "9",
+        "bytes": 28749190,
+        "sha256": "2936a0120cc71f487ce9dbe444049557ee8f9b8199d7a6c48ce8b95eddacef7a",
+        "role": "current-standalone-oem-apk",
+        "evidenceManifest": "manifests/oem-apk-release.json",
+        "matchesEncryptedBackup": false,
+        "evidenceManifestReleaseDate": "2026-10-24"
+      },
+      "backupVersionVerified": false,
+      "evidenceStatus": "CURRENT_STANDALONE_APK_INSPECTED_NO_ENCRYPTED_BASE_CONTAINER_PRESENT"
     },
     {
       "name": "USPS Banking",
@@ -178,7 +193,22 @@
       "dockEvidence": null,
       "requiredInCurrentDistribution": false,
       "requirement": "preserve-when-included",
-      "historicalReferencePackage": "com.usps.myusps_mobile_app_android"
+      "historicalReferencePackage": "com.usps.myusps_mobile_app_android",
+      "currentBackupPayload": null,
+      "currentStandaloneReference": {
+        "path": "USTFD USPS CRADA APPS Oct 2026/USPS-Banking-USTFD-All_Rights_Reserved.apk",
+        "packageName": "com.usps.myusps_mobile_app_android",
+        "versionName": "2.4.5.6",
+        "versionCode": "2456",
+        "bytes": 9769468,
+        "sha256": "7f12f7126899bbc1d50c08a4856ce3f38567abc72117c6e7773061eadbfc1df5",
+        "role": "current-standalone-oem-apk",
+        "evidenceManifest": "manifests/oem-apk-release.json",
+        "matchesEncryptedBackup": false,
+        "evidenceManifestReleaseDate": "2026-10-24"
+      },
+      "backupVersionVerified": false,
+      "evidenceStatus": "CURRENT_STANDALONE_APK_INSPECTED_NO_ENCRYPTED_BASE_CONTAINER_PRESENT"
     },
     {
       "name": "USPS® Wallet",
@@ -187,7 +217,22 @@
       "dockEvidence": null,
       "requiredInCurrentDistribution": false,
       "requirement": "preserve-when-included",
-      "historicalReferencePackage": "io.horizontalsystems.bankwallet"
+      "historicalReferencePackage": "io.horizontalsystems.bankwallet",
+      "currentBackupPayload": null,
+      "currentStandaloneReference": {
+        "path": "USTFD USPS CRADA APPS Oct 2026/USPS-Wallet-USTFD-All_Rights_Reserved.apk",
+        "packageName": "io.horizontalsystems.bankwallet",
+        "versionName": "0.48.27-noqr-walletmode-biometric",
+        "versionCode": "191",
+        "bytes": 102542584,
+        "sha256": "11358fa05aecca2e7a003796d703f75b940aac72fe97c985cd0100fc12220735",
+        "role": "current-standalone-oem-apk",
+        "evidenceManifest": "manifests/oem-apk-release.json",
+        "matchesEncryptedBackup": false,
+        "evidenceManifestReleaseDate": "2026-10-24"
+      },
+      "backupVersionVerified": false,
+      "evidenceStatus": "CURRENT_STANDALONE_APK_INSPECTED_NO_ENCRYPTED_BASE_CONTAINER_PRESENT"
     },
     {
       "name": "Typelocker Outlook",
@@ -196,7 +241,22 @@
       "dockEvidence": null,
       "requiredInCurrentDistribution": false,
       "requirement": "preserve-when-included",
-      "historicalReferencePackage": "com.ustfd.typelockeroutlook"
+      "historicalReferencePackage": "com.ustfd.typelockeroutlook",
+      "currentBackupPayload": null,
+      "currentStandaloneReference": {
+        "path": "USTFD USPS CRADA APPS Oct 2026/Typelocker Outlook.apk",
+        "packageName": "com.ustfd.typelockeroutlook",
+        "versionName": "1.0",
+        "versionCode": "10000",
+        "bytes": 1565531,
+        "sha256": "37eee5c7391c1f4d24cf669d58c930ec117f4d2db9efdc8e86ab54eee0b9d534",
+        "role": "current-standalone-oem-apk",
+        "evidenceManifest": "manifests/oem-apk-release.json",
+        "matchesEncryptedBackup": false,
+        "evidenceManifestReleaseDate": "2026-10-24"
+      },
+      "backupVersionVerified": false,
+      "evidenceStatus": "CURRENT_STANDALONE_APK_INSPECTED_NO_ENCRYPTED_BASE_CONTAINER_PRESENT"
     },
     {
       "name": "Dualscan LDAC Activator",
@@ -205,7 +265,30 @@
       "dockEvidence": null,
       "requiredInCurrentDistribution": false,
       "requirement": "preserve-when-included",
-      "historicalReferencePackage": "com.dualscan.ldacactivator"
+      "historicalReferencePackage": "com.dualscan.ldacactivator",
+      "currentBackupPayload": {
+        "file": "com.dualscan.ldacactivator.enc",
+        "bytes": 33856,
+        "sha256": "065cd49c4fbf9b12c8a6a697671c6b760594cfbff982a666bec403f28c43fc18",
+        "format": "encrypted-base-apk",
+        "evidenceManifest": "manifests/reference-backup-audit.json",
+        "inventoryAsOf": "2026-10-24",
+        "backupTimestamp": "1792858096703"
+      },
+      "currentStandaloneReference": {
+        "path": "USTFD USPS CRADA APPS Oct 2026/Dualscan LDAC Activator.apk",
+        "packageName": "com.dualscan.ldacactivator",
+        "versionName": "1.4",
+        "versionCode": "5",
+        "bytes": 33834,
+        "sha256": "c06be364139d6ce78eac6b66992829d8efd309039f146e3024f943d7336528fb",
+        "role": "current-standalone-oem-apk",
+        "evidenceManifest": "manifests/oem-apk-release.json",
+        "matchesEncryptedBackup": false,
+        "evidenceManifestReleaseDate": "2026-10-24"
+      },
+      "backupVersionVerified": false,
+      "evidenceStatus": "CURRENT_STANDALONE_APK_INSPECTED_ENCRYPTED_RESTORE_VERSION_UNVERIFIED"
     },
     {
       "name": "Diamond™ Player",
@@ -214,7 +297,30 @@
       "dockEvidence": null,
       "requiredInCurrentDistribution": false,
       "requirement": "preserve-when-included",
-      "historicalReferencePackage": "com.dualscan.mp"
+      "historicalReferencePackage": "com.dualscan.mp",
+      "currentBackupPayload": {
+        "file": "com.dualscan.mp.enc",
+        "bytes": 47545472,
+        "sha256": "2be43e5006ffea356593ee97f0ea369cbe4b5d7cad8634de5be135eaff8d999e",
+        "format": "encrypted-base-apk",
+        "evidenceManifest": "manifests/reference-backup-audit.json",
+        "inventoryAsOf": "2026-10-24",
+        "backupTimestamp": "1792858096703"
+      },
+      "currentStandaloneReference": {
+        "path": "USTFD USPS CRADA APPS Oct 2026/Diamond-Player-1.4.3.apk",
+        "packageName": "com.dualscan.mp",
+        "versionName": "1.4.3",
+        "versionCode": "12",
+        "bytes": 47545448,
+        "sha256": "1ad40238aceb6842a2be92d3db96ed35b8a6910f136816082bea458945afb218",
+        "role": "current-standalone-oem-apk",
+        "evidenceManifest": "manifests/oem-apk-release.json",
+        "matchesEncryptedBackup": false,
+        "evidenceManifestReleaseDate": "2026-10-24"
+      },
+      "backupVersionVerified": false,
+      "evidenceStatus": "CURRENT_STANDALONE_APK_INSPECTED_ENCRYPTED_RESTORE_VERSION_UNVERIFIED"
     },
     {
       "name": "Dualscan Share Lite",
@@ -223,7 +329,22 @@
       "dockEvidence": null,
       "requiredInCurrentDistribution": false,
       "requirement": "preserve-when-included",
-      "historicalReferencePackage": "com.dualscan.share.lite"
+      "historicalReferencePackage": "com.dualscan.share.lite",
+      "currentBackupPayload": null,
+      "currentStandaloneReference": {
+        "path": "USTFD USPS CRADA APPS Oct 2026/Dualscan-Share-Lite-1.1.1.apk",
+        "packageName": "com.dualscan.share.lite",
+        "versionName": "1.1.1",
+        "versionCode": "4",
+        "bytes": 19145526,
+        "sha256": "58bfbbedf13847aa3091452df2989dcd68f2cf064f95d072132ad51d4398546a",
+        "role": "current-standalone-oem-apk",
+        "evidenceManifest": "manifests/oem-apk-release.json",
+        "matchesEncryptedBackup": false,
+        "evidenceManifestReleaseDate": "2026-10-24"
+      },
+      "backupVersionVerified": false,
+      "evidenceStatus": "CURRENT_STANDALONE_APK_INSPECTED_NO_ENCRYPTED_BASE_CONTAINER_PRESENT"
     },
     {
       "name": "VisaUSD Typelocker Wallet",
@@ -232,7 +353,22 @@
       "dockEvidence": null,
       "requiredInCurrentDistribution": false,
       "requirement": "preserve-when-included",
-      "historicalReferencePackage": "com.visausd.typelocker.wallet"
+      "historicalReferencePackage": "com.visausd.typelocker.wallet",
+      "currentBackupPayload": null,
+      "currentStandaloneReference": {
+        "path": "USTFD USPS CRADA APPS Oct 2026/VisaUSD-Wallet-3.0.2.apk",
+        "packageName": "com.visausd.typelocker.wallet",
+        "versionName": "3.0.2",
+        "versionCode": "3",
+        "bytes": 12031890,
+        "sha256": "f85d3535175df8ece6ffb24bdb769b2309287fac47866dbb647bde6aabb96242",
+        "role": "current-standalone-oem-apk",
+        "evidenceManifest": "manifests/oem-apk-release.json",
+        "matchesEncryptedBackup": false,
+        "evidenceManifestReleaseDate": "2026-10-24"
+      },
+      "backupVersionVerified": false,
+      "evidenceStatus": "CURRENT_STANDALONE_APK_INSPECTED_NO_ENCRYPTED_BASE_CONTAINER_PRESENT"
     }
   ],
   "historicalManifestSnapshot": {
@@ -1693,7 +1829,7 @@
     "Current device settings or live permission grants",
     "A universal Android 14+ Smart Switch restore guarantee",
     "Physical DAC bit identity on unqualified devices",
-    "Decoded or post-restore-tested tray database positions for the October 22 replacement backup",
+    "Decoded or post-restore-tested tray database positions for the October 24 replacement backup",
     "A verified standalone APK version for USPS Postal Cash™ Wallet",
     "A cryptographic match between current standalone OEM APKs and encrypted Smart Switch base APKs"
   ],
@@ -1710,5 +1846,35 @@
     "Camera",
     "Gallery",
     "One UI Home"
+  ],
+  "currentCompanionApplications": [
+    {
+      "name": "Bishiki DRAW",
+      "package": "com.dualscan.bishiki.draw",
+      "requiredDockPosition": null,
+      "currentBackupPayload": {
+        "file": "com.dualscan.bishiki.draw.enc",
+        "bytes": 43082240,
+        "sha256": "ac8ec5cecd261338dab8abaedd34ec08612ac53fc1c98f13ff517ee7b5f614d9",
+        "format": "encrypted-base-apk",
+        "evidenceManifest": "manifests/reference-backup-audit.json",
+        "inventoryAsOf": "2026-10-24",
+        "backupTimestamp": "1792858096703"
+      },
+      "currentStandaloneReference": {
+        "path": "USTFD USPS CRADA APPS Oct 2026/Bishiki-Draw-0.4.10.apk",
+        "packageName": "com.dualscan.bishiki.draw",
+        "versionName": "0.4.10",
+        "versionCode": "15",
+        "role": "current-standalone-oem-apk",
+        "bytes": 43082212,
+        "sha256": "b5456d31dbfafdfd0a4dedb800b1a96bcf7e8d245f5b89307e8426e967fad30b",
+        "evidenceManifest": "manifests/oem-apk-release.json",
+        "matchesEncryptedBackup": false,
+        "evidenceManifestReleaseDate": "2026-10-24"
+      },
+      "backupVersionVerified": false,
+      "scope": "Companion application inventory; no new mandatory Core OEM dock position."
+    }
   ]
 }

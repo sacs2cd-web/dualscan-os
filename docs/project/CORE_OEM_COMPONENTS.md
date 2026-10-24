@@ -1,10 +1,10 @@
 # Dualscan™ OS Core OEM Components
 
-Manifest version 1.1 · October 22, 2026
+Manifest version 1.2 · October 24, 2026
 
 This document identifies the Core OEM Components referenced by sections 3–5 of the [Dualscan OS Community & Commercial License](LICENSE). The machine-readable inventory is [manifests/core-oem-v1.json](manifests/core-oem-v1.json).
 
-The required dock below reflects the project owner’s October 22 correction and supplied home-screen screenshots. It replaces the earlier tray order. The distribution contains the owner-supplied October 22 Smart Switch image. Current standalone OEM package versions and hashes are listed separately in [manifests/oem-apk-release.json](manifests/oem-apk-release.json); retained historical component evidence is identified separately in the core JSON inventory. The base APKs and primary application manifest inside the supplied Smart Switch backup are encrypted. Accordingly, standalone versions and hashes are **reference artifacts, not cryptographically verified versions of the encrypted backup**. The supplied Smart Switch folder is published intact and as-is. Its exact payloads remain the restore source; independent standalone references do not substitute for them.
+The required dock below reflects the project owner’s October 22 correction and supplied home-screen screenshots. It replaces the earlier tray order. The distribution contains the owner-supplied October 24 Smart Switch image, including the Bishiki DRAW package container. Current standalone OEM package versions and hashes are listed separately in [manifests/oem-apk-release.json](manifests/oem-apk-release.json); retained historical component evidence is identified separately in the core JSON inventory. The base APKs and primary application manifest inside the supplied Smart Switch backup are encrypted. Accordingly, standalone versions and hashes are **reference artifacts, not cryptographically verified versions of the encrypted backup**. The supplied Smart Switch folder is published intact and as-is. Its exact payloads remain the restore source; independent standalone references do not substitute for them.
 
 ## Required home-screen tray
 
@@ -18,7 +18,7 @@ Preserve these five visible, accessible positions from left to right. Positions 
 | 2 | Dualscan™ Chat | `com.dualscan.concertparty` | Standalone 1.5.17-dualscan.1 / code 10517 |
 | 3 · center | USPS Postal Cash™ Wallet | `com.dualscan.usps.postalcash` | Encrypted backup payload filename; restored version unverified |
 | 4 | VisaUSD™ PoS | `com.dualscan.guard` | Standalone 1.0.2 / code 3 |
-| 5 · right | VisaUSD™ Wallet | `com.bishiki.visausd.local` | Standalone 1.0.15 / code 17 |
+| 5 · right | VisaUSD™ Wallet | `com.bishiki.visausd.local` | Standalone 1.0.17 / code 19 |
 
 Evidence: the project owner’s corrected order and supplied `Screenshot_20261022_133757_One UI Home.jpg` and `Screenshot_20261022_154956_One UI Home.jpg`. The screenshots show the same five positions with different wallpapers. The Postal Cash package identity is supported by the supplied `APKFILE/com.dualscan.usps.postalcash.enc` filename; its restored Android manifest and version have not been independently inspected.
 
@@ -35,7 +35,7 @@ The following entries retain historical package and launcher references. They ha
 | USPS® Wallet | `io.horizontalsystems.bankwallet` | Historical standalone 0.48.27-noqr-walletmode-biometric / code 191; no required tray position |
 | Typelocker Outlook | `com.ustfd.typelockeroutlook` | Historical encrypted payload and launcher record; restored version unverified |
 | Dualscan LDAC Activator | `com.dualscan.ldacactivator` | 1.4 / code 5 |
-| Diamond™ Player · launcher label Diamond™ | `com.dualscan.mp` | 1.2.1 / code 6; inspected candidate is a development APK |
+| Diamond™ Player · launcher label Diamond™ | `com.dualscan.mp` | Current standalone 1.4.3 / code 12; earlier development evidence remains historical |
 | Dualscan Share Lite | `com.dualscan.share.lite` | Standalone 1.1.1 supplied in the OEM APK folder; no encrypted Share Lite base APK is present in this supplied restore tree |
 | VisaUSD Typelocker Wallet | `com.visausd.typelocker.wallet` | Encrypted payload and launcher record; version unverified |
 
@@ -76,7 +76,7 @@ These are functional preservation requirements for a delivered derivative. They 
 - Preserve Share Lite's selected local file/folder workflow, optional-password handling, encrypted output, destination read-back verification, and unchanged originals. Share Lite does not capture applications, private app data, or a complete OS image.
 - Keep Android runtime permission consent, storage grants, biometric enrollment, app sandboxing, and Keystore protection intact. A distribution must not silently grant permissions, export credentials, or weaken these boundaries to make a restore appear complete.
 
-The JSON inventory retains selected readable launcher records from the previous manifest as historical evidence. They have not been revalidated against the October 22 replacement. Value 0 in those Android component records means **default**, not a boolean false or proof of a current runtime grant. No current launcher-alias state or runtime permission grant is claimed from those historical records. Unrelated application/system settings are not declared protected by this inventory.
+The JSON inventory retains selected readable launcher records from the previous manifest as historical evidence. They have not been revalidated against the October 24 replacement. Value 0 in those Android component records means **default**, not a boolean false or proof of a current runtime grant. No current launcher-alias state or runtime permission grant is claimed from those historical records. Unrelated application/system settings are not declared protected by this inventory.
 
 No additional custom Android system daemon, privileged system partition, bootloader setting, or universal firmware image was verified in this backup. The encrypted home-screen database, wallpaper profiles, permission grants, battery policy, current audio route, and full restore behavior remain unverified.
 
@@ -86,14 +86,14 @@ Apple Music, Suno, Amazon Music, UNO, ChatGPT, Gemini, Samsung Phone, Camera, Ga
 
 ## Intact restore package and verification scope
 
-The October 22 supplied Smart Switch backup, timestamp `1792706471806`, contains 315 files totaling **2,683,488,878 bytes**. The complete companion release contains 527 files totaling **3,665,393,627 bytes**, including the separate OEM APK and art folders and restoration video. The backup includes encrypted app-associated data, photo/art files and device-specific state. Categories were identified from filenames and metadata only; personal/account contents were not opened. The byte counts describe physical distributed files, not Smart Switch’s logical restore size.
+The October 24 supplied Smart Switch backup, timestamp `1792858096703`, contains 256 files totaling **1,342,923,820 bytes**. The complete companion release contains 463 files totaling **2,295,001,182 bytes**, including the separate OEM APK and art folders and restoration video. The OEM folder contains 13 current APKs and two VisaUSD PoS verification sidecars (15 files, **372,447,514 bytes**); its `Source Backup` directory is excluded. The backup includes encrypted app-associated data, photo/art files and device-specific state. Categories were identified from filenames and generic metadata only; personal/account contents were not opened. Physical byte counts are separate from Smart Switch’s logical restore size.
 
-The replacement backup contains `APKFILE/com.dualscan.mp.enc`. The standalone `Diamond-Player-1.4.3.apk` remains in the OEM folder, where `VisaUSD-1.0.15.apk` replaces VisaUSD 1.0.14. No encrypted base APK was decrypted to establish its restored version.
+The fresh restore tree includes `APKFILE/com.dualscan.bishiki.draw.enc`, `APKFILE/com.bishiki.visausd.local.enc` and `APKFILE/com.dualscan.mp.enc`. Its source files and folder structure are preserved unchanged. Current companion downloads are [Bishiki DRAW 0.4.10 / code 15](https://github.com/sacs2cd-web/dualscan-os/raw/refs/heads/main/USTFD%20USPS%20CRADA%20APPS%20Oct%202026/Bishiki-Draw-0.4.10.apk), [VisaUSD 1.0.17 / code 19](https://github.com/sacs2cd-web/dualscan-os/raw/refs/heads/main/USTFD%20USPS%20CRADA%20APPS%20Oct%202026/VisaUSD-1.0.17.apk), [Diamond Player 1.4.3 / code 12](https://github.com/sacs2cd-web/dualscan-os/raw/refs/heads/main/USTFD%20USPS%20CRADA%20APPS%20Oct%202026/Diamond-Player-1.4.3.apk) and [Dualscan Share Lite 1.1.1 / code 4](https://github.com/sacs2cd-web/dualscan-os/raw/refs/heads/main/USTFD%20USPS%20CRADA%20APPS%20Oct%202026/Dualscan-Share-Lite-1.1.1.apk). Bishiki DRAW is inventoried as a companion application and does not add a mandatory dock position. Share Lite is supplied separately; no Share Lite base container is present in this Smart Switch tree. The current published Diamond Player 1.4.3 is retained in preference to the older 1.4.0 APK in the reference folder.
 
-The owner supplied this replacement after confirming VisaUSD 1.0.15 build 17's Receive function on the Galaxy. The source backup remains unchanged. The owner has requested publication of the complete folder as-is, preserving its files and restore structure. [manifests/reference-backup-audit.json](manifests/reference-backup-audit.json) contains a metadata-only category audit and software-payload hashes; no personal/account payload contents are reproduced in these documentation files.
+The owner requested this fresh Bishiki DRAW export be published with the current standalone OEM versions. [manifests/reference-backup-audit.json](manifests/reference-backup-audit.json) records the current category inventory and software-container hashes. No encrypted base APK was decrypted to establish its restored version or a cryptographic match to a standalone APK.
 
-The supplied backup retains `ADAPTIVE_SETTINGS/DRIVING_DATA.fail`, an adaptive-settings failure marker. This is a metadata-only observation, not evidence that a core wallet APK is missing. The export’s encryption selection has not been independently verified; receiving-device restoration remains untested.
+Native export failure markers, where present, are retained exactly and listed in the backup audit. Their presence alone does not establish whether a core app is missing. The export’s encryption selection has not been independently verified; receiving-device restoration remains untested.
 
-Restore testing of the intact supplied backup has not been executed as part of this inventory. Independently verified restored versions, hashes, permissions, and tray placement are therefore not claimed. A normal Smart Switch backup is not an Android system/boot image, and Android 14 alone does not establish Samsung Smart Switch restore compatibility on every manufacturer's device.
+Restore testing of the intact supplied backup has not been executed as part of this inventory. Independently verified restored versions, permissions and tray placement are therefore not claimed. A normal Smart Switch backup is not an Android system/boot image, and Android 14 alone does not establish Samsung Smart Switch restore compatibility on every manufacturer’s device.
 
 Keep the published restore folder intact. Deleting category folders is not a validated way to create a derivative restore: the primary backup and app manifests are encrypted, and the remaining metadata cannot be fully checked from the exposed files. Create customized derivatives through a fresh Smart Switch export and preserve the applicable Core OEM Components.
