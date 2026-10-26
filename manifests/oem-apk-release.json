@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "releaseDate": "2026-10-24",
+  "releaseDate": "2026-10-26",
   "folder": "USTFD USPS CRADA APPS Oct 2026",
-  "fileCount": 15,
-  "bytes": 372447514,
+  "fileCount": 18,
+  "bytes": 516448078,
   "inspection": "Android aapt2 package metadata and SHA-256 inspection of current standalone APKs. Current published Diamond Player 1.4.3 is retained in preference to the older 1.4.0 reference APK. No encrypted Smart Switch payload version match claimed.",
   "apks": [
     {
@@ -88,6 +88,15 @@
       "role": "current-standalone-oem-apk"
     },
     {
+      "path": "USTFD USPS CRADA APPS Oct 2026/USPS-Postal-Cash-1.0.3.apk",
+      "packageName": "com.dualscan.usps.postalcash",
+      "versionName": "1.0.3",
+      "versionCode": "4",
+      "bytes": 143999108,
+      "sha256": "cd8a8ca35ede1b97af4612d431f9d84bb123ee2244729833a42215dfa0082260",
+      "role": "current-standalone-oem-apk"
+    },
+    {
       "path": "USTFD USPS CRADA APPS Oct 2026/USPS-Wallet-USTFD-All_Rights_Reserved.apk",
       "packageName": "io.horizontalsystems.bankwallet",
       "versionName": "0.48.27-noqr-walletmode-biometric",
@@ -124,7 +133,7 @@
       "role": "current-standalone-oem-apk"
     }
   ],
-  "apkCount": 13,
+  "apkCount": 14,
   "excludedDirectories": [
     "Source Backup"
   ]

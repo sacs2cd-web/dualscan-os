@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "manifestVersion": "1.2",
-  "asOf": "2026-10-24",
-  "scope": "Current required five-package delivery tray and conditional preservation of additional included components. Current backup inventory is the October 24 replacement, timestamp 1792858096703. Historical1.0 component evidence is retained separately and does not assert the contents, versions, permissions or launcher states of the current replacement backup.",
+  "manifestVersion": "1.3",
+  "asOf": "2026-10-26",
+  "scope": "Current required five-package delivery tray and conditional preservation of additional included components. Current backup inventory is the October 24 replacement, timestamp 1792858096703. Historical1.0 component evidence is retained separately and does not assert the contents, versions, permissions or launcher states of the current replacement backup. The standalone USPS Postal Cash 1.0.3 APK was added on October 26 without modifying that restore tree.",
   "releaseStatus": "PUBLISHED",
   "dockCoordinateConvention": "1 through 5 left-to-right, not Samsung database cell IDs",
   "requiredDockPackages": [
@@ -40,13 +40,13 @@
         "role": "current-standalone-oem-apk",
         "evidenceManifest": "manifests/oem-apk-release.json",
         "matchesEncryptedBackup": false,
-        "evidenceManifestReleaseDate": "2026-10-24"
+        "evidenceManifestReleaseDate": "2026-10-26"
       },
       "evidenceStatus": "CURRENT_STANDALONE_APK_INSPECTED_ENCRYPTED_RESTORE_VERSION_UNVERIFIED",
       "historicalReferencePackage": "com.ustfdatv.typelockergmail"
     },
     {
-      "name": "Dualscan™ Chat",
+      "name": "Dualscan\u2122 Chat",
       "package": "com.dualscan.concertparty",
       "dockPositionLeftToRight": 2,
       "dockEvidence": "Owner-specified current delivery tray order, confirmed 2026-10-22; not a decoded or post-restore-tested Samsung cell position.",
@@ -72,13 +72,13 @@
         "role": "current-standalone-oem-apk",
         "evidenceManifest": "manifests/oem-apk-release.json",
         "matchesEncryptedBackup": false,
-        "evidenceManifestReleaseDate": "2026-10-24"
+        "evidenceManifestReleaseDate": "2026-10-26"
       },
       "evidenceStatus": "CURRENT_STANDALONE_APK_INSPECTED_ENCRYPTED_RESTORE_VERSION_UNVERIFIED",
       "historicalReferencePackage": "com.dualscan.concertparty"
     },
     {
-      "name": "USPS Postal Cash™ Wallet",
+      "name": "USPS Postal Cash\u2122 Wallet",
       "package": "com.dualscan.usps.postalcash",
       "dockPositionLeftToRight": 3,
       "dockEvidence": "Owner-specified current delivery tray order, confirmed 2026-10-22; not a decoded or post-restore-tested Samsung cell position.",
@@ -94,12 +94,23 @@
         "backupTimestamp": "1792858096703"
       },
       "backupVersionVerified": false,
-      "currentStandaloneReference": null,
-      "evidenceStatus": "ENCRYPTED_BACKUP_FILENAME_ONLY_NO_VERIFIED_STANDALONE_VERSION",
+      "currentStandaloneReference": {
+        "path": "USTFD USPS CRADA APPS Oct 2026/USPS-Postal-Cash-1.0.3.apk",
+        "packageName": "com.dualscan.usps.postalcash",
+        "versionName": "1.0.3",
+        "versionCode": "4",
+        "bytes": 143999108,
+        "sha256": "cd8a8ca35ede1b97af4612d431f9d84bb123ee2244729833a42215dfa0082260",
+        "role": "current-standalone-oem-apk",
+        "evidenceManifest": "manifests/oem-apk-release.json",
+        "matchesEncryptedBackup": false,
+        "evidenceManifestReleaseDate": "2026-10-26"
+      },
+      "evidenceStatus": "CURRENT_STANDALONE_APK_INSPECTED_ENCRYPTED_RESTORE_VERSION_UNVERIFIED",
       "historicalReferencePackage": null
     },
     {
-      "name": "VisaUSD™ PoS",
+      "name": "VisaUSD\u2122 PoS",
       "package": "com.dualscan.guard",
       "dockPositionLeftToRight": 4,
       "dockEvidence": "Owner-specified current delivery tray order, confirmed 2026-10-22; not a decoded or post-restore-tested Samsung cell position.",
@@ -125,13 +136,13 @@
         "role": "current-standalone-oem-apk",
         "evidenceManifest": "manifests/oem-apk-release.json",
         "matchesEncryptedBackup": false,
-        "evidenceManifestReleaseDate": "2026-10-24"
+        "evidenceManifestReleaseDate": "2026-10-26"
       },
       "evidenceStatus": "CURRENT_STANDALONE_APK_INSPECTED_ENCRYPTED_RESTORE_VERSION_UNVERIFIED",
       "historicalReferencePackage": null
     },
     {
-      "name": "VisaUSD™ Wallet",
+      "name": "VisaUSD\u2122 Wallet",
       "package": "com.bishiki.visausd.local",
       "dockPositionLeftToRight": 5,
       "dockEvidence": "Owner-specified current delivery tray order, confirmed 2026-10-22; not a decoded or post-restore-tested Samsung cell position.",
@@ -157,7 +168,7 @@
         "role": "current-standalone-oem-apk",
         "evidenceManifest": "manifests/oem-apk-release.json",
         "matchesEncryptedBackup": false,
-        "evidenceManifestReleaseDate": "2026-10-24"
+        "evidenceManifestReleaseDate": "2026-10-26"
       },
       "evidenceStatus": "CURRENT_STANDALONE_APK_INSPECTED_ENCRYPTED_RESTORE_VERSION_UNVERIFIED",
       "historicalReferencePackage": "com.bishiki.visausd.local"
@@ -181,7 +192,7 @@
         "role": "current-standalone-oem-apk",
         "evidenceManifest": "manifests/oem-apk-release.json",
         "matchesEncryptedBackup": false,
-        "evidenceManifestReleaseDate": "2026-10-24"
+        "evidenceManifestReleaseDate": "2026-10-26"
       },
       "backupVersionVerified": false,
       "evidenceStatus": "CURRENT_STANDALONE_APK_INSPECTED_NO_ENCRYPTED_BASE_CONTAINER_PRESENT"
@@ -205,13 +216,13 @@
         "role": "current-standalone-oem-apk",
         "evidenceManifest": "manifests/oem-apk-release.json",
         "matchesEncryptedBackup": false,
-        "evidenceManifestReleaseDate": "2026-10-24"
+        "evidenceManifestReleaseDate": "2026-10-26"
       },
       "backupVersionVerified": false,
       "evidenceStatus": "CURRENT_STANDALONE_APK_INSPECTED_NO_ENCRYPTED_BASE_CONTAINER_PRESENT"
     },
     {
-      "name": "USPS® Wallet",
+      "name": "USPS\u00ae Wallet",
       "package": "io.horizontalsystems.bankwallet",
       "dockPositionLeftToRight": null,
       "dockEvidence": null,
@@ -229,7 +240,7 @@
         "role": "current-standalone-oem-apk",
         "evidenceManifest": "manifests/oem-apk-release.json",
         "matchesEncryptedBackup": false,
-        "evidenceManifestReleaseDate": "2026-10-24"
+        "evidenceManifestReleaseDate": "2026-10-26"
       },
       "backupVersionVerified": false,
       "evidenceStatus": "CURRENT_STANDALONE_APK_INSPECTED_NO_ENCRYPTED_BASE_CONTAINER_PRESENT"
@@ -253,7 +264,7 @@
         "role": "current-standalone-oem-apk",
         "evidenceManifest": "manifests/oem-apk-release.json",
         "matchesEncryptedBackup": false,
-        "evidenceManifestReleaseDate": "2026-10-24"
+        "evidenceManifestReleaseDate": "2026-10-26"
       },
       "backupVersionVerified": false,
       "evidenceStatus": "CURRENT_STANDALONE_APK_INSPECTED_NO_ENCRYPTED_BASE_CONTAINER_PRESENT"
@@ -285,13 +296,13 @@
         "role": "current-standalone-oem-apk",
         "evidenceManifest": "manifests/oem-apk-release.json",
         "matchesEncryptedBackup": false,
-        "evidenceManifestReleaseDate": "2026-10-24"
+        "evidenceManifestReleaseDate": "2026-10-26"
       },
       "backupVersionVerified": false,
       "evidenceStatus": "CURRENT_STANDALONE_APK_INSPECTED_ENCRYPTED_RESTORE_VERSION_UNVERIFIED"
     },
     {
-      "name": "Diamond™ Player",
+      "name": "Diamond\u2122 Player",
       "package": "com.dualscan.mp",
       "dockPositionLeftToRight": null,
       "dockEvidence": null,
@@ -317,7 +328,7 @@
         "role": "current-standalone-oem-apk",
         "evidenceManifest": "manifests/oem-apk-release.json",
         "matchesEncryptedBackup": false,
-        "evidenceManifestReleaseDate": "2026-10-24"
+        "evidenceManifestReleaseDate": "2026-10-26"
       },
       "backupVersionVerified": false,
       "evidenceStatus": "CURRENT_STANDALONE_APK_INSPECTED_ENCRYPTED_RESTORE_VERSION_UNVERIFIED"
@@ -341,7 +352,7 @@
         "role": "current-standalone-oem-apk",
         "evidenceManifest": "manifests/oem-apk-release.json",
         "matchesEncryptedBackup": false,
-        "evidenceManifestReleaseDate": "2026-10-24"
+        "evidenceManifestReleaseDate": "2026-10-26"
       },
       "backupVersionVerified": false,
       "evidenceStatus": "CURRENT_STANDALONE_APK_INSPECTED_NO_ENCRYPTED_BASE_CONTAINER_PRESENT"
@@ -365,7 +376,7 @@
         "role": "current-standalone-oem-apk",
         "evidenceManifest": "manifests/oem-apk-release.json",
         "matchesEncryptedBackup": false,
-        "evidenceManifestReleaseDate": "2026-10-24"
+        "evidenceManifestReleaseDate": "2026-10-26"
       },
       "backupVersionVerified": false,
       "evidenceStatus": "CURRENT_STANDALONE_APK_INSPECTED_NO_ENCRYPTED_BASE_CONTAINER_PRESENT"
@@ -687,7 +698,7 @@
         }
       },
       {
-        "name": "USPS® Wallet",
+        "name": "USPS\u00ae Wallet",
         "package": "io.horizontalsystems.bankwallet",
         "dockPositionLeftToRight": 4,
         "dockEvidence": "supplied home-screen screenshots; encrypted launcher database not decoded",
@@ -703,7 +714,7 @@
             "package": "io.horizontalsystems.bankwallet",
             "versionCode": "191",
             "versionName": "0.48.27-noqr-walletmode-biometric",
-            "label": "USPS® Wallet",
+            "label": "USPS\u00ae Wallet",
             "bytes": 102542584,
             "sha256": "11358fa05aecca2e7a003796d703f75b940aac72fe97c985cd0100fc12220735",
             "minSdk": "27",
@@ -1090,7 +1101,7 @@
         }
       },
       {
-        "name": "VisaUSD™",
+        "name": "VisaUSD\u2122",
         "package": "com.bishiki.visausd.local",
         "dockPositionLeftToRight": 5,
         "dockEvidence": "supplied home-screen screenshots; encrypted launcher database not decoded",
@@ -1106,7 +1117,7 @@
             "package": "com.bishiki.visausd.local",
             "versionCode": "6",
             "versionName": "1.0.5",
-            "label": "VisaUSD™",
+            "label": "VisaUSD\u2122",
             "bytes": 30377251,
             "sha256": "610b221736a393e8baa383ae62129832ad2c31efea0a331b607b6e06b19cf1dc",
             "minSdk": "28",
@@ -1222,7 +1233,7 @@
         }
       },
       {
-        "name": "Dualscan™ Chat",
+        "name": "Dualscan\u2122 Chat",
         "package": "com.dualscan.concertparty",
         "dockPositionLeftToRight": null,
         "dockEvidence": null,
@@ -1238,7 +1249,7 @@
             "package": "com.dualscan.concertparty",
             "versionCode": "10517",
             "versionName": "1.5.17-dualscan.1",
-            "label": "Dualscan™ Chat",
+            "label": "Dualscan\u2122 Chat",
             "bytes": 46821490,
             "sha256": "b2689396f5a943282fd10a3bdddadbbff81ff3897889faa53bed5c01d308da6b",
             "minSdk": "21",
@@ -1568,7 +1579,7 @@
         }
       },
       {
-        "name": "Diamond™ Player",
+        "name": "Diamond\u2122 Player",
         "package": "com.dualscan.mp",
         "dockPositionLeftToRight": null,
         "dockEvidence": null,
@@ -1584,7 +1595,7 @@
             "package": "com.dualscan.mp",
             "versionCode": "6",
             "versionName": "1.2.1",
-            "label": "Diamond™ Player",
+            "label": "Diamond\u2122 Player",
             "bytes": 20321946,
             "sha256": "dc000f99f59d44187651e2cb59fba833a9f2ada1a7294934047571dc29dee572",
             "minSdk": "26",
@@ -1814,9 +1825,9 @@
     ]
   },
   "protectedFunctionalContracts": [
-    "Keep the five current required dock package identities installed, launchable and accessible, with positions 1–5 visible in the exact order specified by requiredDockPackages.",
+    "Keep the five current required dock package identities installed, launchable and accessible, with positions 1\u20135 visible in the exact order specified by requiredDockPackages.",
     "Preserve the identity and supplied functionality of historical or additional components when they are included. The historical snapshot does not require absent applications to be added.",
-    "Preserve USPS Postal Cash™ Wallet access and VisaUSD™ PoS checkout operation, including separation of the customer-facing checkout and configured merchant wallet.",
+    "Preserve USPS Postal Cash\u2122 Wallet access and VisaUSD\u2122 PoS checkout operation, including separation of the customer-facing checkout and configured merchant wallet.",
     "For applicable included components: Preserve local wallet UI, PIN vault and Android biometric unlock; fresh strong biometric authorization before Pay Send signing or fee/payment submission.",
     "For applicable included components: Preserve Typelocker Cypher recovery-only handling and separate Typelocker Sypher URL scanning.",
     "For applicable included components: Preserve Visa Gaming Credits NFC P2P and 20,580 daily credits resetting at 9am America/New_York; do not restore retired NFC card UI.",
@@ -1830,7 +1841,6 @@
     "A universal Android 14+ Smart Switch restore guarantee",
     "Physical DAC bit identity on unqualified devices",
     "Decoded or post-restore-tested tray database positions for the October 24 replacement backup",
-    "A verified standalone APK version for USPS Postal Cash™ Wallet",
     "A cryptographic match between current standalone OEM APKs and encrypted Smart Switch base APKs"
   ],
   "thirdPartyOptionalPackages": [

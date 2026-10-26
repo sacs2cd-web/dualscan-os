@@ -8,3 +8,4 @@
 "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792858096703/APKFILE/com.amazon.mp3_split_config.arm64_v8a.apk" filter=lfs diff=lfs merge=lfs -text
 "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792858096703/APKFILE/com.apple.android.music.enc" filter=lfs diff=lfs merge=lfs -text
 "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792858096703/APKFILE/com.dualscan.usps.postalcash.enc" filter=lfs diff=lfs merge=lfs -text
+"USTFD USPS CRADA APPS Oct 2026/USPS-Postal-Cash-1.0.3.apk" filter=lfs diff=lfs merge=lfs -text

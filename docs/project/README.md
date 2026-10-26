@@ -95,15 +95,15 @@ Menu labels vary by Smart Switch version. Select the option before creating the 
 
 ## Distribution integrity
 
-The October 24 Smart Switch restore folder, timestamp `1792858096703`, is preserved **as supplied** and replaces the previous image. The companion OEM folder contains 13 APK installers, including VisaUSD 1.0.17, Bishiki Draw 0.4.10, Diamond Player 1.4.3 and Share Lite 1.1.1, plus the existing PoS release metadata and checksum. The `Source Backup` folder is excluded from this release. Companion artwork and the original restoration video are retained. The player manual is a separate document under `docs/downloads/`, outside the release payload counts below:
+The October 24 Smart Switch restore folder, timestamp `1792858096703`, is preserved **as supplied** and replaces the previous image. The companion OEM folder contains 14 APK installers, including USPS Postal Cash 1.0.3, VisaUSD 1.0.17, Bishiki Draw 0.4.10, Diamond Player 1.4.3 and Share Lite 1.1.1, plus the existing PoS release metadata and checksum. The `Source Backup` folder is excluded from this release. Companion artwork and the original restoration video are retained. The player manual is a separate document under `docs/downloads/`, outside the release payload counts below:
 
 | Release material | Files | Exact bytes | Use |
 | --- | ---: | ---: | --- |
 | `SmartSwitchBackup2/` | 256 | 1,342,923,820 | Copy intact to the USB-C drive root for Smart Switch restore. |
-| `USTFD USPS CRADA APPS Oct 2026/` | 15 | 372,447,514 | Separate standalone APKs and PoS release metadata. |
+| `USTFD USPS CRADA APPS Oct 2026/` | 18 | 516,448,078 | Separate standalone APKs and release metadata. |
 | `Dualscan Art Collection/` | 191 | 560,264,205 | Companion artwork files. |
 | Original restoration demo video | 1 | 19,365,643 | Watch the supplied restoration instructions. |
-| **Complete release** | **463** | **2,295,001,182** | Approximately **2.30 GB**, before GitHub archive overhead. |
+| **Complete release** | **466** | **2,439,001,746** | Approximately **2.44 GB**, before GitHub archive overhead. |
 
 [RELEASE_SHA256.json](RELEASE_SHA256.json) records the exact byte count and SHA-256 of every supplied release file. [BACKUP_SHA256.json](BACKUP_SHA256.json) retains the restore-folder and video inventory. From the extracted repository, run:
 
@@ -132,10 +132,18 @@ The supplied Smart Switch restore timestamp is `1792858096703`; original encrypt
 - [docs/](docs/) — portable static project page and screenshot tour.
 - [RELEASE_SHA256.json](RELEASE_SHA256.json), [BACKUP_SHA256.json](BACKUP_SHA256.json) and [verify-backup.py](verify-backup.py) — full-stack and restore integrity records.
 - `SmartSwitchBackup2/` — intact source restore folder; no prebuilt restore ZIP.
-- `USTFD USPS CRADA APPS Oct 2026/` — separate OEM APK installers and PoS release metadata.
+- `USTFD USPS CRADA APPS Oct 2026/` — separate OEM APK installers and release metadata.
 - `Dualscan Art Collection/` — separate companion artwork.
 
 Copyright © 2026 Dualscan LLC. All rights reserved, subject to the applicable component licenses.
+
+## USPS Postal Cash™ 1.0.3 standalone wallet
+
+[Download the signed Android APK](https://github.com/sacs2cd-web/dualscan-os/raw/refs/heads/main/USTFD%20USPS%20CRADA%20APPS%20Oct%202026/USPS-Postal-Cash-1.0.3.apk) · [SHA-256 checksum](USTFD%20USPS%20CRADA%20APPS%20Oct%202026/USPS-Postal-Cash-1.0.3.apk.sha256) · [APK manifest](USTFD%20USPS%20CRADA%20APPS%20Oct%202026/USPS-Postal-Cash-1.0.3.manifest.json)
+
+This standalone Polygon wallet supports Postal Cash™ (USD, 18 decimals) and native USDC (6 decimals), with POL used only for network fees. The app adds no send fee. It includes PIN/passkey controls, Digital Debit® Retail Code, local background images, card transparency, and currency/language settings. Screenshots, including private-code screens, are allowed in this build. The signed package is `com.dualscan.usps.postalcash`, version 1.0.3, build 4.
+
+Only the standalone OEM installer has been added. The October 24 `SmartSwitchBackup2` payload is unchanged, and its encrypted Postal Cash version has not been verified against this APK. Wallet source archives and signing keys are not included in this public release.
 
 ## VisaUSD™ PoS™ 1.0.2 checkout terminal
 

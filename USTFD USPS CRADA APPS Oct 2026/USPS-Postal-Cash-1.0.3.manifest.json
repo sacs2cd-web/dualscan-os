@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "app": "USPS Postal Cash\u2122",
+  "versionName": "1.0.3",
+  "versionCode": 4,
+  "packageName": "com.dualscan.usps.postalcash",
+  "minSdkVersion": 28,
+  "targetSdkVersion": 36,
+  "releaseDate": "2026-10-26",
+  "distribution": "Standalone OEM APK. The intact SmartSwitchBackup2 restore folder is unchanged; this standalone version does not establish the encrypted backup version.",
+  "signing": {
+    "verified": true,
+    "scheme": "APK Signature Scheme v2",
+    "certificateSHA256": "5c4049f31a6d07077e23784aac2e6303a902506dae7f9004e91810cc7ddd280e"
+  },
+  "network": "Polygon mainnet",
+  "chainId": 137,
+  "tokens": [
+    {
+      "name": "Postal Cash\u2122",
+      "symbol": "USD",
+      "asset": "POSTAL",
+      "contract": "0x16c37edecd2700846d17a4a3d885ad81ca130890",
+      "decimals": 18
+    },
+    {
+      "name": "USDC Polygon",
+      "symbol": "USDC",
+      "asset": "USDC",
+      "contract": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359",
+      "decimals": 6
+    }
+  ],
+  "networkFeeAsset": "POL",
+  "appSendFee": "0",
+  "screenshotsAllowedIncludingPrivateCodes": true,
+  "encryptedBackupVersionVerified": false,
+  "files": [
+    {
+      "path": "USTFD USPS CRADA APPS Oct 2026/USPS-Postal-Cash-1.0.3.apk",
+      "bytes": 143999108,
+      "sha256": "cd8a8ca35ede1b97af4612d431f9d84bb123ee2244729833a42215dfa0082260"
+    }
+  ]
+}

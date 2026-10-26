@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "releaseDate": "2026-10-24",
+  "releaseDate": "2026-10-26",
   "releaseFolders": [
     "SmartSwitchBackup2",
     "USTFD USPS CRADA APPS Oct 2026",
     "Dualscan Art Collection"
   ],
-  "fileCount": 463,
-  "totalBytes": 2295001182,
+  "fileCount": 466,
+  "totalBytes": 2439001746,
   "hashAlgorithm": "SHA-256",
-  "note": "Intact owner-exported Smart Switch restore tree (timestamp 1792858096703), current standalone OEM APKs including Bishiki DRAW 0.4.10, VisaUSD 1.0.17, Diamond Player 1.4.3 and Dualscan Share Lite 1.1.1, companion artwork and restoration video. Source Backup is excluded from the public OEM folder. Copy only SmartSwitchBackup2 to the USB-C drive root. Standalone versions do not establish encrypted restore versions.",
+  "note": "Intact owner-exported Smart Switch restore tree (timestamp 1792858096703), current standalone OEM APKs including USPS Postal Cash 1.0.3, Bishiki DRAW 0.4.10, VisaUSD 1.0.17, Diamond Player 1.4.3 and Dualscan Share Lite 1.1.1, companion artwork and restoration video. Source Backup is excluded from the public OEM folder. Copy only SmartSwitchBackup2 to the USB-C drive root. Standalone versions do not establish encrypted restore versions. Standalone Postal Cash was added on October 26 without changing the Smart Switch payload.",
   "files": [
     {
       "path": "Dualscan Art Collection/01595d946ae8e7c220313490cc937261.png",
@@ -3209,6 +3209,21 @@
       "sha256": "2936a0120cc71f487ce9dbe444049557ee8f9b8199d7a6c48ce8b95eddacef7a",
       "sourceMode": "0o700",
       "sourceMtimeNs": 1792337302000000000
+    },
+    {
+      "path": "USTFD USPS CRADA APPS Oct 2026/USPS-Postal-Cash-1.0.3.apk",
+      "bytes": 143999108,
+      "sha256": "cd8a8ca35ede1b97af4612d431f9d84bb123ee2244729833a42215dfa0082260"
+    },
+    {
+      "path": "USTFD USPS CRADA APPS Oct 2026/USPS-Postal-Cash-1.0.3.apk.sha256",
+      "bytes": 93,
+      "sha256": "a947494062107d91b8de6ec7165670c3a6bc1f4e9391558c24b0fdd08c0f93fd"
+    },
+    {
+      "path": "USTFD USPS CRADA APPS Oct 2026/USPS-Postal-Cash-1.0.3.manifest.json",
+      "bytes": 1363,
+      "sha256": "d738b89f5c3cdf8ea28aa75fb348d6813e9d42ec2b4cb8960aee1bbfe5c501d2"
     },
     {
       "path": "USTFD USPS CRADA APPS Oct 2026/USPS-Wallet-USTFD-All_Rights_Reserved.apk",
