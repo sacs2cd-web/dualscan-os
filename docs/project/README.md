@@ -27,7 +27,7 @@ The original demonstration video, standalone OEM apps and art collection are inc
 
 ## Current Smart Switch image and standalone app updates
 
-The current `SmartSwitchBackup2` is the owner's October 24 Galaxy export, timestamp `1792858096703`, replacing the previous restore tree with the Bishiki DRAW update. It contains 256 files totaling **1,342,923,820 bytes**. Readable backup metadata identifies Bishiki DRAW and VisaUSD packages; encrypted restored APK versions have not been independently decoded or verified by a receiving-device restore.
+The current `SmartSwitchBackup2` is the owner's October 26 Galaxy export, timestamp `1792990163950`, replacing the previous restore tree. It contains 258 files totaling **1,501,092,249 bytes**. Package-container filenames identify Postal Cash, the retained USPS Banking and legacy USPS Wallet apps, Bishiki DRAW and VisaUSD; encrypted restored APK versions have not been independently decoded or verified by a receiving-device restore.
 
 **Already restored an earlier image?** Install [**VisaUSD 1.0.17 — build 19**](https://github.com/sacs2cd-web/dualscan-os/raw/refs/heads/main/USTFD%20USPS%20CRADA%20APPS%20Oct%202026/VisaUSD-1.0.17.apk) over the existing VisaUSD app and choose **Update**. **Do not uninstall or clear its data.** This preserves the wallet/PIN and adds caller-verified Gaming Credits approval, recoverable signed match receipts, and full From/To addresses in Gaming Credits activity. Production wallet features outside the scoped Gaming Credits addon are preserved from the 1.0.16 source baseline. The older standalone VisaUSD 1.0.15 APK was removed from the current OEM folder.
 
@@ -95,15 +95,15 @@ Menu labels vary by Smart Switch version. Select the option before creating the 
 
 ## Distribution integrity
 
-The October 24 Smart Switch restore folder, timestamp `1792858096703`, is preserved **as supplied** and replaces the previous image. The companion OEM folder contains 14 APK installers, including USPS Postal Cash 1.0.3, VisaUSD 1.0.17, Bishiki Draw 0.4.10, Diamond Player 1.4.3 and Share Lite 1.1.1, plus the existing PoS release metadata and checksum. The `Source Backup` folder is excluded from this release. Companion artwork and the original restoration video are retained. The player manual is a separate document under `docs/downloads/`, outside the release payload counts below:
+The October 26 Smart Switch restore folder, timestamp `1792990163950`, is preserved **as supplied** and replaces the previous image. The companion OEM folder contains 14 APK installers, including USPS Postal Cash 1.0.3, VisaUSD 1.0.17, Bishiki Draw 0.4.10, Diamond Player 1.4.3 and Share Lite 1.1.1, plus the Postal Cash and PoS verification metadata and checksums. All other USPS installers are retained. The `Source Backup` folder is excluded from this release. Companion artwork and the original restoration video are retained. The player manual is a separate document under `docs/downloads/`, outside the release payload counts below:
 
 | Release material | Files | Exact bytes | Use |
 | --- | ---: | ---: | --- |
-| `SmartSwitchBackup2/` | 256 | 1,342,923,820 | Copy intact to the USB-C drive root for Smart Switch restore. |
+| `SmartSwitchBackup2/` | 258 | 1,501,092,249 | Copy intact to the USB-C drive root for Smart Switch restore. |
 | `USTFD USPS CRADA APPS Oct 2026/` | 18 | 516,448,078 | Separate standalone APKs and release metadata. |
 | `Dualscan Art Collection/` | 191 | 560,264,205 | Companion artwork files. |
 | Original restoration demo video | 1 | 19,365,643 | Watch the supplied restoration instructions. |
-| **Complete release** | **466** | **2,439,001,746** | Approximately **2.44 GB**, before GitHub archive overhead. |
+| **Complete release** | **468** | **2,597,170,175** | Approximately **2.60 GB**, before GitHub archive overhead. |
 
 [RELEASE_SHA256.json](RELEASE_SHA256.json) records the exact byte count and SHA-256 of every supplied release file. [BACKUP_SHA256.json](BACKUP_SHA256.json) retains the restore-folder and video inventory. From the extracted repository, run:
 
@@ -121,7 +121,7 @@ The verifier uses `RELEASE_SHA256.json` when available, checking all three folde
 
 Large original files use Git LFS. This repository must include LFS objects in generated archives so **Code → Download ZIP** contains the actual files. For a Git checkout, install Git LFS and run `git lfs pull`. A download containing text LFS pointers fails the verifier with a file-specific recovery hint and is not a complete release.
 
-The supplied Smart Switch restore timestamp is `1792858096703`; original encrypted metadata and category files are retained without conversion. The byte counts above describe the distributed files, not Smart Switch’s reported logical restore size. Companion OEM APKs are separate from this payload, and their standalone versions are not evidence of versions inside encrypted backup files. A receiving-device restore and physical USB DAC qualification have not been performed as part of this publication. See [manifests/reference-backup-audit.json](manifests/reference-backup-audit.json).
+The supplied Smart Switch restore timestamp is `1792990163950`; original encrypted metadata and category files are retained without conversion. The byte counts above describe the distributed files, not Smart Switch’s reported logical restore size. Companion OEM APKs are separate from this payload, and their standalone versions are not evidence of versions inside encrypted backup files. A receiving-device restore and physical USB DAC qualification have not been performed as part of this publication. See [manifests/reference-backup-audit.json](manifests/reference-backup-audit.json).
 
 ## Project files
 
@@ -143,7 +143,7 @@ Copyright © 2026 Dualscan LLC. All rights reserved, subject to the applicable c
 
 This standalone Polygon wallet supports Postal Cash™ (USD, 18 decimals) and native USDC (6 decimals), with POL used only for network fees. The app adds no send fee. It includes PIN/passkey controls, Digital Debit® Retail Code, local background images, card transparency, and currency/language settings. Screenshots, including private-code screens, are allowed in this build. The signed package is `com.dualscan.usps.postalcash`, version 1.0.3, build 4.
 
-Only the standalone OEM installer has been added. The October 24 `SmartSwitchBackup2` payload is unchanged, and its encrypted Postal Cash version has not been verified against this APK. Wallet source archives and signing keys are not included in this public release.
+The standalone OEM installer is retained alongside the October 26 `SmartSwitchBackup2` replacement. Its encrypted Postal Cash version has not been verified against this APK. Wallet source archives and signing keys are not included in this public release.
 
 ## VisaUSD™ PoS™ 1.0.2 checkout terminal
 

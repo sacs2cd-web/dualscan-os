@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "inventoryAsOf": "2026-10-24",
+  "inventoryAsOf": "2026-10-26",
   "format": "Samsung Smart Switch backup, not Android boot/system image",
   "deviceModel": "SM-S928U",
   "restoreFolderName": "SmartSwitchBackup2",
-  "backupTimestamp": "1792858096703",
+  "backupTimestamp": "1792990163950",
   "structure": "SmartSwitchBackup2/<device-specific backup folder>/<timestamp>/",
-  "fileCount": 256,
-  "physicalBytes": 1342923820,
+  "fileCount": 258,
+  "physicalBytes": 1501092249,
   "categories": {
     ".nomedia": {
       "files": 1,
       "bytes": 82
     },
     "APKFILE": {
-      "files": 21,
-      "bytes": 776617283
+      "files": 23,
+      "bytes": 934529747
     },
     "CMC": {
       "files": 1,
-      "bytes": 404
+      "bytes": 405
     },
     "COLORTHEME": {
       "files": 2,
@@ -27,23 +27,23 @@
     },
     "DIRECTDIALWIDGET": {
       "files": 2,
-      "bytes": 41894
+      "bytes": 41895
     },
     "DISABLEDAPPS": {
       "files": 1,
-      "bytes": 22231
+      "bytes": 24117
     },
     "DUALCLOCKWIDGET": {
       "files": 2,
-      "bytes": 43613
+      "bytes": 43763
     },
     "DYNAMIC_LOCK_SCREEN": {
       "files": 2,
-      "bytes": 52743
+      "bytes": 52744
     },
     "GALLERYEVENT": {
       "files": 1,
-      "bytes": 549200
+      "bytes": 586074
     },
     "GALLERYSETTING": {
       "files": 1,
@@ -59,23 +59,23 @@
     },
     "GALLERY_PET_SERVICE": {
       "files": 1,
-      "bytes": 471
+      "bytes": 472
     },
     "HOMESCREEN": {
       "files": 2,
-      "bytes": 63744
+      "bytes": 64304
     },
     "LOCKSCREEN": {
       "files": 2,
-      "bytes": 29109
+      "bytes": 29110
     },
     "MEDIASEARCH": {
       "files": 1,
-      "bytes": 682226
+      "bytes": 653016
     },
     "PERSONAL_DATA_CORE": {
       "files": 1,
-      "bytes": 50058
+      "bytes": 52426
     },
     "PHOTO": {
       "files": 193,
@@ -83,35 +83,35 @@
     },
     "PathMap.json": {
       "files": 1,
-      "bytes": 3179
+      "bytes": 3256
     },
     "RUNESTONE": {
       "files": 1,
-      "bytes": 280171
+      "bytes": 526673
     },
     "SECMP": {
       "files": 1,
-      "bytes": 1491585
+      "bytes": 1548949
     },
     "SHORTCUT": {
       "files": 2,
-      "bytes": 362929
+      "bytes": 378442
     },
     "SMARTSWITCH_LOG": {
       "files": 1,
-      "bytes": 534260
+      "bytes": 457321
     },
     "SMART_SUGGESTIONS": {
       "files": 2,
-      "bytes": 97768
+      "bytes": 97880
     },
     "STORY_SERVICE": {
       "files": 1,
-      "bytes": 331
+      "bytes": 330
     },
     "SmartSwitchBackup.bk": {
       "files": 1,
-      "bytes": 283552
+      "bytes": 284256
     },
     "SmartSwitchBackupInf.bk": {
       "files": 1,
@@ -142,12 +142,12 @@
     "SmartSwitchBackup.bk",
     "APKFILE/AppList.bk"
   ],
-  "inspectionBoundary": "Complete source-directory inventory, byte counts and SHA-256 hashes, native archive entry names and readable generic metadata only. Every supplied restore file is retained unchanged. No encrypted backup or account/wallet payload was decrypted or inspected; no restore file was modified. Encrypted/restored app versions and launcher-state assertions are not established by this inventory.",
+  "inspectionBoundary": "Complete source-directory inventory, byte counts and SHA-256 hashes, filenames and readable generic Smart Switch size metadata only. Every supplied restore file is retained unchanged. No encrypted backup, photo, account, wallet, profile or personal log content was decrypted or opened. Encrypted/restored app versions and launcher-state assertions are not established by this inventory.",
   "softwarePayloads": [
     {
       "file": "com.amazon.mp3.enc",
       "bytes": 227291248,
-      "sha256": "e246d3dad98131f01c7f4efa24689b373ddd1768b5bb8cb1e0575b0d39fae28b",
+      "sha256": "6fc6d6710429aea5c82b3f34d46b2f2303cbd3ee02dd90d4ce5de994bd391c6d",
       "format": "encrypted-base-apk"
     },
     {
@@ -165,7 +165,7 @@
     {
       "file": "com.apple.android.music.enc",
       "bytes": 60495952,
-      "sha256": "7b45cd68488ec152a39b2f22e5db951aacbc400a0d43ac30527a82787221b4f0",
+      "sha256": "fc3bc233bd5bc4860391f36cfbd8864d2bde1e82025fa97242276a814d191bab",
       "format": "encrypted-base-apk"
     },
     {
@@ -183,76 +183,88 @@
     {
       "file": "com.bishiki.visausd.local.enc",
       "bytes": 29960128,
-      "sha256": "969beddc187430fab3f510b831c7b4a894ba080616bedacc1d2e868237d6988b",
+      "sha256": "4508df64537d76000373323a1ee7a640633577b723b32cc14b4f40a72031f876",
       "format": "encrypted-base-apk"
     },
     {
       "file": "com.dualscan.bishiki.draw.enc",
       "bytes": 43082240,
-      "sha256": "ac8ec5cecd261338dab8abaedd34ec08612ac53fc1c98f13ff517ee7b5f614d9",
+      "sha256": "6fb6a747558fe29f74473f0e6cd4b19a0d2b98fbbb149b629181303b93811e88",
       "format": "encrypted-base-apk"
     },
     {
       "file": "com.dualscan.concertparty.enc",
       "bytes": 46821520,
-      "sha256": "3ba68cbbbe8c57e8b57dc8629921166599a657cf65e8a06348680b2b8b69e888",
+      "sha256": "f69ab6e59bd92f86f3764bafcb4bed18383a23320f68a5d72c1900d2e0694f80",
       "format": "encrypted-base-apk"
     },
     {
       "file": "com.dualscan.guard.enc",
       "bytes": 29505376,
-      "sha256": "d92a5c65e82d03ea7273fc9f74a37f17214e418ac3fdcad841bb841defefb479",
+      "sha256": "d7230e76454d5608b0de8a3c8423ec54e059d6c893c6e04dcc42a6e70bcb27c9",
       "format": "encrypted-base-apk"
     },
     {
       "file": "com.dualscan.ldacactivator.enc",
       "bytes": 33856,
-      "sha256": "065cd49c4fbf9b12c8a6a697671c6b760594cfbff982a666bec403f28c43fc18",
+      "sha256": "38a0181be23dd1868fd78b70a8a94332436d2e3edd24a40afda8d8ff1e3aeed8",
       "format": "encrypted-base-apk"
     },
     {
       "file": "com.dualscan.mp.enc",
       "bytes": 47545472,
-      "sha256": "2be43e5006ffea356593ee97f0ea369cbe4b5d7cad8634de5be135eaff8d999e",
+      "sha256": "afa61a98c96901b5f592ff77d7bb9b5d6fed2f5d5c7579f5c9374e4c48b27034",
       "format": "encrypted-base-apk"
     },
     {
       "file": "com.dualscan.usps.postalcash.enc",
-      "bytes": 100176816,
-      "sha256": "7f43606d44deff20691660d36048a462dfa131fb491414159e912f6e044f1df0",
+      "bytes": 143999136,
+      "sha256": "dbee4fe8f1091c1ac639f55166f63d92cdd9324b95e1c027b1f1379c0a3e95d1",
       "format": "encrypted-base-apk"
     },
     {
       "file": "com.suno.android.enc",
-      "bytes": 47016240,
-      "sha256": "a4f983d4293c63945d22e4707ed8d8dfb6b43c292ea5d98f758552e2f6292906",
+      "bytes": 48777824,
+      "sha256": "6d70d697cefbc8403d2258e7a9612a6aa2fd3c007ed8646e368acd904ef1b6ae",
       "format": "encrypted-base-apk"
     },
     {
       "file": "com.suno.android_split_config.arm64_v8a.apk",
       "bytes": 6362160,
-      "sha256": "a15e374e1ea144dd5ff0eff24dbeed469a259a27a0a714c16daadab7aa96dcd9",
+      "sha256": "d493de695a05d3f9cac90cac4716833b1d15a286c03252c901eacb8e158906f0",
       "format": "apk-split"
     },
     {
       "file": "com.suno.android_split_config.xxhdpi.apk",
       "bytes": 266084,
-      "sha256": "c3edeb54699df7069406b05ce8de58e66de233960656c626a9679c5332458bc9",
+      "sha256": "d73afc6c4dff0b3648291bc02bcca1fa8cb798761c57fe535e34ce11996b62d5",
       "format": "apk-split"
+    },
+    {
+      "file": "com.usps.myusps_mobile_app_android.enc",
+      "bytes": 9769488,
+      "sha256": "cfc2039c80006f0ce0b6525d5c384d711399c5039219adcd8dde1c1c917312c2",
+      "format": "encrypted-base-apk"
     },
     {
       "file": "com.ustfdatv.typelockergmail.enc",
       "bytes": 1693696,
-      "sha256": "ae7dfc9f9be75f1e4c6dcfe6122363bdab2858fb3d3a71628f5f4c6cef89d166",
+      "sha256": "13997a54fe561e6bddf00d06c72f474e09d9f0db15c1eb147eed796a1f3e173d",
+      "format": "encrypted-base-apk"
+    },
+    {
+      "file": "io.horizontalsystems.bankwallet.enc",
+      "bytes": 102542608,
+      "sha256": "1573d6d9abfd772a24c0c8b1ccc76a329382724b6c2881ad0e9c6e5c192e807e",
       "format": "encrypted-base-apk"
     }
   ],
   "companionRelease": {
-    "fullStackFileCount": 463,
-    "fullStackBytes": 2295001182,
+    "fullStackFileCount": 468,
+    "fullStackBytes": 2597170175,
     "oemFolder": "USTFD USPS CRADA APPS Oct 2026",
-    "oemFiles": 15,
-    "oemBytes": 372447514,
+    "oemFiles": 18,
+    "oemBytes": 516448078,
     "artFolder": "Dualscan Art Collection",
     "artFiles": 191,
     "artBytes": 560264205,
@@ -263,22 +275,28 @@
   "unverified": [
     "Restored versions of encrypted base APKs",
     "Receiver-specific restore compatibility and post-restore tray database positions",
-    "Smart Switch reported logical restore size and current launcher alias states",
+    "Source export encryption selection and current launcher alias states",
     "Physical USB ADC/DAC qualification"
   ],
   "releaseReadiness": {
-    "publicationAuthorization": "Owner requested replacement with the supplied October 24 Bishiki DRAW Smart Switch export, current OEM APKs and link/manifest updates, excluding Source Backup.",
+    "publicationAuthorization": "Owner explicitly requested public GitHub replacement with this complete supplied October 26 SmartSwitchBackup2 export while retaining the other USPS apps and existing companion materials.",
     "sanitizationPerformed": false,
     "restoreTestPassed": false,
-    "verificationScope": "Complete source-to-staging inventory, byte counts and SHA-256. Published ZIP payload verification is recorded separately after publication; receiving-device restoration remains a separate test."
+    "verificationScope": "Complete source inventory, physical byte counts and SHA-256 hashes. Root publication checks the copied repository payload and actual public archive separately. Receiving-device restoration remains untested."
   },
   "diamondPlayerPlacement": "The supplied replacement Smart Switch tree includes APKFILE/com.dualscan.mp.enc. Diamond Player 1.4.3 is also retained as USTFD USPS CRADA APPS Oct 2026/Diamond-Player-1.4.3.apk. The encrypted base APK was not decrypted to verify its restored version or match it to the standalone APK.",
   "exportEncryptionChoice": "unknown",
-  "exportEncryptionEvidence": "Not established from readable export metadata.",
-  "sourceDeviceReportedLogicalBytes": 1651177081,
+  "exportEncryptionEvidence": "Not established from the readable generic metadata. Opaque backup containers were not decrypted.",
+  "sourceDeviceReportedLogicalBytes": 2002290297,
   "knownExportFailureMarkers": [],
-  "sourceContentInventorySha256": "206daa8692ff2bd5528393ca532d9e044cecdce846a2e84266c62253954c73a5",
-  "sourceContentInventoryEncoding": "SHA256 of UTF-8 lines ordered lexicographically by relative path: sha256 + SPACE + decimalBytes + SPACE + relativePath + LF",
+  "sourceContentInventorySha256": "9ff8d682b6b8dea16e55b605d77b6e8f6e35f1da74188b2d44a63e7458d7129b",
+  "sourceContentInventoryEncoding": "SHA256 of UTF-8 lines ordered lexicographically by release-root relative path: sha256 + SPACE + decimalBytes + SPACE + relativePath + LF",
   "bishikiDrawPlacement": "The fresh supplied restore tree includes APKFILE/com.dualscan.bishiki.draw.enc. Standalone Bishiki-Draw-0.4.10.apk (version code15) is also published in the OEM folder. The encrypted base APK was not decrypted to verify its restored version or match it to the standalone APK.",
-  "visausdPlacement": "The fresh supplied restore tree includes APKFILE/com.bishiki.visausd.local.enc. Standalone VisaUSD-1.0.17.apk (version code19) is published in the OEM folder; its version is independent of the encrypted restore-container identity."
+  "visausdPlacement": "The fresh supplied restore tree includes APKFILE/com.bishiki.visausd.local.enc. Standalone VisaUSD-1.0.17.apk (version code19) is published in the OEM folder; its version is independent of the encrypted restore-container identity.",
+  "sourceDeviceReportedLogicalBytesEvidence": "Matching numeric size fields in the readable generic SmartSwitchBackupInf.bk and SmartSwitchBackupInf.bk_backup metadata; distinct from physical file bytes.",
+  "backupCreatedAtUtc": "2026-10-26T04:49:23.950Z",
+  "backupCreatedAtAmericaNewYork": "2026-10-26T00:49:23.950-04:00",
+  "failureMarkerInspectionScope": "File and directory names only; encrypted or personal log contents were not opened.",
+  "postalCashPlacement": "The new restore tree includes APKFILE/com.dualscan.usps.postalcash.enc. Standalone USPS-Postal-Cash-1.0.3.apk (version code 4) is retained in the OEM folder. The encrypted base container was not decrypted to verify its restored version or match it to that standalone APK.",
+  "retainedUspsPlacement": "The supplied tree also includes encrypted USPS Banking and legacy USPS Wallet base containers. Existing standalone USPS Banking, USPS Money and legacy USPS Wallet installers are retained as requested; standalone versions do not establish restored versions."
 }

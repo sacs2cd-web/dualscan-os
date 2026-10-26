@@ -4,8 +4,9 @@
 "Dualscan Art Collection/**" -filter -diff -merge -text
 "Save --SmartSwitchBackup2-- to a USB-C Drive Root Location - How To Restore Your Data From a Samsung Smart Switch Backup USB Drive.mp4" -filter -diff -merge -text
 "USTFD USPS CRADA APPS Oct 2026/USPS-Wallet-USTFD-All_Rights_Reserved.apk" filter=lfs diff=lfs merge=lfs -text
-"SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792858096703/APKFILE/com.amazon.mp3.enc" filter=lfs diff=lfs merge=lfs -text
-"SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792858096703/APKFILE/com.amazon.mp3_split_config.arm64_v8a.apk" filter=lfs diff=lfs merge=lfs -text
-"SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792858096703/APKFILE/com.apple.android.music.enc" filter=lfs diff=lfs merge=lfs -text
-"SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792858096703/APKFILE/com.dualscan.usps.postalcash.enc" filter=lfs diff=lfs merge=lfs -text
 "USTFD USPS CRADA APPS Oct 2026/USPS-Postal-Cash-1.0.3.apk" filter=lfs diff=lfs merge=lfs -text
+"SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792990163950/APKFILE/com.amazon.mp3.enc" filter=lfs diff=lfs merge=lfs -text
+"SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792990163950/APKFILE/com.amazon.mp3_split_config.arm64_v8a.apk" filter=lfs diff=lfs merge=lfs -text
+"SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792990163950/APKFILE/com.apple.android.music.enc" filter=lfs diff=lfs merge=lfs -text
+"SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792990163950/APKFILE/com.dualscan.usps.postalcash.enc" filter=lfs diff=lfs merge=lfs -text
+"SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792990163950/APKFILE/io.horizontalsystems.bankwallet.enc" filter=lfs diff=lfs merge=lfs -text
