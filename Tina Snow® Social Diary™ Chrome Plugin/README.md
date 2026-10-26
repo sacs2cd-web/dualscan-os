@@ -114,3 +114,33 @@ Invitation URLs contain a **readable shared key**. Anyone holding the full link 
 4da1e7f46259c1310271a33917788a6a77a61730c713a650d19b87356ef41aab  Typelocker-Chat-1.2.0.zip
 ca4f6b04b73798d1fe8efb0760f524c4ca7e27de37547cbb4d2785f90f3e1a62  Typelocker-Agency-Client-SDK-1.2.0.zip
 ```
+
+## Optional Social Diary integration preview — 1.3.0
+
+**Typelocker™ Chat 1.3.0** supplies the optional diary reader for the locally built **Social Diary™ Manager** and its Docker Gateway integration. The existing 1.1.1 and 1.2.0 files, installation instructions and historical preview notes above remain available. **Chrome Web Store 1.1.1 is still pending review with automatic publication deferred; this GitHub preview does not replace or cancel that submission.**
+
+- [Download Typelocker™ Chat 1.3.0 preview](https://github.com/sacs2cd-web/dualscan-os/raw/refs/heads/main/Tina%20Snow%C2%AE%20Social%20Diary%E2%84%A2%20Chrome%20Plugin/Typelocker-Chat-1.3.0.zip) — 54,508 bytes
+- [Download agency Client SDK 1.3.0](https://github.com/sacs2cd-web/dualscan-os/raw/refs/heads/main/Tina%20Snow%C2%AE%20Social%20Diary%E2%84%A2%20Chrome%20Plugin/Typelocker-Agency-Client-SDK-1.3.0.zip) — 16,785 bytes
+
+Extract the extension ZIP into a permanent folder, then use Desktop Chrome **Developer mode → Load unpacked** and select the folder containing `manifest.json`. For an unpacked update, replace its files, choose **Reload** at `chrome://extensions`, and refresh supported sites. Version 1.3.0 is needed for the new Gateway diary reader; the 1.1.1 Store submission does not include it.
+
+### Optional server-backed diary reader
+
+After reviewing an access invitation and explicitly accepting it, the client can open the bundled diary reader. Downloading a diary requires the user's optional permission for that server origin. The reader accepts encoded BSK1 payloads up to **64 MiB**, checks their byte length and SHA-256, and decodes locally using the matching key. It sends no plaintext diary or shared key to the server. Existing message composition and insertion remain available without enabling the reader.
+
+A configured Gateway checks client policy, revocation and grant expiry before serving content. Server access lasts seven days from first Gateway acceptance, and reopening does not renew that grant. Local invitation-key cleanup follows the Chrome profile's first acceptance and does not revoke plaintext, keys or downloads retained elsewhere. BSK1 remains reversible obfuscation; a bearer link is not proof of a buyer's identity.
+
+The server can record link requests, payload transfer and a **client-reported decode acknowledgment** containing integrity metadata. An acknowledgment is not verified human reading. The extension does not publish posts, send email, charge buyers or authenticate purchases. Any store adapter must verify its provider's paid event on a trusted backend before authorizing fulfillment.
+
+### SDK and integration status
+
+The SDK ZIP contains local invitation and diary-access helpers, plus the reader protocol and Mac/server integration documentation. Preserve its folder structure when extracting. The locally built Social Diary™ Manager and Docker image archives are outside this public-folder update; no native app, image archive, full source archive, credentials or reference fixtures are included here. Real cloud infrastructure, payment-provider adapters and SMTP delivery require separate operator configuration.
+
+**132 automated extension tests passed, 47 Gateway tests passed, and standalone Swift checks passed.** Local HTTP/SQLite integration tests exercised a signed paid-order fixture through the actual Chrome metadata validator and BSK1 decoder. These tests used local fixtures and mocked delivery calls. **The installed native Chrome invitation/reader handoff was not executed. Real cloud deployment and SMTP delivery were not configured or tested, and no actual email was sent.** This remains an integration preview.
+
+1.3.0 checksums:
+
+```text
+e3afd823368ffde3e4c5947dbcecaece0328ac0c60d56dca382968d0a41520af  Typelocker-Chat-1.3.0.zip
+edc55d8a831f3c9edb6ba5b14d4fe310dde37537eb79ff1f2cd45ffd6bbc543d  Typelocker-Agency-Client-SDK-1.3.0.zip
+```
