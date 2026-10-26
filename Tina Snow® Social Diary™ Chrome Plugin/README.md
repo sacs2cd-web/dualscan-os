@@ -64,3 +64,53 @@ a730250fa164db3267b596eba64ebd0a293698da84bbe91be60c5ff10ec71188
 ```
 
 The adjacent checksum file records the same hash for the ZIP. This GitHub download is the unpacked Desktop Chrome distribution; Chrome Web Store review and publication status are separate.
+
+## Optional agency integration preview — 1.2.0
+
+The existing 1.1.1 download and installation instructions above remain available. **Typelocker™ Chat 1.1.1 remains pending Chrome Web Store review with publication deferred.** This supplemental 1.2.0 agency preview does not replace or cancel that submission.
+
+- [Download Typelocker™ Chat 1.2.0 agency preview](https://github.com/sacs2cd-web/dualscan-os/raw/refs/heads/main/Tina%20Snow%C2%AE%20Social%20Diary%E2%84%A2%20Chrome%20Plugin/Typelocker-Chat-1.2.0.zip) — 46,370 bytes
+- [Download agency Client SDK 1.2.0](https://github.com/sacs2cd-web/dualscan-os/raw/refs/heads/main/Tina%20Snow%C2%AE%20Social%20Diary%E2%84%A2%20Chrome%20Plugin/Typelocker-Agency-Client-SDK-1.2.0.zip) — 6,426 bytes
+
+To try the extension preview, extract the 1.2.0 ZIP into a permanent folder and use the same Desktop Chrome **Developer mode → Load unpacked** steps above, selecting the folder containing `manifest.json`. If updating an existing unpacked installation in place, replace its files, choose **Reload** at `chrome://extensions`, and refresh supported sites. Chrome Web Store installation of 1.1.1 does not supply this preview feature.
+
+### Seven-day client keys
+
+The default invitation product name is **Tina Snow® Social Diary™ - Beyonce**. In the preview's Settings, **Seven-day key invitations** lets an agency use a selected shared key or generate a new key, create an invitation link, and copy it or open an **unsent email draft**. The agency reviews and sends any email itself. No client email was sent as part of this release; the extension and SDK do not deliver email.
+
+A client with Typelocker™ Chat 1.2.0 or later opens the invitation link and reviews the name in the extension's bundled invitation page. **Accept and select key** saves the key locally for exactly seven days from that Chrome profile's first acceptance. The invitation must first be accepted within seven days of creation. Reopening, deleting/reaccepting, or importing an older backup does not renew an earlier local acceptance.
+
+Up to **100 active temporary invitation keys** can be saved and manually selected alongside permanent custom keys and the original default. The extension uses the selected key; it does not cycle through all saved keys. Expired keys become unavailable and are removed when Chrome can run local cleanup. Local clock/storage changes and copies kept elsewhere are outside this mechanism.
+
+### Agency Client SDK
+
+Extract the SDK ZIP while preserving its folder structure: `invitations.js` beside `sdk/` and `docs/`. The SDK runs locally in a secure browser context or **Node.js 20+**:
+
+```js
+import { createClientAccess } from './sdk/client-sdk.mjs';
+
+const access = createClientAccess({
+  productName: 'Tina Snow® Social Diary™ - Beyonce'
+});
+
+const invitationUrl = access.invitationUrl;
+// Encode the client's BSK1 content using access.invitation.value.
+// Place invitationUrl into your own agency email workflow.
+```
+
+The SDK generates a fresh 32-byte random key and a versioned invitation URL. Pass an optional `key` to reuse an existing shared content key. Distinct client keys require content encoded for each corresponding key. The archive includes the SDK README and invitation protocol documentation.
+
+Sales CSV processing, buyer databases, payments, email delivery, bulk marketing, and a future macOS agency app are outside this preview.
+
+### Preview verification and privacy
+
+**102 automated tests passed.** The installed native handoff from the hosted invitation page to the extension was **not executed**, because native Chrome controls timed out. Automated and browser-fixture checks do not establish that installed handoff. This is an agency integration preview; that native acceptance check remains outstanding.
+
+Invitation URLs contain a **readable shared key**. Anyone holding the full link can recover the key. Email, clipboard copies, and retained exports cannot be revoked by this local seven-day setting. It does not verify buyer identity or enforce a subscription. BSK1 remains reversible text obfuscation, not secure encryption.
+
+1.2.0 checksums:
+
+```text
+4da1e7f46259c1310271a33917788a6a77a61730c713a650d19b87356ef41aab  Typelocker-Chat-1.2.0.zip
+ca4f6b04b73798d1fe8efb0760f524c4ca7e27de37547cbb4d2785f90f3e1a62  Typelocker-Agency-Client-SDK-1.2.0.zip
+```
