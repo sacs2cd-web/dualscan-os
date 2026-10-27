@@ -1,0 +1,494 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dualscan™ Share Instruction Manual</title>
+<meta name="description" content="Step-by-step instructions for Dualscan Share 1.3.2: create .dualscan files, install on Mac Windows or Chrome, transfer USB images, inspect apps, and back up or restore Git and AWS S3 projects.">
+<meta name="theme-color" content="#f5f7f2"><link rel="canonical" href="https://dualscan.cloud/share/manual.html">
+<link rel="icon" href="assets/share-icon.png" type="image/png"><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="manual.css">
+</head>
+<body class="manual-body">
+<a class="skip" href="#manual-content">Skip to manual</a>
+<header class="header wrap">
+<a class="brand" href="./" aria-label="Dualscan Share product page"><img src="assets/share-icon.png" width="42" height="42" alt=""><span>Dualscan<sup>™</sup> <b>Share</b><small>OFFICIAL OS SHARE SUITE</small></span></a>
+<nav aria-label="Page navigation"><a href="./">Share home</a><a href="manual.html" aria-current="page">Instruction manual</a><a href="./#downloads">Downloads</a></nav>
+<a class="repo" href="https://github.com/sacs2cd-web/dualscan-os-share-suite">GitHub <span aria-hidden="true">↗</span></a>
+</header>
+<main>
+<section class="wrap manual-hero"><p class="eyebrow">USER GUIDE · VERSION 1.3.2 · UPDATED OCTOBER 27, 2026</p><h1>Dualscan<sup>™</sup> Share<br><span>Instruction manual</span></h1><p class="manual-lead">Create your project file. Back up your USB. Restore every path.</p><div class="actions manual-actions"><a class="button primary" href="#create-dualscan">Create a .dualscan file <span aria-hidden="true">↓</span></a><a class="button secondary" href="#restore-project">Restore to USB <span aria-hidden="true">↓</span></a><a class="text-link" href="https://github.com/sacs2cd-web/dualscan-os-share-suite/blob/main/INSTRUCTION-MANUAL.md">GitHub edition ↗</a></div></section>
+<div class="wrap manual-layout"><aside class="manual-sidebar"><nav class="manual-toc" aria-label="Manual contents"><h2>Contents</h2><ol><li><a href="#create-dualscan">Create a .dualscan file</a></li>
+<li><a href="#installation">Install or update Share</a></li>
+<li><a href="#workspaces">Choose the right workspace</a></li>
+<li><a href="#original-usb">Make the original Dualscan OS USB</a></li>
+<li><a href="#restore-project">Restore an existing .dualscan project</a></li>
+<li><a href="#inspect-usb">Inspect a USB package and its apps</a></li>
+<li><a href="#derivative-rules">Prepare a verified derivative</a></li>
+<li><a href="#save-git">Save USB to Git</a></li>
+<li><a href="#aws-backup">Create a public AWS S3 backup</a></li>
+<li><a href="#protection">Protect project metadata and credentials</a></li>
+<li><a href="#recovery">Pause cancel and recover</a></li>
+<li><a href="#troubleshooting">Troubleshoot common problems</a></li>
+<li><a href="#verification">Understand files reports and verification</a></li>
+<li><a href="#support">Get help</a></li></ol><p class="manual-print-note">Print or save a PDF with your browser’s Print command.</p></nav></aside><article id="manual-content" class="manual-article"><p>Use Dualscan™ Share on a desktop computer to copy a pinned public GitHub repository to USB, inspect a Samsung Smart Switch package, save a USB dataset to your own Git account or AWS S3 bucket, and create or restore a protected <code>.dualscan</code> project file. The macOS app, Windows app and Chrome extension share the same workspace and button names.</p>
+<p><a id="create-dualscan"></a></p>
+<h2>1 Create a .dualscan file</h2>
+<p>A <code>.dualscan</code> file is a protected project manifest: it records where the remote files live, their pinned identities and paths, and the applicable original-image protection reference. The backup binaries remain in Git/LFS or AWS S3. Keep that source available for restoration.</p>
+<h3>Export from a public GitHub repository</h3>
+<p>You can create this file before copying anything to USB.</p>
+<ol>
+<li>Open <strong>Transfer a repository</strong>. Select <strong>Make Original Dualscan OS USB-C</strong> to show the repository form.</li>
+<li>Keep the default <code>https://github.com/sacs2cd-web/dualscan-os</code>, or enter your public GitHub repository root. For a saved snapshot, enter its branch or full commit in <strong>Branch, tag, or commit</strong>.</li>
+<li>Click <strong>Pin &amp; analyze</strong> and wait for a successful source pin.</li>
+<li>Open the last tab, <strong>.dualscan · Git / AWS S3</strong>.</li>
+<li>Under <strong>Project files and official original image</strong>, optionally enter a <strong>Project passphrase</strong>. If used, it must contain 12–1024 characters. Keep it separately so the recipient can open the project.</li>
+<li>Click <strong>Export current pinned Git plan</strong>. Save the downloaded <code>.dualscan</code> file in a location you can find.</li>
+</ol>
+<p><strong>Where is the export button?</strong> In the screenshot below, it is the white button at the lower left, below the original-image baseline text and immediately above <strong>Open .dualscan project → Choose File</strong>. The optional baseline file chooser is a separate control.</p>
+<figure class="manual-figure"><a href="assets/manual-project-export.png" target="_blank" rel="noopener" aria-label="Open app screenshot at full size"><img src="assets/manual-project-export.png" width="2646" height="1690" loading="lazy" alt="Project workspace with Export current pinned Git plan visible near the lower left"></a><figcaption>The export button creates a new project from the repository already pinned in the first tab. The Open .dualscan project chooser opens an existing file.</figcaption></figure>
+<p>For Smart Switch projects, export checks the complete official original reference. An available complete reference can be reused; otherwise Share fetches it. This may take additional time and requires an internet connection. The default official repository uses its analyzed commit as the original pin. For an older derivative, select or import the complete baseline matching its original pin; a fresh default reference can include newer files. A derivative that changes or omits original files is blocked.</p>
+<p><strong>Save filename.dualscan</strong> saves another copy of the project currently created or opened in this workspace. It becomes available when a project is loaded. It does not analyze a repository or scan a USB drive by itself.</p>
+<h3>Create one after a USB backup</h3>
+<ul>
+<li><strong>USB to GitHub:</strong> complete <a href="#save-git">Save USB to Git</a>, then analyze the resulting repository and snapshot branch in the first tab. Follow the export steps above. Saving to Git does not automatically download a <code>.dualscan</code> file.</li>
+<li><strong>USB to AWS S3:</strong> complete <a href="#aws-backup">Create a public AWS S3 backup</a>. After every object and descriptor passes verification, Share downloads <code>DUALSCAN-OS-&lt;uuid&gt;.dualscan</code>. Its ID matches the new S3 dataset folder.</li>
+</ul>
+<p>The current portable project restore sources are public GitHub and supported AWS S3 projects. GitLab and Bitbucket Cloud are available as USB-save destinations; their repositories cannot be used directly as Git <code>.dualscan</code> restore sources in this release.</p>
+<p><a id="installation"></a></p>
+<h2>2 Install or update Share</h2>
+<p>Download the package for your computer from the <a href="https://dualscan.cloud/share/#downloads">Share downloads page</a> or the <a href="https://github.com/sacs2cd-web/dualscan-os-share-suite/releases/tag/v1.3.2">official GitHub release</a>.</p>
+<div class="manual-table" tabindex="0" role="region" aria-label="Reference table"><table>
+<thead>
+<tr>
+<th>Computer or environment</th>
+<th>Package</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Mac with Apple silicon such as an M-series chip</td>
+<td><code>Dualscan-Share-1.3.2-mac-arm64.zip</code></td>
+</tr>
+<tr>
+<td>Intel Mac</td>
+<td><code>Dualscan-Share-1.3.2-mac-x64.zip</code></td>
+</tr>
+<tr>
+<td>Windows x64</td>
+<td><code>Dualscan-Share-1.3.2-win-x64.exe</code></td>
+</tr>
+<tr>
+<td>Desktop Chrome 132 or newer</td>
+<td><code>dualscan-share-1.3.2.zip</code></td>
+</tr>
+</tbody></table></div>
+<p>The Mac packages declare macOS 13.0 as their minimum. Native desktop packages include their browser runtime; you do not need a separate Chrome installation to run them. Use the desktop workflow rather than a phone browser for USB directory access.</p>
+<h3>Verify the download</h3>
+<p>Download <a href="https://github.com/sacs2cd-web/dualscan-os-share-suite/releases/download/v1.3.2/SHA256SUMS.txt">SHA256SUMS.txt</a> from the same release. Compare the complete SHA-256 for your exact filename.</p>
+<p>On macOS, open Terminal and run:</p>
+<pre><code class="language-sh">shasum -a 256 ~/Downloads/Dualscan-Share-1.3.2-mac-arm64.zip
+</code></pre>
+<p>For Intel, substitute <code>Dualscan-Share-1.3.2-mac-x64.zip</code>. If you saved elsewhere, use that path.</p>
+<p>On Windows, open PowerShell and run:</p>
+<pre><code class="language-powershell">Get-FileHash &quot;$env:USERPROFILE\Downloads\Dualscan-Share-1.3.2-win-x64.exe&quot; -Algorithm SHA256
+</code></pre>
+<p>A matching checksum verifies the downloaded bytes against the published digest. It does not establish publisher identity or malware safety. A mismatch requires a fresh download and investigation before opening the file.</p>
+<h3>macOS</h3>
+<ol>
+<li>Extract the ZIP for your architecture. Move <strong>Dualscan™ Share Suite</strong> to Applications and try opening it.</li>
+<li>Mac builds use ad-hoc signatures and have no Developer ID signing or Apple notarization. If macOS cannot verify the developer, proceed only after checking and trusting this exact download.</li>
+<li>If offered, use <strong>System Settings → Privacy &amp; Security → Open Anyway</strong>, then confirm <strong>Open</strong> and authenticate. This creates an exception for this app.</li>
+<li>If macOS reports malware, damage or an administrative policy block, stop and contact support or your administrator. Keep system protections enabled.</li>
+</ol>
+<p>See <a href="https://support.apple.com/en-us/102445">Apple’s app-opening guidance</a>.</p>
+<h3>Windows</h3>
+<ol>
+<li>Open the verified portable EXE as your normal user. It does not require an installer or administrator launch.</li>
+<li>The executable is unsigned. If SmartScreen identifies an unrecognized app, choose <strong>More info → Run anyway</strong> only after verifying and trusting the download.</li>
+<li>If that option is unavailable, or Smart App Control or organization policy blocks it, contact support or your administrator. Keep those protections enabled.</li>
+</ol>
+<p>Native Windows execution remains untested for this release. See <a href="https://learn.microsoft.com/en-us/windows/apps/package-and-deploy/smartscreen-reputation">Microsoft’s SmartScreen guidance</a>.</p>
+<h3>Chrome extension</h3>
+<ol>
+<li>Extract the Chrome ZIP into a stable folder that you will keep.</li>
+<li>Open <code>chrome://extensions</code> in desktop Chrome and turn on <strong>Developer mode</strong>.</li>
+<li>Choose <strong>Load unpacked</strong>, then select the extracted folder containing <code>manifest.json</code>.</li>
+<li>Click the Dualscan™ Share toolbar icon. It opens or focuses the full extension page where transfers run.</li>
+</ol>
+<p>Keep that page open during work. Do not select the ZIP itself in Load unpacked. This manual describes the downloadable manual-install package; use the version shown in Share’s upper-right header to identify what you are running. See <a href="https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world#load-unpacked">Chrome’s extension-loading instructions</a>.</p>
+<h3>Update an existing installation</h3>
+<p>Finish the current operation, or cancel it and retain its checkpoint where available, before updating. Quit the older desktop app before replacing it; opening another copy can focus an already-running older version. Reopen the replacement and confirm <strong>V1.3.2</strong> in the header. Session tokens and AWS credentials must be entered again.</p>
+<p>For an unpacked Chrome extension, complete or stop its work first. To retain the same extension instance, replace its files in the existing stable folder and reload it through Chrome’s extension manager. Loading a different folder can create a separate instance without the old checkpoint. Do not update a loaded extension during a transfer.</p>
+<p><a id="workspaces"></a></p>
+<h2>3 Choose the right workspace</h2>
+<div class="manual-table" tabindex="0" role="region" aria-label="Reference table"><table>
+<thead>
+<tr>
+<th>Tab</th>
+<th>Use it for</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Transfer a repository</strong></td>
+<td>Make the official USB image, pin a public GitHub source, or open a prepared <code>.dualscan</code> project and restore it through cards 01–03.</td>
+</tr>
+<tr>
+<td><strong>Connect an existing USB backup</strong></td>
+<td>Read-only discovery of package roots, Smart Switch snapshots, standalone APK builds and encrypted payload presence.</td>
+</tr>
+<tr>
+<td><strong>Save USB to Git</strong></td>
+<td>Save a selected USB folder to a new branch in your GitHub, GitLab.com or Bitbucket Cloud repository.</td>
+</tr>
+<tr>
+<td><strong>.dualscan · Git / AWS S3</strong></td>
+<td>Create/export project files, prepare and publish verified public S3 backups, or use the separate project restore controls.</td>
+</tr>
+</tbody></table></div>
+<p>Card 01’s <strong>Upload .dualscan USB-C image</strong> opens an existing prepared project. To create a file, use <strong>Export current pinned Git plan</strong> in the last tab, or complete a verified S3 backup.</p>
+<p>The upper-right USB illustration uses a verified source <code>assets/dualscan-usb-c.png</code> when available after source resolution. Otherwise the built-in illustration remains. Selecting or preparing a source alone does not certify its payloads. Preview artwork does not authorize changing protected original files in an SSS derivative.</p>
+<p><a id="original-usb"></a></p>
+<h2>4 Make the original Dualscan OS USB</h2>
+<ol>
+<li>Connect the intended USB drive. Use your operating system to confirm its identity, available capacity and that it is writable.</li>
+<li>Open <strong>Transfer a repository → Make Original Dualscan OS USB-C</strong>.</li>
+<li>Keep the official repository URL. Leave the ref blank for its current default branch, or enter a specific branch, tag or full commit. Click <strong>Pin &amp; analyze</strong>.</li>
+<li>Review the pinned identity, tracked-file count, transfer size, integrity manifest and any LFS objects. A commit pin fixes the source version for this operation.</li>
+<li>In card 02, click <strong>Select your USB-C drive</strong> and select the drive’s intended <strong>root folder</strong> in the system picker.</li>
+<li>Click <strong>Check destination</strong>. This reads paths and hashes existing files without writing. Wait for <strong>Destination check passed</strong>.</li>
+<li>Confirm both checkboxes: you selected the intended root and checked its free space; you authorize creating the exact missing paths while retaining existing files.</li>
+<li>Click <strong>Start verified transfer</strong> in card 03. Keep the app/tab open, computer awake and drive connected through verification.</li>
+<li>Wait for verified completion. Export the evidence report if needed, then use your operating system’s safe-eject function.</li>
+</ol>
+<p>The picker cannot certify that a folder is a USB-C device root, identify the connector or measure the drive’s free capacity. Those checks are yours to make in the operating system. A USB-C connector alone does not establish transfer speed.</p>
+<h3>Root placement and existing files</h3>
+<p>The source’s relative paths are restored directly under the chosen destination. Share does not add a repository-name folder or repository ZIP wrapper, and it does not format the drive.</p>
+<pre><code class="language-text">Selected USB root/
+├── SmartSwitchBackup2/
+│   ├── official-device/
+│   │   └── original-snapshot/...
+│   └── added-device/
+│       └── added-snapshot/...
+├── USTFD USPS CRADA APPS Oct 2026/
+└── other original repository files
+</code></pre>
+<p>Device names and snapshot names above are examples. Share discovers actual names instead of hardcoding them.</p>
+<p>An identical existing file is hashed and can be reused. Different, unreadable or conflicting paths block writes. Choose another destination or resolve the conflict outside Share, then check again. Extra unrelated destination files are not deleted; choose an appropriate clean destination when you need the USB to contain only this project.</p>
+<p><strong>Samsung Smart Switch ready</strong> is shown only for an eligible Smart Switch transfer after complete verification. It does not certify that a particular Galaxy device will accept or successfully restore the backup. Share does not perform the Samsung restore itself.</p>
+<p><a id="restore-project"></a></p>
+<h2>5 Restore an existing .dualscan project</h2>
+<p>Use the main <strong>Transfer a repository</strong> workspace for the complete USB restore flow, including its pause and checkpoint controls.</p>
+<ol>
+<li>Obtain the <code>.dualscan</code> file and, if set, its passphrase from the project owner. Confirm that the referenced Git/S3 dataset will remain available.</li>
+<li>Select <strong>Upload .dualscan USB-C image</strong> in card 01.</li>
+<li>If the file is passphrase-protected, enter <strong>Project passphrase</strong> before clicking <strong>Choose .dualscan file</strong>. Select the file.</li>
+<li>Allow source checks to finish. GitHub projects resolve their pinned commit. For a public S3 project, click <strong>Enable public AWS source</strong> and approve the exact regional host when prompted. Public S3 downloads need no AWS keys. Supported legacy private SSS projects require credentials for the named bucket/region and a complete pinned official original reference. Generic legacy S3 manifests can open but cannot authorize a restore.</li>
+<li>If a source check was interrupted or credentials changed, use <strong>Recheck project source</strong> to retry. If the file has not decoded successfully, enter the required passphrase and use <strong>Open selected project</strong> instead. The official original reference and snapshot markers must pass before an SSS restore can proceed.</li>
+<li>Select the USB root in card 02, run <strong>Check destination</strong>, review any reused files and collisions, confirm both authorizations and click <strong>Start verified transfer</strong>.</li>
+<li>Wait for final read-back verification, export evidence if wanted and safely eject the drive.</li>
+</ol>
+<p>A project contains remote source information rather than all backup binaries. An offline, removed, private or inaccessible source can prevent restoration even when the project file opens successfully.</p>
+<p>For verified nested packages, Share removes the validated outer package wrapper. <code>SmartSwitchBackup2</code>, OEM installers and the other original package files land at USB root. The S3 random folder ID and its cloud storage prefix do not become extra USB wrapper folders.</p>
+<h3>Opening a file through the operating system</h3>
+<p>In-app <strong>Choose .dualscan file</strong> is the dependable import route. Windows portable builds do not install a default <code>.dualscan</code> association. Use in-app import, or configure <strong>Open with</strong> yourself if appropriate.</p>
+<p>If a desktop-opened project waits for a passphrase, enter it in the project workspace and use <strong>Open received desktop project</strong> to retry. Imports are limited to 32 MiB. There is no passphrase-reset service.</p>
+<h3>Separate restore controls in the last tab</h3>
+<p>The last tab also contains <strong>Open .dualscan project</strong>, <strong>Select USB restore destination</strong>, <strong>Check project and destination</strong> and <strong>Restore missing files and verify</strong>. Review its creation-consent checkbox before starting. This workspace offers <strong>Cancel current project operation</strong>, rather than the main transfer’s pause/durable-checkpoint workflow. Use the main card 01 route above for the public AWS enable control and the complete recovery workflow.</p>
+<p><a id="inspect-usb"></a></p>
+<h2>6 Inspect a USB package and its apps</h2>
+<ol>
+<li>Open <strong>Connect an existing USB backup</strong> and click <strong>Connect USB folder</strong>.</li>
+<li>Choose the drive root or a containing folder. The scan is read-only and can find nested package folders. It excludes <code>Source Backup</code>.</li>
+<li>Select a <strong>Package root</strong>, then choose a <strong>Smart Switch snapshot</strong> to inspect its encrypted backup payloads. Each snapshot stays separate.</li>
+<li>Review coverage, marker results, app rows and any unreadable-path warnings. Use <strong>Copy path</strong>, <strong>Copy ID</strong> or <strong>Export discovery report</strong> as needed.</li>
+</ol>
+<p>A structurally checked snapshot requires both:</p>
+<pre><code class="language-text">SmartSwitchBackup2/&lt;device&gt;/&lt;snapshot&gt;/SmartSwitchBackupInf.bk
+SmartSwitchBackup2/&lt;device&gt;/&lt;snapshot&gt;/APKFILE/AppList.bk
+</code></pre>
+<p>These markers establish the checked structure. They do not establish that every backup item is complete or that Samsung will restore it.</p>
+<h3>Read the two app statuses independently</h3>
+<div class="manual-table" tabindex="0" role="region" aria-label="Reference table"><table>
+<thead>
+<tr>
+<th>Column or status</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Smart Switch payload</strong></td>
+<td>Presence of the selected snapshot’s encrypted <code>.enc</code> restore payload. <strong>Present in Smart Switch — version unverified</strong> does not state its internal app version.</td>
+</tr>
+<tr>
+<td><strong>Loose installer</strong></td>
+<td>A standalone <code>.apk</code>, identified using its Android package metadata and compared with expected release identities when available. Renamed APKs can still be identified.</td>
+</tr>
+<tr>
+<td><strong>Detected installer build</strong></td>
+<td><code>versionName</code> and <code>versionCode</code> read from that APK’s <code>AndroidManifest.xml</code>. These values do not describe an encrypted backup payload.</td>
+</tr>
+<tr>
+<td><strong>Select drive / Choose package / Choose snapshot</strong></td>
+<td>The relevant location has not yet been selected. This is not an absence result.</td>
+</tr>
+<tr>
+<td><strong>Not present</strong></td>
+<td>The item was not found within the successfully scanned selected scope. Read this alongside scan coverage and warnings.</td>
+</tr>
+<tr>
+<td><strong>Verified current release</strong></td>
+<td>Detected package/build, size and SHA-256 match the commit-pinned expected release. This does not authenticate the APK publisher’s signing certificate.</td>
+</tr>
+<tr>
+<td><strong>Older build / Newer build — release differs / Build mismatch</strong></td>
+<td>The detected build differs from release expectations. Review the actual package/build rather than changing the filename to match.</td>
+</tr>
+<tr>
+<td><strong>Checksum mismatch / Size mismatch</strong></td>
+<td>File bytes or size differ from the expected release. Keep it out of a verified current-release workflow until resolved.</td>
+</tr>
+<tr>
+<td><strong>Permission error / Read error / Scan failed / Scan incomplete</strong></td>
+<td>Inspection was blocked or incomplete. Correct the issue and rescan before drawing an absence conclusion.</td>
+</tr>
+<tr>
+<td><strong>Release expectations unavailable</strong></td>
+<td>APK metadata may be readable, but the expected-release manifest could not be obtained or validated. A current-release checksum match has not been established.</td>
+</tr>
+</tbody></table></div>
+<p>For Diamond Player, the package ID is <code>com.dualscan.mp</code>. Its encrypted payload is found independently at <code>SmartSwitchBackup2/&lt;device&gt;/&lt;snapshot&gt;/APKFILE/com.dualscan.mp.enc</code>. A loose installer’s detected build never establishes that payload’s internal version.</p>
+<p>Current release expectations come from the pinned <a href="https://github.com/sacs2cd-web/dualscan-os/blob/main/manifests/oem-apk-release.json">OEM APK release manifest</a>, rather than a permanently hardcoded installer filename. Use loose <code>.apk</code> files for a separate Android installation workflow. Share neither installs them nor decrypts <code>.enc</code> files.</p>
+<p>If coverage says <strong>PARTIAL SCAN · READ ONLY</strong>, inspect warnings and select a narrower containing folder before rescanning.</p>
+<p><a id="derivative-rules"></a></p>
+<h2>7 Prepare a verified derivative</h2>
+<p>Share’s verified Dualscan SSS derivative workflow requires <strong>every original tracked file and app from its pinned official reference to remain present with its exact content identity</strong>. A core-app-only list or unchecked local JSON file cannot authorize a derivative. Read the <a href="https://github.com/sacs2cd-web/dualscan-os/blob/main/LICENSE">Dualscan OS license</a> alongside these software requirements.</p>
+<p>Keep a pristine official package available when choosing an original-image baseline. Match its reference to the official commit from which that USB was created. For an older image, pin that official commit in the first tab before <strong>Choose original image</strong>, or import a previously exported complete baseline for that pin. Updates to the default branch can change the expected file set. Add your own Smart Switch snapshots in separate valid folders below <code>SmartSwitchBackup2</code>. Each addition requires its own <code>SmartSwitchBackupInf.bk</code> and <code>APKFILE/AppList.bk</code>.</p>
+<ul>
+<li>Retain all original files, apps, paths, backup-manifest bytes and original snapshot contents.</li>
+<li>Put additions in separate <code>&lt;device&gt;/&lt;snapshot&gt;</code> folders. Adding files inside an original snapshot is blocked.</li>
+<li>Keep <code>Source Backup</code> out of the derivative additions.</li>
+<li>Review operating-system metadata exclusions. They do not authorize removing tracked official original files.</li>
+<li>Use <strong>Choose original image</strong> or import a compatible complete baseline when the Git-save workflow requests it. The original is revalidated against the official pinned source.</li>
+</ul>
+<p>Original snapshots are logically listed first. Operating systems control physical directory sorting. Share preserves the original <code>HOMESCREEN/HOMESCREEN.zip</code> configuration bytes, including opaque launcher data; it does not decode or independently certify phone icon coordinates or home-tray ordering.</p>
+<p>Select a single complete package or an unambiguous containing folder without unrelated outside files, apart from approved operating-system metadata exclusions. Verified Git/AWS publication removes only a validated outer package folder. Its restored structure keeps <code>SmartSwitchBackup2</code> and all other original package files at USB root.</p>
+<p>Ordinary non-SSS folders can be saved to Git as generic snapshots. They do not acquire verified Dualscan derivative or Samsung readiness status. New AWS backups require a verified complete SSS dataset.</p>
+<p><a id="save-git"></a></p>
+<h2>8 Save USB to Git</h2>
+<p>This workspace reads a selected USB folder and publishes a new remote snapshot branch. It does not write to the source USB.</p>
+<ol>
+<li>Open <strong>Save USB to Git</strong>. Under <strong>Git service</strong>, select GitHub, GitLab or Bitbucket Cloud.</li>
+<li>Sign in on the provider’s own website if needed. Create a token with the access displayed under the selector, limited to your intended repository. Paste it into this workspace’s <strong>Access token</strong> field and click <strong>Connect account</strong>. Complete the optional Git username field when your Bitbucket credential type requires it.</li>
+<li>Click <strong>Add a USB folder</strong>, then select it under <strong>Snapshot source</strong>. Add other drives separately; the app cannot automatically enumerate every connected USB drive.</li>
+<li>For a recognized Dualscan SSS dataset, use <strong>Choose original image</strong> and select the pristine official package, or <strong>Import baseline</strong> containing its complete official reference. Wait for full verification. <strong>Export baseline</strong> saves that reference for reuse; it is a JSON file, not your <code>.dualscan</code> project.</li>
+<li>Confirm derivative mode when applicable and review any operating-system metadata exclusion. A recognized SSS dataset cannot bypass original protection by changing the checkbox.</li>
+<li>Enter <strong>Destination repository URL</strong>, an absent <strong>New snapshot branch</strong> and a commit message. The destination repository must already exist. A reviewed initialization step may be required if it has no commits.</li>
+<li>If LFS metadata is needed, select <strong>Allow required Git LFS metadata to be added or updated in the repository snapshot</strong> so Share can prepare the proposed changes. Inspect those changes in the next review before authorizing publication. The source USB is unchanged.</li>
+<li>Click <strong>Prepare &amp; review</strong>. Approve the exact required upload hosts if prompted through <strong>Allow required upload hosts</strong>. Review provider, repository, new branch, byte/file totals, root placement, original protection and generated metadata.</li>
+<li>Check the upload authorization and click <strong>Save selected USB to Git</strong>. Keep the source and app stable during upload.</li>
+<li>Read the completion status and use <strong>Export save report</strong>. Interrupted publication may leave new objects or an incomplete new branch; the report identifies partial state.</li>
+</ol>
+<p>Signing in to the provider’s website does not connect its API account to Share. This release uses the token field and <strong>Connect account</strong>, rather than a configured one-click OAuth flow. The first tab’s GitHub token is a separate session field.</p>
+<p>Existing branches are not force-pushed. Verified SSS packages preserve root-relative original paths and separate added snapshots. Generic snapshots preserve their selected relative paths. Git cannot represent empty directories; consult the report for recorded empty-directory paths.</p>
+<p>For LFS files, the Git-save result reports server object identity confirmation. This flow does not independently redownload every uploaded LFS binary. Keep the report’s stated verification scope with the snapshot.</p>
+<p>To make a portable project after a <strong>GitHub</strong> save, return to the first tab, pin the output repository and its new branch or full commit, then use <a href="#create-dualscan">Export current pinned Git plan</a>. GitLab and Bitbucket Cloud uploads are not direct project restore sources in this release.</p>
+<p><a id="aws-backup"></a></p>
+<h2>9 Create a public AWS S3 backup</h2>
+<p>This workflow publishes an entire verified Dualscan SSS dataset in a new folder in your own bucket. <strong>Every uploaded file and its project descriptor must be publicly readable.</strong> Protect personal Smart Switch additions with Samsung password or Samsung Account encryption before using this workflow. Share transfers their existing opaque bytes and cannot certify that Samsung encryption was applied.</p>
+<h3>Connect and prepare</h3>
+<ol>
+<li>Use an existing bucket and its actual AWS region. Arrange scoped upload/read permissions and the appropriate CORS configuration for browser access.</li>
+<li>Open <strong>.dualscan · Git / AWS S3</strong>. In <strong>Public verified SSS backup to AWS S3</strong>, enter <strong>Bucket</strong>, <strong>AWS region</strong>, <strong>Base snapshot prefix</strong>, <strong>Access key ID</strong>, <strong>Secret access key</strong> and the temporary <strong>Session token</strong> when your credentials include one.</li>
+<li>Click <strong>Connect AWS S3</strong> and approve the exact regional host if requested. Credentials remain in the open session.</li>
+<li>Optionally import a complete original-image baseline above the AWS form, especially for an older official pin. Without one, preparation fetches the current official reference.</li>
+<li>Click <strong>Select USB source</strong> and choose the complete package. A containing folder must hold one unambiguous complete package with no unrelated files outside it, apart from approved operating-system metadata exclusions. If selection is ambiguous, choose the package folder itself. Review <strong>Exclude operating-system metadata</strong> as appropriate, then click <strong>Prepare new S3 snapshot</strong>.</li>
+<li>Read the proposed random folder, project ID, file/byte totals, original protection and source-package-to-root mapping. Preparation does not upload file contents.</li>
+</ol>
+<figure class="manual-figure"><a href="assets/manual-aws-setup.png" target="_blank" rel="noopener" aria-label="Open app screenshot at full size"><img src="assets/manual-aws-setup.png" width="2550" height="1398" loading="lazy" alt="AWS S3 form showing connection fields and the prepare and publish controls"></a><figcaption>Enter your own bucket details in the app. The screenshot contains empty example credential fields. Do not put credentials in a project file, report or support message.</figcaption></figure>
+<h3>Configure the exact public folder and publish</h3>
+<ol start="7">
+<li><strong>After preparation</strong>, click <strong>Export scoped IAM, public policy and CORS examples</strong>. Earlier examples contain a placeholder instead of this new random ID.</li>
+<li>Review and apply the examples in your AWS account for the intended bucket and <strong>exact prepared prefix</strong>. Public access requires anonymous <code>GetObject</code> and prefix-scoped <code>ListBucket</code>. Use the actual extension origin in browser CORS instead of <code>chrome-extension://YOUR_EXTENSION_ID</code>.</li>
+<li>Make sure your account and bucket settings permit the intended access. Share does not modify bucket policies, ACLs or Block Public Access. If an administrator must configure these settings, provide the scoped examples for review. Do not expose unrelated bucket prefixes.</li>
+<li>Check the explicit public-access and Samsung-encryption authorization, then click <strong>Create verified S3 backup</strong>.</li>
+<li>Wait until every remote file and the descriptor pass anonymous full SHA-256/size read-back. Only then save the downloaded <strong><code>DUALSCAN-OS-&lt;uuid&gt;.dualscan</code></strong> file. The ID matches its new S3 folder.</li>
+</ol>
+<p><strong>Preparing again creates a new reviewed folder.</strong> Export and apply the policy for that new exact prefix rather than reusing a policy for an earlier preparation.</p>
+<p>Access-denied errors or unsuccessful anonymous read-back prevent a completion claim. Uploading and subsequent verification can incur AWS storage, request and data-transfer charges. Completed objects are not rolled back. Share attempts to abort unfinished multipart uploads, but cleanup can fail; inspect the evidence report and bucket after cancellation or failure.</p>
+<p>The random cloud folder organizes storage. During a verified restore, its paths map back to the selected USB root, with <code>SmartSwitchBackup2</code> directly beneath that root. To restore, use <a href="#restore-project">Upload .dualscan USB-C image</a> and <strong>Enable public AWS source</strong>; public downloads require no AWS keys.</p>
+<p>For account configuration, consult AWS’s <a href="https://docs.aws.amazon.com/AmazonS3/latest/userguide/using-with-s3-policy-actions.html">S3 permissions</a>, <a href="https://docs.aws.amazon.com/AmazonS3/latest/userguide/enabling-cors-examples.html">CORS</a> and <a href="https://docs.aws.amazon.com/AmazonS3/latest/userguide/access-control-block-public-access.html">Block Public Access</a> documentation.</p>
+<p><a id="protection"></a></p>
+<h2>10 Protect project metadata and credentials</h2>
+<p>New <code>.dualscan</code> files use binary Typelocker application protection with authenticated AES-256-GCM. Opening one in TextEdit does not display a plain-text manifest. The shared app key is included in the software and can be recovered by someone with the app. Use the optional private passphrase for confidential project metadata and share it separately with the intended recipient.</p>
+<p>A project passphrase protects the project file; it does not encrypt the remote backup binaries or make public S3 object names and files private. Samsung encryption of personal restore payloads is a separate user-managed step.</p>
+<div class="manual-table" tabindex="0" role="region" aria-label="Reference table"><table>
+<thead>
+<tr>
+<th>Information</th>
+<th>Handling</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>GitHub token in the first tab</td>
+<td>Used for that source’s GitHub API requests. It is not sent to raw/media download hosts. Separate official-reference and OEM-release checks may still use anonymous requests.</td>
+</tr>
+<tr>
+<td>Provider token in Save USB to Git</td>
+<td>A separate account session for the selected provider. Use the access shown in that workspace.</td>
+</tr>
+<tr>
+<td>AWS access key secret and temporary token</td>
+<td>Entered in the AWS session fields; excluded from exported project files and reports.</td>
+</tr>
+<tr>
+<td>Project passphrase</td>
+<td>If set, needed again to open a passphrase-protected export. Keep a separate copy; there is no recovery service.</td>
+</tr>
+<tr>
+<td>Local transfer checkpoint</td>
+<td>Can retain decoded project metadata and a selected directory handle in the app/profile. It excludes tokens/passphrases. Export-file encryption does not imply encrypted local checkpoint storage.</td>
+</tr>
+</tbody></table></div>
+<p>Closing or reloading the app/page clears session credentials. Use <strong>Sign out</strong> in the Git-save workspace or <strong>Disconnect AWS</strong> to clear those sessions. Protect your operating-system account and app/browser profile. The public backup workflow contains no publisher-operated transfer relay.</p>
+<p><a id="recovery"></a></p>
+<h2>11 Pause cancel and recover</h2>
+<h3>Main transfer workspace</h3>
+<ul>
+<li><strong>Pause</strong> changes to <strong>Resume</strong>. Pausing takes effect at a safe processing boundary. Keep the app/tab open and drive connected. A long interruption or network timeout can require the active file to restart.</li>
+<li><strong>Cancel</strong> stops work; it does not roll back completed new files. Verified files remain, and an interrupted new file can remain empty.</li>
+<li><strong>Saved transfer available → Restore checkpoint</strong> reloads the main transfer’s current local checkpoint. Grant directory permission again if requested, reconnect the source as needed, check the destination and authorize writes again. Existing files are rehashed instead of trusting a saved completion flag. An interrupted file can restart from byte zero.</li>
+<li><strong>Forget</strong> removes the local checkpoint and leaves drive files unchanged. Preserve it until recovery is no longer needed; a remaining interrupted file may otherwise need attention outside the app.</li>
+</ul>
+<p>Checkpoints belong to the current desktop profile or Chrome profile/extension instance. They do not automatically move between platforms, browser profiles or computers, or travel with the portable EXE. The store holds one current transfer record; a record can remain after completion.</p>
+<h3>Git AWS and the separate project workspace</h3>
+<p>These operations expose cancellation, without the main transfer’s durable resume workflow. Automatic cross-session multipart resume is not implemented. After interruption, inspect the report and remote state before preparing a fresh snapshot. Do not assume that closing the app pauses an upload.</p>
+<p>Keep the computer awake during all operations and use the operating system’s safe-eject function only after work has stopped.</p>
+<p><a id="troubleshooting"></a></p>
+<h2>12 Troubleshoot common problems</h2>
+<div class="manual-table" tabindex="0" role="region" aria-label="Reference table"><table>
+<thead>
+<tr>
+<th>What you see</th>
+<th>What to do</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Cannot find <strong>Export current pinned Git plan</strong></td>
+<td>Open the last tab. In <strong>Project files and official original image</strong>, look below the baseline text and above <strong>Open .dualscan project</strong>. See the <a href="#create-dualscan">screenshot</a>.</td>
+</tr>
+<tr>
+<td>Export says to analyze a repository</td>
+<td>Return to the first tab and complete <strong>Pin &amp; analyze</strong> in this same open session. Export uses that current plan.</td>
+</tr>
+<tr>
+<td>A save button is disabled</td>
+<td>Complete its prerequisites: source selection, source/target check and the corresponding authorization. Read the status message near the relevant workspace.</td>
+</tr>
+<tr>
+<td>GitHub 403</td>
+<td>Read the failed host, token-sent state, reason and quota/reset details when shown. A 403 alone does not establish a rate limit. Ensure the current app is v1.3.2; it fixes the desktop missing-User-Agent failure.</td>
+</tr>
+<tr>
+<td>GitHub remaining count is zero</td>
+<td>Wait until the reported reset time rather than repeatedly clicking retry. A reset ending in <code>Z</code> is UTC.</td>
+</tr>
+<tr>
+<td>Secondary rate limit</td>
+<td>Respect GitHub’s <code>Retry-After</code>. If no usable value is supplied, wait at least one minute and increase the delay if it recurs.</td>
+</tr>
+<tr>
+<td>GitHub 401 or token rejected</td>
+<td>Check token validity and access for the intended repository. Re-enter it in the correct workspace. Website sign-in alone does not authenticate Share.</td>
+</tr>
+<tr>
+<td>GitHub 404</td>
+<td>Check the repository root, ref and source availability. Download/project sources support public GitHub; private sources or unavailable objects can fail.</td>
+</tr>
+<tr>
+<td>OEM release expectations unavailable</td>
+<td>Review the discovery warning and retry after its connection or rate restriction clears. The first tab’s token is not supplied to every separate release/reference check.</td>
+</tr>
+<tr>
+<td>Directory permission denied or read-only drive</td>
+<td>Reselect the intended folder, allow the requested access and check the drive’s writable status in the operating system. A folder grant and a network-host grant are separate.</td>
+</tr>
+<tr>
+<td>Upload host permission requested</td>
+<td>Approve only the hosts shown in the reviewed operation. Desktop dialogs use <strong>Allow reviewed transfer hosts</strong> and <strong>Allow hosts</strong>; desktop grants expire when the app exits.</td>
+</tr>
+<tr>
+<td>Destination collisions</td>
+<td>Choose another root or resolve conflicts outside Share. Re-run <strong>Check destination</strong>. Share does not automatically replace different existing files.</td>
+</tr>
+<tr>
+<td>Original image protection fails</td>
+<td>Retain every original file and check the selected official pin/package. Use a complete baseline; restore changed originals from that pin. Keep new snapshots separate and verify both markers.</td>
+</tr>
+<tr>
+<td>Partial discovery scan</td>
+<td>Read warnings and choose a narrower folder. Incomplete coverage cannot support a complete absence conclusion.</td>
+</tr>
+<tr>
+<td>Wrong passphrase or damaged project</td>
+<td>Re-enter the correct passphrase before choosing/retrying the file. If it still fails, obtain a fresh original copy. Renaming a damaged file does not repair it.</td>
+</tr>
+<tr>
+<td>Project opens but restore cannot connect</td>
+<td>Confirm that its pinned Git commit or S3 dataset remains reachable and that required host permissions or legacy bucket credentials are available.</td>
+</tr>
+<tr>
+<td>S3 anonymous verification fails</td>
+<td>Check the exact prepared public prefix, anonymous GetObject/ListBucket access, region and applicable public-access settings. Do not treat an uploaded object count as verified completion.</td>
+</tr>
+<tr>
+<td>Progress appears slow</td>
+<td>Read the active phase/file, verified counts and byte totals. Network latency, many small files, directory operations, hashing and full read-back all add work. Use a suitable drive and port; keep the system awake. A speed rating alone does not predict this workload.</td>
+</tr>
+</tbody></table></div>
+<p>GitHub’s usual public REST allowance is <strong>60 requests per hour per originating IP</strong> without a token and <strong>5,000 per hour per personal-token account</strong> with authentication. Other resource limits and secondary limits also exist. Use the failing response’s actual values when available. See <a href="https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api">GitHub’s rate-limit guidance</a>.</p>
+<p><a id="verification"></a></p>
+<h2>13 Understand files reports and verification</h2>
+<div class="manual-table" tabindex="0" role="region" aria-label="Reference table"><table>
+<thead>
+<tr>
+<th>File or result</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>.dualscan</code></td>
+<td>Protected portable manifest linking a remote dataset to its paths and identities. It contains no full binary backup and exports no account credentials.</td>
+</tr>
+<tr>
+<td>Original-image baseline JSON</td>
+<td>Reusable original-reference/core/launcher protection metadata. Import it only where a baseline is requested. It is not a <code>.dualscan</code> restore project.</td>
+</tr>
+<tr>
+<td>Evidence discovery or save report</td>
+<td>A separate record of the selected operation, observed paths, identities, warnings and verification scope. Reports are not backup payloads.</td>
+</tr>
+<tr>
+<td><code>.enc</code></td>
+<td>An encrypted Samsung Smart Switch restore payload. Share preserves it as an opaque file and does not establish its internal app version.</td>
+</tr>
+<tr>
+<td><code>.apk</code></td>
+<td>A standalone Android installer. Share can inspect its package/build and expected hash; installation is a separate Android action.</td>
+</tr>
+<tr>
+<td><code>BACKUP_SHA256.json</code></td>
+<td>Root integrity manifest required by the default official repository. It is preserved as source data.</td>
+</tr>
+</tbody></table></div>
+<p>Use <strong>Export evidence report</strong> for the main transfer, <strong>Export discovery report</strong> for inspection, <strong>Export save report</strong> for Git publication and <strong>Export project evidence report</strong> for project operations. Save reports separately from the restored package. Share does not automatically add a report file or archive wrapper to the USB root.</p>
+<p>A repository-to-USB transfer verifies planned file content and performs destination read-back before completion. That does not reproduce a physical forensic disk image, certify a chain of custody or preserve original filesystem timestamps, ownership, ACLs, physical layout, destination executable permissions or USB hardware identity. Symlinks, submodules and unsupported or ambiguous paths are rejected. Keep unrelated programs from changing the source or destination while Share works.</p>
+<p>A completed transfer is different from a successful Samsung device restore. Confirm device and backup compatibility through Samsung’s restore workflow separately.</p>
+<p>To print this manual or save a PDF copy, use your browser’s <strong>Print</strong> command and choose the appropriate printer or <strong>Save as PDF</strong> destination.</p>
+<p><a id="support"></a></p>
+<h2>14 Get help</h2>
+<p>Contact <a href="mailto:sa.cs2cd@gmail.com">sa.cs2cd@gmail.com</a>. Include the Share version, platform, workspace, exact visible error and operation phase, plus relevant counts or a report with private paths reviewed first. For a GitHub failure, include the reported host, status and reset time when available. For a drive issue, include the drive model and operating-system observations.</p>
+<p>Do not send tokens, AWS secrets, passphrases, personal backup payloads or unreviewed screenshots containing credentials. Retain your <code>.dualscan</code> file, passphrase and evidence separately from the only copy of your backup.</p>
+<p><a href="https://dualscan.cloud/share/">Share product page and downloads</a> · <a href="https://github.com/sacs2cd-web/dualscan-os-share-suite">Public downloads repository</a> · <a href="https://dualscan.cloud/share/privacy.html">Privacy</a></p>
+</article></div>
+</main>
+<footer class="footer wrap"><a class="footer-home" href="./">← Dualscan™ Share</a><p>Dualscan LLC · Instruction manual · October 2026</p><div><a href="privacy.html">Privacy</a><a href="mailto:sa.cs2cd@gmail.com">Support</a><a href="https://github.com/sacs2cd-web/dualscan-os-share-suite/blob/main/INSTRUCTION-MANUAL.md">GitHub edition ↗</a></div></footer>
+</body>
+</html>
