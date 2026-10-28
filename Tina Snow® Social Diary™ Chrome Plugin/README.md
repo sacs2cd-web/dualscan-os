@@ -4,22 +4,26 @@
 
 Author: **Dualscan.cloud Dualscan LLC**
 
-This Desktop Chrome companion installs as **Typelocker™ Chat 1.1.1**. It composes, encodes, and decodes BSK1 messages on YouTube, X/Twitter, Gmail, and Outlook web. All features are free, including the original default key, custom keys, key management, and unlimited use subject to normal browser resources. No account, payment, subscription, or license activation is required.
+Current GitHub package: **Typelocker™ Chat 1.3.1**. Chrome Web Store **1.1.1 is published**; **1.3.1 has been submitted and is pending Google review** as of October 28, 2026. The published Store version remains available while Google reviews the update.
+
+This Desktop Chrome companion installs as **Typelocker™ Chat 1.3.1**. It composes, encodes, and decodes BSK1 messages on YouTube, X/Twitter, Gmail, and Outlook web. All features are free, including the original default key, custom keys, key management, and unlimited use subject to normal browser resources. No account, payment, subscription, or license activation is required.
 
 ## Download
 
-[Download Typelocker-Chat-1.1.1.zip](https://github.com/sacs2cd-web/dualscan-os/raw/refs/heads/main/Tina%20Snow%C2%AE%20Social%20Diary%E2%84%A2%20Chrome%20Plugin/Typelocker-Chat-1.1.1.zip)
+[Download Typelocker-Chat-1.3.1.zip](https://github.com/sacs2cd-web/dualscan-os/raw/refs/heads/main/Tina%20Snow%C2%AE%20Social%20Diary%E2%84%A2%20Chrome%20Plugin/Typelocker-Chat-1.3.1.zip)
+
+Archived extension packages remain available: [1.1.1](https://github.com/sacs2cd-web/dualscan-os/raw/refs/heads/main/Tina%20Snow%C2%AE%20Social%20Diary%E2%84%A2%20Chrome%20Plugin/Typelocker-Chat-1.1.1.zip), [1.2.0](https://github.com/sacs2cd-web/dualscan-os/raw/refs/heads/main/Tina%20Snow%C2%AE%20Social%20Diary%E2%84%A2%20Chrome%20Plugin/Typelocker-Chat-1.2.0.zip), and [1.3.0](https://github.com/sacs2cd-web/dualscan-os/raw/refs/heads/main/Tina%20Snow%C2%AE%20Social%20Diary%E2%84%A2%20Chrome%20Plugin/Typelocker-Chat-1.3.0.zip). The [agency SDK 1.3.0](https://github.com/sacs2cd-web/dualscan-os/raw/refs/heads/main/Tina%20Snow%C2%AE%20Social%20Diary%E2%84%A2%20Chrome%20Plugin/Typelocker-Agency-Client-SDK-1.3.0.zip) is unchanged and remains compatible with the invitation and diary protocols.
 
 This folder is a Desktop Chrome companion distribution. Keep it separate from the `SmartSwitchBackup2` Galaxy restore folder.
 
 ## Install into Desktop Chrome
 
-1. Download **Typelocker-Chat-1.1.1.zip** using the link above or open that file in GitHub and choose **Download raw file**.
+1. Download **Typelocker-Chat-1.3.1.zip** using the link above or open that file in GitHub and choose **Download raw file**.
 2. Extract the ZIP to a permanent folder on your Windows, macOS, or Linux computer. The extracted folder must directly contain `manifest.json`, `popup.html`, the JavaScript files, and `icons/`. Keep this folder: Chrome loads the unpacked extension from it.
 3. In Desktop Google Chrome, enter `chrome://extensions` in the address bar.
 4. Turn on **Developer mode** at the upper right.
 5. Choose **Load unpacked** and select the extracted folder containing `manifest.json`. Select the folder rather than the ZIP file.
-6. Confirm **Typelocker™ Chat 1.1.1** appears in the extensions list. Open Chrome's Extensions menu (puzzle-piece icon) and pin Typelocker™ Chat if desired.
+6. Confirm **Typelocker™ Chat 1.3.1** appears in the extensions list. Open Chrome's Extensions menu (puzzle-piece icon) and pin Typelocker™ Chat if desired.
 7. Refresh any already-open YouTube, X/Twitter, Gmail, or Outlook web tabs.
 
 ## Compose, encode, and insert
@@ -38,36 +42,55 @@ The original default key is available immediately. Use **Manage** or **Settings*
 
 Settings also provides the automatic-decoding toggle and optional JSON key import/export. Exports contain readable key values, so keep them private. Import replaces the current configuration after review.
 
+## Permanent manual keys and seven-day invitations
+
+A named key you add manually in Manage or Settings, or save from a popup override, is **permanent**. It has no automatic expiry and remains until you delete it or replace the configuration. Permanent keys do not consume temporary invitation-key slots.
+
+An agency email invitation saves its chosen name as a **temporary key** only after you explicitly accept in the bundled Chrome review page. Its seven days begin at the first acceptance in that Chrome profile. Opening a link or reviewing it does not start the local key clock. First acceptance must occur within seven days of invitation creation. Reopening, deleting and reaccepting, or importing the same accepted invitation cannot renew its original local deadline.
+
+Up to **100 active invitation keys** can be saved and manually selected beside permanent keys. Expired invitation keys stop being usable at the deadline and are automatically removed when Chrome can run expiry or resume checks. Browser sleep can delay physical cleanup. Receipt metadata prevents accidental renewal; exports, forwarded links and copies saved elsewhere cannot be erased by local expiry. A manually saved copy remains permanent.
+
+For a provider-hosted diary, the server's seven days begin with its own first acceptance. Chrome's local key clock starts at the later explicit reader acceptance. The reader follows the earlier server or local-key deadline. Choose **Download and Decode** and approve the displayed server before any encoded diary download. The optional reader verifies a maximum 64 MiB encoded payload, byte count and SHA-256 before local decoding. Its digest/outcome acknowledgement is client-reported decode metadata, not proof of human reading.
+
+## Verification
+
+**174 automated Chrome tests passed**, including saved custom-profile selection, Gmail-style split/soft-wrapped tokens, first-acceptance expiry, fixed reopening/import receipts, alarm/resume cleanup, permanent manual keys, and actual WordPress-produced invitation/diary fixtures. The original BSK1 codec remains compatible. Automated fixtures do not establish every site's native editor behavior or live email delivery. Real SMTP and cloud deployment are outside this public package.
+
 ## Privacy and BSK1 limitations
 
 Encoding and decoding run locally in the browser. The extension does not transmit plaintext messages or secret keys to an external server. Saved keys and preferences use local Chrome extension storage. If you submit encoded text on a website, that website receives it under its own policies; decoded text displayed in the page DOM may also be visible to that website.
 
 **BSK1 is reversible text obfuscation, not secure encryption.** Its checksum does not authenticate the key or sender. Some incorrect keys can produce readable text. Do not use BSK1 to protect sensitive information or reuse account passwords as keys.
 
-- [Privacy policy](https://typelocker-chat-support.alleong.chatgpt.site/privacy)
-- [Support and instructions](https://typelocker-chat-support.alleong.chatgpt.site/support)
+- [Privacy policy](https://typelocker-chat-support.alleong.chatgpt.site/privacy.html)
+- [Support and instructions](https://typelocker-chat-support.alleong.chatgpt.site/support.html)
 
 ## Troubleshooting and updates
 
-Refresh supported pages after installing or updating the extension. Click inside the target editor before opening the popup. If a site editor does not accept insertion, use **Copy Encoded Message** and paste it manually. Password, disabled, and read-only fields are excluded. Images, canvas, closed shadow roots, unmatched cross-origin frames, and tokens split across multiple DOM text nodes are not supported.
+Refresh supported pages after installing or updating the extension. Click inside the target editor before opening the popup. If a site editor does not accept insertion, use **Copy Encoded Message** and paste it manually. Password, disabled, and read-only fields are excluded. Images, canvas, closed shadow roots and unmatched cross-origin frames are not supported. Complete BSK1 tokens split across inline text nodes, word-break elements and ordinary soft wraps within one read-only block are supported. Independent message blocks and editable drafts are not combined.
 
 For a later ZIP update, replace the files in the same permanent extension folder, choose the extension's **Reload** control at `chrome://extensions`, and refresh supported website tabs.
 
 ## Package integrity
 
-Version: **1.1.1**  
-ZIP size: **33342 bytes**  
+Version: **1.3.1**  
+ZIP size: **57,784 bytes**  
 SHA-256:
 
 ```text
-a730250fa164db3267b596eba64ebd0a293698da84bbe91be60c5ff10ec71188
+a90e0aa0052a298f51f2e966713f8280aa3bc2b5677d0193d20a033137206e0d
 ```
 
 The adjacent checksum file records the same hash for the ZIP. This GitHub download is the unpacked Desktop Chrome distribution; Chrome Web Store review and publication status are separate.
 
+
+## Historical preview notes
+
+The following version-specific verification notes describe their original publication and are retained with the older artifacts.
+
 ## Optional agency integration preview — 1.2.0
 
-The existing 1.1.1 download and installation instructions above remain available. **Typelocker™ Chat 1.1.1 remains pending Chrome Web Store review with publication deferred.** This supplemental 1.2.0 agency preview does not replace or cancel that submission.
+The existing 1.1.1 download and installation instructions above remain available. These are retained historical preview artifacts. Current Chrome Web Store status is recorded above.
 
 - [Download Typelocker™ Chat 1.2.0 agency preview](https://github.com/sacs2cd-web/dualscan-os/raw/refs/heads/main/Tina%20Snow%C2%AE%20Social%20Diary%E2%84%A2%20Chrome%20Plugin/Typelocker-Chat-1.2.0.zip) — 46,370 bytes
 - [Download agency Client SDK 1.2.0](https://github.com/sacs2cd-web/dualscan-os/raw/refs/heads/main/Tina%20Snow%C2%AE%20Social%20Diary%E2%84%A2%20Chrome%20Plugin/Typelocker-Agency-Client-SDK-1.2.0.zip) — 6,426 bytes
@@ -117,12 +140,12 @@ ca4f6b04b73798d1fe8efb0760f524c4ca7e27de37547cbb4d2785f90f3e1a62  Typelocker-Age
 
 ## Optional Social Diary integration preview — 1.3.0
 
-**Typelocker™ Chat 1.3.0** supplies the optional diary reader for the locally built **Social Diary™ Manager** and its Docker Gateway integration. The existing 1.1.1 and 1.2.0 files, installation instructions and historical preview notes above remain available. **Chrome Web Store 1.1.1 is still pending review with automatic publication deferred; this GitHub preview does not replace or cancel that submission.**
+**Typelocker™ Chat 1.3.0** supplies the optional diary reader for the locally built **Social Diary™ Manager** and its Docker Gateway integration. The existing 1.1.1 and 1.2.0 files, installation instructions and historical preview notes above remain available. These are retained historical preview artifacts. Current Chrome Web Store status is recorded above.
 
 - [Download Typelocker™ Chat 1.3.0 preview](https://github.com/sacs2cd-web/dualscan-os/raw/refs/heads/main/Tina%20Snow%C2%AE%20Social%20Diary%E2%84%A2%20Chrome%20Plugin/Typelocker-Chat-1.3.0.zip) — 54,508 bytes
 - [Download agency Client SDK 1.3.0](https://github.com/sacs2cd-web/dualscan-os/raw/refs/heads/main/Tina%20Snow%C2%AE%20Social%20Diary%E2%84%A2%20Chrome%20Plugin/Typelocker-Agency-Client-SDK-1.3.0.zip) — 16,785 bytes
 
-Extract the extension ZIP into a permanent folder, then use Desktop Chrome **Developer mode → Load unpacked** and select the folder containing `manifest.json`. For an unpacked update, replace its files, choose **Reload** at `chrome://extensions`, and refresh supported sites. Version 1.3.0 is needed for the new Gateway diary reader; the 1.1.1 Store submission does not include it.
+Extract the extension ZIP into a permanent folder, then use Desktop Chrome **Developer mode → Load unpacked** and select the folder containing `manifest.json`. For an unpacked update, replace its files, choose **Reload** at `chrome://extensions`, and refresh supported sites. Version 1.3.0 is needed for the new Gateway diary reader; the published 1.1.1 Store release does not include it.
 
 ### Optional server-backed diary reader
 
