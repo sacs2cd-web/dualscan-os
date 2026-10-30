@@ -62,3 +62,9 @@
 /* Keep the full registration label readable in the horizontal mobile tour. */
 @media(max-width:800px){.tour-navigation button{max-width:270px}.tour-navigation .tour-step-label{font-size:11px}}
 .usb-share-links{display:flex;align-items:center;justify-content:space-between;gap:18px 24px;flex-wrap:wrap;margin-top:14px}.usb-share-links>.text-link{display:inline-flex;align-items:center;gap:12px}.usb-share-links>.chrome-store-badge{display:inline-flex;flex:0 0 auto;border-radius:3px}.usb-share-links>.chrome-store-badge>img{display:block;width:164px;height:auto;margin:0}
+
+/* Share Pro sits beside the Chrome Web Store download under the USB edition. */
+.usb-share-links .share-pro-link{display:inline-flex;align-items:center;justify-content:space-between;gap:8px;min-height:42px;padding:9px 12px;border:1px solid #d6e2ef;border-radius:6px;background:#edf5ff;color:#1757ab;font-size:11px;font-weight:650;line-height:1.4;text-decoration:none;white-space:nowrap}.usb-share-links .share-pro-link:hover{background:#e0edff;color:#10458c}.usb-share-links .share-pro-link:focus-visible{outline:3px solid #0879ff;outline-offset:4px}
+
+
+.usb-visual .usb-share-links{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px 16px}.usb-share-links>.text-link{grid-column:1/-1}.usb-share-links>.chrome-store-badge{min-width:0;min-height:42px;align-items:center;justify-self:start}.usb-share-links>.chrome-store-badge>img{max-width:100%}
