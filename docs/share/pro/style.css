@@ -6,3 +6,5 @@
 @media(prefers-reduced-motion:reduce){:root{scroll-behavior:auto}.button{transition:none}.button:hover{transform:none}}
 
 .android-badge{display:inline-flex;width:235px;max-width:100%;margin-left:auto}.android-badge img{display:block;width:100%;height:auto}@media(max-width:760px){.android-badge{margin-left:64px;width:230px}}@media(max-width:370px){.android-badge{margin-left:0}}
+
+.mobile-entertainment-preview{margin-top:44px}.mobile-entertainment-preview>h3{font-size:24px;letter-spacing:-.7px;margin-bottom:20px}.mobile-entertainment-preview .app-preview{max-width:1040px;margin-inline:auto}.mobile-entertainment-preview .app-preview figcaption .text-link{display:inline-block;margin-left:8px;font-size:inherit}
