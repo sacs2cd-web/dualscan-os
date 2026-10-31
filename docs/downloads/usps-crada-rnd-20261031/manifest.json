@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "title": "USPS CRADA Versions",
+  "releaseDate": "2026-10-31",
+  "releaseStatus": "CRADA",
+  "releaseNotesUrl": "https://github.com/sacs2cd-web/dualscan-os/releases/tag/usps-crada-rnd-20261031",
+  "apps": [
+    {
+      "name": "VisaUSD Wallet",
+      "versionName": "1.0.18-rnd",
+      "versionCode": 20,
+      "packageName": "com.bishiki.visausd.local",
+      "file": "VisaUSD-Wallet-CRADA-1.0.18.apk",
+      "url": "https://github.com/sacs2cd-web/dualscan-os/releases/download/usps-crada-rnd-20261031/VisaUSD-Wallet-CRADA-1.0.18.apk",
+      "bytes": 29981828,
+      "sha256": "1e35357907a67add9c708b254f0e172ea46edea840e9e0d6c4bc8364d15ce083",
+      "minAndroidVersion": "9",
+      "status": "CRADA"
+    },
+    {
+      "name": "VisaUSD PoS",
+      "versionName": "1.0.3-rnd",
+      "versionCode": 4,
+      "packageName": "com.dualscan.guard",
+      "file": "VisaUSD-PoS-CRADA-1.0.3.apk",
+      "url": "https://github.com/sacs2cd-web/dualscan-os/releases/download/usps-crada-rnd-20261031/VisaUSD-PoS-CRADA-1.0.3.apk",
+      "bytes": 29517831,
+      "sha256": "e717494587ca781fe85a04591782c4a6c648e96035020d390d7b9c0c9f53c4ed",
+      "minAndroidVersion": "9",
+      "status": "CRADA"
+    }
+  ],
+  "signingCertificateSHA256": "cfa385a7bb43663f683257cd0541fc90ecf5bcd83d1dc96bcd26426047a83503",
+  "scope": {
+    "displayName": "USDC & USD™",
+    "displayDecimals": 2,
+    "network": "Solana mainnet",
+    "fundingPriority": [
+      "USDC",
+      "USD™ (VisaUSD)"
+    ],
+    "accounting": "Nominal 1 USD per token; transfers retain actual mint identities and perform no swap.",
+    "existingPolygonMode": "Preserved independently"
+  },
+  "mints": {
+    "USDC": {
+      "address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "onChainDecimals": 6
+    },
+    "USD": {
+      "address": "BYfrXuJkj6Qhs7iegnmtKAwMM2NfAPNq6ZyezC5V99zB",
+      "onChainDecimals": 2
+    }
+  },
+  "fees": {
+    "wallet": "0.50 added to the token payment.",
+    "pos": "0.50 deducted from a logical intake of at least 3.00; no PoS service fee below 3.00.",
+    "crossApp": "Fees remain independent. A 30.00 Wallet payment into PoS debits 30.50 and forwards 29.50 to the merchant, before native network costs.",
+    "networkCosts": "Separate SOL/POL costs and any required token-account rent."
+  },
+  "validation": {
+    "offlineNodeChecksPassed": 971,
+    "optionalHistoricalFixtureSkipped": 1,
+    "nativeChecksPassed": 215,
+    "releaseLintErrors": 0,
+    "signaturesVerified": true,
+    "mappedResourcesVerified": 335,
+    "fundedEndToEndTested": false,
+    "physicalDeviceAcceptanceTested": false
+  },
+  "notes": [
+    "These CRADA installers retain their original application IDs and signing identity; installation updates a matching existing app.",
+    "Mixed-system settlement requires whole USD cents. Fractional-cent FX settlement is blocked without rounding.",
+    "Unsupported mixed receipt formats are held for review.",
+    "The existing production downloads and Smart Switch image are unchanged."
+  ]
+}
