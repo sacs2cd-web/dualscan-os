@@ -1,0 +1,24 @@
+{
+  "release": "fivem-devices-20261101",
+  "platform": "FiveM / GTA V PC",
+  "downloads": [
+    {
+      "resource": "visausd-fivem-phone",
+      "version": "0.1.0",
+      "downloadPriceUSD": 0,
+      "file": "VisaUSD-Gaming-Credits-FiveM-0.1.0.zip",
+      "bytes": 557940,
+      "sha256": "7d1a02edd76a16a0a5bf5516ba0e73c4e4337b6d9a4834bb50d6569d8f8d24ea",
+      "url": "https://github.com/sacs2cd-web/dualscan-os/releases/download/fivem-devices-20261101/VisaUSD-Gaming-Credits-FiveM-0.1.0.zip"
+    },
+    {
+      "resource": "visausd-radio",
+      "version": "1.0.0",
+      "downloadPriceUSD": 0,
+      "file": "VisaUSD-Radio-FiveM-1.0.0.zip",
+      "bytes": 193273177,
+      "sha256": "d4da614e8e3350d36168ffca12d291bb38b7e1bce3e1c6431a671b4417bb0c8c",
+      "url": "https://github.com/sacs2cd-web/dualscan-os/releases/download/fivem-devices-20261101/VisaUSD-Radio-FiveM-1.0.0.zip"
+    }
+  ]
+}

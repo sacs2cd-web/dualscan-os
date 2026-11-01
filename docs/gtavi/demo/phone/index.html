@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'none'; media-src 'self'; object-src 'none'; base-uri 'none'">
+  <title>VisaUSD Gaming Credits</title>
+  <link rel="stylesheet" href="gaming-original.css">
+  <link rel="stylesheet" href="device.css">
+  <script src="../sample-engine.js" defer></script>
+  <script src="static-adapter.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <main id="device" class="device" hidden aria-label="VisaUSD Gaming Credits phone">
+    <div class="device-screen">
+      <div class="device-top"><img src="assets/visausd.png" alt="VisaUSD"><button id="close-device" class="device-close" aria-label="Close phone">×</button></div>
+      <section id="bgc-modal" aria-labelledby="bgc-title">
+        <div class="bgc-sheet">
+          <header class="bgc-header"><div class="bgc-brand"><img src="assets/diamond.png" alt=""><div><h1 id="bgc-title">Gaming Credits</h1></div></div><button id="lock" class="bgc-icon-button" aria-label="Lock Gaming Credits" disabled><svg width="17" height="20" viewBox="0 0 24 28" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="12" width="18" height="14" rx="3"/><path d="M7 12V7a5 5 0 0 1 10 0v5"/><path d="M12 18v3"/></svg></button></header>
+          <p id="message" class="bgc-notice" role="status" aria-live="polite" hidden></p>
+          <section id="locked-view" class="locked-view">
+            <img class="welcome-diamond" src="assets/diamond.png" alt="">
+            <h2 id="unlock-title">Opening your account</h2>
+            <p id="unlock-copy" class="bgc-copy">Your Gaming Credits account is created automatically.</p>
+            <button id="retry" class="bgc-primary" hidden>Try again</button>
+          </section>
+          <div id="account-view" hidden>
+            <section class="bgc-balance-card"><div><span class="bgc-eyebrow">Available Gaming Credits</span><p id="balance" class="bgc-balance">—</p><p id="account-short" class="bgc-account"></p></div><img id="bgc-balance-icon" src="assets/diamond.png" alt=""></section>
+            <div class="bgc-daily"><span>20,580 daily · 9am New York</span><strong id="countdown"></strong></div>
+            <div class="held-row"><span>In play</span><strong id="held">0</strong></div>
+            <nav class="panel-tabs" aria-label="Gaming Credits panels">
+              <button data-panel="games" aria-selected="true">Games</button><button data-panel="send" aria-selected="false">Send</button><button data-panel="receive" aria-selected="false">Receive</button><button data-panel="history" aria-selected="false">History</button>
+            </nav>
+            <section id="panel-games" class="panel" aria-label="Games">
+              <div class="section-title"><h2>Game connections</h2><button id="refresh" class="quiet">Refresh</button></div>
+              <div id="game-requests"><p class="bgc-copy empty-state">Open a compatible game to connect your credits.</p></div>
+              <div id="connected-games"></div>
+            </section>
+            <section id="panel-send" class="panel" aria-label="Send Gaming Credits" hidden>
+              <form id="send-form">
+                <label class="bgc-label" for="recipient">Player account</label><input id="recipient" class="field" maxlength="80" autocomplete="off" spellcheck="false" placeholder="GC_…" required>
+                <label class="bgc-label" for="amount">How many credits?</label><div class="bgc-amount-input"><input id="amount" inputmode="numeric" pattern="[0-9]+" maxlength="9" autocomplete="off" placeholder="0" required><span>BISHIKI</span></div>
+                <p class="bgc-small">Whole credits. No transfer fee.</p><button id="send-submit" class="bgc-primary">Review transfer</button><button id="cancel-transfer" class="bgc-secondary" type="button" hidden>Resolve pending transfer</button>
+              </form>
+            </section>
+            <section id="panel-receive" class="panel" aria-label="Receive Gaming Credits" hidden>
+              <h2>Your Gaming Credits account</h2><p class="bgc-copy">Share this account code with another player on this server.</p><input id="account-code" class="field account-code" readonly aria-label="Your Gaming Credits account code"><button id="copy-account" class="bgc-secondary">Copy account code</button>
+            </section>
+            <section id="panel-history" class="panel" aria-label="Gaming Credits history" hidden>
+              <h2>Recent transactions</h2><div id="history"></div><div class="pagination"><button id="previous" class="quiet" disabled>← Previous</button><span id="page-number">1 / 1</span><button id="next" class="quiet" disabled>Next →</button></div>
+            </section>
+            <footer class="bgc-footer">Game points only. No cash value or cash-out. <button id="about" class="footer-link">About</button><button id="change-pin" class="footer-link">Change PIN</button></footer>
+          </div>
+        </div>
+      </section>
+      <div class="home-indicator" aria-hidden="true"></div>
+      <dialog id="pin-dialog" aria-labelledby="pin-title">
+        <form id="pin-form"><button id="pin-cancel" class="sheet-close" type="button" aria-label="Cancel PIN entry">×</button><img src="assets/diamond.png" class="pin-diamond" alt=""><h2 id="pin-title">Set your PIN</h2><p id="pin-description"></p><label class="sr-only" for="pin">Four-digit PIN</label><input id="pin" class="pin-input" type="password" inputmode="numeric" pattern="[0-9]{4}" maxlength="4" autocomplete="off" required><div id="confirm-group" hidden><label class="bgc-label" for="confirm-pin">Confirm PIN</label><input id="confirm-pin" class="pin-input" type="password" inputmode="numeric" pattern="[0-9]{4}" maxlength="4" autocomplete="off"></div><p id="pin-error" role="alert"></p><div class="pin-keypad" aria-label="PIN keypad"><button type="button" data-digit="1">1</button><button type="button" data-digit="2">2</button><button type="button" data-digit="3">3</button><button type="button" data-digit="4">4</button><button type="button" data-digit="5">5</button><button type="button" data-digit="6">6</button><button type="button" data-digit="7">7</button><button type="button" data-digit="8">8</button><button type="button" data-digit="9">9</button><button type="button" data-digit="clear">Clear</button><button type="button" data-digit="0">0</button><button type="button" data-digit="back" aria-label="Delete last digit">⌫</button></div><button id="pin-submit" class="primary" type="submit">Continue</button></form>
+      </dialog>
+      <dialog id="about-dialog" aria-labelledby="about-title"><button id="about-close" class="sheet-close" aria-label="Close About">×</button><img src="assets/visausd.png" class="about-logo" alt="VisaUSD"><h2 id="about-title">Gaming Credits</h2><p>Browser-local sample</p><p>20,580 non-redeemable credits daily. Credits reset at 9am New York time. Sample game entries are held until a sample result, cancellation or expiry. No server or real credits are connected.</p><p class="attribution">Phone shell derived from v-phone.<br>Developed by vyrriox · Apache 2.0.<br>VisaUSD Gaming Credits panel and artwork supplied by the VisaUSD project.</p></dialog>
+    </div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>VisaUSD Gaming Credits · Sample demo</title>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'none'; frame-src 'self'; object-src 'none'; base-uri 'none'">
+  <link rel="stylesheet" href="demo.css">
+  <script src="sample-engine.js" defer></script>
+  <script src="demo.js" defer></script>
+</head>
+<body>
+  <header class="site-header"><a href="./" class="brand" aria-label="VisaUSD Gaming Credits demo"><img src="phone/assets/visausd.png" alt="VisaUSD"><span>Gaming Credits</span></a><span class="demo-badge"><span></span>Sample demo</span></header>
+  <main class="demo-layout">
+    <section class="demo-copy" aria-labelledby="demo-title">
+      <p class="eyebrow">FIVEM · STANDALONE PHONE</p>
+      <h1 id="demo-title">Your credits.<br><span>Ready to play.</span></h1>
+      <p class="intro">Explore the Gaming Credits panels with two sample players. Connect a game, approve an entry, then see the result.</p>
+      <div class="pin-card"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="10" width="14" height="11" rx="3"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/><path d="M12 15v2"/></svg><div><span>Demo PIN</span><strong id="sample-pin">1 2 3 4</strong></div><p>Enter it in the phone<br>to unlock and approve.</p></div>
+      <section class="demo-controls" aria-labelledby="controls-title">
+        <div class="section-heading"><h2 id="controls-title">Try a sample game</h2><span id="connection-state" class="connection-state">Not connected</span></div>
+        <div class="step"><span class="step-number">01</span><div><h3>Connect your credits</h3><p>Send an invitation, then approve it in the phone’s Games panel.</p><div class="invite-buttons"><button id="invite" data-action="invite" class="control-button">Invite sample game <span aria-hidden="true">↗</span></button><button id="cancel-invite" data-action="cancelInvite" class="cancel-button" disabled>Cancel invitation</button></div></div></div>
+        <div class="step"><span class="step-number">02</span><div><h3>Put 25 credits in play</h3><p>Both sample players enter 25 credits. Approve your entry in the phone.</p><button id="entry" data-action="entry" class="control-button" disabled>Request 25-credit entry <span aria-hidden="true">→</span></button></div></div>
+        <div class="step last-step"><span class="step-number">03</span><div><h3>See the result</h3><p id="match-description">Finish with your sample player as winner, or cancel to release the entry.</p><div class="result-buttons"><button id="settle" data-action="settle" class="control-button finish" disabled>Finish sample game</button><button id="cancel" data-action="cancel" class="cancel-button" disabled>Cancel entry</button></div></div></div>
+        <div id="demo-status" class="demo-status" role="status" aria-live="polite">Start by unlocking the phone with the sample PIN shown above.</div>
+      </section>
+      <section class="transfer-card" aria-labelledby="transfer-title"><div><span class="small-label">TRY A TRANSFER</span><h2 id="transfer-title">Send to sample player Bob</h2><p>Copy Bob’s account, then use Send in the phone.</p></div><div class="recipient-row"><input id="recipient" readonly aria-label="Bob’s sample account code" value="Loading sample account…"><button id="copy-recipient" aria-label="Copy Bob’s account code" title="Copy account code"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="8" y="8" width="12" height="13" rx="2"/><path d="M15 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3"/></svg><span>Copy</span></button></div></section>
+      <p class="sample-note"><span aria-hidden="true">◇</span>Sample only · Saved in this browser · No real credits or money</p>
+      <button id="reset-demo" class="reset-demo" type="button">Reset sample demo</button>
+    </section>
+    <section class="phone-column" aria-label="Interactive Gaming Credits phone">
+      <div class="phone-toolbar"><div><span class="live-dot"></span><span>Interactive phone</span></div><button id="open-phone">Open phone <span aria-hidden="true">↗</span></button></div>
+      <div class="phone-frame"><iframe id="phone" data-src="phone/index.html?embed=1" title="VisaUSD Gaming Credits interactive phone" allow="clipboard-write"></iframe></div>
+      <p class="phone-caption">Interactive sample panels. PIN approvals and credit holds are simulated.</p>
+    </section>
+  </main>
+  <footer class="site-footer"><span>VisaUSD · Gaming Credits</span><span>Browser-local sample · No server connection</span></footer>
+</body>
+</html>
