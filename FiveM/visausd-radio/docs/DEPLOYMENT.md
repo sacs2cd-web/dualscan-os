@@ -27,3 +27,10 @@ For another static host, run `node scripts/export-demo.js /absolute/empty/output
 No server installation, running server configuration, or FXServer binary was changed by this work. Deploy the `visausd-radio` resource separately using the included README (`ensure visausd-radio`). The website is independent of the in-game audio path.
 
 The resource supports one approximately synchronized server broadcast; each browser visitor has an independent preview timeline. Live Windows/FiveM verification and preparation of the native wheel's build-specific `stream/hud.ytd` remain pending. See `TESTING.md` and `LOGO.md` for the exact procedures.
+
+
+## GitHub Pages player — November 1, 2026
+
+The player is now available at https://dualscan.cloud/gtaradio/ and linked from https://dualscan.cloud/gtavi/. Its static HTML, CSS, scripts and playlist live in `docs/gtaradio/`. The 51 OGG files are streamed directly from the public repository folder `FiveM/visausd-radio/audio/songs/` through `raw.githubusercontent.com`, using browser-native audio playback and metadata preload. They are not duplicated in the Pages docs tree.
+
+Each web visitor still has an independent shuffle. The downloadable FiveM resource retains its local packaged assets and shared server broadcast; its runtime code is unchanged by this hosting migration.

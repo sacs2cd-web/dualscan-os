@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101116">
+  <title>VisaUSD™ Radio — Your city. Your soundtrack.</title>
+  <meta name="description" content="Listen to VisaUSD Radio: 51 tracks streamed from our public GitHub audio collection. Browse songs, tune in and get the free FiveM station.">
+  <link rel="canonical" href="https://dualscan.cloud/gtaradio/">
+  <meta property="og:title" content="VisaUSD Radio — Your city. Your soundtrack.">
+  <meta property="og:description" content="51 tracks. A fresh shuffle. Your station, on the web and in FiveM.">
+  <meta property="og:url" content="https://dualscan.cloud/gtaradio/">
+  <meta property="og:image" content="https://dualscan.cloud/gtaradio/assets/vice-city-sunset.png">
+  <link rel="icon" href="assets/visausd-logomark.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+  <div class="shell">
+    <header class="site-header">
+      <a class="brand" href="#" aria-label="VisaUSD™ Radio home">
+        <span class="brand-logoplate"><img src="assets/visausd-logomark.png" alt="VisaUSD™"></span>
+        <span class="brand-radio">RADIO</span>
+      </a>
+      <nav aria-label="Main navigation"><a class="active" href="#station">The station</a><a href="#collection">The collection <span>51</span></a><a href="../gtavi/">FiveM devices ↗</a></nav>
+      <div class="local-badge"><i></i> 51 TRACKS. NO SUBSCRIPTIONS.</div>
+    </header>
+
+    <main>
+      <section class="intro" id="station">
+        <div class="eyebrow"><span class="tiny-wave" aria-hidden="true">▂▅▃▇▅</span> A NEW FREQUENCY IN VICE CITY</div>
+        <h1>Your city.<br><span>Your soundtrack.</span></h1>
+        <p>Good music. A little personality. A whole new reason<br class="desktop-break"> to take the long way home.</p>
+      </section>
+
+      <section class="station-card" aria-label="VisaUSD™ Radio player">
+        <div class="artwork">
+          <div class="artwork-grid" aria-hidden="true"></div>
+          <span class="artwork-corner">YOUR FREQUENCY.<br>YOUR WORLD.</span>
+          <div class="orbit orbit-one" aria-hidden="true"></div>
+          <div class="orbit orbit-two" aria-hidden="true"></div>
+          <div class="station-logotype"><img src="assets/visausd-logomark.png" alt="VisaUSD™"><strong>RADIO</strong><span>TURN THE EVERYDAY UP.</span></div>
+          <span class="artwork-bottom">SOMEWHERE BETWEEN HERE & EVERYWHERE.</span>
+        </div>
+        <div class="player-info">
+          <div class="player-topline"><span class="on-air"><i></i><span id="broadcast-status">READY WHEN YOU ARE</span></span><span class="preview-tag">WEB PLAYER</span></div>
+          <div class="song-detail"><span class="section-label">NOW ON VisaUSD™ Radio</span><h2 id="track-title">Finding your frequency…</h2><p id="track-artist">VisaUSD™ Radio</p></div>
+          <div class="track-tags"><span id="track-type">MUSIC</span><span>OGG VORBIS</span><span id="track-position">01 / 51</span></div>
+          <div class="progress-block"><div class="progress-track" aria-hidden="true"><div id="progress-fill"></div></div><div class="time-labels"><span id="elapsed">0:00</span><span id="duration">0:00</span></div></div>
+          <div class="player-controls">
+            <button class="primary-button" id="play-button" disabled><span id="play-icon" aria-hidden="true">▶</span><span id="play-label">Tune in</span></button>
+            <button class="icon-button next-button" id="next-button" aria-label="Next preview track" title="Next track (preview only)" disabled><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 5 10 7-10 7V5Zm12 0v14"/></svg></button>
+            <div class="volume-control"><button class="icon-button" id="mute-button" aria-label="Mute audio"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4V5Zm4 3c2 2 2 6 0 8m3-11c4 4 4 10 0 14"/></svg></button><input id="volume" type="range" min="0" max="100" value="65" aria-label="Volume"><span id="volume-label">65%</span></div>
+          </div>
+          <div class="player-note"><span class="sound-bars" id="sound-bars" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span id="player-note">Press tune in. Make yourself at home.</span></div>
+          <div class="error-message" id="error-message" role="alert" hidden></div>
+        </div>
+      </section>
+
+      <div class="station-facts" aria-label="Station details"><span><span class="fact-icon">↻</span> A fresh shuffle. Every time.</span><span><span class="fact-icon">◉</span> 51 tracks. No subscriptions.</span><span><span class="fact-icon">⌁</span> Find us in the Worldwide FM slot.</span></div>
+
+      <section class="collection" id="collection">
+        <div class="collection-header"><div><div class="eyebrow">THE SOUND OF VisaUSD™ Radio</div><h2>The collection<span>.</span></h2><p>Every track gets its moment.</p></div><label class="search-box"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg><input id="search" type="search" placeholder="Find a track or artist" aria-label="Search tracks"><span>⌕</span></label></div>
+        <div class="library-meta"><span class="library-tab">ALL TRACKS <span id="song-count">51</span></span><span id="library-caption">THE COMPLETE COLLECTION</span></div>
+        <div class="table-head" aria-hidden="true"><span>#</span><span>TRACK / ARTIST</span><span>FORMAT</span><span>TIME</span><span></span></div>
+        <div id="track-list" class="track-list" aria-live="polite"><p class="empty-state">Loading the collection…</p></div>
+        <p class="library-footnote" id="library-footnote">This browser preview shuffles independently for each listener. In FiveM, everyone hears the shared server broadcast.</p>
+      </section>
+    </main>
+    <footer><a class="footer-wordmark" href="#">VisaUSD™ Radio<span>●</span></a><p>Built for the drive. Made to feel like home.</p><a class="footer-local" href="https://github.com/sacs2cd-web/dualscan-os/tree/main/FiveM/visausd-radio/audio/songs" target="_blank" rel="noopener"><i></i> OGG COLLECTION ON GITHUB ↗</a></footer>
+  </div>
+  <audio id="radio-audio" preload="metadata"></audio>
+  <script src="core/scheduler.js"></script>
+  <script src="core/player.js"></script>
+  <script src="demo.js"></script>
+</body>
+</html>
