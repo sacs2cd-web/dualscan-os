@@ -1,0 +1,267 @@
+{
+  "sourceDirectory": "User-supplied ATV Radio source folder (not included)",
+  "encoding": {
+    "container": "ogg",
+    "codec": "vorbis",
+    "quality": 5,
+    "sampleRate": 48000,
+    "channels": 2
+  },
+  "songs": [
+    {
+      "id": "track-001",
+      "sourceFile": "Aint No More Talkin.wav",
+      "metadataFromTags": false
+    },
+    {
+      "id": "track-002",
+      "sourceFile": "Alize.wav",
+      "metadataFromTags": false
+    },
+    {
+      "id": "track-003",
+      "sourceFile": "Apocalipz.wav",
+      "metadataFromTags": false
+    },
+    {
+      "id": "track-004",
+      "sourceFile": "Bad Bitch Tax Bracket.wav",
+      "metadataFromTags": false
+    },
+    {
+      "id": "track-005",
+      "sourceFile": "Benjis After Midnight.wav",
+      "metadataFromTags": false
+    },
+    {
+      "id": "track-006",
+      "sourceFile": "Big Boss.wav",
+      "metadataFromTags": false
+    },
+    {
+      "id": "track-007",
+      "sourceFile": "Chi Chi Get The Yayo.wav",
+      "metadataFromTags": false
+    },
+    {
+      "id": "track-008",
+      "sourceFile": "Digitaldruglord - Ginzu (feat. Yonce) - 01-01 Superstar Hood Bitch (feat. Yonce).flac",
+      "metadataFromTags": true
+    },
+    {
+      "id": "track-009",
+      "sourceFile": "Digitaldruglord - Ginzu (feat. Yonce) - 01-02 Finnishline (feat. Yonce).flac",
+      "metadataFromTags": true
+    },
+    {
+      "id": "track-010",
+      "sourceFile": "Digitaldruglord - Money Manhattan Madam - 01-03 Jordache Look.flac",
+      "metadataFromTags": true
+    },
+    {
+      "id": "track-011",
+      "sourceFile": "Digitaldruglord - Money Manhattan Madam - 01-04 Up On Broadway.flac",
+      "metadataFromTags": true
+    },
+    {
+      "id": "track-012",
+      "sourceFile": "Digitaldruglord - Money Manhattan Madam - 01-06 Whimsikal.flac",
+      "metadataFromTags": true
+    },
+    {
+      "id": "track-013",
+      "sourceFile": "Digitaldruglord - Money Manhattan Madam - 01-09 Mint Leaves Swirl.flac",
+      "metadataFromTags": true
+    },
+    {
+      "id": "track-014",
+      "sourceFile": "Digitaldruglord - Money Manhattan Madam - 01-11 A Hero Aint Nothin But A Sandwich.flac",
+      "metadataFromTags": true
+    },
+    {
+      "id": "track-015",
+      "sourceFile": "Digitaldruglord - Please Love Me Forever - 01-01 Please Love Me Forever.flac",
+      "metadataFromTags": false
+    },
+    {
+      "id": "track-016",
+      "sourceFile": "Digitaldruglord - Please Love Me Forever - 01-23 Rich Like A Harlem Bitch.flac",
+      "metadataFromTags": false
+    },
+    {
+      "id": "track-017",
+      "sourceFile": "Digitaldruglord - Please Love Me Forever - 01-24 David Foster.flac",
+      "metadataFromTags": false
+    },
+    {
+      "id": "track-018",
+      "sourceFile": "Digitaldruglord - Please Love Me Forever - 01-25 Belushi.flac",
+      "metadataFromTags": false
+    },
+    {
+      "id": "track-019",
+      "sourceFile": "Digitaldruglord - Please Love Me Forever - 01-26 American Geisha.flac",
+      "metadataFromTags": false
+    },
+    {
+      "id": "track-020",
+      "sourceFile": "Digitaldruglord - Please Love Me Forever - 01-27 Paid En Full.flac",
+      "metadataFromTags": false
+    },
+    {
+      "id": "track-021",
+      "sourceFile": "Digitaldruglord - Please Love Me Forever - 01-29 Gateway.flac",
+      "metadataFromTags": false
+    },
+    {
+      "id": "track-022",
+      "sourceFile": "Digitaldruglord - Please Love Me Forever - 01-30 La Madrina.flac",
+      "metadataFromTags": false
+    },
+    {
+      "id": "track-023",
+      "sourceFile": "Digitaldruglord - SuzukiSamurai - 01-02 Dagger.flac",
+      "metadataFromTags": false
+    },
+    {
+      "id": "track-024",
+      "sourceFile": "Digitaldruglord - Tappan Zee - 01-01 Smooth Operator.flac",
+      "metadataFromTags": false
+    },
+    {
+      "id": "track-025",
+      "sourceFile": "Digitaldruglord - Tappan Zee - 01-02 87 North.flac",
+      "metadataFromTags": false
+    },
+    {
+      "id": "track-026",
+      "sourceFile": "Digitaldruglord - Tappan Zee - 01-03 Broken Heart In Central Park.flac",
+      "metadataFromTags": false
+    },
+    {
+      "id": "track-027",
+      "sourceFile": "Eat My Poosee.wav",
+      "metadataFromTags": false
+    },
+    {
+      "id": "track-028",
+      "sourceFile": "Expensive Problems.wav",
+      "metadataFromTags": false
+    },
+    {
+      "id": "track-029",
+      "sourceFile": "Fa@lover.wav",
+      "metadataFromTags": false
+    },
+    {
+      "id": "track-030",
+      "sourceFile": "Fukc Me Fukcer.wav",
+      "metadataFromTags": false
+    },
+    {
+      "id": "track-031",
+      "sourceFile": "Gold Curtains Don't Look Cheap.wav",
+      "metadataFromTags": false
+    },
+    {
+      "id": "track-032",
+      "sourceFile": "Gucci Shit.wav",
+      "metadataFromTags": false
+    },
+    {
+      "id": "track-033",
+      "sourceFile": "International Call Girl.wav",
+      "metadataFromTags": false
+    },
+    {
+      "id": "track-034",
+      "sourceFile": "I’m Your PPV Pornstar Gloryhole Playmate.wav",
+      "metadataFromTags": false
+    },
+    {
+      "id": "track-035",
+      "sourceFile": "Key Biscayne At 2 A.M..wav",
+      "metadataFromTags": false
+    },
+    {
+      "id": "track-036",
+      "sourceFile": "Key Biscayne Dope House On The Water.wav",
+      "metadataFromTags": false
+    },
+    {
+      "id": "track-037",
+      "sourceFile": "Leather Vibrator.wav",
+      "metadataFromTags": false
+    },
+    {
+      "id": "track-038",
+      "sourceFile": "Matchbox.wav",
+      "metadataFromTags": false
+    },
+    {
+      "id": "track-039",
+      "sourceFile": "Miami Beach Madam.wav",
+      "metadataFromTags": false
+    },
+    {
+      "id": "track-040",
+      "sourceFile": "Miami Powder.wav",
+      "metadataFromTags": false
+    },
+    {
+      "id": "track-041",
+      "sourceFile": "Midnight Paper.wav",
+      "metadataFromTags": false
+    },
+    {
+      "id": "track-042",
+      "sourceFile": "Mirror Walls.wav",
+      "metadataFromTags": false
+    },
+    {
+      "id": "track-043",
+      "sourceFile": "No Fux After Midnight.wav",
+      "metadataFromTags": false
+    },
+    {
+      "id": "track-044",
+      "sourceFile": "Not Today.wav",
+      "metadataFromTags": false
+    },
+    {
+      "id": "track-045",
+      "sourceFile": "Orgy Invoice.wav",
+      "metadataFromTags": false
+    },
+    {
+      "id": "track-046",
+      "sourceFile": "Pretty Costs Extra.wav",
+      "metadataFromTags": false
+    },
+    {
+      "id": "track-047",
+      "sourceFile": "Rewind The Tape.wav",
+      "metadataFromTags": false
+    },
+    {
+      "id": "track-048",
+      "sourceFile": "Say It With Your Chest.wav",
+      "metadataFromTags": false
+    },
+    {
+      "id": "track-049",
+      "sourceFile": "Star Island Visionary.wav",
+      "metadataFromTags": false
+    },
+    {
+      "id": "track-050",
+      "sourceFile": "Tonite Sorry No.wav",
+      "metadataFromTags": false
+    },
+    {
+      "id": "track-051",
+      "sourceFile": "Y.G. - You Can't Afford Her.wav",
+      "metadataFromTags": false
+    }
+  ]
+}

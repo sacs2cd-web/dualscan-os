@@ -10,3 +10,6 @@
 "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792990163950/APKFILE/com.apple.android.music.enc" filter=lfs diff=lfs merge=lfs -text
 "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792990163950/APKFILE/com.dualscan.usps.postalcash.enc" filter=lfs diff=lfs merge=lfs -text
 "SmartSwitchBackup2/SM-S928U_e2e2bddab319dd6c/1792990163950/APKFILE/io.horizontalsystems.bankwallet.enc" filter=lfs diff=lfs merge=lfs -text
+
+# Streamable public Radio assets: store real OGG bytes, never LFS pointers.
+"FiveM/visausd-radio/audio/**/*.ogg" -filter -diff -merge -text

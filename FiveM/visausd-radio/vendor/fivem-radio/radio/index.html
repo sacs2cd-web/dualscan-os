@@ -1,0 +1,165 @@
+<html>
+<head>
+    <script>
+        const audioContext = new AudioContext({
+            latencyHint: 'playback'
+        });
+        const vehiclesRadio = {};
+        let stations = [];
+        let volume = 1;
+        let customRadios;
+
+        /**
+         * Radio class containing the state of our stations.
+         * Includes all methods for playing, stopping, etc.
+         * @param {number} index - Current station index.
+         * @param {boolean} isInside - If the player is inside.
+         * @param {boolean} isLoud - If the station is loud.
+         * @param {Array} position - Array of position [x, y z].
+         */
+        const Radio = function (index = 0, isInside = true, isLoud = false, position = [0, 0, 0]) {
+            this.index = index;
+            this.isInside = isInside;
+            this.isLoud = isLoud;
+            this.position = position;
+
+            this.panner = audioContext.createPanner();
+            this.panner.panningModel = 'HRTF';
+            this.panner.refDistance = 1.2;
+            this.panner.rolloffFactor = 1.0;
+            this.panner.distanceModel = 'exponential';
+            this.panner.setPosition(...position);
+        };
+        Radio.prototype = {
+            /**
+             * Start a station's live stream.
+             */
+            play: function () {
+                const self = this;
+                const station = stations[this.index];
+
+                // Setup a new audio element if needed.
+                if (!self.sound) {
+                    self.sound = new Audio();
+
+                    const mediaElementSource = audioContext.createMediaElementSource(self.sound);
+                    mediaElementSource.connect(self.panner);
+                    self.panner.connect(audioContext.destination);
+                }
+
+                // Set media source.
+                self.sound.src = station.data.url;
+
+                // Set inital position and volume.
+                self.setPosition(self.isInside, self.isLoud, self.position);
+
+                // Begin playing the sound.
+                try {
+                    self.sound.play().catch(() => {});
+                } catch (err) {
+                    console.error(err);
+                }
+            },
+
+            /**
+             * Stop a station's live stream.
+             */
+            stop: function () {
+                if (this.sound) {
+                    this.sound.src = '';
+                }
+            },
+
+            /**
+             * Change stations volume.
+             */
+            setVolume: function() {
+                if (this.sound) {
+                    this.sound.volume  = ((stations[this.index].data.volume || 1.0) * volume) / (this.isInside || this.isLoud ? 1 : 2);
+                }
+            },
+
+            /**
+             * Play a station with a specific index.
+             * @param  {Number} index - Current station index.
+             */
+            setIndex: function(index) {
+                this.stop();
+                this.index = index;
+                this.play();
+            },
+
+            /**
+             * Change stations position.
+             * @param {boolean} isInside - If the player is inside.
+             * @param {boolean} isLoud - If the station is loud.
+             * @param {Array} position - Array of position [x, y z].
+             */
+            setPosition: function(isInside, isLoud, position) {
+                this.isInside = isInside;
+                this.isLoud = isLoud;
+                this.position = position;
+
+                if (this.sound) {
+                    if (isInside) {
+                        this.panner.setPosition(0, 0, 0);
+                    } else {
+                        this.panner.setPosition(...position);
+                    }
+                    this.setVolume();
+                }
+            },
+        };
+
+        fetch(`https://${GetParentResourceName()}/ready`, { "method": "POST", "body": "{}" }).then(res => res.json()).then((data) => {
+            stations = data.radios;
+            volume = data.volume;
+
+            window.addEventListener('message', (event) => {
+                let item = event.data;
+
+                switch (item.type) {
+                    case 'vehicles':
+                        const radios = item.data;
+
+                        for (const vehicle in radios) {
+                            const radio = radios[vehicle];
+
+                            if (!vehiclesRadio[vehicle]) {
+                                vehiclesRadio[vehicle] = new Radio(radio.radioIndex, radio.isInside, radio.isLoud, radio.position);
+                                vehiclesRadio[vehicle].play();
+                            } else {
+                                vehiclesRadio[vehicle].setPosition(radio.isInside, radio.isLoud, radio.position);
+
+                                if (vehiclesRadio[vehicle].index !== radio.radioIndex) {
+                                    vehiclesRadio[vehicle].setIndex(radio.radioIndex);
+                                }
+                            }
+                        }
+
+                        break;
+                    case 'volume':
+                        volume = item.volume;
+
+                        for (const vehicle in vehiclesRadio) {
+                            vehiclesRadio[vehicle].setVolume();
+                        }
+
+                        break;
+                    case 'stop':
+                        const vehicle = item.vehicle;
+
+                        if (vehiclesRadio[vehicle]) {
+                            vehiclesRadio[vehicle].stop();
+                            delete vehiclesRadio[vehicle];
+                        }
+
+                        break;
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+</body>
+</html>

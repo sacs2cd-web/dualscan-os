@@ -1,0 +1,17 @@
+{
+  "stationName": "VisaUSD™ Radio",
+  "expectedSongCount": 51,
+  "stationGain": 0.8,
+  "defaultUserVolume": 1,
+  "followGameMusicVolume": true,
+  "pauseOnPauseMenu": true,
+  "snapshotIntervalMs": 5000,
+  "clockSyncIntervalMs": 15000,
+  "driftToleranceSeconds": 0.75,
+  "schedule": {
+    "songsBetweenAds": 4,
+    "songsBetweenDj": 2,
+    "songsBetweenIds": 1,
+    "adsPerBreak": 1
+  }
+}
