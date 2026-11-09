@@ -70,4 +70,5 @@
 .usb-visual .usb-share-links{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px 16px}.usb-share-links>.text-link{grid-column:1/-1}.usb-share-links>.chrome-store-badge{min-width:0;min-height:42px;align-items:center;justify-self:start}.usb-share-links>.chrome-store-badge>img{max-width:100%}
 
 .usb-caption-heading{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px}
-.usb-amazon-label{margin-inline-start:auto;padding:4px 8px;border:1px solid #ecd4a8;border-radius:5px;background:#fff5e5;color:#704700;font-size:11px;font-weight:650;line-height:1.4;text-align:right}
+.usb-amazon-label{display:inline-flex;align-items:center;gap:6px;margin-inline-start:auto;padding:4px 8px;border:1px solid #ecd4a8;border-radius:5px;background:#fff5e5;color:#704700;font-size:11px;font-weight:650;line-height:1.4}
+.usb-amazon-label>img{flex:none;width:64px;height:auto;margin:0}
