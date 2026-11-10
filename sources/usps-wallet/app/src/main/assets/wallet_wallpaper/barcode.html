@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoneyGram OTP QR</title>
+    <script src="./crypto-js.min.js"></script>
+    <script src="./qart.min.js?v=202607021205"></script>
+    <style>
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            background: transparent;
+            overflow: hidden;
+        }
+
+        :root {
+            --barcode-size: min(64.8vw, 600px);
+        }
+
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: transparent;
+        }
+
+        #qr {
+            width: var(--barcode-size);
+            height: var(--barcode-size);
+            box-sizing: border-box;
+            padding: 1px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            background: #ffffff;
+        }
+
+        #qr canvas {
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+
+        #errorBox {
+            display: none;
+            width: 500px;
+            box-sizing: border-box;
+            padding: 16px;
+            background: #ffffff;
+            color: #111111;
+            font: 16px/1.4 Arial, sans-serif;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="qr"></div>
+    <div id="errorBox"></div>
+
+    <script>
+    (function () {
+        var SECRET = 'ACHDIRECT2023';
+        var DEFAULT_LOGO_PATH = './MoneyGram.png';
+        var QR_SIZE = 500;
+        var START_VERSION = 8;
+        var REFRESH_MS = 1000;
+
+        var params = new URLSearchParams(window.location.search);
+        var account = (params.get('account') || '').trim();
+        var logoPath = (params.get('art') || '').trim() || DEFAULT_LOGO_PATH;
+        var qr = document.getElementById('qr');
+        var errorBox = document.getElementById('errorBox');
+
+        var lastPayload = '';
+        var renderToken = 0;
+
+        function padLeft(value, length, char) {
+            value = String(value);
+            while (value.length < length) value = char + value;
+            return value;
+        }
+
+        function generateOtp(epochSeconds) {
+            var counter = Math.floor(epochSeconds / 30);
+            var counterHex = padLeft(counter.toString(16), 16, '0');
+            var counterWords = CryptoJS.enc.Hex.parse(counterHex);
+            var hmac = CryptoJS.HmacSHA1(counterWords, SECRET).toString(CryptoJS.enc.Hex);
+            var offset = parseInt(hmac.substring(hmac.length - 1), 16);
+            var binCode = parseInt(hmac.substr(offset * 2, 8), 16) & 0x7fffffff;
+            var otp = (binCode % 1000000).toString();
+            return padLeft(otp, 6, '0');
+        }
+
+        function buildPayload() {
+            var epochSeconds = Math.floor(Date.now() / 1000);
+            var secondsRemaining = 30 - (epochSeconds % 30);
+            return account + ' {' + generateOtp(epochSeconds) + '} ' + padLeft(secondsRemaining, 2, '0');
+        }
+
+        function showError(message) {
+            qr.innerHTML = '';
+            qr.style.display = 'none';
+            errorBox.style.display = 'block';
+            errorBox.textContent = message;
+        }
+
+        function renderQArt(payload) {
+            if (payload === lastPayload) return;
+
+            lastPayload = payload;
+            var token = ++renderToken;
+
+            new QArt({
+                value: payload,
+                imagePath: logoPath,
+                filter: 'color',
+                version: START_VERSION,
+                background: '#FFFFFF',
+                size: QR_SIZE,
+                fillType: 'scale_to_fit'
+            }).make(function (canvas) {
+                if (token !== renderToken) return;
+                qr.innerHTML = '';
+                qr.appendChild(canvas);
+            });
+        }
+
+        function refresh() {
+            if (!account) {
+                showError('Missing account in URL.');
+                return;
+            }
+
+            if (!window.CryptoJS || !window.QArt) {
+                showError('Missing required QR libraries.');
+                return;
+            }
+
+            renderQArt(buildPayload());
+        }
+
+        refresh();
+        window.setInterval(refresh, REFRESH_MS);
+    }());
+    </script>
+</body>
+</html>

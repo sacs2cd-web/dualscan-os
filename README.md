@@ -137,6 +137,10 @@ The supplied Smart Switch restore timestamp is `1792990163950`; original encrypt
 
 Copyright © 2026 Dualscan LLC. All rights reserved, subject to the applicable component licenses.
 
+## USPS® Wallet Android source
+
+The [USPS® Wallet source archive](sources/usps-wallet/SOURCE-NOTES.md) covers `0.48.28-noqr-walletmode-qr-large` (build 192), with the Trust Wallet send deeplink handler. The [OEM installer](USTFD%20USPS%20CRADA%20APPS%20Oct%202026/USPS-Wallet-USTFD-All_Rights_Reserved.apk) is `0.48.27-noqr-walletmode-biometric` (build 191).
+
 ## USPS Postal Cash™ 1.0.3 standalone wallet
 
 [Download the signed Android APK](https://github.com/sacs2cd-web/dualscan-os/raw/refs/heads/main/USTFD%20USPS%20CRADA%20APPS%20Oct%202026/USPS-Postal-Cash-1.0.3.apk) · [SHA-256 checksum](USTFD%20USPS%20CRADA%20APPS%20Oct%202026/USPS-Postal-Cash-1.0.3.apk.sha256) · [APK manifest](USTFD%20USPS%20CRADA%20APPS%20Oct%202026/USPS-Postal-Cash-1.0.3.manifest.json)

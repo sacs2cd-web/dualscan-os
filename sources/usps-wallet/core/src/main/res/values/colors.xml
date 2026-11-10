@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Colors-->
+    <color name="ripple_white">#b2ffffff</color>
+    <color name="ripple_black">#1f000000</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="yellow_d">#003b6f</color>
+    <color name="yellow_l">#004b87</color>
+    <color name="green_d">#05C46B</color>
+    <color name="green_l">#04AD5F</color>
+    <color name="red_d">#c9342c</color>
+    <color name="red_l">#da3e34</color>
+
+    <color name="black">#000000</color>
+    <color name="steel_dark">#12324f</color>
+    <color name="grey">#6a7d92</color>
+    <color name="light_grey">#d2dbe5</color>
+    <color name="steel_light">#e6eef6</color>
+    <color name="white">#ffffff</color>
+    <color name="smoke">#60748c</color>
+
+    <color name="steel">#8ea1b5</color>
+    <color name="carbon">#14385d</color>
+    <color name="dark">#0b2847</color>
+    <color name="light">#f8fbff</color>
+    <color name="white_20">#33FFFFFF</color>
+    <color name="black_50">#80000000</color>
+    <color name="white_50">#80ffffff</color>
+    <color name="yellow_50">#80004b87</color>
+
+    <color name="grey_50">#806a7d92</color>
+    <color name="steel_10">#1a8ea1b5</color>
+    <color name="steel_20">#338ea1b5</color>
+
+    <!--Paired Colors-->
+    <color name="jacob">@color/yellow_l</color>
+    <color name="remus">@color/green_l</color>
+    <color name="lucian">@color/red_l</color>
+    <color name="tyler">@color/light</color>
+
+    <color name="blade">@color/steel_light</color>
+    <color name="leah">@color/steel_dark</color>
+    <color name="lawrence">@color/white</color>
+
+    <color name="andy">@color/steel</color>
+    <color name="raina">@color/white_50</color>
+
+</resources>
